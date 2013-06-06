@@ -1,0 +1,15 @@
+---
+layout: default
+title: All Posts
+---
+<h2>All Posts</h2>
+<ul>
+    {% for item in site.posts %}
+        {% if item.layout == 'post' %}
+            <li>
+                {% if item.featured %}***{% endif %}
+                {% include item_info.html %}
+            </li>
+        {% endif %}
+    {% endfor %}
+</ul>

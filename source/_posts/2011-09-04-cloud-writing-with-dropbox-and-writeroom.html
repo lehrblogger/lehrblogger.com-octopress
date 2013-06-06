@@ -1,0 +1,22 @@
+---
+layout: post
+title: Cloud Writing with Dropbox and WriteRoom
+featured: false
+excerpt: Companies that are secretive about their in-progress products are at a significant disadvantage.
+---
+
+I've been living my life in the cloud for nearly two years now, and loving it. I'm synchronizing state between my home computer, my work computer, and multiple iDevices using a setup I described in <a href="http://lehrblogger.com/2009/10/09/my-life-in-the-cloud-a-four-computer-syncing-scheme/">this post</a>, but I wanted to elaborate here on what I'm doing with my in-progress text files.
+
+<a href="http://db.tt/wwbWOwB">Dropbox</a>* is great for making transparent backups of whatever I'm working on, for syncing my Application Support folders, and also for giving me access to unfinished blog posts, shopping lists, email drafts, and other things while on the go. The <a href="http://itunes.apple.com/us/app/dropbox/id327630330?mt=8">Dropbox iOS app</a> lets you view but not edit files, so I tried out <a href="http://itunes.apple.com/us/app/plaintext-dropbox-text-editing/id391254385?mt=8">PlainText</a> by <a href="http://www.hogbaysoftware.com/">Hogs Bay Software</a>. I've been using their Mac OS X app, WriteRoom, for years, and decided it was worth the $4.99 to get rid of the ads and upgrade to the <a href="http://itunes.apple.com/us/app/writeroom/id288751446?mt=8">WriteRoom iOS app</a>. 
+
+My Dropbox folder looks like this:
+
+<a href="http://lehrblogger.com/wp-content/uploads/2011/09/dropbox-folder.png"><img src="http://lehrblogger.com/wp-content/uploads/2011/09/dropbox-folder.png" alt="~/Dropbox/sync/WriteRoom/" title="~/Dropbox/sync/WriteRoom/" width="656" height="201" class="size-full wp-image-2392" /></a>
+
+I wanted mobile access to everything <em>except</em> the <code>other</code>, <code>sync</code>, and <code>work-src</code> directories. I didn't want WriteRoom to have to do the extra work of syncing the tens-of-thousands of Application Support files, and I didn't want them taking up space on my iPhone or iPad. I reached out to Hogs Bay to see if there was a way to perform a "Sync All Now" on only some directories, and Grey Burkart got back to me with some helpful suggestions.
+
+Since the Dropbox API only gives iOS client applications access to a single directory path, he suggested I make a new directory for WriteRoom to sync with (you specify that directory when you set up the app for the first time). Mine is called <code>~/Dropbox/sync/WriteRoom/</code>, and GoBoLinux users might call it the <code>~/Dropbox/Depot/</code>, but you can use whatever you like. I then made <a href="http://unixhelp.ed.ac.uk/CGI/man-cgi?ln">symbolic links</a> from the directories containing the text files I wanted to be able to edit to this new <code>Depot</code> directory. When I'm using the WriteRoom iOS app it can only see the directories I've told it about, while at my other computers I see the full tree. Note that some directories such as <code>notepad docs</code> are located elsewhere in Dropbox, but I can still make the appropriate symlinks. It's a bit of a hack to set up, but works perfectly. 
+
+Thanks, Grey! And others should feel free to comment or contact me if you have any questions or tips.
+
+*<a href="http://db.tt/wwbWOwB">http://db.tt/wwbWOwB</a> is a referral link! Use it when you sign up and we both get 250MB more free space :)

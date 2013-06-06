@@ -1,0 +1,29 @@
+---
+layout: project
+title: Delvicious
+featured: true
+end_date: March 2009
+excerpt: Full-text search for your Delicious bookmarks using Google Custom Search Engines. Unfinished, but now there's <a href='https://pinboard.in/upgrade/'>Pinboard</a>, for which I happily pay $$.
+---
+
+<p style="text-align: center;"><strong>Delvicious will make it easy to find what you've found before, no matter how disorganized you are.</strong></p>
+
+A mashup of the Delicious API and the Google Custom Search Engine API, Delvicious will allow users to easily perform a full-content search of <em>only</em> the sites that they have bookmarked, freeing them to delve fearlessly into muddled memories of poorly-tagged favorites.
+
+
+Links and Related Posts:<ul>
+<li><a href="http://delv-icio-us.appspot.com/">Delvicious on Appspot</a> (currently <em>very</em> incomplete)</li>
+<li><a href="http://github.com/lehrblogger/delvicious">Delvicious on GitHub</a></li>
+<li>05/04 - <a href="http://lehrblogger.com/2009/05/04/programming-a-to-z-delvicious-alpha/">Programming A to Z - Delvicious Alpha</a></li>
+<li>04/15 - <a href="http://lehrblogger.com/2009/04/15/programming-a-to-z-a-delvicious-milestone/">Programming A to Z - A Delvicious Milestone</a></li>
+<li>03/31 - <a href="http://lehrblogger.com/2009/03/31/programming-a-to-z-delvicious-django-and-assignment-8">Programming A to Z - Delvicious, Django and Assignment #8</a></li>
+<li>03/10 - <a href="http://lehrblogger.com/2009/03/10/programming-a-to-z-delvicious-initial-implementation-details/">Programming A to Z - Delvicious, Initial Implementation Details</a></li></ul>
+
+
+Over the years I have accumulated a couple thousand web bookmarks (also known as favorites in some browsers), and for a few months I've been looking for ways to make them more accessible. The in-browser folder-based bookmark organization tools were overwhelmed long ago by the sheer number of links, and I've more recently been exploring online tag-based services such as <a href="http://delicious.com">Delicious</a> and <a href="http://diigo.com">Diigo</a>. These sites offer solid tagging systems, cross-browser compatibility, and some interesting social features. Their search functionality, however, is relatively weak. You can search your bookmarks by tag or keyword, but the tags need to be user-defined and the keywords must be found in the title or description.
+
+One of the many services Google offers is called <a href="http://www.google.com/coop/cse/">Custom Search Engine</a>, which allows you to create a Google search of the corner of the internet of your choosing. Google provides a powerful set of configuration options for specifying the site(s) to be searched and tweaking the results to your needs, as well as an API for creating and modifying these search engines programmatically.
+
+My goal with this project is to use the <a href="http://delicious.com/help/api">Delicious API</a> to fetch a user's bookmarks and provide a dynamically-updated custom search tool for that user that indexes only those bookmarks. I plan to host Delvicious on the Google <a href="http://appengine.google.com/">App Engine</a> so that it can be a scalable tool for both myself and others.
+
+Thanks to my friend <a href="http://observationalgastrophysics.blogspot.com/">John Rutherford</a> for coming up with the name, which is often, but not always, the hardest part of doing anything on the web.
