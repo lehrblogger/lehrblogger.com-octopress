@@ -8,8 +8,6 @@ featured: true
 categories:
   - commentary
 excerpt: Companies that are secretive about their in-progress products are at a significant disadvantage.
-footnotes:
-  - "Apple is a special case, but it's worth noting that not everything they make is successful."
 thanks:
   - name: Jorge
     link: "http://twitter.com/jorgeo"
@@ -20,7 +18,7 @@ thanks:
 ---
 Ideas are cheap, yet innovation is still difficult, and many bad consumer products are launched or brought to market. Companies that are secretive about their in-progress products are at a significant disadvantage. It is difficult for companies to 1) choose which of the many, many ideas are worth building, and then 2) iterate intelligently on the chosen ideas until they become viable products. Companies that keep fewer secrets are faster because of the quantity, quality, and variety of feedback they get on their ideas. If companies have product leaders that can understand that feedback, then they can iterate quickly to arrive at a product consumers want.
 
-While people who work at startups tend to be eager to tell anyone who will listen about their products, large companies often forbid their employees from talking outside of the company about the specifics of their work<a name="footnote_link" href="#footnote">*</a>. While those companies can afford to conduct lots of formal market research, build robust prototypes, and use A/B testing frameworks, those things do not provide quick feedback. People at small, unproven startups get to talk about what they are doing with all sorts of people all the time.
+While people who work at startups tend to be eager to tell anyone who will listen about their products, large companies often forbid their employees from talking outside of the company about the specifics of their work[^1]. While those companies can afford to conduct lots of formal market research, build robust prototypes, and use A/B testing frameworks, those things do not provide quick feedback. People at small, unproven startups get to talk about what they are doing with all sorts of people all the time.
 
 Imagine the following conversation between a software engineer at a startup and a new acquaintance at an apartment party, who may or may not be the target audience for the product, who may or may not have domain expertise, and who may or may not be sober:
 
@@ -37,6 +35,8 @@ There are many examples of companies that might have benefited by being more ope
 Perhaps companies that keep secrets are wary of attention from the press, but this risk is minimized if a company is constantly floating out a variety of possibly-incompatible ideas. The tech press is able to make big stories out of big launches precisely because the companies themselves have hyped those launches up to be so big. Perhaps companies that keep secrets are afraid of imitation by competitors, but in reality those competitors are usually so entrenched in their own products and worldview that they are incapable of copying anything even if they wanted to.
 
 It's rare that any single comment could change a company's direction, but in the aggregate these conversations help the company to iteratively refine its ideas at a pace faster than otherwise possible. External feedback is valuable because it's free from internal politics and propaganda, and because it can be a source of fresh ideas from potential users. Secrets create press interest and secrets scare competitors, but secrets also slow you down and secrets do not engender good products.
+
+[^1]: Apple is a special case, but it's worth noting that not everything they make is successful.
 
  [1]: http://bnter.com/convo/49194
  [2]: http://bnter.com/convo/49197
