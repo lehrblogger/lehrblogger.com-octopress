@@ -24,5 +24,14 @@
     </footer>
   {% endif %}
 {% else %}
-<div class="entry-content">{{ content }}</div>
+<div class="entry-content">
+  {{ content }}
+</div>
+{% if page.thanks %}
+  <div class="entry-thanks">
+    Thanks to {% for thank in page.thanks %}
+      <a href="{{ thank.link }}">{{ thank.name }}</a>{% case forloop.rindex %}{% when 1 %}{% when 2 %} and{% else %},{% endcase %}
+    {% endfor %} for their help with this post!
+  </div>
+{% endif %}
 {% endif %}
