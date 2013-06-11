@@ -1,0 +1,67 @@
+/* global styling (my favorite color scheme! http://daringfireball.net/ and http://www.dresscodeny.com/)*/
+body {
+    background: #2E2E2E;
+    color: #FFFFFF;
+}
+
+/* to style the temporal navigation bar at the top */
+#travel_div {
+  display: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 4px solid #cccccc;
+}
+#travel_label {
+  padding: 1em;
+  color: #D1D1D1;
+}
+
+/* to position the content */
+#history {
+  padding-top: 3em;
+}
+.column {
+  position: absolute;
+  top: 2.5em;
+  padding-top: 3em;
+}
+.section {
+  padding-top: 0.5em;
+}
+#headlines {
+  padding-left: 52%;
+}
+#cover_and_chart {
+  padding-left: 1em;
+}
+
+/* to style the headings */
+h1 {
+  font-size: 1.75em;
+  white-space: nowrap;
+}
+h1, h2 {
+  font-family: Verdana, "Bitstream Vera Sans", sans-serif;
+}
+
+/* to style the NYT headline list */
+ul li {
+  list-style-type:none;
+  border-top: 1px solid white;
+}
+ul li img{
+  float: left;
+  padding: 0 5px 5px 0;
+}
+.hasimage {
+  padding-bottom: 2em;
+}
+
+/* to style the error message */
+#error {
+  font-size: 1.5em;
+  padding: 3em;
+  color: #E80017;
+}

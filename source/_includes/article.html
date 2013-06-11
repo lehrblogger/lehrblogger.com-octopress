@@ -31,7 +31,16 @@
   <div class="entry-thanks">
     Thanks to {% for thank in page.thanks %}
       <a href="{{ thank.link }}">{{ thank.name }}</a>{% case forloop.rindex %}{% when 1 %}{% when 2 %} and{% else %},{% endcase %}
-    {% endfor %} for their help with this post!
+    {% endfor %} for {% if page.thanks_note %}{{ page.thanks_note }}{% else %}their help with this post!{% endif %}
+  </div>
+{% endif %}
+{% if page.updates %}
+  <div class="entry-updates">
+    {% for update in page.updates %}
+      <div class="entry-update">
+        Update on {{ update.date | date_to_long_string }}: {{ update.body | markdownify }}
+      </div>
+    {% endfor %}
   </div>
 {% endif %}
 {% endif %}

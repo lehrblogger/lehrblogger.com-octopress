@@ -1,0 +1,23 @@
+.Animal
+{
+  position : absolute;
+  width: 24px;
+  height: 24px;
+  font-size: x-small;
+  font-family: "Helvetica", "Arial";
+}
+
+.Selected
+{
+  border: 1px solid red;
+}
+
+.Bonk
+{
+  background-image: url(Bonk.png);
+}
+
+.Zonk
+{
+  background-image: url(Zonk.png);
+}

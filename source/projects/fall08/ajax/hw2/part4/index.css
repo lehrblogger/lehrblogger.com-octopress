@@ -1,0 +1,25 @@
+/* Matches the body element */
+body
+{
+  font-family: helvetica;
+  font-size: 18px;
+}
+
+/* Matches the element with the id list */
+#list {
+  display:none;         /* the list is usually not displayed */
+}
+
+/* Matches the hover pseudoselecter for the id 'menu', and then modifies its child with the id 'list' */
+#menu:hover>#list {
+    display: block;     /* displays the list when the user hovers over the button */
+}
+
+/* Defines the class menu */
+.menu {
+  width: 250px;
+  height: auto;         /* make the height auto so it expands when needed */
+  
+  text-align: right;
+}
+

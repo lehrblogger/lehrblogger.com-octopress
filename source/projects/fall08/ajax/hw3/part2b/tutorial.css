@@ -1,0 +1,55 @@
+/*
+  CSS for Tutorial 1 & 2
+*/
+
+#responseDiv
+{
+  width : 100px;
+  height : 100px;
+  font-size : 24px;
+  background-color : #efefef;
+  border : 1px solid red;
+}
+
+/*
+  CSS for Tutorial 3
+*/
+
+.Munchkin
+{
+  position: absolute;
+  width: 24px;
+  height: 24px;
+}
+
+.MunchkinLabel
+{
+  position: absolute;
+  font-size: 9px;
+  text-align: center;
+  width: 24px;
+}
+
+.Bill
+{
+  background-image: url(sprite1.jpg);
+}
+
+.BillShake
+{
+  background-image: url(sprite1Shake.jpg);
+}
+
+.Bob
+{
+  background-image: url(sprite2.jpg);
+}
+
+.BobShake
+{
+  background-image: url(sprite2Shake.jpg);
+}
+
+/*
+  CSS for Tutorial 4
+*/

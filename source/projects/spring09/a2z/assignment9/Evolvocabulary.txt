@@ -1,0 +1,131 @@
+// Steven Lehrburger  9 April 2009
+// NYU Interactive Telecommunications Program - Programming A to Z
+
+package evolvocabulary
+
+import processing.core._
+import scalax.data.Implicits._
+import scalax.io.Implicits._
+import scalax.control.ManagedSequence
+import java.awt.event.KeyEvent
+
+
+class Evolvocabulary extends PApplet {
+  println("Reading files...");
+  val files = List("inputs/stanfordpapers0304.txt", "inputs/stanfordpapers0405.txt", "inputs/stanfordpapers0506.txt", "inputs/stanfordpapers0607.txt")
+  val wordCountMap: Map[String, Map[String, Int]] = readAllFiles(files) - "" - "s"
+  var fileIndex = 0
+  var maxCounts: List[Int] = List()
+  
+  val numCols = 40
+  val numRows = wordCountMap.keySet.size / numCols
+  val horOffset = 80
+  val verOffset = 80
+  val sketchWidth = 740
+  val sketchHeight = 1740
+  val cellWidth:Int = sketchWidth / numCols
+  val cellHeight:Int = sketchHeight / numRows
+  val maxTextSize:Float = 10
+  var curFont: PFont = createFont("Helvetica", maxTextSize)
+ 
+  override def setup() {						
+    size(sketchWidth + (2 * horOffset), sketchHeight + verOffset)
+    println("Done reading files with " + wordCountMap.keySet.size + " words.")
+    
+    // we need to know how many occurrences the most common word has in each year
+    // so that they can all be scaled accordingly. store in a separate list for simplicity
+    files.foreach(f => { 
+      maxCounts = maxCounts ++ List(wordCountMap.toList.sort(_._2(f) > _._2(f)).first._2(f))
+    })
+  }
+  
+  override def draw() {
+    background(255)
+    textFont(curFont)
+    
+    println("Drawing words for file with name=" + files(fileIndex) + ". Sorting map...")
+    val alphaWordListIterator = wordCountMap.toList.sort(_._1 < _._1).elements //maybe use SortedMap instead
+    println("Done sorting map.")
+    
+    // cycle through the grid, leaving space for each word in the set of all words in all files
+    for(i <- (horOffset until sketchWidth by cellWidth)) {
+      for(j <- (verOffset until sketchHeight by cellHeight)) {
+        if (alphaWordListIterator.hasNext) {
+          // use the iterator to cycle through the words
+          val wordData = alphaWordListIterator.next
+          
+          // and if this word is in this file, display it. otherwise skip it
+          if (wordData._2(files(fileIndex)) > 0) {
+            
+            // store number of occurrences of this word divided by number of occurrences of most common word
+            val countFracton: Double = wordData._2(files(fileIndex)).toFloat / maxCounts(fileIndex).toFloat
+            
+            //scale the color and the alpha of the word based on it's relative frequency
+            fill(0,0,0, (255.asInstanceOf[Float] - (Math.pow(countFracton, 0.75) * 230).asInstanceOf[Float]))
+            textSize(countFracton.asInstanceOf[Float] * maxTextSize * 100)
+            
+            //display the word itself at the proper location
+            text(wordData._1, i, j)
+           }
+        }
+      }
+    }
+    println("Done displaying words.")
+    
+    noLoop
+  }
+ 
+  // cycle forward and backward in time with key presses
+  override def keyPressed() {
+    if (keyCode == KeyEvent.VK_LEFT) {
+      fileIndex -= 1
+      if (fileIndex < 0) fileIndex = 0
+      redraw()
+    } else if (keyCode == KeyEvent.VK_RIGHT) {
+      fileIndex += 1
+      if (fileIndex >= files.length) fileIndex = files.length - 1
+      redraw()
+    } 
+  }
+    
+  // loop through years with mouse clicks
+  override def mousePressed() {
+    fileIndex += 1
+    if (fileIndex >= files.length) fileIndex = 0
+    redraw()
+  }
+    
+  
+  // modelled after http://pastie.org/420714 with the help of Jorge Ortiz
+  def readAllFiles(fileNames: List[String]): Map[String, Map[String, Int]] = {
+    
+    // yield a list of all the words on all the lines in all the files, paired with the files in which they occur
+    val wordsInFiles: List[(String, String)] = for {
+      filename <- fileNames
+      line <- filename.toFile.readLines()
+      word <- line.split("\\W+|\\d+")
+    } yield (word.toLowerCase.trim, filename)
+    
+    // initialize a map with default values so that we don't have to check to make sure there's something there
+    val emptyMap: Map[String, Map[String, Int]] = Map.empty.withDefaultValue(Map.empty.withDefaultValue(0))
+   
+    // fold left the (filename, word) pairs, with a function that increments the count of occurrences in our map
+    // note each of these lines are equivalent, and are written in this way to show progressive application of
+    // syntactic sugar. see detailed explanation in the assignment's blog post at
+    // http://lehrblogger.com/2009/04/07/programming-a-to-z-assignment-9-evolvocabulary
+    wordsInFiles.foldLeft(emptyMap) { case (map, (word, filename)) => 
+      //map.update(word, map.apply(word).update(filename, map.apply(word).apply(filename) + 1))
+      //map.update(word, map.apply(word).update(filename, map(word)(filename) + 1))
+      //map.update(word, map.apply(word)(filename) = map(word)(filename) + 1)
+      //map.update(word, map(word)(filename) = map(word)(filename) + 1)
+      //map.update(word, map(word)(filename) += 1)
+      map(word) = (map(word)(filename) += 1)
+    }
+  }
+}
+
+object EvolvocabularyApp { 
+  def main(args: Array[String]) {
+    processing.core.PApplet.main(Array("evolvocabulary.Evolvocabulary"))
+  }
+}

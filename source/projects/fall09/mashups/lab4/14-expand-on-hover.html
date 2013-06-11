@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Image Expand on Hover</title>
+
+<style type="text/css">
+#grid {
+  background-color: #f0d0d0;
+  border: solid 1px #000000;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 180px;
+  height: 180px;
+}
+
+#overlay {
+  background: #c0a0a0 url('vinyl-large.png') no-repeat;   
+  border: solid 1px #000000;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 128px;
+  height: 128px;
+  z-index: 1;
+}
+
+.disabled {
+  display: none;
+}
+</style>
+
+<script src="utility.js"></script>
+<script type="text/javascript">
+var updateOverlay = function(evt) {
+  var overlay = document.getElementById("overlay");
+  switch (evt.type) {
+    case "mousemove":
+      if (hasClass(overlay, 'disabled')) {
+        removeClass(overlay, 'disabled');
+      }
+      overlay.style.left = (evt.clientX+5) + "px";
+      overlay.style.top = (evt.clientY+5) + "px";
+      break;
+    case "mouseout":
+      if (!hasClass(overlay, 'disabled')) {
+        addClass(overlay, 'disabled');
+      }
+      break;
+  }
+};
+</script>
+
+</head>
+
+<body>
+
+<div id="grid">
+<img src="vinyl.png" width="32" height="32" />
+<img src="vinyl.png" width="32" height="32" />
+<img src="vinyl.png" width="32" height="32" />
+<img src="vinyl.png" width="32" height="32" />
+<img src="vinyl.png" width="32" height="32" />
+<br/>
+<img src="vinyl.png" width="32" height="32" />
+<img src="vinyl.png" width="32" height="32" />
+<img src="vinyl.png" width="32" height="32" />
+<img src="vinyl.png" width="32" height="32" />
+<img src="vinyl.png" width="32" height="32" />
+<br/>
+<img src="vinyl.png" width="32" height="32" />
+<img src="vinyl.png" width="32" height="32" />
+<img src="vinyl.png" width="32" height="32" />
+<img src="vinyl.png" width="32" height="32" />
+<img src="vinyl.png" width="32" height="32" />
+<br/>
+<img src="vinyl.png" width="32" height="32" />
+<img src="vinyl.png" width="32" height="32" />
+<img src="vinyl.png" width="32" height="32" />
+<img src="vinyl.png" width="32" height="32" />
+<img src="vinyl.png" width="32" height="32" />
+<br/>
+<img src="vinyl.png" width="32" height="32" />
+<img src="vinyl.png" width="32" height="32" />
+<img src="vinyl.png" width="32" height="32" />
+<img src="vinyl.png" width="32" height="32" />
+<img src="vinyl.png" width="32" height="32" />
+</div>
+
+<div id="overlay" class="disabled"></div>
+
+<script type="text/javascript">
+var images = document.getElementsByTagName('img');
+for (var i=0; i < images.length; i++) {
+  addEventSimple(images[i], 'mousemove', updateOverlay);
+}
+var grid = document.getElementById('grid');
+addEventSimple(grid, 'mouseout', updateOverlay);
+
+</script>
+
+</body>
+</html>

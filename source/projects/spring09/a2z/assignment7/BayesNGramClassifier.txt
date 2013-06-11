@@ -1,0 +1,78 @@
+import java.util.ArrayList;
+import java.util.HashSet;
+import com.decontextualize.a2z.TextFilter;
+
+public class BayesNGramClassifier extends TextFilter {
+
+  public static void main(String[] args) {
+    BayesNGramClassifier bngc = new BayesNGramClassifier();
+    
+    if (args.length > 1)	bngc.setNGramDegree(Integer.parseInt(args[0]));
+    else 	      			bngc.setNGramDegree(3);
+    	
+    for (int i = 1; i < args.length; i++) {
+      bngc.addCategory(args[i]);
+    }
+    bngc.run();
+    
+  }
+
+  private ArrayList<BayesCategory> categories = new ArrayList<BayesCategory>();
+  private HashSet<String> uniqueWords = new HashSet<String>();
+  private int nGramDegree;
+
+  public void setNGramDegree(int nGramDegree_) {
+    nGramDegree = nGramDegree_;
+  }
+  
+  // add a category, training it with words from a particular file
+  public void addCategory(String fname) {
+    BayesCategory cat = new BayesCategory(fname);
+
+    String[] lines = new TextFilter().collectLines(fromFile(fname));
+    for (String line: lines) {
+      // from Markov.java week05, +1 in loop because we don't need to have space for an extra char
+   	  for (int i = 0; i < line.length() - nGramDegree + 1; i++) {
+        cat.train(line.substring(i, i+nGramDegree));
+      }
+    }
+    categories.add(cat);
+  }
+
+  public void eachLine(String line) {
+    // similar to above in addCategory
+    for (int i = 0; i < line.length() - nGramDegree + 1; i++) {
+      uniqueWords.add(line.substring(i, i+nGramDegree));
+    }
+  }
+
+  public void end() {
+
+    // calculate total number of words in all categories (needed for bayes
+    // formula)
+    int categoryWordTotal = 0;
+    for (BayesCategory bcat: categories) {
+      categoryWordTotal += bcat.getTotal();
+    }
+
+    // the following loop will print out the "relevance" of each word in
+    // assigning the text to a particular category (for long texts, will
+    // produce a lot of output)
+    /*
+    for (String word: uniqueWords) {
+      for (BayesCategory bcat: categories) {
+        double wordProb = bcat.relevance(word, categories);
+        println(word + "/" + bcat.getName() + ": " + String.valueOf(wordProb));
+      }
+    }
+    */
+
+    // print out scores for each category (higher is better)
+    for (BayesCategory bcat: categories) {
+      double score = bcat.score(uniqueWords, categoryWordTotal);
+      println(bcat.getName() + ": " + String.valueOf(score));
+    }
+
+  }
+}
+

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/http superbowl nyt</id>
+  <link type="text/html" rel="alternate" href="http://search.twitter.com/search?q=http+superbowl+nyt"/>
+  <link type="application/atom+xml" rel="self" href="http://search.twitter.com/search.atom?q=http+superbowl+nyt"/>
+  <title>http superbowl nyt - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" rel="search" href="http://search.twitter.com/opensearch.xml"/>
+  <link type="application/atom+xml" rel="refresh" href="http://search.twitter.com/search.atom?q=http+superbowl+nyt&amp;since_id=1190456636"/>
+  <updated>2009-02-08T18:26:05Z</updated>
+  <openSearch:itemsPerPage>15</openSearch:itemsPerPage>
+  <link type="application/atom+xml" rel="next" href="http://search.twitter.com/search.atom?max_id=1190456636&amp;page=2&amp;q=http+superbowl+nyt"/>
+  <entry>
+    <id>tag:search.twitter.com,2005:1189388839</id>
+    <published>2009-02-08T18:26:05Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/mombo/statuses/1189388839"/>
+    <title>NYT: twitter chatter during Superbowl:  http://tinyurl.com/byhu72</title>
+    <content type="html">&lt;b&gt;NYT&lt;/b&gt;: twitter chatter during &lt;b&gt;Superbowl&lt;/b&gt;:  &lt;a href="http://tinyurl.com/byhu72"&gt;&lt;b&gt;http&lt;/b&gt;://tinyurl.com/byhu72&lt;/a&gt;</content>
+    <updated>2009-02-08T18:26:05Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/65773903/Photo_199_normal.jpg"/>
+    <author>
+      <name>mombo (Richard McAniff)</name>
+      <uri>http://twitter.com/mombo</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1186967357</id>
+    <published>2009-02-07T19:09:10Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/hmaust/statuses/1186967357"/>
+    <title>RT @twitter: checking out this cool interactive map by the folks at NYT http://bit.ly/7tWi &lt;--Superbowl Chatter on Twitter -Very cool indeed</title>
+    <content type="html">RT &lt;a href="http://twitter.com/twitter"&gt;@twitter&lt;/a&gt;: checking out this cool interactive map by the folks at &lt;b&gt;NYT&lt;/b&gt; &lt;a href="http://bit.ly/7tWi"&gt;&lt;b&gt;http&lt;/b&gt;://bit.ly/7tWi&lt;/a&gt; &amp;lt;--&lt;b&gt;Superbowl&lt;/b&gt; Chatter on Twitter -Very cool indeed</content>
+    <updated>2009-02-07T19:09:10Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/70802779/n678482606_1295706_1905_normal.jpg"/>
+    <author>
+      <name>hmaust (Holly V. Maust)</name>
+      <uri>http://twitter.com/hmaust</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1184364969</id>
+    <published>2009-02-06T20:24:41Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/billdinTO/statuses/1184364969"/>
+    <title>Pls, help me show my boss Twitter's worth something! :) Seen a how-to on this NYT map of #Superbowl Twitter comments? - http://is.gd/iapq</title>
+    <content type="html">Pls, help me show my boss Twitter's worth something! :) Seen a how-to on this &lt;b&gt;NYT&lt;/b&gt; map of &lt;a href="/search?q=%23Superbowl"&gt;#&lt;b&gt;Superbowl&lt;/b&gt;&lt;/a&gt; Twitter comments? - &lt;a href="http://is.gd/iapq"&gt;&lt;b&gt;http&lt;/b&gt;://is.gd/iapq&lt;/a&gt;</content>
+    <updated>2009-02-06T20:24:41Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/60977167/billdinTO_gcn_normal.jpg"/>
+    <author>
+      <name>billdinTO (Bill Doskoch)</name>
+      <uri>http://twitter.com/billdinTO</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1184321833</id>
+    <published>2009-02-06T20:09:47Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/Bleet/statuses/1184321833"/>
+    <title>Hehe... This is a pretty cool use of twitter to see how people viewed the Superbowl (flash map, NYT): http://is.gd/iarK</title>
+    <content type="html">Hehe... This is a pretty cool use of twitter to see how people viewed the &lt;b&gt;Superbowl&lt;/b&gt; (flash map, &lt;b&gt;NYT&lt;/b&gt;): &lt;a href="http://is.gd/iarK"&gt;&lt;b&gt;http&lt;/b&gt;://is.gd/iarK&lt;/a&gt;</content>
+    <updated>2009-02-06T20:09:47Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/71908899/BleetMeh_normal.jpg"/>
+    <author>
+      <name>Bleet (Glenn E.)</name>
+      <uri>http://twitter.com/Bleet</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1183907633</id>
+    <published>2009-02-06T17:55:57Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/imyon/statuses/1183907633"/>
+    <title>Too much ads! Twitter Chatter During the Super Bowl - interactive NYT map: http://linkpin.de/5gyhd8 #superbowl #twitter #ads #tv</title>
+    <content type="html">Too much ads! Twitter Chatter During the Super Bowl - interactive &lt;b&gt;NYT&lt;/b&gt; map: &lt;a href="http://linkpin.de/5gyhd8"&gt;&lt;b&gt;http&lt;/b&gt;://linkpin.de/5gyhd8&lt;/a&gt; &lt;a href="/search?q=%23superbowl"&gt;#&lt;b&gt;superbowl&lt;/b&gt;&lt;/a&gt; &lt;a href="/search?q=%23twitter"&gt;#twitter&lt;/a&gt; &lt;a href="/search?q=%23ads"&gt;#ads&lt;/a&gt; &lt;a href="/search?q=%23tv"&gt;#tv&lt;/a&gt;</content>
+    <updated>2009-02-06T17:55:57Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/71609630/twitter_imyon_icon_normal.jpg"/>
+    <author>
+      <name>imyon (imyon web buzz)</name>
+      <uri>http://twitter.com/imyon</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1181973463</id>
+    <published>2009-02-06T02:52:42Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/spoonwrite/statuses/1181973463"/>
+    <title>RT @awitherspoon AMAZING data visualization of Tweets during superbowl by NYT: http://tinyurl.com/aduqlw via @jeffcroft</title>
+    <content type="html">RT &lt;a href="http://twitter.com/awitherspoon"&gt;@awitherspoon&lt;/a&gt; AMAZING data visualization of Tweets during &lt;b&gt;superbowl&lt;/b&gt; by &lt;b&gt;NYT&lt;/b&gt;: &lt;a href="http://tinyurl.com/aduqlw"&gt;&lt;b&gt;http&lt;/b&gt;://tinyurl.com/aduqlw&lt;/a&gt; via &lt;a href="http://twitter.com/jeffcroft"&gt;@jeffcroft&lt;/a&gt;</content>
+    <updated>2009-02-06T02:52:42Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/20916532/hstonya_normal.png"/>
+    <author>
+      <name>spoonwrite (Tonya Witherspoon)</name>
+      <uri>http://twitter.com/spoonwrite</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1181958842</id>
+    <published>2009-02-06T02:46:37Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/jdesouza/statuses/1181958842"/>
+    <title>Great visualization of Twitter traffic during the SuperBowl, from our friends at the NYT.  Click PLAY -- http://tinyurl.com/aduqlw</title>
+    <content type="html">Great visualization of Twitter traffic during the &lt;b&gt;SuperBowl&lt;/b&gt;, from our friends at the &lt;b&gt;NYT&lt;/b&gt;.  Click PLAY -- &lt;a href="http://tinyurl.com/aduqlw"&gt;&lt;b&gt;http&lt;/b&gt;://tinyurl.com/aduqlw&lt;/a&gt;</content>
+    <updated>2009-02-06T02:46:37Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/52394264/2008-04-03-35280c_normal.jpg"/>
+    <author>
+      <name>jdesouza (John De Souza)</name>
+      <uri>http://twitter.com/jdesouza</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1181583662</id>
+    <published>2009-02-06T00:14:53Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/bgarner/statuses/1181583662"/>
+    <title>RT @limeyd: nyt has a tweete timeline of the superbowl game http://tinyurl.com/aduqlw</title>
+    <content type="html">RT &lt;a href="http://twitter.com/limeyd"&gt;@limeyd&lt;/a&gt;: &lt;b&gt;nyt&lt;/b&gt; has a tweete timeline of the &lt;b&gt;superbowl&lt;/b&gt; game &lt;a href="http://tinyurl.com/aduqlw"&gt;&lt;b&gt;http&lt;/b&gt;://tinyurl.com/aduqlw&lt;/a&gt;</content>
+    <updated>2009-02-06T00:14:53Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/75912441/IM000023_normal.png"/>
+    <author>
+      <name>bgarner (Brent Garner)</name>
+      <uri>http://twitter.com/bgarner</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1181582750</id>
+    <published>2009-02-06T00:14:32Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/bgarner/statuses/1181582750"/>
+    <title>RT @limedy: nyt has a tweete timeline of the superbowl game http://tinyurl.com/aduqlw</title>
+    <content type="html">RT &lt;a href="http://twitter.com/limedy"&gt;@limedy&lt;/a&gt;: &lt;b&gt;nyt&lt;/b&gt; has a tweete timeline of the &lt;b&gt;superbowl&lt;/b&gt; game &lt;a href="http://tinyurl.com/aduqlw"&gt;&lt;b&gt;http&lt;/b&gt;://tinyurl.com/aduqlw&lt;/a&gt;</content>
+    <updated>2009-02-06T00:14:32Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/75912441/IM000023_normal.png"/>
+    <author>
+      <name>bgarner (Brent Garner)</name>
+      <uri>http://twitter.com/bgarner</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1181257630</id>
+    <published>2009-02-05T22:19:23Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/awitherspoon/statuses/1181257630"/>
+    <title>AMAZING data visualization of Tweets during superbowl by NYT: http://tinyurl.com/aduqlw via @jeffcroft</title>
+    <content type="html">AMAZING data visualization of Tweets during &lt;b&gt;superbowl&lt;/b&gt; by &lt;b&gt;NYT&lt;/b&gt;: &lt;a href="http://tinyurl.com/aduqlw"&gt;&lt;b&gt;http&lt;/b&gt;://tinyurl.com/aduqlw&lt;/a&gt; via &lt;a href="http://twitter.com/jeffcroft"&gt;@jeffcroft&lt;/a&gt;</content>
+    <updated>2009-02-05T22:19:23Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/75238235/me_normal.jpg"/>
+    <author>
+      <name>awitherspoon (Andrew Witherspoon)</name>
+      <uri>http://twitter.com/awitherspoon</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1181158675</id>
+    <published>2009-02-05T21:47:11Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/mncahill/statuses/1181158675"/>
+    <title>NYT Interactive on Twitter use during the Superbowl... http://poprl.com/GIC</title>
+    <content type="html">&lt;b&gt;NYT&lt;/b&gt; Interactive on Twitter use during the &lt;b&gt;Superbowl&lt;/b&gt;... &lt;a href="http://poprl.com/GIC"&gt;&lt;b&gt;http&lt;/b&gt;://poprl.com/GIC&lt;/a&gt;</content>
+    <updated>2009-02-05T21:47:11Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/68749960/new_avatar_normal.jpg"/>
+    <author>
+      <name>mncahill (mncahill)</name>
+      <uri>http://twitter.com/mncahill</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1180849027</id>
+    <published>2009-02-05T20:06:02Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/dawilson/statuses/1180849027"/>
+    <title>Blog post - NYT Analyses the SuperBowl via Twitter http://tinyurl.com/djz3t2</title>
+    <content type="html">Blog post - &lt;b&gt;NYT&lt;/b&gt; Analyses the &lt;b&gt;SuperBowl&lt;/b&gt; via Twitter &lt;a href="http://tinyurl.com/djz3t2"&gt;&lt;b&gt;http&lt;/b&gt;://tinyurl.com/djz3t2&lt;/a&gt;</content>
+    <updated>2009-02-05T20:06:02Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/56901685/me_normal.jpg"/>
+    <author>
+      <name>dawilson (Dave Wilson)</name>
+      <uri>http://twitter.com/dawilson</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1180703156</id>
+    <published>2009-02-05T19:19:26Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/MediaStorm/statuses/1180703156"/>
+    <title>NYT superbowl twitter chatter. Press the space bar -eric http://tinyurl.com/aduqlw</title>
+    <content type="html">&lt;b&gt;NYT&lt;/b&gt; &lt;b&gt;superbowl&lt;/b&gt; twitter chatter. Press the space bar -eric &lt;a href="http://tinyurl.com/aduqlw"&gt;&lt;b&gt;http&lt;/b&gt;://tinyurl.com/aduqlw&lt;/a&gt;</content>
+    <updated>2009-02-05T19:19:26Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/20539072/MS_Logo_W_48x48_normal.jpg"/>
+    <author>
+      <name>MediaStorm (MediaStorm)</name>
+      <uri>http://twitter.com/MediaStorm</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1180694012</id>
+    <published>2009-02-05T19:16:39Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/moreno/statuses/1180694012"/>
+    <title>NYT visualizes Twitter activity during the Superbowl: the emoticon and commercial maps are particularly awesome .. http://tinyurl.com/aduqlw</title>
+    <content type="html">&lt;b&gt;NYT&lt;/b&gt; visualizes Twitter activity during the &lt;b&gt;Superbowl&lt;/b&gt;: the emoticon and commercial maps are particularly awesome .. &lt;a href="http://tinyurl.com/aduqlw"&gt;&lt;b&gt;http&lt;/b&gt;://tinyurl.com/aduqlw&lt;/a&gt;</content>
+    <updated>2009-02-05T19:16:39Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/26953502/avatar_normal.jpg"/>
+    <author>
+      <name>moreno (Moreno Barros)</name>
+      <uri>http://twitter.com/moreno</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1180454562</id>
+    <published>2009-02-05T18:00:00Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/humanesociety/statuses/1180454562"/>
+    <title>tweeps: did you see this cool mashup that NYT did about twitter conversations during the superbowl? http://dwarfurl.com/4a3ad</title>
+    <content type="html">tweeps: did you see this cool mashup that &lt;b&gt;NYT&lt;/b&gt; did about twitter conversations during the &lt;b&gt;superbowl&lt;/b&gt;? &lt;a href="http://dwarfurl.com/4a3ad"&gt;&lt;b&gt;http&lt;/b&gt;://dwarfurl.com/4a3ad&lt;/a&gt;</content>
+    <updated>2009-02-05T18:00:00Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/59295184/new_logo_bigger_copy_normal.gif"/>
+    <author>
+      <name>humanesociety (HSUS)</name>
+      <uri>http://twitter.com/humanesociety</uri>
+    </author>
+  </entry>
+
+</feed>

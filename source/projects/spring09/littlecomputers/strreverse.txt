@@ -1,0 +1,30 @@
+#include <stdio.h>
+char* strreverse();
+
+int
+main(int argc, char** argv)
+{
+  printf("input  = %s\n", argv[1]);
+  printf("output = %s\n", strreverse(argv[1]));
+  return 0;
+}
+
+char* strreverse(char* original) 
+{
+  int strlen = 0, frontindex, backindex;
+  char tempchar; 
+  
+  while (original[strlen++] != '\0');
+
+  frontindex = 0;
+  backindex = strlen - 2;
+  while ((frontindex != backindex) && ((frontindex + 1) != backindex)) {
+    tempchar = original[frontindex];
+    original[frontindex] = original[backindex];
+    original[backindex] = tempchar;
+    frontindex++;
+    backindex--;
+  }
+
+  return original;
+}

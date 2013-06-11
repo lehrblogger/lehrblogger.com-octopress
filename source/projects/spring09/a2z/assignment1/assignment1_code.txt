@@ -1,0 +1,39 @@
+# Assignment 1
+# URL
+# by Steven Lehrburger
+# lehrburger (at) gmail (dot) com
+# NYU Interactive Telecommunications Program, Spring 2009
+# Programming A to Z with Adam Parrish
+
+rm output.txt   
+grep -E "  "  <sonnets.txt | cut -c 3- >couplets.txt
+
+linecount=$(wc -l couplets.txt | tr -s " " | cut -d " " -f 2)
+while [ $linecount -gt 0 ]
+do
+  head -n 1 <couplets.txt >>firstlines.txt
+  head -n 2 <couplets.txt | tail -n 1 >>secondlines.txt
+  tail -n +3 <couplets.txt > couplets_temp.txt
+  mv couplets_temp.txt couplets.txt
+  linecount=$(( $linecount - 2 ))
+done
+rm couplets.txt
+
+coupletcount=$(wc -l firstlines.txt | tr -s " " | cut -d " " -f 2)
+while [ $coupletcount -gt 1 ]
+do
+  head -n 1 <firstlines.txt >>output.txt
+  head -n 2 <firstlines.txt | tail -n 1 >>output.txt
+  tail -n +3 <firstlines.txt >firstlines_temp.txt
+  mv firstlines_temp.txt firstlines.txt
+  head -n 1 <secondlines.txt >>output.txt
+  head -n 2 <secondlines.txt | tail -n 1 >>output.txt
+  tail -n +3 <secondlines.txt >secondlines_temp.txt
+  mv secondlines_temp.txt secondlines.txt
+
+  coupletcount=$(( $coupletcount - 1 ))
+done
+rm firstlines.txt
+rm secondlines.txt
+
+

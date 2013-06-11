@@ -1,0 +1,36 @@
+# clauses
+S -> NP VP
+S -> Interj NP VP
+NP -> Det N
+NP -> Det N that VP
+NP -> Det Adj N
+VP -> Vtrans NP   # transitive verbs have direct objects
+VP -> Vintr       # intransitive verbs have no direct object
+#
+# Steven's modifications below
+#
+S -> S Conj S
+VP -> VP PP
+PP -> P NP
+VP -> AdvP Vtrans NP  # transitive verbs have direct objects
+VP -> AdvP Vintr  # intransitive verbs have no direct object
+AdvP -> Adv
+AdvP -> Adv Conj Adv
+VP -> Quote " S "
+
+# terminals
+Interj -> oh, | my, | wow, | damn,
+Det -> this | that | the
+N -> amoeba | dichotomy | seagull | trombone | corsage | restaurant | suburb | walrus | sea | time | thing
+Adj -> bald | smug | important | tame | overstaffed | luxurious | blue | boiling hot
+Vtrans -> computes | examines | foregrounds | prefers | interprets | spins 
+Vintr -> coughs | daydreams | whines | slobbers | vocalizes | sneezes | has come
+#
+# Steven's modifications below
+#
+Conj -> and | or | yet | but
+Adv -> quickly | quietly | slowly | tediously | habitually
+P -> around | through | over | in | by | for | of
+Quote -> said | thought | yelled
+
+

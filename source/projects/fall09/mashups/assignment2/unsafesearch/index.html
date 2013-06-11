@@ -1,0 +1,197 @@
+<!DOCTYPE HTML>
+<html><head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>Google AJAX Search API Sample</title>
+  <style type="text/css">
+    body {
+    	font-size: 10px;
+    }
+    #safeContent{
+    	border: 1px solid #ccc;
+    	position:absolute;
+    	left:0px;
+    	top:60px;
+    	width:300px;
+    	height: 2000px;
+    }
+    #allContent{
+    	border: 1px solid #ccc;
+    	position:absolute;
+    	left:350px;
+    	top:60px;
+    	width:300px;
+    	height: 2000px;
+    }
+    #unsafeContent{
+    	border: 1px solid #ccc;
+    	position:absolute;
+    	left:700px;
+    	top:60px;
+    	width:300px;
+    	height: 2000px;
+    }
+  </style>
+
+  <script src="google-search-template_files/jsapi"></script>
+  <script type="text/javascript">
+    var global_num_types_finished;
+    var global_safe_results;
+    var global_all_results;
+    var global_unsafe_results;
+    var global_safe_search;
+    var global_all_search;
+    var global_loading_string = "Loading..";
+  
+    /* Utility to see if an array contains an == equal object */
+    Array.prototype.contains_equal = function(obj) {  //http://stackoverflow.com/questions/237104/javascript-array-containsobj
+      var i = this.length;
+      while (i--) {
+        if (this[i] == obj) {
+          return true;
+        }
+      }
+      return false;
+    }
+  	
+  	google.load('search', '1');
+    
+    /* Appends an array of results to the end of the content of the specified div, */
+    /* but clears it first if it is equal to the global string to indicate it is loading */
+    function renderResultsInDiv(results, div_id) {
+  		var contentDiv = document.getElementById(div_id);
+		
+  		if (contentDiv.innerHTML == global_loading_string) {
+  		  contentDiv.innerHTML = '';
+  		}
+		
+      // Loop through our results, printing them to the page.
+    	for (var i = 0; i < results.length; i++) {
+    		// For each result write the title and URL.
+    		var result = results[i];
+    		var resultContainer = document.createElement('div');
+
+    		var title = document.createElement('div');
+    		// We use titleNoFormatting so that no HTML tags are left in the title
+    		title.innerHTML = result.titleNoFormatting;
+
+    		var linkedUrl = document.createElement('a');
+    		linkedUrl.href = result.url;
+    		linkedUrl.innerHTML = result.visibleUrl;
+
+    		var content = document.createElement('div');
+    		content.innerHTML = result.content;
+
+    		// Put the result components into the result div.
+    		resultContainer.appendChild(title);
+    		resultContainer.appendChild(content);
+    		resultContainer.appendChild(linkedUrl);
+		
+    		// Put our result div into the content div.
+    		contentDiv.appendChild(resultContainer);
+    	}
+  	}
+	
+	  /* Modified from the template code, this is called when a part of one of the searches is complete, and tells that */
+	  /* search to go to the next page if there is more. Returns the results of the search for handling elsewhere. */
+	  /* Note that the search objects are global, but passed to here as parameters for hte sake of decomposition.*/
+  	function searchComplete(webSearch) { 
+  		if (webSearch.results && webSearch.results.length > 0) {            // check that we got results
+  			var curPage = webSearch.cursor.currentPageIndex;
+  			var results = webSearch.results;
+    	
+  			// If there are more pages available, keep searching until we get 10 pages of results.
+  			if ((curPage < 10) && (curPage < webSearch.cursor.pages.length - 1)) {
+  				webSearch.gotoPage(curPage+1);
+  			} else {
+  			  global_num_types_finished++;                                     // note globally that one of the searches is finished
+  			}
+	
+  			return results;                                                    // return the array with these results
+  		} else {
+  		  return [];                                                         // or an empty array
+  		}
+  	}
+	
+	  /* Does the Safe and Unrestricted searches for a given term */
+  	function doSearchesForTerm(term) {
+  	  // Reset the content divs to the global loading string
+  	  document.getElementById('safeContent').innerHTML = global_loading_string;
+  	  document.getElementById('allContent').innerHTML = global_loading_string;
+  	  document.getElementById('unsafeContent').innerHTML = global_loading_string;
+	  
+	    // Reinitialize variables
+      global_num_types_finished = 0;
+  	  global_safe_results = [];
+      global_all_results = [];
+      global_unsafe_results = [];
+    
+  	  // Perform the safe search
+  		global_safe_search = new google.search.WebSearch();
+  		global_safe_search.setRestriction(google.search.Search.RESTRICT_SAFESEARCH,
+  														 google.search.Search.SAFESEARCH_STRICT);
+  		global_safe_search.setSearchCompleteCallback(this, function() {            // when the search is complete
+  		  var results = searchComplete(global_safe_search);                        // get the results
+  			global_safe_results = global_safe_results.concat(results.slice(0));      // add them the set of results so far
+      	renderResultsInDiv(results, 'safeContent')                               // and render them to the div
+  		});
+  		global_safe_search.execute(term);
+		
+  		// Perform the unrestricted search - same as above
+  		global_all_search = new google.search.WebSearch();
+  		global_all_search.setRestriction(google.search.Search.RESTRICT_SAFESEARCH,
+  														 google.search.Search.SAFESEARCH_OFF);
+  		global_all_search.setSearchCompleteCallback(this, function() {
+  		  var results = searchComplete(global_all_search);
+  			global_all_results = global_all_results.concat(results.slice(0)); 
+      	renderResultsInDiv(results, 'allContent')
+  		});
+  		global_all_search.execute(term);
+  	}
+	
+	  /* Begins all of the searching */
+  	function performSearches() {
+  		var term = document.form_name.query_id.value;                           // get the query term from the form
+		
+  		if (term != '') {
+  	    doSearchesForTerm(term);                                              // fire off the first two searches
+	    
+  	    var check_finished = setInterval(function() {                         // and check regularly to see if they're done
+          if (global_num_types_finished == 2) {                               // if both are finished 
+            clearInterval(check_finished);                                    // then we can stop checking
+
+            global_unsafe_results = global_all_results.slice(0);              // copy the array of all results
+
+            for (var i = global_all_results.length - 1; i >= 0 ; i--) {       // loop backward through the array
+              for (var j = 0; j < global_safe_results.length; j++) {          // and for each one look in the safe array
+                if (global_safe_results[j].url == global_all_results[i].url) {// if it was found in both,
+                  global_unsafe_results.splice(i, 1);                         // remove it from the unsafe array
+                } // note that by looping backwards, we can remove things from the unsafe array and not disrupt the index
+              }   // at which we currently are in the loop, and global_unsafe_results[i] will equal global_all_results[i]
+            }
+            
+      			renderResultsInDiv(global_unsafe_results, 'unsafeContent');       // render the unsafe results all at once
+          }
+        }, 500);
+  	  }
+	  
+  	  return false;                                                           // return false so the form doesn't refresh page
+    }
+    
+  	google.setOnLoadCallback(performSearches);                                // perform a sample search on load
+  	</script>
+  	<script src="google-search-template_files/a" type="text/javascript"></script><link href="google-search-template_files/default.css" type="text/css" rel="stylesheet"><script src="google-search-template_files/defaulten.js" type="text/javascript"></script>
+
+  </head><body style="border: 0pt none ; font-family: Arial;">
+    
+    <form id="form_id" name="form_name" onsubmit="return performSearches()">
+      <fieldset>
+      	<input id="query_id" name="query_name" type="text" value="llamas" />
+      	<input id="submit_id" type="submit" value="search" />
+      </fieldset>
+    </form>
+    
+    <div id="safeContent"></div>
+    <div id="allContent"></div>
+    <div id="unsafeContent"></div>
+  ​
+</body></html>

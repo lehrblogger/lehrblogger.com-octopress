@@ -1,0 +1,16 @@
+#main
+{
+	width: 642px;
+	height: 642px;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+}
+
+.myCanvas
+{
+	float: left;
+	width: 320px;
+	height: 320px;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}

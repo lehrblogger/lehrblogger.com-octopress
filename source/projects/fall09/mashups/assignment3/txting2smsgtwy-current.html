@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .message { position: absolute; }
+    </style>
+    <script src='http://code.jquery.com/jquery-latest.js'></script>
+    <script type='text/javascript'>
+      var lastUpdateTime, lastMessageTime;
+      var interval = 3;
+
+      function getNewMessages() {
+        $.ajax({
+            url: 'proxy.php',
+            type: 'GET',
+            //dataType: 'xml', // why was this breaking it? I was getting a parseerror
+            data: { starttime: (Number(lastMessageTime) + 1), endtime: (lastUpdateTime + interval) },
+            // we want all the messages after the last message and up until three seconds after the last update, this ensures no overlap
+            timeout: 3000,
+            // error: function(XMLHttpRequest, textStatus, errorThrown){
+            //     alert('Error textStatus=' + textStatus + ' and errorThrown=' + errorThrown);
+            // },
+            success: function(xml){
+              offset = 0;
+              $(xml).find('message').each(function(){
+                $('<div class="message"></div>')
+                  .animate({
+                    marginLeft: "5%",
+                    marginTop: "5%",
+                  }, 0 )
+                  .animate({
+                    marginLeft: "70%",
+                    opacity: 0.75,
+                  }, (interval * 1000 / 2) + offset)
+                  .animate({
+                    marginTop: "85%",
+                    opacity: 0.5,
+                  }, (interval * 1000 / 2) + offset)
+                  .animate({
+                    marginLeft: "5%",
+                    opacity: 0.25,
+                  }, (interval * 1000 / 2) + offset)
+                  .animate({
+                    marginTop: "5%",
+                    opacity: 0.0,
+                  }, (interval * 1000 / 2) + offset)
+                  .html($(this).text())
+                  .appendTo('#messages');
+
+                offset = offset + (interval * 1000 / 4) ;  //so that messages are staggered if there are multiple received at once
+                lastMessageTime = $(this).attr('timestamp');  // will always be the last message listed in the XML
+              });
+            }
+        });
+        lastUpdateTime = lastUpdateTime + interval;
+      }
+
+      $(document).ready(function(){ // get messages
+        var currentTime = new Date();
+        lastMessageTime = Math.floor(currentTime.getTime() / 1000) - 1;
+        //lastMessageTime = 1246554935 - 1;
+        lastUpdateTime = lastMessageTime;
+
+        getNewMessages();
+        setInterval('getNewMessages()', interval * 1000);
+      });
+    </script>
+  </head>
+  <body>
+    <div id='messages'></div>
+  </body>
+</html>

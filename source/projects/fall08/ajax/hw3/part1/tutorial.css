@@ -1,0 +1,38 @@
+/*
+  CSS for Tutorial 2
+*/
+
+.MyButton
+{
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  
+  background-image: url(button.jpg);
+}
+
+
+.UpperLeft
+{
+}
+
+.UpperRight
+{
+}
+
+.LowerLeft
+{
+}
+
+.LowerRight
+{
+}
+
+#output
+{
+  position: relative;
+  width: 200px;
+  
+  text-align: center;
+  
+}

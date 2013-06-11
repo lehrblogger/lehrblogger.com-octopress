@@ -9,4 +9,6 @@
     {% else %}
         on {{ item.date | date_to_long_string}}</a>
     {% endif %}
-<p>{{ item.excerpt }}</p>
+{% if item.excerpt %}
+  <p>{{ item.excerpt | markdownify }}</p>
+{% endif %}

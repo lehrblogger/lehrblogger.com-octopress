@@ -1,0 +1,48 @@
+# Assignment 1
+# URL
+# by Steven Lehrburger
+# lehrburger (at) gmail (dot) com
+# NYU Interactive Telecommunications Program, Spring 2009
+# Programming A to Z with Adam Parrish
+ 
+rm output.txt                                           # this will be our output file, so get rid of it first           
+grep -E "  "  <sonnets.txt | cut -c 3- >couplets.txt    # get only the lines with two spaces at the beginning,
+                                                        # i.e. the couplets, remove the spaces, and put them in
+                                                        # a new file
+
+linecount=$(wc -l couplets.txt | tr -s " " | cut -d " " -f 2)
+                                                        # count how many lines of couplets there are, remove extra
+                                                        # spaces, and then get only the number and not the filename
+while [ $linecount -gt 0 ]                              # loop while linecount is greater than zero
+do
+  head -n 1 <couplets.txt >>firstlines.txt              # get the first line of text, and append it to one file
+  head -n 2 <couplets.txt | tail -n 1 >>secondlines.txt # get the other line of text, and append it to another file
+  tail -n +3 <couplets.txt > couplets_temp.txt          # store all of the original file but those two lines
+                                                        # in a temporary file (I don't know why this is needed?)
+  mv couplets_temp.txt couplets.txt                     # and then overwrite the original with the temp file
+  linecount=$(( $linecount - 2 ))                       # decrement the line count by two
+done
+rm couplets.txt                                         # and delete the source file - we don't need it any more
+
+coupletcount=$(wc -l firstlines.txt | tr -s " " | cut -d " " -f 2)
+                                                        # do the same thing for the number of lines in one file
+                                                        # (there will be the same number in the second file)
+while [ $coupletcount -gt 1 ]                           # loop, but only go to 1 and not zero - if there is an odd
+                                                        # number then there is an unmatched couplet, just trash it
+do
+  head -n 1 <firstlines.txt >>output.txt                # put the first line from one file in the ouput
+  head -n 2 <firstlines.txt | tail -n 1 >>output.txt    # and the second line from that file
+  tail -n +3 <firstlines.txt >firstlines_temp.txt       # update the original file to remove those lines, as above
+  mv firstlines_temp.txt firstlines.txt
+
+  head -n 1 <secondlines.txt >>output.txt               # and then do the same thing with their pairs from the other
+  head -n 2 <secondlines.txt | tail -n 1 >>output.txt   # file
+  tail -n +3 <secondlines.txt >secondlines_temp.txt
+  mv secondlines_temp.txt secondlines.txt
+
+  coupletcount=$(( $coupletcount - 1 ))                 # decrement the counter
+done
+rm firstlines.txt                                       # and get rid of those two intermediate files
+rm secondlines.txt
+
+

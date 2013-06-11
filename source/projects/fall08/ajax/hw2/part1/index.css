@@ -1,0 +1,43 @@
+/* Matches the body element */
+body
+{
+  font-family: helvetica;
+  font-size: 18px;
+}
+
+/* Matches any element with the class .box */
+.box
+{
+  width: 100px;
+  height: 100px;
+    
+  border: solid 10px #b20;
+}
+
+/* Matches any element with the class .top */
+.top
+{
+  position: absolute;
+  top: 0px;     /* distance to top edge */
+}
+
+/* Matches any element with the class .bottom */
+.bottom
+{
+  position: absolute;
+  bottom: 0px;   /* distance to botton edge */
+}
+
+/* Matches any element with the class .left */
+.left
+{
+  position: absolute;
+  left: 0px;    /* distance to left edge */
+}
+
+/* Matches any element with the class .right */
+.right
+{
+  position: absolute;
+  right: 0px;    /* distance to right edge */
+}

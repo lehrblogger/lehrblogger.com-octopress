@@ -1,0 +1,157 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Timelinemachine</title>
+ 
+<style type="text/css">
+body {
+	margin:0;
+	padding:0;
+}
+#data {
+	position:absolute;
+	left: 100px;
+	top: 0px;
+}
+</style>
+ 
+<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.8.0r4/build/fonts/fonts-min.css" />
+<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.8.0r4/build/slider/assets/skins/sam/slider.css" />
+<script type="text/javascript" src="http://yui.yahooapis.com/2.8.0r4/build/yahoo-dom-event/yahoo-dom-event.js"></script>
+<script type="text/javascript" src="http://yui.yahooapis.com/2.8.0r4/build/animation/animation-min.js"></script>
+<script type="text/javascript" src="http://yui.yahooapis.com/2.8.0r4/build/dragdrop/dragdrop-min.js"></script>
+
+<script type="text/javascript" src="http://yui.yahooapis.com/2.8.0r4/build/slider/slider-min.js"></script>
+ 
+</head>
+ 
+<body class="yui-skin-sam">
+
+<!-- This <div> will host the slider control. -->
+1990
+<div id="slider-bg" class="yui-v-slider" tabindex="-1" title="Slider">
+
+  <div id="slider-thumb" class="yui-slider-thumb">
+    <img src="thumb-bar.gif">
+  </div>
+</div>
+2000
+<p>Date: <span id="slider-value">0</span></p>
+
+<div id="data">  
+  <ol>
+    <li>
+      <strong>
+        Time Magazine cover:
+      </strong>
+      </br>
+      <div id="timemag_data"></div>
+    </li>
+    <li>
+      <strong>
+        Billboard top ten singles:
+      </strong>
+      </br>
+      <div id="billboard_data"></div>
+    </li>
+    <li>
+      <strong>
+        New York Times headlines:
+      </strong>
+      </br>
+      <div id="nytimes_data"></div>
+    </li>
+  </ol>
+</div>
+  
+<script type="text/javascript">
+
+  // The global slider object.
+  var slider;
+  var current_date;
+
+  /* Converts a JS Date object to a MM/DD/YYYY string */
+  function dateToMMDDYYYY(date ) {
+    var m = date.getMonth() + 1;
+  	if (m < 10) { m = "0" + m;}
+  	var d = date.getDate();
+  	if (d < 10) { d = "0" + d;}
+	
+  	return m + "/" + d + "/" + date.getFullYear();
+  }
+
+  /* Update the current Date based on the slider position and update the displayed slider value */
+  function updateDate() {
+    var start = Date.parse("Jan 1, 1990");
+    var end = Date.parse("Jan 1, 2000") - 1; //subtract one millisecond to keep it inside the end of the year
+  
+    current_date = new Date();
+    current_date.setTime(start + (end - start) * (slider.getValue() / 200));
+
+  	var valuespan = document.getElementById("slider-value");
+  	valuespan.innerHTML = dateToMMDDYYYY(current_date);
+  }
+
+  /* Makes an AJAX call the to requested URL with a specified callback function */
+  function callAJAX(requestUrl, callback) { 
+  	var xmlHttp;
+  	if (window.XMLHttpRequest) {
+  		xmlHttp = new window.XMLHttpRequest();
+  	}
+  	else { // Internet Explorer 5/6 
+  		xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+  	}
+  	xmlHttp.open('GET', requestUrl, true);
+  	xmlHttp.onreadystatechange = function() {
+  		callback(xmlHttp);
+  	};
+  	xmlHttp.send(null);
+  }
+
+  /* A specialized wrapper for callAJAX that taekes a request URL and the id of the div that is to contain the response text */
+  function makeCallForScriptAndDiv(requestUrl, div_id) {
+    var div = document.getElementById(div_id);
+  	div.innerHTML = '<image src="loading.gif"/>';
+  	callAJAX(requestUrl, function(response) {
+    	div.innerHTML = response.responseText;
+  	});
+  }
+
+  /* Updates the three content divs using asynchronous AJAX calls */
+  function updateContent(offsetFromStart) {
+    date = dateToMMDDYYYY(current_date);
+
+  	var valuespan = document.getElementById("slider-value");
+  	valuespan.innerHTML = date;
+
+    makeCallForScriptAndDiv("getcover.php?date=" + encodeURIComponent(date), 'timemag_data');
+    makeCallForScriptAndDiv("getchart.php?date=" + encodeURIComponent(date), 'billboard_data');
+    makeCallForScriptAndDiv("getheadlines.php?date=" + encodeURIComponent(date), 'nytimes_data');
+  }
+
+  // The remaining code sets up the slider and attaches events to it.
+  // You shouldn't have to modify this part unless you want to change the slider size or behavior.
+  function setupSlider() {
+  	var Event = YAHOO.util.Event,
+  			Dom   = YAHOO.util.Dom,
+  			lang  = YAHOO.lang,
+  			bg="slider-bg", thumb="slider-thumb";
+  	// The slider skin we are using is 200 pixels tall. The slider can move 0 pixels up and 200 pixels down.
+  	var topConstraint = 0;
+  	var bottomConstraint = 200;
+  	Event.onDOMReady(function() {
+  		slider = YAHOO.widget.Slider.getVertSlider(bg, thumb, topConstraint, bottomConstraint);
+  		slider.subscribe("change", updateDate);
+  		slider.subscribe("slideStart", updateDate);
+  		slider.subscribe("slideEnd", updateContent);
+  		// Set an initial value in the middle of the slider.
+  		slider.setValue(100);
+  	});
+  }
+  setupSlider();
+
+</script>
+
+</body>
+</html>

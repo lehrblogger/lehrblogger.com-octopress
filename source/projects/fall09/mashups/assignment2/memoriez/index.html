@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script type="text/javascript" src="memoriez.js"></script>
+    <style type="text/css">
+      td {
+        padding: 5px;
+      }
+      img.tile {
+        width: 110px;
+        height: 110px;
+      }
+      img {
+        border-style:solid;
+        border-width:5px;
+        border-color: white;
+      }
+      img.active {
+        border-color: red;
+      }
+    </style>
+    <title>I Can Haz Memoriez?</title>
+  </head>
+
+  <body>
+    <p>
+      <form>
+        number of rows: <input type="text" id="num_rows" size="5" value="4"/>
+        and columns: <input type="text" id="num_cols" size="5" value="4"/>
+        <input type="button" value="new game" onclick="newGame();"/>
+      </form>
+    </p>
+    <p>
+      <div id="game_score">Start a new game!</div>
+    </p>
+    <p>
+      <div id="game_table"></div>
+    </p>
+  </body>
+</html>
