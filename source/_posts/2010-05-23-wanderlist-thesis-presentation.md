@@ -1,6 +1,7 @@
 ---
 layout: post
-title: 'Wanderli.st -- Thesis Presentation'
+featured: false
+title: "Wanderli.st -- Thesis Presentation"
 permalink: /2010/05/23/wanderlist-thesis-presentation/
 dsq_thread_id:
   - 98528155
@@ -16,7 +17,7 @@ A couple weeks ago I presented Wanderli.st during Thesis Week at NYU's Interacti
 
 {% iframe_embed vimeo 12727748 %}
 
-<object id="__sse4254669" width="640" height="742"><param name="movie" value="http://static.slidesharecdn.com/swf/doc_player.swf?doc=presentationfinalslideshare-100523144539-phpapp02&stripped_title=wanderlist-thesis-presentation" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><embed name="__sse4254669" src="http://static.slidesharecdn.com/swf/doc_player.swf?doc=presentationfinalslideshare-100523144539-phpapp02&stripped_title=wanderlist-thesis-presentation" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="640" height="742"></embed></object>
+{% iframe_embed slideshare 4254669 640 742 %}
 
 I've been thinking a lot the best way to continue this work now that I am free from academia, and about how Wanderli.st fits with other proposals such as [Diaspora][3] (which has gotten [incredible support][4]). I'll continue to publish updates here, and let me know if you have any ideas you'd like to discuss!
 

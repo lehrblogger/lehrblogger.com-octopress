@@ -13,7 +13,7 @@ excerpt: TODO
 ---
 [Paul Adams][1], a member of the user experience team at Google and the user research lead for social, recently gave the below presentation at the [Voices That Matter: Web Design Conference][2]:
 
-<object id="__sse4656436" width="640" height="742"><param name="movie" value="http://static.slidesharecdn.com/swf/doc_player.swf?doc=vtm2010-100701010846-phpapp01&rel=0&stripped_title=the-real-life-social-network-v2" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><embed name="__sse4656436" src="http://static.slidesharecdn.com/swf/doc_player.swf?doc=vtm2010-100701010846-phpapp01&rel=0&stripped_title=the-real-life-social-network-v2" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="640" height="742"></embed></object>
+{% iframe_embed slideshare 4656436 640 742 %}
 
 It's worth reading through the entire thing, but there were a few groups of slides I found particularly clear/insightful/interesting (you can jump to a particular slide from the bottom toolbar) --
 
