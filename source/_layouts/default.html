@@ -8,31 +8,19 @@
 		<div class="four columns">
   			<nav role="navigation">{% include navigation.html %}</nav>
         <aside class="sidebar">
-          {% if site.blog_index_asides.size %}
-            {% include_array blog_index_asides %}
-          {% else %}
-            {% include_array default_asides %}
-          {% endif %}
-
-          <section id="code">
-            <h2>Code</h2>
-              <p><a target="_blank" href="https://github.com/ryandeussing" target="_blank">GitHub</a></p>         
+          <section id="test">
+            <h2>Test</h2>
+              <p>{{ site.description }}</p>
           </section>
-
-          <section id="habit">
-            <h2>Habit</h2>
-              <p><a target="_blank" href="http://joesgoals.com">Daily goals</a></p>
-              <a target="_blank" href="http://joesgoals.com"><div id="goals"></div></a>  
-          </section>
-
-
         </aside>    
   	</div>
     
     {% unless page.url contains '/blog/' %}
 
     <header class="twelve columns" role="banner">
-    {% include header.html %}
+      <hgroup>
+        <h1>{{ site.title }}</h1>
+      </hgroup>
     </header>
 
     {% endunless %}
@@ -45,7 +33,7 @@
   
   <footer role="contentinfo"  class="sixteen columns">{% include footer.html %}</footer>
   
-  {% include after_footer.html %}
+  {% include disqus.html %}
 
 <script>
   jQuery.noConflict()('li.other').hover (

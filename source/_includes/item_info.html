@@ -7,7 +7,7 @@
     {% if item.end_date %}
         from {{ item.date | date: "%B %Y"}} to {{ item.end_date | date: "%B %Y"}}
     {% else %}
-        on {{ item.date | date_to_long_string}}</a>
+        on {{ item.date | date: "%B %Y"}}</a>
     {% endif %}
 {% if item.excerpt %}
   <p>{{ item.excerpt | markdownify }}</p>
