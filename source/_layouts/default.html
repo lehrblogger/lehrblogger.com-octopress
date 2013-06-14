@@ -1,49 +1,40 @@
 {% capture root_url %}{{ site.root | strip_slash }}{% endcapture %}
-{% include head.html %}
-
-<body {% if page.body_id %} id="{{ page.body_id }}" {% endif %} {% if page.sidebar == false %} class="no-sidebar" {% endif %} {% if page.sidebar == 'collapse' or site.sidebar == 'collapse' %} class="collapse-sidebar sidebar-footer" {% endif %}>
-
-	<div class="container">
-
-		<div class="four columns">
-  			<nav role="navigation">{% include navigation.html %}</nav>
-        <aside class="sidebar">
-          <section id="test">
-            <h2>Test</h2>
-              <p>{{ site.description }}</p>
-          </section>
-        </aside>    
-  	</div>
-    
-    {% unless page.url contains '/blog/' %}
-
-    <header class="twelve columns" role="banner">
-      <hgroup>
-        <h1>{{ site.title }}</h1>
-      </hgroup>
-    </header>
-
-    {% endunless %}
-
-  	<div id="main" class="twelve columns">
-	    <div id="content">
-	      {{ content | expand_urls: root_url }}
-	    </div>
-  	</div>
-  
-  <footer role="contentinfo"  class="sixteen columns">{% include footer.html %}</footer>
-  
-  {% include disqus.html %}
-
-<script>
-  jQuery.noConflict()('li.other').hover (
-    function () {
-    jQuery.noConflict()(this).toggleClass("current-menu-item")
-  });
-</script>
-
-</body>
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!-->
+<html class="no-js" lang="en"><!--<![endif]-->    
+    {% include head.html %}
+    <body {% if page.body_id %} id="{{ page.body_id }}" {% endif %} {% if page.sidebar == false %} class="no-sidebar" {% endif %} {% if page.sidebar == 'collapse' or site.sidebar == 'collapse' %} class="collapse-sidebar sidebar-footer" {% endif %}>
+        <div class="container">
+            <div class="four columns">
+                <nav role="navigation">{% include navigation.html %}</nav>
+                <aside class="sidebar">
+                    <section id="test">
+                        <h2>Test</h2>
+                        <p>{{ site.description }}</p>
+                    </section>
+                </aside>    
+            </div>
+            {% unless page.url contains '/blog/' %}
+                <header class="twelve columns" role="banner">
+                    <hgroup>
+                        <h1>{{ site.title }}</h1>
+                    </hgroup>
+                </header>
+            {% endunless %}
+            <div id="main" class="twelve columns">
+                <div id="content">
+                    {{ content | expand_urls: root_url }}
+                </div>
+            </div>
+            <footer role="contentinfo"  class="sixteen columns">{% include footer.html %}</footer>
+            {% include disqus.html %}
+        </div>
+        <script>
+          jQuery.noConflict()('li.other').hover (function () {
+              jQuery.noConflict()(this).toggleClass("current-menu-item")
+          });
+        </script>
+    </body>
 </html>
-
-
-	</div> <!-- container -->

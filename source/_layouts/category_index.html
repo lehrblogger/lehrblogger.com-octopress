@@ -3,11 +3,10 @@ layout: page
 comments: false
 footer: false
 ---
-
 <div id="blog-archives" class="category">
-{% for post in site.categories[page.category] %}
-<article>
-  {% include item_info.html %}
-</article>
-{% endfor %}
+    {% for post in site.categories[page.category] %}
+        <article>
+            {% include item_info.html %}
+        </article>
+    {% endfor %}
 </div>
