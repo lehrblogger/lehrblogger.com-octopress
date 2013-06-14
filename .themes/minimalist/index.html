@@ -1,0 +1,14 @@
+---
+layout: default
+title: "minimalist"
+description: "minimalist"
+---
+
+<div id="blog-archives">
+{% for post in site.posts reverse %}
+
+<article>
+  {% include archive_post.html %}
+</article>
+{% endfor %}
+</div>
