@@ -29,7 +29,7 @@ S3 Redirection Rules
     </RoutingRule>
     <RoutingRule>
         <Condition>
-            <KeyPrefixEquals>nyu/projects</KeyPrefixEquals>
+            <KeyPrefixEquals>nyu/classes</KeyPrefixEquals>
         </Condition>
         <Redirect>
             <ReplaceKeyPrefixWith>projects</ReplaceKeyPrefixWith>

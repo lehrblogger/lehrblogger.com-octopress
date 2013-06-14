@@ -2,7 +2,7 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://lehrblogger.com.s3-website-us-east-1.amazonaws.com
+url: http://jekyll.lehrblogger.com
 title: lehrblogger.com
 subtitle: The website of Steven Lehrburger.
 author: Steven Lehrburger
