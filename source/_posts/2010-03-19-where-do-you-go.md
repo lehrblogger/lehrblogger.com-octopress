@@ -3,7 +3,7 @@ layout: project
 featured: true
 title: Where Do You Go
 permalink: /2010/03/19/where-do-you-go/
-end_date: January 2012
+end_date: 2012-01-16
 dsq_thread_id:
   - 77457591
 categories:

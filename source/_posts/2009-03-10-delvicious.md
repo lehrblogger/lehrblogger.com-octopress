@@ -2,7 +2,14 @@
 layout: project
 featured: true
 title: "Delvicious"
-end_date: March 2009
+permalink: /delvicious/
+alias: /2009/03/10/delvicious/
+end_date: 2009-05-04
+categories:
+  - ITP - A2Z
+  - assignments
+  - ITP
+  - projects
 excerpt: "Full-text search for your Delicious bookmarks using Google Custom Search Engines. Unfinished, but now there's [Pinboard](https://pinboard.in/upgrade/), for which I happily pay $25/year."
 thanks:
   - name: John Rutherford
