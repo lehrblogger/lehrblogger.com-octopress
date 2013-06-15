@@ -74,7 +74,6 @@
 
   @media only screen and (max-width: 767px) {
     .container .four.columns { 
-      height: 60px;
       width: 300px !important;
       margin-right: 0;
       ul.title {
@@ -84,7 +83,7 @@
           line-height: 1.1em;
         }
       }
-      ul.main-navigation, ul.subscription, aside.sidebar {
+      ul.subscription, div.search {
         display: none;
       }
     }
@@ -129,9 +128,9 @@
       }  
       }
     }
-    div.sharing {
-  display: none;
-  }
+    header.site-title  {
+        display: none;
+    }
   }     
 
 
@@ -153,7 +152,7 @@
           line-height: 1.1em;
         }
       }
-      ul.main-navigation, ul.subscription, aside.sidebar {
+      ul.subscription, div.search {
         display: none;
       }
     }
@@ -195,9 +194,9 @@
       }  
       }
     }
-    div.sharing {
-  display: none;
-  }
+    header.site-title {
+      display: none;
+    }
   }     
 
   
