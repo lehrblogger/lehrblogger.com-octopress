@@ -127,6 +127,10 @@ aside.sidebar a {
     color: #333;
     -webkit-text-size-adjust: 100%;
  }
+ 
+  html {
+    overflow-y: scroll;
+ }
 
 
 /* #Typography
@@ -477,7 +481,7 @@ li.current-menu-item a:after {
     content: " »"; 
   }  
 
-header hgroup h1, h1.entry-title {
+header h1, h1.entry-title {
   color: #6B0001;
   border-top: 3px solid #444;
   letter-spacing: -1px;

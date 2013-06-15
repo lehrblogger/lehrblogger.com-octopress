@@ -1,0 +1,10 @@
+<ul>
+    {% for item in site.posts %}
+        {% if item.layout == type %}
+            <li>
+                {% if item.featured %}***{% endif %}
+                {% include item_info.html %}
+            </li>
+        {% endif %}
+    {% endfor %}
+</ul>

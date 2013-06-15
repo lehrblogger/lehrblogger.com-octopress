@@ -4,30 +4,6 @@
 /* #Base 960 Grid
 ================================================== */
 
-.container .four.columns { 
-  width: 180px !important;
-  margin-right: 50px;
-  #code img, #habit div.link {
-    max-width: 170px;
-    margin-left: 5px; }
-  #habit div.link {
-    max-width: 170px;
-  }
-  #code hr.badges {
-    height: 1px solid #ddd;
-    margin: 7px 0 8px 0;
-  }
-  #goals {
-    border: 1px solid #ddd;
-    background-image: url(http://www.joesgoals.com/badge/A69840CF-A48A-380E-735F1A12ABA3F6C1_v_180_200.jpg);
-    background-position: -5px -55px;
-    margin-left: 4px;
-    width: 170px;
-    height: 76px;
-  }
-  #habit p { margin-bottom: 1em;}
-}
-
 .container .twelve.columns .video {
   position: relative;
   padding-bottom: 56.25%; /* 16/9 ratio */
@@ -120,7 +96,7 @@
       .video {
         max-width: 300px;
       }       
-      hgroup h1, h1.entry-title {
+      h1, h1.entry-title {
         margin-top: 0;
         font-size: 28px;
         line-height: 28px;
@@ -190,7 +166,7 @@
       .video {
         max-width: 420px;
       }       
-      hgroup h1, h1.entry-title {
+      h1, h1.entry-title {
         margin-top: 0;
         font-size: 28px;
         line-height: 28px;
@@ -204,7 +180,7 @@
     }
     header[role=banner] {
       margin: 0;
-      hgroup h1 {
+      h1 {
         padding-top: 2px;
       }
     }
