@@ -26,6 +26,8 @@ updates:
 ---
 A week ago Google launched its much-anticipated social network, [Google+][1]. I think they executed remarkably well, given the size of the company ([24,200 employees][2]), the stakes involved (see [the ever-hyperbolic TechCrunch][3]), and their history with social ([Buzz][4], [Wave][5]). It was important that they launch something good, and I think what they launched *is* good. New features include a cross-service toolbar, Hangouts, Huddles, and Sparks, but here I'm going to talk about Circles. If you're not on Google+ yet, the below video gives a good sense of the feature and its interface, but you should sign up and try it for yourself.
 
+{% iframe_embed youtube ocPeAdpe_A8 %}
+
 Wanderli.st, the ITP thesis project I [presented last May][6], grew out of similar ideas about social contexts. It was an application that would let us socialize within online contexts that are like our offline contexts, and a tool for managing and synchronizing relationships across social websites. I'm no longer working on it for a variety of reasons, but the most important of them is this: **Regardless of the interfaces and features of Lists on Facebook or Circles on Google+, I don't think people actually want to sort their contacts.**
 
 Since we are so good at deciding what is appropriate to say to a given group, it seems backwards for our applications to make us define those groups before we even know what we're going to say. In real life, the thing we want to share and the group with whom we want to share can influence each other, so our software should work the same way. There are several issues with manual sorting of contacts:
