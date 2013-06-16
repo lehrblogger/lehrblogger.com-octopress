@@ -11,7 +11,7 @@ categories:
   - projects
   - ITP
   - ITP - thesis
-  - Wanderli.st
+  - Wanderlist
 ---
 A couple weeks ago I presented Wanderli.st during Thesis Week at NYU's Interactive Telecommunications Program. The list of all of the presentations is [here][1], and ITP has a copy of the video hosted [here][2], but I've also embedded it below. Some of the slides are difficult to read in the video, so they are embedded as well. If you're in a hurry and think you can read faster than I was talking (hah!), the notes on which the talk was based are below each slide.
 

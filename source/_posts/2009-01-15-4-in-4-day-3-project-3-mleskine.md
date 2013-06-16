@@ -15,15 +15,18 @@ updates:
   - date: 2011-12-18
     body: "There is a similar notebook made by [Suck UK](http://www.suck.uk.com/) for sale [here](http://aplusrstore.com/product.php?id=11&cid=106) and [here](http://www.momastore.org/museum/moma/ProductDisplay_Mini%20Notebook%20and%20Pencil_10451_10001_105552_-1_26674_26677_105565), as well as this one made by [Düller](http://www.idea-in.com/duller/) and [Dietrich Lubs](http://en.wikipedia.org/wiki/Braun_(company)#Design_department) for sale [here](http://aplusrstore.com/product.php?id=576&cid=64). I still like mine better though :)"
 ---
-I was in NYC for a couple of weeks during the summer of 2006 after I finished the [Career Discovery Program][1] in architecture at Harvard's Graduate School of Design, and I went to see the exhibit of the work of architect [Zaha Hadid][2] at the Guggenheim. I enjoyed exploring the variety of her built and unbuilt design work, but it was her sketchbooks that made the most lasting impression (image by [Ivar Hagendoorn][3], same books different exhibit) --  
+I was in NYC for a couple of weeks during the summer of 2006 after I finished the [Career Discovery Program][1] in architecture at Harvard's Graduate School of Design, and I went to see the exhibit of the work of architect [Zaha Hadid][2] at the Guggenheim. I enjoyed exploring the variety of her built and unbuilt design work, but it was her sketchbooks that made the most lasting impression (image by [Ivar Hagendoorn][3], same books different exhibit) --
+
 ![](/projects/4in4jan09/day3img0.jpeg)
 
 If you look carefully, you'll notice that a rectangular piece has been cut out of each page so that a pen can be stored inside when the book is closed. I had started to use a [Moleskine][4] notebook during the program at Harvard, and when I finished my first one I cut my second one like Zaha's using a ruler and an X-Acto knife. That particular brand of notebooks is relatively popular and often recognized, but I think the reputation is deserved, as they are quite durable. I carry them everywhere, and with some black electric tape on the binding they will last more than six months.
 
-I was shopping for architecture supplies at Accent Arts in Palo Alto, and noticed a short black lead-holder style pencil that looked like it would fit horizontally across the top of a notebook rather than vertically next to the spine. I compared it to one they had in stock, and it fit perfectly. My notebooks since then have all had a whole cut out at the top, and I'm currently on my eighth.  
+I was shopping for architecture supplies at Accent Arts in Palo Alto, and noticed a short black lead-holder style pencil that looked like it would fit horizontally across the top of a notebook rather than vertically next to the spine. I compared it to one they had in stock, and it fit perfectly. My notebooks since then have all had a whole cut out at the top, and I'm currently on my eighth.
+
 ![][5]
 
-In addition to the pencil, Gabriela gave me a fountain pen that fits nicely, and I've been using [Pilot G2 Mini][6]'s more recently for their simplicity and reliability.  
+In addition to the pencil, Gabriela gave me a fountain pen that fits nicely, and I've been using [Pilot G2 Mini][6]'s more recently for their simplicity and reliability.
+
 ![][7]
 
 It takes an hour or two to cut each notebook, and I decided to try getting them laser cut. I took one to [Canal Plastics][8], and talked to Raymond, with whom I had worked to get pieces of acrylic laser cut for architecture models at Kevin Kennon Architect. Both covers of the notebooks bend back, allowing for a cut straight through all of the pages, and he agreed to give it a try. 
@@ -31,8 +34,11 @@ It takes an hour or two to cut each notebook, and I decided to try getting them 
 The experiment was a success, so I ordered ten more moleskines from [Amazon][9]. I had planned my third 4-in-4 project to be to set up a store on [Etsy][10] on which I could sell the lasercut Moleskines.
 
 He agreed to cut those too, but had some trouble with burning on one of them, and didn't want to cut any more. I cleaned off the ash ...
-![][11]  
-![][12]  
+
+![][11]
+
+![][12]
+
 ... and will probably give a few to the friends that have requested them (Dan, Kabir, Jorge, Cassidy) and save the rest for later. It's a somewhat scaled back third project, but my second one was pretty ambitious, so I'm satisfied.
 
 ![][13]

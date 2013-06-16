@@ -9,7 +9,7 @@ categories:
   - commentary
   - ITP
   - ITP - thesis
-  - Wanderli.st
+  - Wanderlist
 excerpt: Companies that are secretive about their in-progress products are at a significant disadvantage.
 thanks:
   - name: Jorge Just

@@ -9,7 +9,7 @@ categories:
   - ITP
   - projects
   - ITP - thesis
-  - Wanderli.st
+  - Wanderlist
 updates:
   - date: 2011-10-09
     body: "I'm no longer working on the project, so I let the $87/year wanderli.st domain expire and removed that link to minimize confusion."

@@ -9,7 +9,7 @@ categories:
   - ITP - thesis
   - presentations
   - projects
-  - Wanderli.st
+  - Wanderlist
 ---
 I gave this five-minute presentation at ITP on Saturday as part of the Startup Talk/Pitch Fest organized by faculty member Nancy Hechinger. Ron Conway and his partners at SV Angel, Dennis Crowley of Foursquare, Tom Cohen, and other members of the ITP community were in the audience. I got some good feedback and people were interested in the idea.
 

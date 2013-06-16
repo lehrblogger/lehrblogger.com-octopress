@@ -16,12 +16,6 @@ $text-color: #444 !default;
 $text-color-light: #aaa !default;
 $type-border: none !default;
 
-/* Core theme application */
-a {
-    @include link-colors($link-color, $hover: $link-color-hover, $focus: $link-color-hover, $visited: $link-color-visited, $active: $link-color-active);
-}
-
-
 /*
 * Skeleton V1.1
 * Copyright 2011, Dave Gamache

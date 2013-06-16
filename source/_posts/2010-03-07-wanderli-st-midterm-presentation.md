@@ -10,7 +10,7 @@ categories:
   - presentations
   - projects
   - ITP - thesis
-  - Wanderli.st
+  - Wanderlist
 updates:
   - date: 2010-03-29
     body: "There's an improved version of this presentation in [this more recent post](http://lehrblogger.com/2010/03/29/wanderli-st-pitch-presentation) ."

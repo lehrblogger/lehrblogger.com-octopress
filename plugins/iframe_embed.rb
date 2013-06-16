@@ -8,8 +8,8 @@ class IframeEmbed < Liquid::Tag
       @type = $1
       @id = $2
       if $3.nil? then
-        @width = 640
-        @height = 385
+        @width = 700
+        @height = 421
       else
         @width = $4.to_i
         @height = $5.to_i

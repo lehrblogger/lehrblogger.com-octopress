@@ -4,32 +4,28 @@
             {{ page.title }}
         </a>
     </h1>
-    <p class="meta">
-        {% include post/date.html %}
-        Published on {{ time }}
-    </p>
-    <p class="meta">
-        {% if site.disqus_short_name and page.comments != false and site.disqus_show_comment_count == true %}
-            | <a href="{% if index %}{{ root_url }}{{ post.url }}{% endif %}#disqus_thread">Comments</a>
-        {% endif %}
-    </p>
 </header>
 <div class="entry-content">
-    {% if page.updates %}
-        <div class="entry-updates">
+    {{ content }}
+    {% if page.thanks %}
+        <hr>
+        <p>
+            Thanks to {% for thank in page.thanks %}
+            <a href="{{ thank.link }}">{{ thank.name }}</a>{% case forloop.rindex %}{% when 1 %}{% when 2 %} and{% else %},{% endcase %}
+            {% endfor %} for {% if page.thanks_note %}{{ page.thanks_note }}{% else %}their help with this post!{% endif %}
+        </p>
+    {% endif %}
+    <hr>
+    <div class="entry-meta">
+        {% include post/date.html %}
+        Published on {{ time }} under {% for category in page.categories %}<a href="/category/{{category | remove: ' ' }}">{{ category }}</a>{% case forloop.rindex %}{% when 1 %}{% when 2 %} and {% else %}, {% endcase %}{% endfor %}
+        {% if page.updates %}
             {% for update in page.updates %}
                 <div class="entry-update">
                     Update on {{ update.date | date_to_long_string }}: {{ update.body | markdownify }}
                 </div>
             {% endfor %}
-        </div>
-    {% endif %}
-    {{ content }}
-    {% if page.thanks %}
-        <div class="entry-thanks">
-            Thanks to {% for thank in page.thanks %}
-            <a href="{{ thank.link }}">{{ thank.name }}</a>{% case forloop.rindex %}{% when 1 %}{% when 2 %} and{% else %},{% endcase %}
-            {% endfor %} for {% if page.thanks_note %}{{ page.thanks_note }}{% else %}their help with this post!{% endif %}
-        </div>
-    {% endif %}
+        {% endif %}
+    </p>
+    <hr>
 </div>

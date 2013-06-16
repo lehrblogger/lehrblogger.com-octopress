@@ -9,7 +9,7 @@ categories:
   - ITP
   - projects
   - ITP - thesis
-  - Wanderli.st
+  - Wanderlist
   - web ideas
 updates:
   - date: 2011-10-09

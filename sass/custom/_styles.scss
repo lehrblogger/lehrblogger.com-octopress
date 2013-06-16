@@ -18,3 +18,38 @@ sup {
 sub {
     top: .5ex;
 }
+
+a {
+    @include link-colors($link-color, $hover: $link-color-hover, $focus: $link-color-hover, $visited: $link-color-visited, $active: $link-color-active);
+}
+
+hr {
+    margin: 0 0 20px 0;
+}
+
+h1.entry-title a {
+    text-decoration: none;
+}
+
+.entry-content {
+    iframe,
+    object,
+    img {
+        margin: 0 auto;
+        display: block;
+    }
+    iframe,
+    object {
+        margin-bottom: 20px;
+    }
+    
+    .entry-meta {
+        margin: 0 0 20px 0;
+        .entry-update {
+            margin-top: 10px;
+            p {
+                display: inline;
+            }
+        }
+    }
+}
