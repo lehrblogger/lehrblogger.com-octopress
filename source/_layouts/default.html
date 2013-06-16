@@ -4,19 +4,24 @@
 <!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->    
     {% include head.html %}
-    <body {% if page.body_id %} id="{{ page.body_id }}" {% endif %} {% if page.sidebar == false %} class="no-sidebar" {% endif %} {% if page.sidebar == 'collapse' or site.sidebar == 'collapse' %} class="collapse-sidebar sidebar-footer" {% endif %}>
+    <body>
         <div class="container">
-            <div class="four columns">
-                <ul class="title">
-                    <li><a href="/">{{ site.title }}</a></li>
-                </ul>
+            <div id="sidebar" class="four columns">
+                <h1>
+                    <a href="/">lehrblogger.com</a>
+                </h1>
+                <h2>
+                    by {{ site.author }}
+                </h2>
                 <p>
-                    <a href="/about/">About/Contact</a>
+                    I design and build social software in New York City.
                 </p>
-                <ul class="blurbs">
-                    <li>I design and build social software in New York City.</li>
-                    <li>I'm currently working on <a href="http://dashdash.com">Dashdash</a>, a messaging app inspired by real life.</li>
-               </ul>
+                <p>
+                    I'm currently working on <a href="http://dashdash.com">Dashdash</a>, a messaging app inspired by real life.
+                </p>
+                <h2>
+                    <a href="/about/">About/Contact</a>
+                </h2>
                 <ul class="subscription" data-subscription="rss{% if site.subscribe_email %} email{% endif %}">
                     <li class="other"><a href="{{ site.subscribe_rss }}" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
                     {% if site.subscribe_email %}

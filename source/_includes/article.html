@@ -18,7 +18,7 @@
     <hr>
     <div class="entry-meta">
         {% include post/date.html %}
-        Published on {{ time }} under {% for category in page.categories %}<a href="/category/{{category | remove: ' ' }}">{{ category }}</a>{% case forloop.rindex %}{% when 1 %}{% when 2 %} and {% else %}, {% endcase %}{% endfor %}
+        Published on {{ time }} under {% for category in page.categories %}<a href="/category/{{category | remove: ' ' }}">{{ category }}</a>{% case forloop.rindex %}{% when 1 %}{% when 2 %} and {% else %}, {% endcase %}{% endfor %}.
         {% if page.updates %}
             {% for update in page.updates %}
                 <div class="entry-update">

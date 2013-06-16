@@ -1,14 +1,25 @@
-<a {% if item.external %}
-    href='{{ item.external }}' target='_blank' class='external'
-{% else %}
-    href='{{ item.url }}'
-{% endif %}>
-{{ item.title }}</a>
-    {% if item.end_date %}
-        from {{ item.date | date: "%B %Y"}} to {{ item.end_date | date: "%B %Y"}}
-    {% else %}
-        on {{ item.date | date: "%B %Y"}}</a>
-    {% endif %}
-{% if item.excerpt %}
-  <p>{{ item.excerpt | markdownify }}</p>
-{% endif %}
+<div class="twelve columns alpha omega ">
+    <div class="date two columns alpha {% unless page.selected %}{% if item.featured %}featured{% endif %}{% endunless %}">
+        {% if item.end_date %}
+            {{ item.date | date: "%b %Y"}} to
+            <br/>
+            {{ item.end_date | date: "%b %Y"}}
+        {% else %}
+            {{ item.date | date: "%b %Y"}}
+        {% endif %}
+    </div>
+    <div class="ten columns omega">
+        <a {% if item.external %}
+            href='{{ item.external }}' target='_blank' class='external'
+        {% else %}
+            href='{{ item.url }}'
+        {% endif %}>{{ item.title }}</a>
+        {% if item.excerpt %}
+            <div class="excerpt">
+                {{ item.excerpt | markdownify }}
+            </div>
+        {% else %}
+            <div class="no-excerpt"></div>
+        {% endif %}
+    </div>
+</div>

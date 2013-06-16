@@ -1,32 +1,26 @@
 ---
 layout: default
+selected: true
 ---
-<header class="site-title" role="banner">
-    <h1><a href="/">{{ site.subtitle }}</a></h1>
-</header>
-<div id="selected">
-    <div id="posts">
-        <h2><strong>Selected Posts</strong> - <a href='/posts/'>All Posts</a></h2>
-        <ul>
+<div class="item-list">
+    <div class="posts twelve columns alpha omega">
+        <h1>Selected Posts - <a href='/posts/'>All Posts</a></h1>
+        <div>
             {% for item in site.posts %}
                 {% if item.layout == 'post' and item.featured %}
-                    <li>
-                        {% include item_info.html %}
-                    </li>
+                    {% include item_info.html %}
                 {% endif %}
             {% endfor %}
-        </ul>
+        </div>
     </div>
-    <div id="projects">
-        <h2><strong>Selected Projects</strong> - <a href='/projects/'>All Projects</a></h2>
-        <ul>
-        {% for item in site.posts %}
-            {% if item.layout == 'project' and item.featured %}
-                <li>
+    <div class="projects twelve columns alpha omega">
+        <h1>Selected Projects - <a href='/projects/' id="projects">All Projects</a></h1>
+        <div>
+            {% for item in site.posts %}
+                {% if item.layout == 'project' and item.featured %}
                     {% include item_info.html %}
-                </li>
-            {% endif %}
-        {% endfor %}
-        </ul>
+                {% endif %}
+            {% endfor %}
+        </div>
     </div>
 </div>

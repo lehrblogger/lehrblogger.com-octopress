@@ -16,7 +16,6 @@ thanks:
     link: "http://uncountablymany.com/"
 thanks_note: "the suggesting the name for the project (finding a good name is, of course, always the hardest part of anything)."
 ---
-
 **[Where Do You Go][1]** provides [Foursquare][2] users with a dynamic [heat map][3] of the places they have visited on top of a standard Google Maps interface. Users can create snapshots of their maps and [hotlink][4] them as static URLs on their personal webpages, or they can use the simple WDYG wrapper pages to share their maps on Twitter. The maps will self-update automatically in the background as users continue to visit new places and checkin with Foursquare.
 
 The idea initially came out of the difficulty I experienced in explaining to people the areas I tend to frequent in this expansive metropolis -- "south of 14th Street and north of Delancey" is somewhat accurate, but really misses many of the nuances in my habits. It would have been relatively straightforward to make a static image of just my own checkins, but I wanted something that updated over time as I went to more places, and I wanted something that was also usable by other people.
@@ -59,7 +58,7 @@ The checkins are plotted on the map conceptually as dots that are darkest in the
 
 Next I needed to specify the actual color chosen from the color schemes for each pixel in the tile. The pixels correspond to a color that is a certain height up or down one of the below color scheme images (the cyan-red color scheme isn't generated from an image, but we won't worry about that here). Both the range and rate-of-change of the colors affects the appearance of the maps.
 
-![][24]![][25]![][26]![][27]![][28]![][29]![][30]![][31]
+###### ![][24]![][25]![][26]![][27]![][28]![][29]![][30]![][31]
 
 As described above, I needed to map the array of 'darkness' values for each of the 256x256 pixels in a tile to a height up or down one of these color schemes. I wanted the 'darkest' point on any map to correspond to the 'hottest' point in the color scheme (at the top of the image), and I estimated what that maximum level should be (at which the color scheme becomes 'over-heated' or 'blown out' or 'over-exposed') by calculating the total number of checkins and the total number of venues currently visible on the entire map. Then I needed a way to scale each darkness value so that it would always show some color for a checkin (in case a user had only one checkin somewhere away from his/her other checkins) but would be slow to reach the maximum level (i.e. the 'hot' end of the color scheme). I experimented with log functions in Grapher and settled on the formula in the `scale_value` function in that same [tile generation code][22] -- here **x** is the value of the pixel resulting from the stacked dots and **y** is the level which will be mapped to a point on the selected color scheme.
 

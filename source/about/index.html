@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About
+title: "About/Contact"
 services:
   - name: "Twitter"
     url: "https://twitter.com/lehrblogger"
@@ -28,40 +28,50 @@ services:
   - name: "Facebook"
     url: "https://www.facebook.com/lehrblogger"
 ---
-<header role="banner">
+<div id="about">
     <h1>{{ page.title }}<img class="profile-photo" src="/images/profile.jpg"></h1>
-</header>
-<div id="service-lists">
-    <p>
-        My name is Steven Lehrburger, but I go by <strong>@lehrblogger</strong> most everywhere on the Internet. Contact me at lehrburger@gmail.com.
-    </p>
-    <p>
-        I'm especially active on:
-        <ul>
-            {% for service in page.services %}
-                {% if service.activity %}
-                    <li><a href="{{ service.url }}"><img src="/images/favicons/{{ service.name | downcase }}.ico">{{ service.name }}</a> ({{ service.activity }})</li>
-                {% endif %}
-            {% endfor %}
-        </ul>
-    </p>
-    <p>
-        You can also find me on:
-        <ul>
-            {% for service in page.services %}
-                {% unless service.activity %}
-                    <li><a href="{{ service.url }}"><img src="/images/favicons/{{ service.name | downcase }}.ico">{{ service.name }}</a></li>
-                {% endunless %}
-            {% endfor %}
-        </ul>
-    </p>
-</div>
-TODO resume link
-<div class="professional">
-    {% assign type = 'professional' %}
-    {% include item_infos.html %}
-</div>
-<div class="academic">
-    {% assign type = 'academic' %}
-    {% include item_infos.html %}
+    <div id="service-lists">
+        <p>
+            I'm <strong>@lehrblogger</strong> most everywhere on the Internet.
+        </p>
+        <p>
+            Contact me at <a href="mailto:lehrburger@gmail.com">lehrburger@gmail.com</a>.
+        </p>
+        <p>
+            I'm most active on:
+            <ul>
+                {% for service in page.services %}
+                    {% if service.activity %}
+                        <li><a href="{{ service.url }}"><img src="/images/favicons/{{ service.name | downcase }}.ico">{{ service.name }}</a> ({{ service.activity }})</li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </p>
+        <p>
+            You can also find me on:
+            <ul>
+                {% for service in page.services %}
+                    {% unless service.activity %}
+                        <li><a href="{{ service.url }}"><img src="/images/favicons/{{ service.name | downcase }}.ico">{{ service.name }}</a></li>
+                    {% endunless %}
+                {% endfor %}
+            </ul>
+        </p>
+    </div>
+    <h1>Work</h1>
+    <div class="item-list">
+        {% for item in site.posts %}
+            {% if item.layout == 'professional' %}
+                {% include item_info.html %}
+            {% endif %}
+        {% endfor %}
+    </div>
+    <h1>School</h1>
+    <div class="item-list">
+        {% for item in site.posts %}
+            {% if item.layout == 'academic' and item.featured %}
+                {% include item_info.html %}
+            {% endif %}
+        {% endfor %}
+    </div>
 </div>

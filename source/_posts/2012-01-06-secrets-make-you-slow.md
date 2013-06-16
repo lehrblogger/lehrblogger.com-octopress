@@ -8,7 +8,7 @@ dsq_thread_id:
 featured: true
 categories:
   - commentary
-excerpt: Companies that are secretive about their in-progress products are at a significant disadvantage.
+excerpt: Companies that are secretive about in-progress products are at a disadvantage.
 thanks:
   - name: Jorge
     link: "http://twitter.com/jorgeo"
@@ -23,11 +23,11 @@ While people who work at startups tend to be eager to tell anyone who will liste
 
 Imagine the following conversation between a software engineer at a startup and a new acquaintance at an apartment party, who may or may not be the target audience for the product, who may or may not have domain expertise, and who may or may not be sober:
 
-[<img title="startup conver" src="/images/2012/01/startup-conver.png" alt="" width="472" height="315" />][1]
+###### [<img title="startup conver" src="/images/2012/01/startup-conver.png" alt="" width="472" height="315" />][1]
 
 Compare it to a similar conversation between a software engineer at a large, secretive company and that same party guest:
 
-[<img title="google conver" src="/images/2012/01/google-conver.png" alt="" width="472" height="283" />][2]
+###### [<img title="google conver" src="/images/2012/01/google-conver.png" alt="" width="472" height="283" />][2]
 
 Even if the startup employee already knows that real-time mobile local social video sharing is actually a terrible idea, the former conversation is substantially more useful. Companies that are open about their ideas get this sort of feedback constantly, for free, as part of their employees' daily lives. Some of the conversations might be at parties as above, some might be with friends or family or former co-workers, while others might happen during the casual networking at tech meetups.
 '

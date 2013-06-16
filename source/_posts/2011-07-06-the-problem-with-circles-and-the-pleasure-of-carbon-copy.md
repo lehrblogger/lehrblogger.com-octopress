@@ -10,7 +10,7 @@ categories:
   - ITP
   - ITP - thesis
   - Wanderlist
-excerpt: Companies that are secretive about their in-progress products are at a significant disadvantage.
+excerpt: "People don't want to sort their friends in real life or on Google+."
 thanks:
   - name: Jorge Just
     link: "http://twitter.com/jorgej"

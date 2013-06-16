@@ -110,10 +110,7 @@
       article p:first-of-type {
         margin-top: 1em;
       }
-
-    }   
-    header[role=banner] {
-      margin: 0;
+    
     }
     #blog-archives {
       margin-top: 0 !important;
@@ -129,9 +126,7 @@
     header.site-title  {
         display: none;
     }
-  }     
-
-
+  }
 
 
 /* #Mobile (Landscape)
@@ -174,11 +169,8 @@
         margin-top: 2em;
       }
     }
-    header[role=banner] {
-      margin: 0;
-      h1 {
-        padding-top: 2px;
-      }
+    h1 {
+      padding-top: 2px;
     }
     #blog-archives {
       margin-top: 0 !important;

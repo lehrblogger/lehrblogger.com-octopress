@@ -21,6 +21,7 @@ sub {
 
 a {
     @include link-colors($link-color, $hover: $link-color-hover, $focus: $link-color-hover, $visited: $link-color-visited, $active: $link-color-active);
+    text-decoration: none;
 }
 
 hr {
@@ -31,15 +32,77 @@ h1.entry-title a {
     text-decoration: none;
 }
 
+#sidebar,
+#main {
+margin-top: 20px;
+    font-family: $sans;
+}
+#sidebar {
+    h1 {
+        margin-bottom: 0px;
+    }
+}
+h1 {
+    padding-top: 15px;
+    border-top: 3px solid $text-color;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 31px;
+}
+h2 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.item-list {
+    .excerpt {
+        font-style: italic;
+    }
+    .no-excerpt {
+        min-height: 1em;
+        margin: 0 0 20px 0;
+    }
+    .date {
+        color: $text-color-light;
+    }
+}
+.item-list .date.featured {
+    color: $text-color;
+}
+
+#about {
+    .profile-photo {
+        padding-top: 5px;
+        float: right;
+        height: 100px;
+    }
+    #service-lists {
+        ul {
+            margin-top: -10px;
+            margin-left: 25px;
+        }
+        img {
+            height: 16px;
+            padding-right: 8px;
+            margin-bottom: -3px;
+        }
+    }
+}
+
 .entry-content {
+    font-family: $serif;
     iframe,
     object,
-    img {
+    p > img {
         margin: 0 auto;
         display: block;
     }
+    h6 {  // h6 so we can wrap images we want on the same line in a div
+        text-align: center;
+    }
     iframe,
-    object {
+    object,
+    h6 {
         margin-bottom: 20px;
     }
     

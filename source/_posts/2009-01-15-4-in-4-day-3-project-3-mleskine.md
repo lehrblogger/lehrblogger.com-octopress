@@ -1,6 +1,6 @@
 ---
 layout: post
-featured: true
+featured: false
 title: "4-in-4 Day 3 Project 3: M[]leskine"
 permalink: /2009/01/15/4-in-4-day-3-project-3-mleskine/
 dsq_thread_id:

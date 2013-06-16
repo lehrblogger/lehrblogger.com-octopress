@@ -1,6 +1,6 @@
 ---
 layout: post
-featured: true
+featured: false
 title: "GUI Design in AJAX - Keyboard Portfolio"
 permalink: /2008/10/03/gui-design-in-ajax-project-idea/
 dsq_thread_id:
