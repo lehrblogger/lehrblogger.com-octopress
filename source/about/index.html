@@ -1,0 +1,67 @@
+---
+layout: default
+title: About
+services:
+  - name: "Twitter"
+    url: "https://twitter.com/lehrblogger"
+    activity: "5,500+ tweets"
+  - name: "Foursquare"
+    url: "https://twitter.com/lehrblogger"
+    activity: "7,000+ check-ins"
+  - name: "Instagram"
+    url: "http://instagram.com/lehrblogger"
+    activity: "600+ photos"
+  - name: "Pinterest"
+    url: "http://pinterest.com/lehrblogger/"
+    activity: "200+ pins"
+  - name: "GitHub"
+    url: "https://github.com/lehrblogger/"
+    activity: "130+ stars received"
+  - name: LinkedIn
+    url: "http://www.linkedin.com/in/lehrblogger"
+  - name: "Quora"
+    url: "http://www.quora.com/Steven-Lehrburger"
+  - name: "Tumblr"
+    url: "http://lehrblogger.tumblr.com/"
+  - name: "Google+"
+    url: "https://plus.google.com/115135395168287569711"
+  - name: "Facebook"
+    url: "https://www.facebook.com/lehrblogger"
+---
+<header role="banner">
+    <h1>{{ page.title }}<img class="profile-photo" src="/images/profile.jpg"></h1>
+</header>
+<div id="service-lists">
+    <p>
+        My name is Steven Lehrburger, but I go by <strong>@lehrblogger</strong> most everywhere on the Internet. Contact me at lehrburger@gmail.com.
+    </p>
+    <p>
+        I'm especially active on:
+        <ul>
+            {% for service in page.services %}
+                {% if service.activity %}
+                    <li><a href="{{ service.url }}"><img src="/images/favicons/{{ service.name | downcase }}.ico">{{ service.name }}</a> ({{ service.activity }})</li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </p>
+    <p>
+        You can also find me on:
+        <ul>
+            {% for service in page.services %}
+                {% unless service.activity %}
+                    <li><a href="{{ service.url }}"><img src="/images/favicons/{{ service.name | downcase }}.ico">{{ service.name }}</a></li>
+                {% endunless %}
+            {% endfor %}
+        </ul>
+    </p>
+</div>
+TODO resume link
+<div class="professional">
+    {% assign type = 'professional' %}
+    {% include item_infos.html %}
+</div>
+<div class="academic">
+    {% assign type = 'academic' %}
+    {% include item_infos.html %}
+</div>
