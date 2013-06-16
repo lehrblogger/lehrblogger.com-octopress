@@ -2,17 +2,22 @@
 layout: default
 single: true
 ---
-<article class="hentry" role="article">
+<article class="entry" role="article">
     {% include article.html %}
     <footer>
-        <p class="meta">
-            {% if page.previous.url %}
-                <a class="basic-alignment left" href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}">&laquo; {{page.previous.title}}</a>
+        <span class="three columns alpha">
+            {% if page.layout_previous.url %}
+                <a href="{{ page.layout_previous.url }}" title="{{ page.layout_previous.title }}">&laquo; Previous Project</a>
             {% endif %}
-            {% if page.next.url %}
-                <a class="basic-alignment right" href="{{page.next.url}}" title="Next Post: {{page.next.title}}">{{page.next.title}} &raquo;</a>
+        </span>
+        <span class="six columns">
+            <a href="/projects/" title="All Posts">All Projects</a>
+        </span>
+        <span class="three columns omega">
+            {% if page.layout_next.url %}
+                <a href="{{ page.layout_next.url }}" title="{{ page.layout_next.title }}">Next Project &raquo;</a>
             {% endif %}
-        </p>
+        </span>
     </footer>
 </article>
 {% if site.disqus_short_name and page.comments == true %}

@@ -89,30 +89,44 @@ h2 {
     }
 }
 
-.entry-content {
-    font-family: $serif;
-    iframe,
-    object,
-    p > img {
-        margin: 0 auto;
-        display: block;
-    }
-    h6 {  // h6 so we can wrap images we want on the same line in a div
-        text-align: center;
-    }
-    iframe,
-    object,
-    h6 {
-        margin-bottom: 20px;
-    }
+.entry {
+    .entry-content {
+        font-family: $serif;
+        iframe,
+        object,
+        p > img {
+            margin: 0 auto;
+            display: block;
+        }
+        h6 {  // h6 so we can wrap images we want on the same line in a div
+            text-align: center;
+        }
+        iframe,
+        object,
+        h6 {
+            margin-bottom: 20px;
+        }
     
-    .entry-meta {
-        margin: 0 0 20px 0;
-        .entry-update {
-            margin-top: 10px;
-            p {
-                display: inline;
+        .entry-meta {
+            margin: 0 0 20px 0;
+            .entry-update {
+                margin-top: 10px;
+                p {
+                    display: inline;
+                }
             }
+        }
+    }
+    footer {
+        font-family: $sans;
+        .three.columns.alpha {
+            text-align: left;
+        }
+        .six.columns {
+            text-align: center;
+        }
+        .three.columns.omega {
+            text-align: right;
         }
     }
 }
