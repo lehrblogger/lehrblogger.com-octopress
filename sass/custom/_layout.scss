@@ -35,7 +35,8 @@
   /* Note: Design for a width of 768px */
 
   @media only screen and (min-width: 768px) and (max-width: 959px) {
-    .container .four.columns { 
+    .container .four.columns {
+      word-wrap: break-word;
       width: 172px !important;
       margin-right: 10px;
       .title li a {
@@ -72,7 +73,8 @@
     /* Note: Design for a width of 320px */
 
   @media only screen and (max-width: 767px) {
-    .container .four.columns { 
+    .container .four.columns {
+      word-wrap: break-word;
       width: 300px !important;
       margin-right: 0;
       ul.title {
@@ -135,7 +137,8 @@
     /* Note: Design for a width of 480px */
 
   @media only screen and (min-width: 480px) and (max-width: 767px) {
-    .container .four.columns { 
+    .container .four.columns {
+      word-wrap: break-word;
       width: 420px !important;
       margin-right: 0;
       ul.title {
