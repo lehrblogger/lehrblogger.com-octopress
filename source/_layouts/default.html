@@ -51,10 +51,6 @@
                 </div>
             </div>
         </div>
-        <script>
-          jQuery.noConflict()('li.other').hover (function () {
-              jQuery.noConflict()(this).toggleClass("current-menu-item")
-          });
-        </script>
+        {% include analytics_chartbeat.html %}
     </body>
 </html>

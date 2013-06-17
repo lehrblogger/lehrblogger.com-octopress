@@ -1,14 +1,10 @@
 <head>
+    <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
     <meta charset="utf-8">
     <meta name="author" content="{{ site.author }}">
     <meta name="description" content="{{ site.title }}">
     
-    {% if page.categories contains 'persons-of-interest' %}
-        <title>{% if page.title %}{{ page.title }} - {% endif %}Persons of Interest</title>
-    {% else %}
-        <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.author }}</title>
-    {% endif %}
-    
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.url }}</title>
     
     {% capture description %}{% if page.description %}{{ page.description }}{% else %}{{ content | raw_content }}{% endif %}{% endcapture %}
     <meta name="description" content="{{ description | strip_html | condense_spaces | truncate:150 }}">
@@ -33,5 +29,5 @@
     <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
     <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-    {% include google_analytics.html %}
+    {% include analytics_google.html %}
 </head>
