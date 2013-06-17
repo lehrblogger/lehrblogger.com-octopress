@@ -6,16 +6,16 @@ permalink: /delvicious/
 alias: /2009/03/10/delvicious/
 end_date: 2009-05-04
 categories:
-  - ITP - A2Z
   - assignments
-  - ITP
   - projects
+  - ITP
+  - ITP - A2Z
 excerpt: "Full-text search for your Delicious bookmarks."
 show_excerpt: false
 thanks:
   - name: John Rutherford
     link: "http://observationalgastrophysics.blogspot.com/"
-thanks_note: "coming up with the name, which is often, but not always, the hardest part of doing anything on the web."
+thanks_note: "for coming up with the name, which is often, but not always, the hardest part of doing anything on the web."
 ---
 
 #### Delvicious will make it easy to find what you've found before, no matter how disorganized you are.

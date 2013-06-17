@@ -4,7 +4,7 @@ selected: true
 title: Steven Lehrburger
 ---
 <div class="posts twelve columns alpha omega">
-    <h3>Selected Posts - <a href="/posts/">All Posts</a></h3>
+    <h3>Selected Posts</h3>
     <div class="item-list">
         {% for item in site.posts %}
             {% if item.layout == 'post' and item.featured %}
@@ -14,7 +14,7 @@ title: Steven Lehrburger
     </div>
 </div>
 <div class="projects twelve columns alpha omega">
-    <h3>Selected Projects - <a href="/projects/">All Projects</a></h3>
+    <h3>Selected Projects</h3>
     <div class="item-list">
         {% for item in site.posts %}
             {% if item.layout == 'project' and item.featured %}

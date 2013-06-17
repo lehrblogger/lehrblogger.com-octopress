@@ -1,6 +1,6 @@
 ---
 layout: post
-featured: true
+featured: false
 title: "Wanderli.st -- Thesis Presentation"
 permalink: /2010/05/23/wanderlist-thesis-presentation/
 dsq_thread_id:
