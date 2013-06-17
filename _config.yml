@@ -16,10 +16,8 @@ description: Let's make the Internet more like the real world and the real world
 date_format: "ordinal"
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
-subscribe_rss: /atom.xml
-subscribe_email:
-# RSS feeds can list your email address if you like
-email:
+subscribe_rss: /feed/
+email: lehrburger@gmail.com
 
 # ----------------------- #
 #    Jekyll & Plugins     #
