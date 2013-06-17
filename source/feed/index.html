@@ -4,7 +4,7 @@ layout: nil
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[{{ page.title }} - {{ site.title }}]]></title>
-    <link href="{{ site.url }}/{{ page.feed_url }}" rel="self"/>
+    <link href="{{ site.url }}{{ subscribe_rss }}" rel="self"/>
     <link href="{{ site.url }}/"/>
     <updated>{{ site.time | date_to_xmlschema }}</updated>
     <id>{{ site.url }}/</id>
@@ -13,8 +13,8 @@ layout: nil
         {% if site.email %}<email><![CDATA[{{ site.email }}]]></email>{% endif %}
     </author>
     <generator uri="{{ site.url }}">{{ site.author }}</generator>
-    
-    {% for item in site.categories[page.category] limit: 10 %}
+        
+    {% for item in site.posts %}
         {% if item.layout == 'post' %}
             <entry>
                 <title type="html"><![CDATA[{{ item.title | cdata_escape }}]]></title>

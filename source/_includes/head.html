@@ -4,7 +4,7 @@
     <meta name="author" content="{{ site.author }}">
     <meta name="description" content="{{ site.title }}">
     
-    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.url }}</title>
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.url | shorthand_url }}</title>
     
     {% capture description %}{% if page.description %}{{ page.description }}{% else %}{{ content | raw_content }}{% endif %}{% endcapture %}
     <meta name="description" content="{{ description | strip_html | condense_spaces | truncate:150 }}">
