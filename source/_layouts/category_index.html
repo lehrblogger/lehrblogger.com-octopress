@@ -2,10 +2,13 @@
 layout: default
 comments: false
 ---
-<div id="blog-archives" class="category">
-    {% for item in site.categories[page.category] %}
-        <article>
-            {% include item_info.html %}
-        </article>
-    {% endfor %}
+<div class="posts twelve columns alpha omega">
+    <h1><a href="/category/{{ page.category }}/">Category: {{ page.category }}</a></h1>
+    <div class="item-list">
+        {% for item in site.posts %}
+            {% if item.layout == 'post' %}
+                {% include item_info.html %}
+            {% endif %}
+        {% endfor %}
+    </div>
 </div>

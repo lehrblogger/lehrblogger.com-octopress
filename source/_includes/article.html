@@ -17,12 +17,24 @@
     {% endif %}
     <hr>
     <div class="entry-meta">
-        {% include post/date.html %}
-        Published on {{ time }} under {% for category in page.categories %}<a href="/category/{{category | remove: ' ' }}">{{ category }}</a>{% case forloop.rindex %}{% when 1 %}{% when 2 %} and {% else %}, {% endcase %}{% endfor %}.
+        {% capture time %}<time datetime="{{ page.date | datetime | date_to_xmlschema }}" pubdate{% if page.updates %} data-updated="true"{% endif %}>{{ page.date | date: "%d %B %Y" }}</time>{% endcapture %}
+        Published on {{ time }}
+        {% capture num_categories %}{{ page.categories | size }}{% endcapture %}
+        {{ num_categories }}
+        {% if num_categories != '0' %} with
+            {% if num_categories == '1' %}
+                this category:
+            {% else %}
+                these categories:
+            {% endif %}
+            {% for category in page.categories %}<a href="/category/{{category | remove: ' ' }}">{{ category }}</a>{% case forloop.rindex %}{% when 1 %}{% when 2 %} and {% else %}, {% endcase %}{% endfor %}.
+        {% else %}
+            with no categories.
+        {% endif %}
         {% if page.updates %}
             {% for update in page.updates %}
                 <div class="entry-update">
-                    Update on {{ update.date | date_to_long_string }}: {{ update.body | markdownify }}
+                    Update on {{ update.date | date: "%d %B %Y"  }}: {{ update.body | markdownify }}
                 </div>
             {% endfor %}
         {% endif %}

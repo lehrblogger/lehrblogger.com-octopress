@@ -2,11 +2,13 @@
 layout: default
 title: All Projects
 ---
-<div class="item-list">
-    <h1>All Projects - <a href='/#projects'>Selected Projects</a></h1>
-    {% for item in site.posts %}
-        {% if item.layout == 'project' %}
-            {% include item_info.html %}
-        {% endif %}
-    {% endfor %}
+<div>
+    <h1><a href="/projects/">All Projects</a></h1>
+    <div class="item-list">
+        {% for item in site.posts %}
+            {% if item.layout == 'project' %}
+                {% include item_info.html %}
+            {% endif %}
+        {% endfor %}
+    </div>
 </div>

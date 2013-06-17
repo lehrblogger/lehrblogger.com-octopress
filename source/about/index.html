@@ -29,7 +29,7 @@ services:
     url: "https://www.facebook.com/lehrblogger"
 ---
 <div id="about">
-    <h1>{{ page.title }}<img class="profile-photo" src="/images/profile.jpg"></h1>
+    <h1><a href="{{ page.url }}">{{ page.title }}</a><img class="profile-photo" src="/images/profile.jpg"></h1>
     <div id="service-lists">
         <p>
             I'm <strong>@lehrblogger</strong> most everywhere on the Internet.
@@ -58,20 +58,24 @@ services:
             </ul>
         </p>
     </div>
-    <h1>Work</h1>
-    <div class="item-list">
-        {% for item in site.posts %}
-            {% if item.layout == 'professional' %}
-                {% include item_info.html %}
-            {% endif %}
-        {% endfor %}
+    <div class="professional twelve columns alpha omega">
+        <h1>Work</h1>
+        <div class="item-list">
+            {% for item in site.posts %}
+                {% if item.layout == 'professional' %}
+                    {% include item_info.html %}
+                {% endif %}
+            {% endfor %}
+        </div>
     </div>
-    <h1>School</h1>
-    <div class="item-list">
-        {% for item in site.posts %}
-            {% if item.layout == 'academic' and item.featured %}
-                {% include item_info.html %}
-            {% endif %}
-        {% endfor %}
+    <div class="academic twelve columns alpha omega">
+        <h1>School</h1>
+        <div class="item-list">
+            {% for item in site.posts %}
+                {% if item.layout == 'academic' and item.featured %}
+                    {% include item_info.html %}
+                {% endif %}
+            {% endfor %}
+        </div>
     </div>
 </div>

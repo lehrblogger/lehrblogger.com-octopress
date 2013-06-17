@@ -2,25 +2,23 @@
 layout: default
 selected: true
 ---
-<div class="item-list">
-    <div class="posts twelve columns alpha omega">
-        <h1>Selected Posts - <a href='/posts/'>All Posts</a></h1>
-        <div>
-            {% for item in site.posts %}
-                {% if item.layout == 'post' and item.featured %}
-                    {% include item_info.html %}
-                {% endif %}
-            {% endfor %}
-        </div>
+<div class="posts twelve columns alpha omega">
+    <h1>Selected Posts - <a href="/posts/">All Posts</a></h1>
+    <div class="item-list">
+        {% for item in site.posts %}
+            {% if item.layout == 'post' and item.featured %}
+                {% include item_info.html %}
+            {% endif %}
+        {% endfor %}
     </div>
-    <div class="projects twelve columns alpha omega">
-        <h1>Selected Projects - <a href='/projects/' id="projects">All Projects</a></h1>
-        <div>
-            {% for item in site.posts %}
-                {% if item.layout == 'project' and item.featured %}
-                    {% include item_info.html %}
-                {% endif %}
-            {% endfor %}
-        </div>
+</div>
+<div class="projects twelve columns alpha omega">
+    <h1>Selected Projects - <a href="/projects/">All Projects</a></h1>
+    <div class="item-list">
+        {% for item in site.posts %}
+            {% if item.layout == 'project' and item.featured %}
+                {% include item_info.html %}
+            {% endif %}
+        {% endfor %}
     </div>
 </div>

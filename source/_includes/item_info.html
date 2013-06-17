@@ -1,5 +1,5 @@
-<div class="twelve columns alpha omega ">
-    <div class="date two columns alpha {% unless page.selected %}{% if item.featured %}featured{% endif %}{% endunless %}">
+<div class="twelve columns alpha omega">
+    <div class="date two columns alpha{% unless page.selected %}{% if item.featured %} featured{% endif %}{% endunless %}">
         {% if item.end_date %}
             {{ item.date | date: "%b %Y"}} to
             <br/>
