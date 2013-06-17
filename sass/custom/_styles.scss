@@ -70,6 +70,10 @@ h4 {
 }
 
 .item-list {
+    .external .icon-external-link {
+        margin-left: 1px;
+        font-size: 90%;
+    }
     .excerpt {
         font-style: italic;
     }
@@ -80,9 +84,9 @@ h4 {
     .date {
         color: $text-color-light;
     }
-}
-.item-list .date.featured {
-    color: $text-color;
+    .date.featured {
+        color: $text-color;
+    }
 }
 
 #about {

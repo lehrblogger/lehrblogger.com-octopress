@@ -13,7 +13,7 @@
             href='{{ item.external }}' target='_blank' class='external'
         {% else %}
             href='{{ item.url }}'
-        {% endif %}>{{ item.title }}</a>
+        {% endif %}>{{ item.title }}{% if item.external %} <i class="icon-external-link"></i>{% endif %}</a>
         {% if item.excerpt %}
             <div class="excerpt">
                 {{ item.excerpt | markdownify }}
