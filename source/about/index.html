@@ -32,7 +32,7 @@ services:
     url: "https://www.facebook.com/lehrblogger"
 ---
 <div id="about">
-    <h1><a href="{{ page.url }}">{{ page.title }}</a><img class="profile-photo" src="/images/profile.jpg"></h1>
+    <h3><a href="{{ page.url }}">{{ page.title }}</a><img class="profile-photo" src="/images/profile.jpg"></h3>
     <div id="service-lists">
         <p>
             I'm <strong>@lehrblogger</strong> most everywhere on the Internet.
@@ -65,7 +65,7 @@ services:
         </p>
     </div>
     <div class="professional twelve columns alpha omega">
-        <h1>Work</h1>
+        <h3>Work</h3>
         <div class="item-list">
             {% for item in site.posts %}
                 {% if item.layout == 'professional' %}
@@ -75,7 +75,7 @@ services:
         </div>
     </div>
     <div class="academic twelve columns alpha omega">
-        <h1>School</h1>
+        <h3>School</h3>
         <div class="item-list">
             {% for item in site.posts %}
                 {% if item.layout == 'academic' and item.featured %}
