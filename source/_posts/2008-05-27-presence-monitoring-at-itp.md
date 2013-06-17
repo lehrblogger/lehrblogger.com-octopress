@@ -13,6 +13,7 @@ dsq_thread_id:
   - 17673050
 categories:
   - web ideas
+excerpt: "The sort of idea that at least one ITP student has per year..."
 ---
 in class today there was discussion of various notification systems for ITP students about the state of particular systems on the floor (the foosball table, free food, etc). text messages provide a pretty easy way to do this, but the system would need a way of knowing not to bother notifying people who were not on the floor
 

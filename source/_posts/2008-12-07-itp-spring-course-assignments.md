@@ -7,6 +7,7 @@ dsq_thread_id:
   - 17673129
 categories:
   - ITP
+excerpt: "More class shopping."
 ---
 The Spring courses to which I have been assigned are as follows:
 

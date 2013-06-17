@@ -7,8 +7,9 @@ dsq_thread_id:
   - 17673071
 categories:
   - assignments
-  - ITP - ICM
   - ITP
+  - ITP - ICM
+excerpt: "Getting more comfortable with complexity."
 ---
 I expanded on my previous Koch Snowflake Processing sketch to allow for simple zooming and moving. This Zoom Snowflake is also at [OpenProcessing][1].
 

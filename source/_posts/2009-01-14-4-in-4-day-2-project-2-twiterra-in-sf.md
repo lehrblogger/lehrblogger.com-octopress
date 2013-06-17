@@ -6,11 +6,12 @@ permalink: /2009/01/14/4-in-4-day-2-project-2-twiterra-in-sf/
 dsq_thread_id:
   - 17673162
 categories:
-  - ITP
-  - ITP - 4-in-4
   - events
   - presentations
   - projects
+  - ITP
+  - ITP - 4-in-4
+excerpt: "To San Francisco and back in twenty-four hours."
 ---
 For my second day and second project of the 4-in-4, I flew to San Francisco to present my [TwiTerra][1] project at the monthly meeting of the [Bay Area Scala Enthusiasts][2]. The group was set up by Dick Wall and Carl Quinn of the [Java Posse][3] podcast, and my friend [Jorge Ortiz][4] is a member and helps organize the speakers each month. He asked if he could present TwiTerra or if I wanted to come present it myself; I initially thought it infeasible because of my commitment to the 4-in-4, but decided I could do it in a day as my second project and be here in NYC for the other three.
 
@@ -18,7 +19,8 @@ For my second day and second project of the 4-in-4, I flew to San Francisco to p
 
 The presentation was to a group of two-dozen-plus programmers at the Twitter offices in SOMA. I gave a demo of the application and then walked through much of the code, focusing on Java-Scala integration, Actors, Lift's Object Relational Mapping, and the World Wind SDK. It was nice to give a much longer (80 minute?) presentation of the project, in contrast to the <5 minute presentations I gave at the show and at the NY Tech meetup. The presentation went well, and the Twitter employees seemed to particularly enjoy the visualization - [Steve Jenson][6] asked if I could put the .app file on the Mac Mini connected to the TV so that he could show the rest of the office in the morning. 
 
-![][7]  
+![][7]
+
 ![][8]
 
 My flight left from JFK yesterday at 9:00am, arrived in SFO at 12:45pm, and I had time for lunch with a friend before meeting with Jorge to prepare for the 7:00pm presentation at the Twitter offices. I was in a cab back to SFO by 9:15pm and at my gate with plenty of time before my 10:55pm flight, which landed back at JFK at 7:15am. I used Twitter to document the day as it went: 

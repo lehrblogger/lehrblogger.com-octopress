@@ -6,10 +6,11 @@ permalink: /2009/01/14/4-in-4-day-1-project-1-itp-apartment-phyki/
 dsq_thread_id:
   - 17673159
 categories:
-  - ITP
-  - ITP - 4-in-4
   - events
   - projects
+  - ITP
+  - ITP - 4-in-4
+excerpt: "A physical wiki."
 ---
 My first 4-in-4 project was a physical wiki, or 'phyki', on which ITP students could mark the locations of their apartments and find out who else in the program lived nearby.
 

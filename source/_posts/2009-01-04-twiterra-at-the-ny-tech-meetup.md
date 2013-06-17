@@ -7,10 +7,11 @@ dsq_thread_id:
   - 17673150
 categories:
   - events
-  - ITP - ICM
-  - ITP
   - presentations
   - projects
+  - ITP
+  - ITP - ICM
+excerpt: "Presenting to an audience of several hundred people, gulp."
 ---
 I'm presenting TwiTerra at the NY Tech Meetup this Tuesday January 6th at 7pm. It will be at the IAC building, and more info is at <http://www.meetup.com/ny-tech/calendar/9409301/>.
 

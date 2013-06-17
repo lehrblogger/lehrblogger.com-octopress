@@ -5,6 +5,11 @@ title: "Stanford in Sketchup"
 permalink: /stanford-in-sketchup/
 alias: [/2007/01/26/stanford-in-sketchup/]
 end_date: 2007-08-09
+excerpt: "\"It's only a model!\""
+thanks:
+  - name: "Joseph Bergen"
+    link: "https://twitter.com/jbergen"
+thanks_note: "for helping me teach the class and get the models finished."
 ---
 ![](/projects/google_earth.jpg)
 

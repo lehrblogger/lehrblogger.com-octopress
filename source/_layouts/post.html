@@ -9,7 +9,7 @@ single: true
             {% if page.layout_previous.url %}
                 <a href="{{ page.layout_previous.url }}" title="{{ page.layout_previous.title }}">&laquo; Previous Post</a>
             {% else %}
-                [First Post]
+                (This is the first post.)
             {% endif %}
         </span>
         <span class="six columns">
@@ -19,7 +19,7 @@ single: true
             {% if page.layout_next.url %}
                 <a href="{{ page.layout_next.url }}" title="{{ page.layout_next.title }}">Next Post &raquo;</a>
             {% else %}
-                [Last Post]
+                (This is the last post.)
             {% endif %}
         </span>
     </footer>

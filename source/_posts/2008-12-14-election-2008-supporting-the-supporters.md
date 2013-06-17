@@ -4,8 +4,9 @@ title: "Election 2008 - Supporting the Supporters"
 permalink: /2008/12/14/election-2008-supporting-the-supporters/
 categories:
   - assignments
-  - ITP - Election
   - ITP
+  - ITP - Election
+excerpt: "(Markdown's support for [footnotes](http://michelf.ca/projects/php-markdown/extra/#footnotes) is *amazing*.)"
 updates:
   - date: 2008-12-15
     body: Clay has posted a zip file of many of our papers in one of his guest posts on [Boing Boing](http://www.boingboing.net/2008/12/14/uncertainties-in-ama.html)!

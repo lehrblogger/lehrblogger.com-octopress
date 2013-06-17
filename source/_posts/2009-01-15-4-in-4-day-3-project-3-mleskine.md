@@ -6,14 +6,15 @@ permalink: /2009/01/15/4-in-4-day-3-project-3-mleskine/
 dsq_thread_id:
   - 17673164
 categories:
-  - ITP - 4-in-4
   - events
-  - ITP
   - lifehacks
   - projects
+  - ITP
+  - ITP - 4-in-4
+excerpt: "I always carry a notebook."
 updates:
   - date: 2011-12-18
-    body: "There is a similar notebook made by [Suck UK](http://www.suck.uk.com/) for sale [here](http://aplusrstore.com/product.php?id=11&cid=106) and [here](http://www.momastore.org/museum/moma/ProductDisplay_Mini%20Notebook%20and%20Pencil_10451_10001_105552_-1_26674_26677_105565), as well as this one made by [Düller](http://www.idea-in.com/duller/) and [Dietrich Lubs](http://en.wikipedia.org/wiki/Braun_(company)#Design_department) for sale [here](http://aplusrstore.com/product.php?id=576&cid=64). I still like mine better though :)"
+    body: "There is a similar notebook made by [Suck UK](http://www.suck.uk.com/) for sale [here](http://aplusrstore.com/product.php?id=11&cid=106) and [here](http://www.momastore.org/museum/moma/ProductDisplay_Mini%20Notebook%20and%20Pencil_10451_10001_105552_-1_26674_26677_105565), as well as this one made by [Düller](http://www.idea-in.com/duller/) and [Dietrich Lubs](http://en.wikipedia.org/wiki/Braun_%28company%29#Design_department) for sale [here](http://aplusrstore.com/product.php?id=576&cid=64). I still like mine better though :)"
 ---
 I was in NYC for a couple of weeks during the summer of 2006 after I finished the [Career Discovery Program][1] in architecture at Harvard's Graduate School of Design, and I went to see the exhibit of the work of architect [Zaha Hadid][2] at the Guggenheim. I enjoyed exploring the variety of her built and unbuilt design work, but it was her sketchbooks that made the most lasting impression (image by [Ivar Hagendoorn][3], same books different exhibit) --
 

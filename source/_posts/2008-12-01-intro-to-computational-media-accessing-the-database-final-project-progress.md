@@ -7,8 +7,9 @@ dsq_thread_id:
   - 17673124
 categories:
   - assignments
-  - ITP - ICM
   - ITP
+  - ITP - ICM
+excerpt: "More Mysql."
 ---
 *project page with previous posts [here][1]*
 

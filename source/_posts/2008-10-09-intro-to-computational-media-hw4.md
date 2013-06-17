@@ -7,8 +7,9 @@ dsq_thread_id:
   - 17673086
 categories:
   - assignments
-  - ITP - ICM
   - ITP
+  - ITP - ICM
+excerpt: "Baby's first Scala!"
 ---
 (Sorry for the late post -- I was hoping to find a better way to post this online, but no luck so far.)
 

@@ -7,8 +7,9 @@ dsq_thread_id:
   - 17673081
 categories:
   - assignments
-  - ITP - Election
   - ITP
+  - ITP - Election
+excerpt: "Title: *Text Media: A Comparative Analysis of Contextual Importance*"
 ---
 The assignment was to "write a short paper comparing three pieces of political media related to the 2008 Presidential election," all both produced and distributed outside of the traditional channels ([PDF][1]).
 

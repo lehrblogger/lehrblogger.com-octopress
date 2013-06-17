@@ -5,10 +5,11 @@ title: "Intro to Computational Media - Additional Description of TwiTerra"
 permalink: /2008/12/19/intro-to-computational-media-additional-description-of-twiterra/
 dsq_thread_id:
   - 17673140
-categories:
-  - ITP - Election
-  - ITP
+categories:  
   - projects
+  - ITP
+  - ITP - Election
+excerpt: "More info/thinking about TwiTerra."
 ---
 *I wanted to move some of the lengthy text (that was originally written for the ITP Projects Database) off of the main TwiTerra page, and I'm backdating this post so that readers don't see it again.*
 

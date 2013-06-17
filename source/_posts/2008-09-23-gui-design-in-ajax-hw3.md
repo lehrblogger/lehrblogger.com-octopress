@@ -4,9 +4,10 @@ featured: false
 title: "GUI Design in AJAX - HW3"
 permalink: /2008/09/23/gui-design-in-ajax-hw3/
 categories:
-  - ITP - AJAX
   - assignments
   - ITP
+  - ITP - AJAX
+excerpt: "I still like the portfolio website idea in Part 3."
 ---
 Part 1: <{{site.url}}/projects/fall08/ajax/hw3/part1>  
 Part 2: <{{site.url}}/projects/fall08/ajax/hw3/part2>  

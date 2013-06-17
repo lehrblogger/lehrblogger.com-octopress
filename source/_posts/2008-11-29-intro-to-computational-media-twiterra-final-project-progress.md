@@ -7,8 +7,9 @@ dsq_thread_id:
   - 17673122
 categories:
   - assignments
-  - ITP - ICM
   - ITP
+  - ITP - ICM
+excerpt: "Collecting metadata about retweets was not easy."
 ---
 *previously:* [project proposal][1], [midterm progress][2], [initial idea][3], [Twitter/Scala experiments][4] 
 

@@ -11,6 +11,7 @@ blogger_permalink:
   - /2008/09/classes-for-fall-2008.html
 categories:
   - ITP
+excerpt: "Not the usual core classes of the first semester, but I regret nothing."
 ---
 [Applications of Interactive Technologies][1]  
 &nbsp;&nbsp;&nbsp;&nbsp;with [Red Burns][2]  

@@ -5,8 +5,9 @@ title: "Election 2008 - Assignment 2"
 permalink: /2008/11/18/election-2008-assignment-2/
 categories:
   - assignments
-  - ITP - Election
   - ITP
+  - ITP - Election
+excerpt: "Title: *Supporting the Supporters in the 2012 Election: Video Media*"
 ---
 The assignment was as follows:
 

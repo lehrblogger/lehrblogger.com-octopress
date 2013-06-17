@@ -7,6 +7,7 @@ dsq_thread_id:
   - 17673104
 categories:
   - web ideas
+excerpt: "Five years later, and Time Warner has not improved."
 ---
 I know a lot of people who are unhappy with their ISP (Internet Service Provider) -- connections are often slow and unreliable, customer service is abysmal, and sometimes there are even [explicit usage restrictions][1]. Even worse, many areas are dominated by a single companies with local monopolies, so the consumer doesn't even have a choice. Finally, there are many rural areas for which no one has even bothered to build broadband access, raising issues relating to the '[digital divide][2]'.
 

@@ -5,8 +5,9 @@ title: "Intro to Computational Media - TwiTerra Milestone (Final Project Progres
 permalink: /2008/12/04/intro-to-computational-media-twiterra-milestone-final-project-progress/
 categories:
   - assignments
-  - ITP - ICM
   - ITP
+  - ITP - ICM
+excerpt: "Jumping tweets :)"
 ---
 *project page with previous posts [here][1]*
 

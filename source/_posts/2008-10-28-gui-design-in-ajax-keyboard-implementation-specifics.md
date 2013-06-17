@@ -6,9 +6,10 @@ permalink: /2008/10/28/gui-design-in-ajax-keyboard-implementation-specifics/
 dsq_thread_id:
   - 17673109
 categories:
-  - ITP - AJAX
   - assignments
   - ITP
+  - ITP - AJAX
+excerpt: "I have a GitHub account now!"
 ---
 **recently**: [current upload][1]  
 *previously*: [initial idea][2], [implementation experiments][3], [early progress][4]

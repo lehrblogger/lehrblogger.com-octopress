@@ -6,9 +6,10 @@ permalink: /2008/10/21/gui-design-in-ajax-keyboard-progress/
 dsq_thread_id:
   - 17673096
 categories:
-  - ITP - AJAX
   - assignments
   - ITP
+  - ITP - AJAX
+excerpt: "Javascript performance issues, already."
 ---
 I made substantial progress on the main layout and animation for my keyboard portfolio. The keyboard is built dynamically from what is now an array of letters, and I used the MooTools tween/morphing functionality to handle the animation. Tweening of both the size and location of keys on the full keyboard at 24 fps seems to be more than my browser can handle, however, and I need to figure out a way to improve performance. There are three versions below - the first is without any tweening, the second is with tweening for only a part of the keyboard, and the third is with tweening for the whole keyboard.
 

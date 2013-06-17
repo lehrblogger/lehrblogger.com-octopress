@@ -6,11 +6,12 @@ permalink: /2009/01/15/4-in-4-day-4-project-4-social-network-organization/
 dsq_thread_id:
   - 17673168
 categories:
-  - ITP - 4-in-4
   - events
-  - ITP
   - lifehacks
   - projects
+  - ITP
+  - ITP - 4-in-4
+excerpt: "This is *still* a problem for me on Twitter."
 ---
 My final 4-in-4 project was originally going to be "Plan Trip to SXSW" -- including buying plane tickets and book a hotel -- but not quite enough people seemed like they were ready to commit yet (props to [Liesje][1] for being decisive).
 

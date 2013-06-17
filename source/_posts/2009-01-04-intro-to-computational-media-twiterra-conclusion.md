@@ -5,9 +5,10 @@ title: "Intro to Computational Media - TwiTerra Conclusion"
 permalink: /2009/01/04/intro-to-computational-media-twiterra-conclusion/
 dsq_thread_id:
   - 17673147
-categories:
-  - ITP - ICM
+categories:  
   - ITP
+  - ITP - ICM
+excerpt: "Baby's first ITP Show!"
 ---
 *project page [here][1] with previous posts and a [new video][2]*
 
@@ -15,9 +16,10 @@ categories:
 
 On December 17th and 18th I presented TwiTerra at [ITP's Winter Show][3] - an estimated 2400 people attended to see the 100+ student projects on display. People seemed to enjoy my visualization, and it was a lot of fun (and exhausting) to explain it so many times to so many different people. My standard line was, "Hi, are you familiar with Twitter?"
 
-I'd like to thank everyone who took pictures at the show, especially second-year ITP student [David Steele Overholt][4], whose photos are below:  
-[<img src="http://farm4.static.flickr.com/3027/3132063946_261b294802.jpg">][5]  
-[<img src="http://farm4.static.flickr.com/3114/3132048006_2578af0357.jpg">][6]
+I'd like to thank everyone who took pictures at the show, especially second-year ITP student [David Steele Overholt][4], whose photos are below:
+
+###### [<img src="http://farm4.static.flickr.com/3027/3132063946_261b294802.jpg">][5]
+###### [<img src="http://farm4.static.flickr.com/3114/3132048006_2578af0357.jpg">][6]
 
 TwiTerra got mentioned in several write-ups of the show (let me know if you know of more!
 

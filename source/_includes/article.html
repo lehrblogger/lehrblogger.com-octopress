@@ -21,7 +21,6 @@
         {% capture time %}<time datetime="{{ page.date | datetime | date_to_xmlschema }}" pubdate{% if page.updates %} data-updated="true"{% endif %}>{{ page.date | date: "%d %B %Y" }}</time>{% endcapture %}
         Published on {{ time }}
         {% capture num_categories %}{{ page.categories | size }}{% endcapture %}
-        {{ num_categories }}
         {% if num_categories != '0' %} with
             {% if num_categories == '1' %}
                 this category:

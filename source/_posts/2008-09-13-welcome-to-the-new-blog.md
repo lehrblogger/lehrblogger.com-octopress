@@ -5,6 +5,7 @@ title: "Welcome to the new blog!"
 permalink: /2008/09/13/welcome-to-the-new-blog/
 categories:
   - admin
+excerpt: "Baby's first domain registration?!"
 ---
 I am switching over from Blogger to WordPress on my own domain -- lehrblogger.com -- for a variety of reasons including but not limited to: curiosity about WordPress, annoyances with the Blogger interface, and love for the new domain name (Gabriela deserves credit for the idea). I hope you and your RSS feeds will follow me to here!
 

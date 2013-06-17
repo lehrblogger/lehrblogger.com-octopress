@@ -5,6 +5,7 @@ title: "Short Films"
 permalink: /short-films/
 alias: [/2004/10/01/short-films/]
 end_date: 2005-05-21
+excerpt: "Before I wanted to be an architect, I wanted to make movies..."
 updates:
   - date: 2009-03-31
     body: "I've finished moving the films from Google Video (which won't let me change the thumbnail still) to Vimeo (which is prettier and more easily configurable)."
@@ -16,13 +17,13 @@ During the 2004-2005 academic year I participated in the [Stanford Film Society]
 *   [Out of In Between][4] 4m30s
 *   [Happy Birthday][5] 2m32s
 
-{% iframe_embed vimeo 3721708 %}
+{% iframe_embed vimeo 3721708 560 421 %}
 
-{% iframe_embed vimeo 3832278 %}
+{% iframe_embed vimeo 3832278 560 421 %}
 
-{% iframe_embed vimeo 3747128 %}
+{% iframe_embed vimeo 3747128 560 421 %}
 
-{% iframe_embed vimeo 3950917 %}
+{% iframe_embed vimeo 3950917 560 421 %}
 
  [1]: http://www.stanford.edu/group/sfs/
  [2]: http://vimeo.com/3721708

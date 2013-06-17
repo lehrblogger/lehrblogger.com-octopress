@@ -6,9 +6,10 @@ permalink: /2008/10/26/redslist-an-introduction-to-the-project/
 dsq_thread_id:
   - 17673106
 categories:
-  - ITP
   - projects
   - web ideas
+  - ITP
+excerpt: "Five years later, and craigslist still owns that marketplace."
 ---
 All first-year students are required to take Red Burns' class Applications of Interactive Technologies, and it consists of weekly speakers (such as artist [Vito Acconci][1], activist blogger [Ethan Zuckerman][2], and Microsoft Research group manager [Lili Cheng][3]) and student presentations on the previous week's speaker. Two groups of approximately five students present every week, and those groups may also combine and present together.
 

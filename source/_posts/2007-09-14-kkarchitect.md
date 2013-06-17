@@ -3,7 +3,7 @@ layout: professional
 featured: true
 title: "Kevin Kennon Architect"
 end_date: 2008-07-03
-excerpt: ""
+excerpt: "I worked on models and renderings for various commercial and residential projects."
 external: "http://kkarchitect.com/"
 ---
  * Developed a full-featured dynamic Flash website to re-establish KKA’s online presence

@@ -7,8 +7,9 @@ dsq_thread_id:
   - 17673113
 categories:
   - assignments
-  - ITP - ICM
   - ITP
+  - ITP - ICM
+excerpt: "Perhaps more 'talking things through' than 'proposing'."
 ---
 *previously:* [midterm progress][1], [initial idea][2], [Twitter/Scala experiments][3]
 

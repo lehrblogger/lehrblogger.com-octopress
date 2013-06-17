@@ -7,8 +7,9 @@ dsq_thread_id:
   - 17673100
 categories:
   - assignments
-  - ITP - ICM
   - ITP
+  - ITP - ICM
+excerpt: "NASA is the best for open-sourcing that library."
 ---
 For my midterm project, I started to combine the work with Twitter retweets from [last class][1] with a map/globe-based visualization. Since many Twitter users have geographic information associated with their accounts (made particularly easily accessible through the [TwitterVision API][2]), I wanted to explore mapping certain conversation patterns on Twitter to their actual locations. My intention was to show how retweets create links between different geographic locations over time, perhaps even forming chains or trees. I considered using a two dimensional map, but I thought the globe was much better for conveying the connectedness of the world.
 
@@ -16,7 +17,7 @@ NASA has made their [World Wind][3] globe available as an open source project, a
 
 Since I did not use Processing at all for this project (instead relying on World Wind for the graphical interface), I was not able to export a embeddable Java Applet. Instead, a video I screen-captured is embedded below. I have also posted the Scala files, and feel free to contact me if you have any questions about how I got this working in Eclipse.
 
-{% iframe_embed vimeo 2049975 %}  
+{% iframe_embed vimeo 2049975 700 398 %}  
 [ICM Midterm - Jumping Tweets][4] from [me][5] on [Vimeo][6] (you can watch a high definition version there)
 
 (Sorry for the graphic strangeness at the beginning of the video -- I think that happened during the import to FCP, and I'm not sure how to fix it (or if it's worth the trouble).)

@@ -6,10 +6,11 @@ permalink: /2009/01/08/twiterra-statistics-and-brilliant-viral-marketing/
 dsq_thread_id:
   - 17673154
 categories:
-  - ICM
-  - ITP
   - projects
   - web ideas
+  - ITP
+  - ITP - ICM
+excerpt: "Twitter took its time monetizing, but there should never have been doubt."
 ---
 (The presentation at the NY Tech Meetup went very well, and I will post about that later.)
 

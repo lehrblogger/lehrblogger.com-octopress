@@ -13,9 +13,10 @@ dsq_thread_id:
   - 17673058
 categories:
   - assignments
-  - ITP
   - lifehacks
+  - ITP
   - ITP - SocObj
+excerpt: "There will be time, there will be time."
 ---
 My final project for my first ITP class involved the automated manipulation of time to improve a user's behavior in coordinating with other people. People are often late, and in an effort to make themselves less late they set their watches and clocks fast. This causes people to think that they have less time than they actually do, and as a result they hurry more and are less late, which is theoretically good for everyone.
 
@@ -34,28 +35,28 @@ Additional work on the project could include multiple types of devices (how woul
 [Processing code for Computer][3]
 
 Following are the slides that I used for my in-class presentation, a demo video of the entire project, a demo video of only the watch component, and several images.
-    
-<iframe src="http://280slides.com/Viewer/?user=4512&amp;name=ITP_SocObj_final" style="border: 1px solid black; margin: 0pt; padding: 0pt;" height="328" width="400"></iframe>
 
-{% iframe_embed vimeo 1262325 %}
+<iframe src="http://280slides.com/Viewer/?user=4512&amp;name=ITP_SocObj_final" style="border: 1px solid black; padding: 0pt;" height="328" width="400"></iframe>
 
-{% iframe_embed vimeo 1262447 %}
+{% iframe_embed vimeo 1262325 630 421%}
+
+{% iframe_embed vimeo 1262447 560 421%}
   
-<a href="http://lehrburger.com/SocObj_FinalProject/SocObj_FinalProject-2.jpg"><img src="http://lehrburger.com/SocObj_FinalProject/SocObj_FinalProject-2.jpg" alt="" id="BLOGGER_PHOTO_ID_5205122160176868562" /></a>
+###### <a href="http://lehrburger.com/SocObj_FinalProject/SocObj_FinalProject-2.jpg"><img src="http://lehrburger.com/SocObj_FinalProject/SocObj_FinalProject-2.jpg" alt="" id="BLOGGER_PHOTO_ID_5205122160176868562" /></a>
 
-<a href="http://lehrburger.com/SocObj_FinalProject/SocObj_FinalProject-5.jpg"><img src="http://lehrburger.com/SocObj_FinalProject/SocObj_FinalProject-5.jpg" alt="" id="BLOGGER_PHOTO_ID_5205122160176868562" /></a>
+###### <a href="http://lehrburger.com/SocObj_FinalProject/SocObj_FinalProject-5.jpg"><img src="http://lehrburger.com/SocObj_FinalProject/SocObj_FinalProject-5.jpg" alt="" id="BLOGGER_PHOTO_ID_5205122160176868562" /></a>
 
-<a href="http://lehrburger.com/SocObj_FinalProject/SocObj_FinalProject-10.jpg"><img src="http://lehrburger.com/SocObj_FinalProject/SocObj_FinalProject-10.jpg" alt=" " id="BLOGGER_PHOTO_ID_5205122160176868562" /></a>
+###### <a href="http://lehrburger.com/SocObj_FinalProject/SocObj_FinalProject-10.jpg"><img src="http://lehrburger.com/SocObj_FinalProject/SocObj_FinalProject-10.jpg" alt=" " id="BLOGGER_PHOTO_ID_5205122160176868562" /></a>
 
-<a href="http://lehrburger.com/SocObj_FinalProject/SocObj_FinalProject-14.jpg"><img src="http://lehrburger.com/SocObj_FinalProject/SocObj_FinalProject-14.jpg" alt="" id="BLOGGER_PHOTO_ID_5205122160176868562" /></a>
+###### <a href="http://lehrburger.com/SocObj_FinalProject/SocObj_FinalProject-14.jpg"><img src="http://lehrburger.com/SocObj_FinalProject/SocObj_FinalProject-14.jpg" alt="" id="BLOGGER_PHOTO_ID_5205122160176868562" /></a>
 
-<a href="http://lehrburger.com/SocObj_FinalProject/SocObj_FinalProject-16.jpg"><img src="http://lehrburger.com/SocObj_FinalProject/SocObj_FinalProject-16.jpg" alt="" id="BLOGGER_PHOTO_ID_5205122160176868562" /></a>
+###### <a href="http://lehrburger.com/SocObj_FinalProject/SocObj_FinalProject-16.jpg"><img src="http://lehrburger.com/SocObj_FinalProject/SocObj_FinalProject-16.jpg" alt="" id="BLOGGER_PHOTO_ID_5205122160176868562" /></a>
 
-<a href="http://lehrburger.com/SocObj_FinalProject/SocObj_FinalProject-19.jpg"><img src="http://lehrburger.com/SocObj_FinalProject/SocObj_FinalProject-19.jpg" alt="" id="BLOGGER_PHOTO_ID_5205122160176868562" /></a>
+###### <a href="http://lehrburger.com/SocObj_FinalProject/SocObj_FinalProject-19.jpg"><img src="http://lehrburger.com/SocObj_FinalProject/SocObj_FinalProject-19.jpg" alt="" id="BLOGGER_PHOTO_ID_5205122160176868562" /></a>
 
-<a href="http://lehrburger.com/SocObj_FinalProject/SocObj_FinalProject-21.jpg"><img src="http://lehrburger.com/SocObj_FinalProject/SocObj_FinalProject-21.jpg" alt="" id="BLOGGER_PHOTO_ID_5205122160176868562" /></a>
+###### <a href="http://lehrburger.com/SocObj_FinalProject/SocObj_FinalProject-21.jpg"><img src="http://lehrburger.com/SocObj_FinalProject/SocObj_FinalProject-21.jpg" alt="" id="BLOGGER_PHOTO_ID_5205122160176868562" /></a>
 
-<a href="http://lehrburger.com/SocObj_FinalProject/SocObj_FinalProject-24.jpg"><img src="http://lehrburger.com/SocObj_FinalProject/SocObj_FinalProject-24.jpg" alt="" id="BLOGGER_PHOTO_ID_5205122160176868562" /></a>
+###### <a href="http://lehrburger.com/SocObj_FinalProject/SocObj_FinalProject-24.jpg"><img src="http://lehrburger.com/SocObj_FinalProject/SocObj_FinalProject-24.jpg" alt="" id="BLOGGER_PHOTO_ID_5205122160176868562" /></a>
 
  [1]: http://lehrburger.com/FP_Watch_web.pde
  [2]: http://lehrburger.com/FP_SerialLCD_web.pde

@@ -15,6 +15,7 @@ categories:
   - assignments
   - ITP
   - ITP - SocObj
+excerpt: "If you ever felt like Rock Paper Scissors was too easy to play."
 ---
 For this assignment, Armanda and I each built a circuit with an Arduino, an XBee radio, four switches, and several LEDs to play the game [Rock Paper Scissors][1].
 
@@ -25,16 +26,16 @@ We extended the project to build a third circuit to keep score of the game. A th
 The Arduino code for each the two players is online [here][3], and the code for the scorekeeper is online [here][4]
 
 Video with scorekeeper:  
-{% iframe_embed youtube nJ8kfZUNQD4 %}
+{% iframe_embed youtube nJ8kfZUNQD4 520 421 %}
 
 Video without scorekeeper:  
-{% iframe_embed vimeo 1139999 %}
+{% iframe_embed vimeo 1139999 632 421 %}
 
-<a href="http://lehrburger.com/SocObj_RPSLab/SANY0005.jpg"><img src="http://lehrburger.com/SocObj_RPSLab/SANY0005.jpg" alt="" id="BLOGGER_PHOTO_ID_5205122160176868562" /></a>
+###### <a href="http://lehrburger.com/SocObj_RPSLab/SANY0005.jpg"><img src="http://lehrburger.com/SocObj_RPSLab/SANY0005.jpg" alt="" id="BLOGGER_PHOTO_ID_5205122160176868562" /></a>
 
-<a href="http://lehrburger.com/SocObj_RPSLab/SANY0004.jpg"><img src="http://lehrburger.com/SocObj_RPSLab/SANY0004.jpg" alt="" id="BLOGGER_PHOTO_ID_5205122160176868562" /></a>
+###### <a href="http://lehrburger.com/SocObj_RPSLab/SANY0004.jpg"><img src="http://lehrburger.com/SocObj_RPSLab/SANY0004.jpg" alt="" id="BLOGGER_PHOTO_ID_5205122160176868562" /></a>
 
-<a href="http://lehrburger.com/SocObj_RPSLab/SANY0002.jpg"><img src="http://lehrburger.com/SocObj_RPSLab/SANY0002.jpg" alt="" id="BLOGGER_PHOTO_ID_5205122160176868562" /></a>
+###### <a href="http://lehrburger.com/SocObj_RPSLab/SANY0002.jpg"><img src="http://lehrburger.com/SocObj_RPSLab/SANY0002.jpg" alt="" id="BLOGGER_PHOTO_ID_5205122160176868562" /></a>
   
  [1]: http://en.wikipedia.org/wiki/Rock_paper_scissors
  [2]: http://lehrburger.blogspot.com/2008/05/pcomp-binary-counter.html"

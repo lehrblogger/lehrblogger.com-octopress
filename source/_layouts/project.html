@@ -9,7 +9,7 @@ single: true
             {% if page.layout_previous.url %}
                 <a href="{{ page.layout_previous.url }}" title="{{ page.layout_previous.title }}">&laquo; Previous Project</a>
             {% else %}
-                [First Project]
+                (This is the first project.)
             {% endif %}
         </span>
         <span class="six columns">
@@ -19,7 +19,7 @@ single: true
             {% if page.layout_next.url %}
                 <a href="{{ page.layout_next.url }}" title="{{ page.layout_next.title }}">Next Project &raquo;</a>
             {% else %}
-                [Last Project]
+                (This is the last project.)
             {% endif %}
         </span>
     </footer>

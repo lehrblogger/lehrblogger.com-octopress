@@ -6,9 +6,10 @@ permalink: /2008/11/04/gui-design-in-ajax-keyboard-content-management-page/
 dsq_thread_id:
   - 17673111
 categories:
-  - ITP - AJAX
   - assignments
   - ITP
+  - ITP - AJAX
+excerpt: "Reinventing the CMS-wheel."
 ---
 I set up a local MySQL database to store the information about the keys, and I made two web pages to interact with that database. The first displays a table of the current contents of the database (currently, what text is associated with each key) and the second allows you to add, update, or delete database entries for the keys.
 

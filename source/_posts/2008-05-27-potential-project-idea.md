@@ -11,6 +11,7 @@ blogger_permalink:
   - /2008/05/from-jan-chipchases-blog-future-perfect.html
 categories:
   - web ideas
+excerpt: "(This is the sort of thing that belongs on [Tumblr](http://lehrblogger.tumblr.com).)"
 ---
 from Jan Chipchase's blog Future Perfect:
 

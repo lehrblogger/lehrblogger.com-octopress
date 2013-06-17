@@ -6,10 +6,11 @@ permalink: /2008/09/15/gui-design-in-ajax-hw2/
 dsq_thread_id:
   - 17673069
 categories:
-  - ITP - AJAX
   - assignments
-  - ITP
   - presentations
+  - ITP
+  - ITP - AJAX
+excerpt: "GitHub was less than six months old when I posted this."
 ---
 Part 1: <{{site.url}}/projectsfall08/ajax/hw2/part1>  
 Part 2: <{{site.url}}/projects/fall08/ajax/hw2/part2>  

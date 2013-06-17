@@ -7,8 +7,9 @@ dsq_thread_id:
   - 17673077
 categories:
   - assignments
-  - ITP - ICM
   - ITP
+  - ITP - ICM
+excerpt: "In order to understand recursion,"
 ---
 I further expanded on my previous Koch Snowflake Processing sketch to allow for dynamic zooming and moving. This Dynamic Snowflake is also at [OpenProcessing][1].
 
