@@ -6,7 +6,7 @@
     {% include head.html %}
     <body>
         <div class="container">
-            <div id="sidebar" class="four columns">
+            <div id="sidebar" class="four columns alpha">
                 <h1>
                     <a href="/">lehrblogger.com</a>
                 </h1>
@@ -39,13 +39,17 @@
                     {% endif %}
                 </div>
             </div>
-            <div id="main" class="twelve columns">
+            <div id="main" class="twelve columns omega">
                 <div id="content">
                     {{ content | expand_urls: root_url }}
                 </div>
             </div>
-            <footer role="contentinfo"  class="sixteen columns">{% include footer.html %}</footer>
-            {% include disqus.html %}
+            <div id="footer" class="sixteen columns alpha omega">
+                <div class="four columns alpha"></div>
+                <div class="twelve columns omega">
+                    <a href="/">{{ site.title }}</a> is powered by <a href="http://aws.amazon.com/s3/">Amazon S3</a>, <a href="http://jekyllrb.com">Jekyll</a>, <a href="https://github.com/imathis/octopress">Octopress</a>, <a href="https://github.com/dhgamache/Skeleton">Skeleton</a>, and <a href="https://github.com/lehrblogger/lehrblogger.com-octopress">GitHub</a>.
+                </div>
+            </div>
         </div>
         <script>
           jQuery.noConflict()('li.other').hover (function () {

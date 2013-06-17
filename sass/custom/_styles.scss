@@ -34,13 +34,12 @@ h1.entry-title a {
 
 #sidebar,
 #main {
-margin-top: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     font-family: $sans;
 }
-#sidebar {
-    h1 {
+#sidebar h1 {
         margin-bottom: 0px;
-    }
 }
 h1 {
     padding-top: 15px;
@@ -48,6 +47,7 @@ h1 {
     font-weight: 700;
     font-size: 28px;
     line-height: 31px;
+    letter-spacing: 1px;
 }
 h2 {
     font-weight: 700;
@@ -128,5 +128,20 @@ h2 {
         .three.columns.omega {
             text-align: right;
         }
+    }
+}
+
+#footer {
+    margin-top: 10px;
+    .twelve.columns,
+    .four.columns {
+        border-top: 3px solid $text-color-light;
+     }
+    .twelve.columns {
+        color: $text-color-light;
+        a {
+            color: $text-color-light;
+        }
+        padding: 30px 0 30px 0;
     }
 }
