@@ -6,9 +6,11 @@ permalink: /2009/05/04/little-computers-meetapp-working-demo/
 dsq_thread_id:
   - 17673229
 categories:
-  - ITP
-  - Little Computers
   - projects
+  - ITP
+  - ITP - Little Computers
+excerpt: "Baby's first iPhone app."
+show_excerpt: true
 ---
 *previously:* [project description][1], [initial progress][2]
 

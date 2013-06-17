@@ -10,6 +10,8 @@ categories:
   - projects
   - ITP - thesis
   - Wanderlist
+excerpt: "\"What’s in a name?\""
+show_excerpt: false
 updates:
   - date: 2011-10-09
     body: "I'm no longer working on the project, so I let the $87/year wanderli.st domain expire and removed that link to minimize confusion."

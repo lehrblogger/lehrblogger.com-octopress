@@ -8,6 +8,7 @@ dsq_thread_id:
 categories:
   - ITP
 excerpt: "Learning how to strategically shop classes."
+show_excerpt: true
 ---
 The courses for Spring semester were posted recently, and you can see a full listing of the exciting options [here][1]. Course sizes are limited to 16(?) students, and some courses will be more popular than others, so each student is asked to rank their top ten choices. An algorithm then assigns students to classes in a random order, with preference given to second-year students over first-years. The results will be made available on Monday, and my preferences were as follows:
 

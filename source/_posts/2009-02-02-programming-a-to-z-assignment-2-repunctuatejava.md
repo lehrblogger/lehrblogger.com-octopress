@@ -6,9 +6,11 @@ permalink: /2009/02/02/programming-a-to-z-assignment-2-repunctuatejava/
 dsq_thread_id:
   - 17673174
 categories:
-  - ITP - A2Z
   - assignments
   - ITP
+  - ITP - A2Z
+excerpt: "\"Expanding on/explicitly exacerbating the problem of punctuation.\""
+show_excerpt: true
 ---
 The second assignment was posted [here][1], and was to
 

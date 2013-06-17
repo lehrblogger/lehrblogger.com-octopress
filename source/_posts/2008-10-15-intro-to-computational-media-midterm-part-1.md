@@ -9,7 +9,8 @@ categories:
   - assignments
   - ITP
   - ITP - ICM
-excerpt: "Display on a globe? How hard can it be?"
+excerpt: "Display tweets on a globe? How hard can it be?"
+show_excerpt: true
 ---
 For my midterm project I want to build a visualization of the geographic paths followed by ideas and conversations on Twitter. Users can refer to other users in their tweets using the @username syntax, and people often post public replies to or 'retweet' other user's posts. Twitter also associates some geographic information with users and with specific tweets. I plant to combine these two types of data to show the 'jumps' that an idea makes across a country or around the world.
 

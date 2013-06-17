@@ -10,6 +10,7 @@ categories:
   - ITP
   - ITP - Election
 excerpt: "More info/thinking about TwiTerra."
+show_excerpt: true
 ---
 *I wanted to move some of the lengthy text (that was originally written for the ITP Projects Database) off of the main TwiTerra page, and I'm backdating this post so that readers don't see it again.*
 

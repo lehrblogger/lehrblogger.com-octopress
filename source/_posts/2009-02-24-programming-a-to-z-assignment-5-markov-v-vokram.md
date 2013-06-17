@@ -6,9 +6,11 @@ permalink: /2009/02/24/programming-a-to-z-assignment-5-markov-v-vokram/
 dsq_thread_id:
   - 17673190
 categories:
-  - ITP - A2Z
   - assignments
   - ITP
+  - ITP - A2Z
+excerpt: "Rudimentary stastical models of text."
+show_excerpt: true
 ---
 The class preceding our fifth assignment was on Markov chains, which involve statistical models of text that can be used to predict what character (or word, or some other unit) would be likely to follow a preceeding series of n characters (or words or other units). (An interesting paper of such an algorithm from the assigned reading can be found [here][1].) Our [assignment][2], with a few suggestions, was simply to:
 

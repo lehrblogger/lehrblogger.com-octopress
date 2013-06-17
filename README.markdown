@@ -31,5 +31,13 @@ S3 Redirection Rules
             <ReplaceKeyPrefixWith>projects</ReplaceKeyPrefixWith>
         </Redirect>
     </RoutingRule>
+    <RoutingRule>
+        <Condition>
+            <KeyPrefixEquals></KeyPrefixEquals>
+        </Condition>
+        <Redirect>
+            <ReplaceKeyPrefixWith></ReplaceKeyPrefixWith>
+        </Redirect>
+    </RoutingRule>
 </RoutingRules>
 ```

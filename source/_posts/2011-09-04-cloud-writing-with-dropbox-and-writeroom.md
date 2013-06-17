@@ -1,14 +1,15 @@
 ---
 layout: post
 featured: false
-title: Cloud Writing with Dropbox and WriteRoom
+title: "Cloud Writing with Dropbox and WriteRoom"
 permalink: /2011/09/04/cloud-writing-with-dropbox-and-writeroom/
 dsq_thread_id:
   - 404646046
 featured: false
 categories:
   - lifehacks
-excerpt: Companies that are secretive about their in-progress products are at a significant disadvantage.
+excerpt: "Syncing is a hard problem."
+show_excerpt: true
 ---
 
 I've been living my life in the cloud for nearly two years now, and loving it. I'm synchronizing state between my home computer, my work computer, and multiple iDevices using a setup I described in [this post][1], but I wanted to elaborate here on what I'm doing with my in-progress text files.

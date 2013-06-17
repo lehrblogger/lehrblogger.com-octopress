@@ -6,10 +6,12 @@ permalink: /2009/03/11/design-for-unicef-detextive/
 dsq_thread_id:
   - 17673202
 categories:
-  - ITP - Design For UNICEF
-  - ITP
   - presentations
   - projects
+  - ITP
+  - ITP - Design For UNICEF
+excerpt: "Later, we changed the name of the project to Textonic."
+show_excerpt: true
 ---
 *cross-posted at [textonic.org][1]*  
 *previously: *[Mobile Tech for Social Change Barcamp][2], [Design for UNICEF -- RapidSMS and Mechanical Turk][3]

@@ -13,6 +13,7 @@ updates:
   - date: 2008-10-14
     body: "I decreased the number of Tweets that this loads on startup to 20 pages with 15 each, since it seemed to be breaking sporadically. It should behave more consistently now."
 excerpt: "\"It's a tricky language,\""
+show_excerpt: true
 ---
 I continued my work with Scala for this assignment, for which we were asked to "Create a Processing sketch that uses input from a text file or URL." Recently I've become increasingly interested in [Twitter][1], and I decided to explore the reactions that people had to Tuesday's presidential debate that they had marked with the '#debate' hash tag. Twitter let's you [search][2] past tweets, and returns up to 1500 results. I downloaded the tweets from Twitter, displayed them in a downward-scrolling list (oldest first), and set the greyscale for each word based on the number of occurrences of that word in other tweets currently on the screen (ignoring other hashtags and certain common words). One can get a rough sense of shifting debate/thought/discussion topics over time by watching which words are darkest as tweets scroll by.
 

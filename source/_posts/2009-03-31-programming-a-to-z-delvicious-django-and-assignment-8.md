@@ -6,10 +6,12 @@ permalink: /2009/03/31/programming-a-to-z-delvicious-django-and-assignment-8/
 dsq_thread_id:
   - 17673220
 categories:
-  - ITP - A2Z
   - assignments
-  - ITP
   - projects
+  - ITP
+  - ITP - A2Z
+excerpt: "\"The D is silent.\""
+show_excerpt: true
 ---
 *project page [here][1] with overview and previous posts*
 

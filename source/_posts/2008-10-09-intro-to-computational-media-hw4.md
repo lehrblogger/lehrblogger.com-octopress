@@ -10,6 +10,7 @@ categories:
   - ITP
   - ITP - ICM
 excerpt: "Baby's first Scala!"
+show_excerpt: true
 ---
 (Sorry for the late post -- I was hoping to find a better way to post this online, but no luck so far.)
 

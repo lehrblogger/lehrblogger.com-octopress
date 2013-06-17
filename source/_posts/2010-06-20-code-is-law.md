@@ -1,12 +1,14 @@
 ---
 layout: post
-featured: false
+featured: true
 title: '"Code is Law"'
 permalink: /2010/06/20/code-is-law/
 dsq_thread_id:
   - 109687451
 categories:
   - commentary
+excerpt: "Lawrence Lessig paraphrased by Jorge Ortiz."
+show_excerpt: false
 ---
 [Lawrence Lessig][1] has a book titled [*Code: And Other Laws of Cyberspace*][2] that I have not yet read, but my friend [Jorge Ortiz][3] was telling me about it, and I think his explanation was worth sharing:
 

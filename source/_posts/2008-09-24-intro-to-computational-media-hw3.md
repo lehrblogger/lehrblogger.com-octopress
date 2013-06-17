@@ -10,6 +10,7 @@ categories:
   - ITP
   - ITP - ICM
 excerpt: "In order to understand recursion,"
+show_excerpt: true
 ---
 I further expanded on my previous Koch Snowflake Processing sketch to allow for dynamic zooming and moving. This Dynamic Snowflake is also at [OpenProcessing][1].
 

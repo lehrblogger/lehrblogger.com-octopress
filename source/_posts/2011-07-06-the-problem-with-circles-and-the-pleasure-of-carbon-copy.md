@@ -1,7 +1,7 @@
 ---
 layout: post
 featured: true
-title: The Problem with Circles and the Pleasure of Carbon Copy
+title: "The Problem with Circles and the Pleasure of Carbon Copy"
 permalink: /2011/07/06/the-problem-with-circles-and-the-pleasure-of-carbon-copy/
 dsq_thread_id:
   - 351705043
@@ -11,6 +11,7 @@ categories:
   - ITP - thesis
   - Wanderlist
 excerpt: "People don't want to sort their friends in real life or on Google+."
+show_excerpt: true
 thanks:
   - name: Jorge Just
     link: "http://twitter.com/jorgej"

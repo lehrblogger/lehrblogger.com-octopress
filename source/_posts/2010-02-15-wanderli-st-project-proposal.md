@@ -1,21 +1,23 @@
 ---
 layout: post
 featured: false
-title: 'Wanderli.st - Project Proposal'
+title: "Wanderli.st - Project Proposal"
 permalink: /2010/02/15/wanderli-st-project-proposal/
 dsq_thread_id:
   - '1699 http://lehrblogger.com/?p=1699'
 categories:
-  - ITP
   - projects
-  - ITP - thesis
   - Wanderlist
+  - ITP
+  - ITP - thesis
+excerpt: "What I was actually planning to build."
+show_excerpt: true
 updates:
   - date: 2011-10-09
     body: "I'm no longer working on the project, so I let the $87/year wanderli.st domain expire and removed that link to minimize confusion."
 
 ---
-### wanderli.st -- wander the [internet][1], bring your [f][2][r][3][i][4][e][5][n][6][d][7][s][8]
+#### wanderli.st -- wander the [internet][1], bring your [f][2][r][3][i][4][e][5][n][6][d][7][s][8]
 
 I propose to design and build Wanderli.st, a new tool that will enable people to manage their contacts across social web services. Wanderli.st will be a web-based contact management application that synchronizes a user's friend lists on both new and familiar web sites. It will serve as a layer between currently-unconnected applications on the social web, linking existing online contact management tools (such as [Google Contacts][9]) with the myriad sites on which people share content (such as [Twitter][10], [Vimeo][11], [Foursquare][12], and [GitHub][13]). 
 

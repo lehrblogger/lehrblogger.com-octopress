@@ -14,5 +14,6 @@ dsq_thread_id:
 categories:
   - web ideas
 excerpt: "I think this was my first blog post ever!"
+show_excerpt: true
 ---
 it would be interesting to have a map that told me where in the city my cell signal was actually strongest. perhaps a phone or similarly-capable device could be hacked to simply record signal strength and location (determined by accelerometer (???) and triangulation from cell towers)

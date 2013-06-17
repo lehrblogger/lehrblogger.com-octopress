@@ -1,13 +1,14 @@
 ---
 layout: post
 featured: false
-title: The Value of Production Values
+title: "The Value of Production Values"
 permalink: /2011/03/24/the-value-of-production-values/
 dsq_thread_id:
   - 262095004
 categories:
   - commentary
-excerpt: What we can all learn from Rebecca Black.
+excerpt: "What we can all learn from Rebecca Black."
+show_excerpt: true
 ---
 For those of you that haven’t looked at the Internet in the past week or so, there’s a 13-year-old named Rebecca Black who made a music video called "[Friday][1]." It hockey-sticked to over 40 million views on YouTube and has earned her [an awful lot of criticism][2], as well as [an awful lot of money][3].
 

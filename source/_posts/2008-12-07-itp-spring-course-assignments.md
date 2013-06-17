@@ -8,6 +8,7 @@ dsq_thread_id:
 categories:
   - ITP
 excerpt: "More class shopping."
+show_excerpt: true
 ---
 The Spring courses to which I have been assigned are as follows:
 

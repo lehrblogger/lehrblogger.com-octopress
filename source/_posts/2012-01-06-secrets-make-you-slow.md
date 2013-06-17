@@ -1,14 +1,15 @@
 ---
 layout: post
 featured: false
-title: Secrets Make You Slow
+title: "Secrets Make You Slow"
 permalink: /2012/01/06/secrets-make-you-slow/
 dsq_thread_id:
   - 529118658
 featured: true
 categories:
   - commentary
-excerpt: Companies that are secretive about in-progress products are at a disadvantage.
+excerpt: "Companies that are secretive about in-progress products are at a disadvantage."
+show_excerpt: true
 thanks:
   - name: Jorge
     link: "http://twitter.com/jorgeo"

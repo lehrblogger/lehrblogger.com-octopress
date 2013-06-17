@@ -6,12 +6,14 @@ permalink: /2009/05/04/programming-a-to-z-delvicious-alpha/
 dsq_thread_id:
   - 17673227
 categories:
-  - ITP - A2Z
-  - ITP
   - projects
+  - ITP
+  - ITP - A2Z
+excerpt: "Theoretically this thing should still work."
+show_excerpt: true
 ---
 *project page [here][1] with overview and previous posts*  
-### <http://delv-icio-us.appspot.com/>
+#### <http://delv-icio-us.appspot.com/>
 
 A very alpha version of Delvicious is live at the above link! You can currently sign in with your Delicious account (or use one of the ones I posted towards the bottom of the [GitHub page][2]), tell it to fetch all of your bookmarks (making a copy of the URLs in Google's datastore), and then perform searches of those pages using a Google Custom Search Engine that is created on the fly[^1] from XML files that are automatically generated and served by App Engine. I've had a little trouble getting the CSE's to work the first time a user tries to use the search box, and I suspect that the search engines are not immediately ready for use after their (implicit) creation (which I think happens when the user first tries to do a search). One of the first of many next steps is to find a way to initialize that search engine automatically and inform the user (via email) when it is ready. If it's not working for you, wait a little while and try again later.
 

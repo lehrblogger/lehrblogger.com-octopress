@@ -6,9 +6,11 @@ permalink: /2009/02/24/programming-a-to-z-assignment-4-concordance-sorting/
 dsq_thread_id:
   - 17673187
 categories:
-  - ITP - A2Z
   - assignments
   - ITP
+  - ITP - A2Z
+excerpt: "How did anyone program anything before Google?"
+show_excerpt: true
 ---
 The class prior to the fourth assignment covered concordances, data structures for word counts, and other related topics. I completed one of the more challenging suggested alternative tasks for the [assignment][1]:
 

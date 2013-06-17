@@ -6,9 +6,11 @@ permalink: /2009/04/09/programming-a-to-z-assignment-9-evolvocabulary/
 dsq_thread_id:
   - 17672880
 categories:
-  - ITP - A2Z
   - assignments
   - ITP
+  - ITP - A2Z
+excerpt: "Analayzing the papers I wrote in college."
+show_excerpt: true
 ---
 The last of the weekly assignments was relatively open ended -- 
 
@@ -20,7 +22,7 @@ In week four of the class we had looked at how to represent word counts as a has
 
 Scala seemed like it would be well-suited to this sort of problem, and I was eager to find a use for it since it had been a couple months since I last worked on TwiTerra. My aforementioned friend [Jorge][2] pointed me towards a class written to parse Ruby log files; [that code][3], which uses a Scala community library called [Scalax][4], served as a useful starting point. 
 
-You can see the full source code for the assignment [here][5], but I've pasted a particularly interesting function below. There's some "deep Scalax magic" going on here (as Jorge says), which I'll explain -
+You can see the full source code for the assignment [here][5], but I've pasted a particularly interesting function below. There's some "deep Scalax magic" going on here (as Jorge says), which I'll explain --
 
 {% gist 5760112 %}
 
@@ -38,10 +40,10 @@ The function takes a list of the names of the files mentioned above, and returns
     
 I've saved the results of the visualization in the below images. The program didn't quite create the effect that I had intended -- that of showing how my vocabulary evolved over time -- but I did give some sense of the topics about which I was thinking and the words I used to describe them. I thought about eliminating common words, but it seemed like it would be hard to make those decisions in a non-arbitrary manner. Click each image for a larger version in which the differences are more visibly apparent, and I recommend opening the below images in tabs and cycling through them with shortcut keys so that it's easier to make quick comparisons. 
 
-[<img src="/projects/spring09/a2z/assignment9/images/freshman.png"  width="200" alt="freshman year"  />][6]
-[<img src="/projects/spring09/a2z/assignment9/images/sophomore.png" width="200" alt="sophomore year" />][7]
-[<img src="/projects/spring09/a2z/assignment9/images/junior.png"    width="200" alt="junior year"    />][8]
-[<img src="/projects/spring09/a2z/assignment9/images/senior.png"    width="200" alt="senior year"    />][9]
+[<img src="/projects/spring09/a2z/assignment9/images/freshman.png"  width="170" alt="freshman year"  />][6]
+[<img src="/projects/spring09/a2z/assignment9/images/sophomore.png" width="170" alt="sophomore year" />][7]
+[<img src="/projects/spring09/a2z/assignment9/images/junior.png"    width="170" alt="junior year"    />][8]
+[<img src="/projects/spring09/a2z/assignment9/images/senior.png"    width="170" alt="senior year"    />][9]
 
  [1]: http://www.decontextualize.com/teaching/a2z/flight-of-the-concordance/
  [2]: http://github.com/jorgeortiz85

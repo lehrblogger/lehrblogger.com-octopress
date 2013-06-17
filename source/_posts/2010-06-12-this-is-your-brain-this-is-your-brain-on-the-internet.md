@@ -1,12 +1,14 @@
 ---
 layout: post
 featured: false
-title: This is your brain. / This is your brain on the Internet.
+title: "This is your brain. / This is your brain on the Internet."
 permalink: /2010/06/12/this-is-your-brain-this-is-your-brain-on-the-internet/
 dsq_thread_id:
   - 106841845
 categories:
   - commentary
+excerpt: "\"Computers are like a bicycle for our minds.\" - Steve Jobs"
+show_excerpt: true
 ---
 I've now read/heard several pieces arguing for and against the catastrophic affects of the Internet on our brains and our ability to think well:
 

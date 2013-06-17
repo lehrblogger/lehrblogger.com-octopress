@@ -16,6 +16,7 @@ categories:
   - ITP
   - ITP - PComp
 excerpt: "An early foray into physical computing."
+show_excerpt: true
 ---
 As a side project, I put together a circuit that counts the number of times a switch has been pressed in binary. It displays the count using a row of six LEDs, and was built/written using the Arduino [Button][1] and [Loop][2] examples as a starting point. The Arduino code is online [here][3].
 

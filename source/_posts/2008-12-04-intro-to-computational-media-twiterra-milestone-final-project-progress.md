@@ -8,6 +8,7 @@ categories:
   - ITP
   - ITP - ICM
 excerpt: "Jumping tweets :)"
+show_excerpt: true
 ---
 *project page with previous posts [here][1]*
 

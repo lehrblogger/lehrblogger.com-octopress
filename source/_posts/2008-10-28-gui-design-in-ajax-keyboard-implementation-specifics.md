@@ -10,6 +10,7 @@ categories:
   - ITP
   - ITP - AJAX
 excerpt: "I have a GitHub account now!"
+show_excerpt: true
 ---
 **recently**: [current upload][1]  
 *previously*: [initial idea][2], [implementation experiments][3], [early progress][4]

@@ -11,6 +11,7 @@ categories:
   - ITP
   - ITP - AJAX
 excerpt: "Form from function, or function from form?"
+show_excerpt: true
 ---
 For several months now I've been interested in graphical interfaces that use the screen as a window onto a (sometimes infinite) two-dimensional plane. I envision all of the information is displayed on this plane, with the various types of information differentiated by size and location. One would zoom in or out to view the information at different levels in a hierarchy, rather than have separate pages (which are really windows onto finite planes at a fixed zoom level) as in more traditional layouts.
 

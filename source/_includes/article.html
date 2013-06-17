@@ -6,6 +6,11 @@
     </h3>
 </header>
 <div class="entry-content">
+    {% if page.show_excerpt %}
+        <h4 class="entry-excerpt">
+            {{ page.excerpt | markdownify }}
+        </h4>
+    {% endif %}
     {{ content }}
     {% if page.thanks %}
         <hr>

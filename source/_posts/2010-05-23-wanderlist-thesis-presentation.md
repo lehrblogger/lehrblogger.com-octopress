@@ -1,6 +1,6 @@
 ---
 layout: post
-featured: false
+featured: true
 title: "Wanderli.st -- Thesis Presentation"
 permalink: /2010/05/23/wanderlist-thesis-presentation/
 dsq_thread_id:
@@ -9,13 +9,15 @@ categories:
   - assignments
   - presentations
   - projects
+  - Wanderlist
   - ITP
   - ITP - thesis
-  - Wanderlist
+excerpt: "\"Why not Facebook for everything?\""
+show_excerpt: true
 ---
 A couple weeks ago I presented Wanderli.st during Thesis Week at NYU's Interactive Telecommunications Program. The list of all of the presentations is [here][1], and ITP has a copy of the video hosted [here][2], but I've also embedded it below. Some of the slides are difficult to read in the video, so they are embedded as well. If you're in a hurry and think you can read faster than I was talking (hah!), the notes on which the talk was based are below each slide.
 
-{% iframe_embed vimeo 12727748 %}
+{% iframe_embed vimeo 11970364 700 396 %}
 
 {% iframe_embed slideshare 4254669 640 742 %}
 

@@ -1,21 +1,23 @@
 ---
 layout: post
-title: 'Wanderli.st -- Pitch Presentation'
+title: "Wanderli.st -- Pitch Presentation"
 permalink: /2010/03/29/wanderli-st-pitch-presentation/
 dsq_thread_id:
   - 80330468
 categories:
-  - ITP
-  - ITP - thesis
   - presentations
   - projects
   - Wanderlist
+  - ITP
+  - ITP - thesis
+excerpt: "Baby's first VC pitch."
+show_excerpt: true
 ---
 I gave this five-minute presentation at ITP on Saturday as part of the Startup Talk/Pitch Fest organized by faculty member Nancy Hechinger. Ron Conway and his partners at SV Angel, Dennis Crowley of Foursquare, Tom Cohen, and other members of the ITP community were in the audience. I got some good feedback and people were interested in the idea.
 
 A PDF of the one-page handout I passed around is [here][1]. I've included the notes that I followed roughly during the presentation below the fold, since Google makes it hard to find them otherwise. The presentation can be conveniently accessed at <http://bit.ly/wanderlist-20100327>.
 
-{& iframe_embed google dhh97gc8_639hnh6tdw %}
+{% iframe_embed google dhh97gc8_639hnh6tdw 520 421 %}
   
 Slide Numbers:
 

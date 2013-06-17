@@ -1,13 +1,14 @@
 ---
 layout: post
 featured: true
-title: Digital Molting
+title: "Digital Molting"
 permalink: /2011/03/20/digital-molting/
 dsq_thread_id:
   - 258935320
 categories:
   - commentary
-excerpt: Humans are like dragonflies, and we should design our social web services accordingly.
+excerpt: "Humans are like dragonflies, so design social web services accordingly."
+show_excerpt: true
 thanks:
   - name: "@ninakix"
     link: "http://twitter.com/ninakix"

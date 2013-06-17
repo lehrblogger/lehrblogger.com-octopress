@@ -9,6 +9,8 @@ categories:
   - events
   - ITP
   - web ideas
+excerpt: "The NYT's first API conference, with a keynote by Tim O'Reilly."
+show_excerpt: true
 updates:
   - date: 2009-03-01
     body: "The Times has written a short [blog post](http://open.blogs.nytimes.com/2009/02/26/open-doors-open-minds/) about the event."
@@ -30,7 +32,7 @@ This past Friday I attended the [Times Open][1], a day-long seminar hosted by th
  * Digg as parasitic on all news media, without a business model, devaluing old media
  * Quote from [Alan Kay][6]: “The best way to predict the future is to invent it” and "if there’s some feature you want, don’t wait for the Times to do it; hack it.”
 
-[<img src="http://farm4.static.flickr.com/3448/3295532058_bd09688182.jpg" width="500" height="333" alt="Who are you?" />][7]
+###### [<img src="http://farm4.static.flickr.com/3448/3295532058_bd09688182.jpg" width="500" height="333" alt="Who are you?" />][7]
 
 After the keynote, the NYT developers presented the following APIs --
 
@@ -51,12 +53,12 @@ The final presentation was from Jacob Harris, who works on the Interactive Newsr
 
 I had an idea about considering NYTimes.com as a one larger interactive experience, with articles and other media as the individual pieces of data, so I asked about it. Jacob said that his department 'tried to stay small and do one off things, rather than deal with rearranging the homepage and interacting with 80 committees,' which makes complete sense. But it reminded me that I had heard once of Google making tiny, pixel-level changes to the home page and using the behavior of huge numbers of people to determine what was the best design. I also remembered a presentation I heard at a NY Tech meetup several months ago from someone who worked at the Huffington Post -- they have a real time traffic monitoring system to determine what articles on their main page are the most popular, allowing them to rearrange their content layout dynamically. I wonder if the NYT could use similar strategies to optimize their website?
 
-[<img src="http://farm4.static.flickr.com/3629/3298303443_20f6842588.jpg" width="500" height="333" alt="IMG_5410" />][18]  
+###### [<img src="http://farm4.static.flickr.com/3629/3298303443_20f6842588.jpg" width="500" height="333" alt="IMG_5410" />][18]  
 As a side note, [Adam Harvey][19] (above left), another first-year student from ITP, was at the event. Nathan (above right), whose [blog][20] I was reading last semester when I was starting to work with [Processing and Scala][21], was there too.
 
 And, as a former aspiring architect, I must comment that Renzo Piano's [New York Times Building][22] was both well designed and well executed. The lobby was spacious and inviting, the ([climbable][23]) rods along the sides filtered the light nicely and cast interesting shadows, the finishes were attractive, the spaces were pleasant and flowed nicely, and the elevators (with the floor buttons in the waiting hallways) were very cool.
 
-[<img src="http://farm4.static.flickr.com/3645/3298382975_55f4836185.jpg" width="500" height="333" alt="IMG_5903" />][24]
+###### [<img src="http://farm4.static.flickr.com/3645/3298382975_55f4836185.jpg" width="500" height="333" alt="IMG_5903" />][24]
 
 Photos are from [everyplace][25] and [Times Open][26]</a> on Flickr, thanks!
  

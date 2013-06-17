@@ -7,7 +7,8 @@ dsq_thread_id:
   - 147547331
 categories:
   - commentary
-excerpt: A good four-minute video by [Steven Johnson](http://www.stevenberlinjohnson.com/) titled *Where Good Ideas Come From*.
+excerpt: "*Where Good Ideas Come From*, a four-minute video by [Steven Johnson](http://www.stevenberlinjohnson.com/)."
+show_excerpt: false
 ---
 A good four-minute video by [Steven Johnson][1] titled *Where Good Ideas Come From* that's relevant to [my previous post][2] on how the Internet affects our thinking:
 

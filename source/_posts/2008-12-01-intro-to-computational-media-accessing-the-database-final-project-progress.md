@@ -10,6 +10,7 @@ categories:
   - ITP
   - ITP - ICM
 excerpt: "More Mysql."
+show_excerpt: true
 ---
 *project page with previous posts [here][1]*
 

@@ -10,6 +10,7 @@ categories:
   - ITP
   - ITP - ICM
 excerpt: "Getting more comfortable with complexity."
+show_excerpt: true
 ---
 I expanded on my previous Koch Snowflake Processing sketch to allow for simple zooming and moving. This Zoom Snowflake is also at [OpenProcessing][1].
 

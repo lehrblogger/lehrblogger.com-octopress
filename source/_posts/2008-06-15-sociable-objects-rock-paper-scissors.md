@@ -16,6 +16,7 @@ categories:
   - ITP
   - ITP - SocObj
 excerpt: "If you ever felt like Rock Paper Scissors was too easy to play."
+show_excerpt: true
 ---
 For this assignment, Armanda and I each built a circuit with an Arduino, an XBee radio, four switches, and several LEDs to play the game [Rock Paper Scissors][1].
 

@@ -8,6 +8,7 @@ dsq_thread_id:
 categories:
   - web ideas
 excerpt: "So many things to build, so little time."
+show_excerpt: true
 ---
 During conversations with friends, I regularly have ideas for websites, services, or other technologies. These conversations happen in person, over email, on instant messenger, via text message. I realized a few months ago that I might want to be able to organize them all into one place, so I began annotating them with the tag "< web idea >" to facilitate later searching. It gives me comfort that they are not lost to the black hole of my hard drive, but does not actually give me any more time to implement them.
 

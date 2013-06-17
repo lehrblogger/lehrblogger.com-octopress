@@ -10,6 +10,7 @@ categories:
   - ITP
   - ITP - ICM
 excerpt: "NASA is the best for open-sourcing that library."
+show_excerpt: true
 ---
 For my midterm project, I started to combine the work with Twitter retweets from [last class][1] with a map/globe-based visualization. Since many Twitter users have geographic information associated with their accounts (made particularly easily accessible through the [TwitterVision API][2]), I wanted to explore mapping certain conversation patterns on Twitter to their actual locations. My intention was to show how retweets create links between different geographic locations over time, perhaps even forming chains or trees. I considered using a two dimensional map, but I thought the globe was much better for conveying the connectedness of the world.
 

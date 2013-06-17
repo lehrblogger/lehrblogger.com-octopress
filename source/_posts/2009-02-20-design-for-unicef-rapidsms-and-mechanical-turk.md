@@ -6,9 +6,11 @@ permalink: /2009/02/20/design-for-unicef-rapidsms-and-mechanical-turk/
 dsq_thread_id:
   - 17673185
 categories:
-  - ITP - Design For UNICEF
-  - ITP
   - projects
+  - ITP
+  - ITP - Design For UNICEF
+excerpt: "A system for processing freeform SMS input."
+show_excerpt: true
 ---
 *cross-posted at [textonic.org][1]*
 

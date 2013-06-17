@@ -1,21 +1,23 @@
 ---
 layout: post
 featured: false
-title: 'Wanderli.st - An Introduction'
+title: "Wanderli.st - An Introduction"
 permalink: /2009/10/19/wanderlist/
 dsq_thread_id:
   - 40393347
 categories:
-  - ITP
   - projects
-  - ITP - thesis
   - Wanderlist
   - web ideas
+  - ITP
+  - ITP - thesis
+excerpt: "Wander the Internet, bring your friends."
+show_excerpt: false
 updates:
   - date: 2011-10-09
     body: "I'm no longer working on the project, so I let the $87/year wanderli.st domain expire and removed that link to minimize confusion."
 ---
-### wanderli.st -- wander the [internet][1], bring your [f][2][r][3][i][4][e][5][n][6][d][7][s][8]
+#### wanderli.st -- wander the [internet][1], bring your [f][2][r][3][i][4][e][5][n][6][d][7][s][8]
 
 I have 787 friends on Facebook. On Twitter I am following 216 people and am being followed be 285 people. I have 1,190 cards in Address Book, all of which are synced with my Google Contacts and my iPhone. I have 49 friends on Foursquare, 33 connections on LinkedIn, 18 friends on Goodreads, 8 contacts on Flickr, 1 contact on Vimeo, 0 friends on Yelp, and 146 buddies on AOL Instant Messenger.
 

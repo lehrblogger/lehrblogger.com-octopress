@@ -1,16 +1,18 @@
 ---
 layout: post
 featured: false
-title: 'Wanderli.st - Midterm Presentation'
+title: "Wanderli.st - Midterm Presentation"
 permalink: /2010/03/07/wanderli-st-midterm-presentation/
 dsq_thread_id:
   - 73577164
 categories:
-  - ITP
   - presentations
   - projects
-  - ITP - thesis
   - Wanderlist
+  - ITP
+  - ITP - thesis
+excerpt: "Just a deck."
+show_excerpt: false
 updates:
   - date: 2010-03-29
     body: "There's an improved version of this presentation in [this more recent post](/2010/03/29/wanderli-st-pitch-presentation) ."

@@ -5,10 +5,12 @@ title: "Mobile Tech for Social Change Barcamp"
 permalink: /2009/02/25/mobile-tech-for-social-change-barcamp/
 dsq_thread_id:
   - 17673192
-categories:  
+categories:
+  - events
   - ITP
   - ITP - Design For UNICEF
-  - events
+excerpt: "Unconferencing."
+show_excerpt: true
 ---
 *cross-posted at [textonic.org][1]*
 
@@ -16,8 +18,9 @@ Last Saturday I attended the [Mobile Tech for Social Change][2] [barcamp][3]. Fr
 
 > Mobile Tech 4 Social Change Barcamps are local events for people passionate about using mobile technology for social impact and to make the world a better place. Each event includes interactive discussions, hands-on-demos, and collaborations about ways to use, deploy, develop and promote mobile technology in health, advocacy, economic development, environment, human rights, citizen media, to name a few areas. Participants for Mobile Tech 4 Social Change barcamps include nonprofits, mobile app developers, researchers, donors, intermediary organizations, and mobile operators. 
 
-The event began with a talk (via Skype!) from Ethan Zuckerman, who I had seen speak previously in my Applications class last semester. He's been involved in various service projects in Africa and is a co-founder of [Global Voices Online][4], a community brought together by 'bridgebloggers' that translate posts between languages and cultures. His most salient and useful point was that mobile technology was most powerful when it was paired with another medium, such as FM radio.  
-[<img src="http://farm4.static.flickr.com/3555/3301247476_3330b4b8d6.jpg" width="500" height="333" alt="mobiletech27" />][5]
+The event began with a talk (via Skype!) from Ethan Zuckerman, who I had seen speak previously in my Applications class last semester. He's been involved in various service projects in Africa and is a co-founder of [Global Voices Online][4], a community brought together by 'bridgebloggers' that translate posts between languages and cultures. His most salient and useful point was that mobile technology was most powerful when it was paired with another medium, such as FM radio.
+
+###### [<img src="http://farm4.static.flickr.com/3555/3301247476_3330b4b8d6.jpg" width="500" height="333" alt="mobiletech27" />][5]
 
 I went to three breakout sessions. The first was given by a few people from the Innovations Team at UNICEF and a couple of students from Columbia working on the [aforementioned][6] Malawi project. I had seen some of what they presented before, but got to play with the [RapidAndroid][7] version of the RapidSMS software (which runs on a G1 mobile phone), and I saw some sample database inputs and SMS form instructions. In addition, I learned that while initial SMS error rates have been high in the pilot studies, the system will respond asking the user to resend the message, and this feedback loop is effective at teaching users to send correctly formatted SMS messages. My group in the Design for UNICEF class will continue with our Mechanical Turk project -- there will still be unparseable messages or messages that don't get resent -- but it will be good to keep this in mind as we develop.
 
@@ -27,7 +30,7 @@ The second breakout session was lead by Josh Nesbit, a current undergrad at Stan
 
 The last breakout session was for mobile developers, and we had an interesting conversation about developing for Android. Overall I enjoyed the day and found it useful, and I'm looking forward to going to the next m4change barcamp.
 
-[<img src="http://farm4.static.flickr.com/3554/3301245652_665eee92e6.jpg" width="500" height="333" alt="mobiletech12" />][11]  
+###### [<img src="http://farm4.static.flickr.com/3554/3301245652_665eee92e6.jpg" width="500" height="333" alt="mobiletech12" />][11]  
 Photos are from [Meredith Whitefield][12] on Flickr, thanks!
 
  [1]: http://textonic.org/2009/02/25/mobile-tech-for-social-change-barcamp/

@@ -10,6 +10,7 @@ categories:
   - ITP
   - ITP - ICM
 excerpt: "Collecting metadata about retweets was not easy."
+show_excerpt: true
 ---
 *previously:* [project proposal][1], [midterm progress][2], [initial idea][3], [Twitter/Scala experiments][4] 
 

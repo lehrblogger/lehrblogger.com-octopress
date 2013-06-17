@@ -6,14 +6,16 @@ permalink: /2009/05/09/design-for-unicef-textonicorg/
 dsq_thread_id:
   - 17680346
 categories:
-  - ITP - Design For UNICEF
-  - ITP
   - projects
+  - ITP
+  - ITP - Design For UNICEF
+excerpt: "A permanent home for the project."
+show_excerpt: true
 ---
 *cross-posted at [textonic.org][1]*  
 *previously: *[Design for UNICEF - Detextive*][2], [Mobile Tech for Social Change Barcamp][3], [Design for UNICEF - RapidSMS and Mechanical Turk][4]
 
-### [Textonic.org][5] is now live!
+#### [Textonic.org][5] is now live!
 
 Recognizing that Textonic was a larger project than I was going to be able to finish in my free time over the summer (or that my group was going to be able to finish in our collective free time), I decided that the project would benefit from a more formal web presence than a handful of blog posts and a GitHub page. I registered a domain, set up WordPress, presented what we had accomplished, laid out what there is to be done, and tried to create a place where people could express their interest in getting involved.
 

@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Paul Adams on the Real Life Social Network
+featured: true
+title: "Paul Adams on the Real Life Social Network"
 permalink: /2010/07/03/paul-adams-on-the-real-life-social-network/
 dsq_thread_id:
   - 113743396
@@ -9,7 +10,8 @@ categories:
   - ITP
   - thesis
   - Wanderlist
-excerpt: TODO
+excerpt: "Strong ties, weak ties, and latent ties."
+show_excerpt: true
 ---
 [Paul Adams][1], a member of the user experience team at Google and the user research lead for social, recently gave the below presentation at the [Voices That Matter: Web Design Conference][2]:
 

@@ -1,6 +1,6 @@
 ---
 layout: project
-featured: true
+featured: false
 title: "Delvicious"
 permalink: /delvicious/
 alias: /2009/03/10/delvicious/
@@ -10,14 +10,15 @@ categories:
   - assignments
   - ITP
   - projects
-excerpt: "Full-text search for your Delicious bookmarks using Google Custom Search Engines. Unfinished, but now there's [Pinboard](https://pinboard.in/upgrade/), for which I happily pay $25/year."
+excerpt: "Full-text search for your Delicious bookmarks."
+show_excerpt: false
 thanks:
   - name: John Rutherford
     link: "http://observationalgastrophysics.blogspot.com/"
 thanks_note: "coming up with the name, which is often, but not always, the hardest part of doing anything on the web."
 ---
 
-### Delvicious will make it easy to find what you've found before, no matter how disorganized you are.
+#### Delvicious will make it easy to find what you've found before, no matter how disorganized you are.
 
 A mashup of the Delicious API and the Google Custom Search Engine API, Delvicious will allow users to easily perform a full-content search of *only* the sites that they have bookmarked, freeing them to delve fearlessly into muddled memories of poorly-tagged favorites.
 

@@ -6,9 +6,11 @@ permalink: /2009/03/24/little-computers-meetapp-initial-progress/
 dsq_thread_id:
   - 17673218
 categories:
+  - projects
   - ITP
   - ITP - Little Computers
-  - projects
+excerpt: "Baby's first Objective-C."
+show_excerpt: true
 ---
 *previously:* [project description][1]
 

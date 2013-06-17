@@ -12,6 +12,7 @@ blogger_permalink:
 categories:
   - ITP
 excerpt: "Not the usual core classes of the first semester, but I regret nothing."
+show_excerpt: true
 ---
 [Applications of Interactive Technologies][1]  
 &nbsp;&nbsp;&nbsp;&nbsp;with [Red Burns][2]  

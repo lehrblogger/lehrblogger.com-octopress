@@ -9,6 +9,7 @@ categories:
   - admin
   - ITP
 excerpt: "\"DreamHost I love you, but you're bringing me down.\""
+show_excerpt: true
 ---
 If you tried to visit my site in the next few hours, it probably wasn't loading. DreamHost, the company doing my web hosting, had a [problem][1] at one of their data centers. You can see the block below when it was down (where I'm getting no visitors), from [Google Analytics][2] --
 

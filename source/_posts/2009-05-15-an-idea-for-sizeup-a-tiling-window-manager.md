@@ -8,6 +8,8 @@ dsq_thread_id:
 categories:
   - lifehacks
   - web ideas
+excerpt: "I still use [SizeUp](http://www.irradiatedsoftware.com/sizeup/) daily."
+show_excerpt: true
 ---
 I've recently been using a Mac OS X [tiling window manager][1] named [SizeUp][2]. I had an idea about which I emailed the developer, and I thought it was worth sharing here too:
 

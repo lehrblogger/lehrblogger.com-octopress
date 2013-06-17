@@ -1,13 +1,15 @@
 ---
 layout: post
-title: "Einstein's Theory of General Relativity - A Personal Description"
-permalink: /2010/01/27/einstein's-theory-of-general-relativity-a-personal-description/
+title: "Einstein’s Theory of General Relativity - A Personal Description"
+permalink: /2010/01/27/einstein%E2%80%99s-theory-of-general-relativity-a-personal-description/
 dsq_thread_id:
   - 61815004
 categories:
   - assignments
   - ITP
-  - Time
+  - ITP - Time
+excerpt: "\"Faster, faster, until...\""
+show_excerpt: true
 ---
 ***From the [syllabus][1]** -- Reading: Find and read descriptions of Einstein’s Theory of General Relativity and how it relates to time. Describe it in your own words on your blog and post a link to it on the wiki. We’ll go through your descriptions in class. How would you describe it to a 5 year old or your grandmother?*
 

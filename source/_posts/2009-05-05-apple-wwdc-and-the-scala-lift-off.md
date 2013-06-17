@@ -8,7 +8,9 @@ dsq_thread_id:
 categories:
   - events
   - ITP
-  - Little Computers
+  - ITP - Little Computers
+excerpt: "Free ticket to WWDC :)"
+show_excerpt: true
 ---
 ![WWDC Logo](/projects/wwdc_logo.jpg "WWDC Logo")
 

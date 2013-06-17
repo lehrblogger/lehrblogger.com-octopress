@@ -1,14 +1,15 @@
 ---
 layout: post
 featured: false
-title: Saving the World with Games
+title: "Saving the World with Games"
 permalink: /2010/07/09/saving-the-world-with-games/
 dsq_thread_id:
   - 116047793
 categories:
   - commentary
   - ITP
-excerpt: Sup dawg, we heard you like games, so we wrapped a game around your game so you can save the world while you save the world.
+excerpt: "Sup dawg, we heard you like games, so we wrapped a game around your game..."
+show_excerpt: true
 ---
 People love to play games. They're fun, of course, but they also teach us valuable real-world skills. Chess teaches pattern-matching and strategy, [Dungeons & Dragons][1] teaches exploration and collaboration, Olympic sports teach physical coordination, and others such as soccer and [Halo][2] teach many types of skills simultaneously. In all cases, games provide safe environments for learning as well as clear criteria for success. It's better to learn to run fast when you're on a field because you want to win a game, and not when you're running from a [sabre-toothed tiger][3] because you don't want to get eaten. Games create artificial environments and structure incentives in ways that make us better equipped to prosper in reality. 
 

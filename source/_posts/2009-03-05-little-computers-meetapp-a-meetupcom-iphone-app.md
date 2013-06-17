@@ -6,11 +6,13 @@ permalink: /2009/03/05/little-computers-meetapp-a-meetupcom-iphone-app/
 dsq_thread_id:
   - 17673196
 categories:
-  - ITP
-  - ITP - Little Computers
   - presentations
   - projects
   - web ideas
+  - ITP
+  - ITP - Little Computers
+excerpt: "[Eventually](http://meetupblog.meetup.com/post/20064673309/meetup-for-iphone), *finally*, they made their own."
+show_excerpt: true
 thanks:
   - name: Alex Kauffmann
     link: "http://chinaalbino.com/alex/"

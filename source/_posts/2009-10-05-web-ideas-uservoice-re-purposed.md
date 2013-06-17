@@ -7,8 +7,10 @@ dsq_thread_id:
   - 37802152
 categories:
   - web ideas
+excerpt: "\"I wonder how it feels to be bored.\""
+show_excerpt: true
 ---
-**<http://webideas.uservoice.com>**
+#### <http://webideas.uservoice.com>
 
 Nearly a year ago I posted about this blog's "[web idea][1]" category, [and wrote][2]:
 

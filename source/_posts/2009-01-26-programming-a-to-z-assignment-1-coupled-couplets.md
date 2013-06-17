@@ -6,9 +6,11 @@ permalink: /2009/01/26/programming-a-to-z-assignment-1-coupled-couplets/
 dsq_thread_id:
   - 17673172
 categories:
-  - ITP - A2Z
   - assignments
   - ITP
+  - ITP - A2Z
+excerpt: "'Procedural poetics.'"
+show_excerpt: true
 ---
 The first assignment was posted [here][1], and was to
 

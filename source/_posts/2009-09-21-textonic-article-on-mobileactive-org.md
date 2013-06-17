@@ -6,9 +6,11 @@ permalink: /2009/09/21/textonic-article-on-mobileactive-org/
 dsq_thread_id:
   - 35367652
 categories:
-  - Design For UNICEF
-  - ITP
   - projects
+  - ITP
+  - ITP - Design For UNICEF
+excerpt: "Some press for Textonic."
+show_excerpt: true
 ---
 *cross-posted at [textonic.org][1]*
 

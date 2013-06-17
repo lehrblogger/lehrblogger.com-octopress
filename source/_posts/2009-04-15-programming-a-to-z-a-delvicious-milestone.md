@@ -6,17 +6,20 @@ author: Lehrblogger
 permalink: /2009/04/15/programming-a-to-z-a-delvicious-milestone/
 dsq_thread_id:
   - 17673225
-categories:  
+categories:
+  - projects
   - ITP
   - ITP - A2Z
-  - projects
+excerpt: "Proof-of-concept for full-text search of my bookmarks."
+show_excerpt: true
 ---
 *project page [here][1] with overview and previous posts*
 
-I've had to focus on other projects for the past couple of weeks, but I finally got to turn my attention back to Delvicious. It will now: 
-*   keep track of Delicious login information for a particular Google account
-*   fetch those bookmarks using the Delicious API and store them in the GAE Datastore
-*   serve the bookmarks back as an XML file to a user-specific URL
+I've had to focus on other projects for the past couple of weeks, but I finally got to turn my attention back to Delvicious. It will now:
+
+ * keep track of Delicious login information for a particular Google account
+ * fetch those bookmarks using the Delicious API and store them in the GAE Datastore
+ * serve the bookmarks back as an XML file to a user-specific URL
 
 There's enough functionality to make it worth visiting the appspot page [here][2]. Sign in with Google, enter your Delicious credentials, and fetch your bookmarks - you should see them displayed in a list. You could then make a custom search engine, go to the advanced tab on the left side bar, and add a URL of the form `delv-icio-us.appspot.com/delvicious/annotations/[your_delicious_username].xml` as an annotations feed. Your bookmarks should then start appearing in your search results. Test out the new version (that searches memento85's small number of Delicious bookmarks) below:
 

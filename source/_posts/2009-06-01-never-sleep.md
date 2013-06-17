@@ -8,6 +8,7 @@ dsq_thread_id:
 categories:
   - photography
 excerpt: "New York City expresses herself in neon."
+show_excerpt: true
 updates:
   - date: 2013-06-16
     body: "Dress Code got rid of the time-dependent background color on their website, so I removed the note about it."

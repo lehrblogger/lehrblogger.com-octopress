@@ -12,6 +12,7 @@ categories:
   - ITP
   - ITP - 4-in-4
 excerpt: "To San Francisco and back in twenty-four hours."
+show_excerpt: true
 ---
 For my second day and second project of the 4-in-4, I flew to San Francisco to present my [TwiTerra][1] project at the monthly meeting of the [Bay Area Scala Enthusiasts][2]. The group was set up by Dick Wall and Carl Quinn of the [Java Posse][3] podcast, and my friend [Jorge Ortiz][4] is a member and helps organize the speakers each month. He asked if he could present TwiTerra or if I wanted to come present it myself; I initially thought it infeasible because of my commitment to the 4-in-4, but decided I could do it in a day as my second project and be here in NYC for the other three.
 

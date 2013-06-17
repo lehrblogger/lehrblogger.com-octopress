@@ -1,7 +1,7 @@
 ---
 layout: project
 featured: true
-title: Where Do You Go
+title: "Where Do You Go"
 permalink: /2010/03/19/where-do-you-go/
 end_date: 2012-01-16
 dsq_thread_id:
@@ -11,6 +11,7 @@ categories:
   - projects
   - web ideas
 excerpt: "Make and share heat maps of your [Foursquare](http://foursquare.com) check-ins!"
+show_excerpt: true
 thanks:
   - name: Jorge Ortiz
     link: "http://uncountablymany.com/"

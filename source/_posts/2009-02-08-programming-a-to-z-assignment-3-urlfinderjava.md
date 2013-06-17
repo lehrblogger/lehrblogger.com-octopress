@@ -6,9 +6,11 @@ permalink: /2009/02/08/programming-a-to-z-assignment-3-urlfinderjava/
 dsq_thread_id:
   - 17673177
 categories:
-  - ITP - A2Z
   - assignments
   - ITP
+  - ITP - A2Z
+excerpt: "Counting links on Twitter."
+show_excerpt: true
 ---
 The third assignment was posted [here][1], and was to
 
