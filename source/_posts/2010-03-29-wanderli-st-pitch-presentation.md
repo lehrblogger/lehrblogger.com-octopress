@@ -103,4 +103,4 @@ Slide Numbers:
     
     I'd love to hear your feedback, and thank you for listening!
 
- [1]: http://lehrblogger.com/nyu/projects/thesis/wanderlist_pitch_web.pdf
+ [1]: /projects/thesis/wanderlist_pitch_web.pdf

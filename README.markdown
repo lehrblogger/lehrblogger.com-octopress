@@ -3,10 +3,6 @@ lehrblogger.com
 
 WordPress I love you but you're bringing me down.
 
-TODO
-----
-Update links like http://lehrblogger.com/wp-rss2.php?cat=3>
-
 S3 Redirection Rules
 --------------------
 ```xml

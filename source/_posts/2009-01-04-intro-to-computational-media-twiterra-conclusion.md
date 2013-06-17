@@ -31,7 +31,7 @@ Notably, several people at the show mentioned Facebook's [Project Palantir][11],
 
 Finally, I want to thank everyone who helped at various stages of this project, especially my friend [Jorge Ortiz][12] (who finally has a blog!), my instructor [Dan Shiffman][13] (who can look at a function in a programming language he doesn't know and instantly find a way to make it two thirds shorter and much simpler), and [Patrick Murris][14] of the [World Wind][15] Development Team for his prompt responses to a few technical issues I had.
 
- [1]: http://lehrblogger.com/twiterra/
+ [1]: /twiterra/
  [2]: http://vimeo.com/2557642
  [3]: http://itp.nyu.edu/shows/winter2008/
  [4]: http://www.davidoverholt.com

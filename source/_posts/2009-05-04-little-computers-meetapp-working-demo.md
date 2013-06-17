@@ -12,7 +12,7 @@ categories:
 ---
 *previously:* [project description][1], [initial progress][2]
 
-![Meetapp Screenshot](http://lehrblogger.com/nyu/classes/spring09/littlecomputers/meetapp_screenshot.png "Meetapp Screenshot")
+![Meetapp Screenshot](/projects/spring09/littlecomputers/meetapp_screenshot.png "Meetapp Screenshot")
 
 David Nolen's [Little Computers][3] class is now over, and I've made substantial progress this semester on Meetapp, the iPhone application I have been building for users of [Meetup.com][4]. Currently, it will fetch a list of a user's groups from the API at that user's request, make secondary API requests to fetch the events associated with each of those groups, and then display all of those events (i.e. all of those events that a user might be attending) in a table. It will also filter that table to show only those events that the user is organizing (rather than simply attending), and the user can drill down for more detailed information about both types of events. So far, I have -
 

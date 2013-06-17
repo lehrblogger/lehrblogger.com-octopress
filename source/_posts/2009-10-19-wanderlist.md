@@ -59,7 +59,7 @@ I've read that the best software is made by people who are building the tools fo
  [12]: http://auction-bot.appspot.com/
  [13]: http://www.flickr.com/photos/insunlight/3946559430/
  [14]: http://itp.nyu.edu/shows/thesis2009/
- [15]: http://lehrblogger.com/nyu/projects/thesis/wsm_projectproposal.pdf
+ [15]: /projects/thesis/wsm_projectproposal.pdf
  [16]: http://www.slideshare.net/lehrblogger/wsm-final-presentation
  [17]: http://www.opensocial.org/
  [18]: http://portablecontacts.net/

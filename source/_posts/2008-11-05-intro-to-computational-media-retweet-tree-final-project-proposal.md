@@ -30,15 +30,15 @@ I've figured several things out with World Wind that I was having trouble with i
  * [Retweet.scala][11]
  * [Tweet.scala][12]
 
- [1]: http://lehrblogger.com/2008/10/23/intro-to-computational-media-midterm-part-2/
- [2]: http://lehrblogger.com/2008/10/15/intro-to-computational-media-midterm-part-1/
- [3]: http://lehrblogger.com/2008/10/09/intro-to-computational-media-hw5-2/
+ [1]: /2008/10/23/intro-to-computational-media-midterm-part-2/
+ [2]: /2008/10/15/intro-to-computational-media-midterm-part-1/
+ [3]: /2008/10/09/intro-to-computational-media-hw5-2/
  [4]: http://search.twitter.com/search?q=Retweeting
  [5]: http://twittervision.com/api.html
  [6]: http://apiwiki.twitter.com/
  [7]: http://freeearth.poly9.com/
- [8]: http://lehrblogger.com/nyu/classes/fall08/icm/finalprojectproposal/WWJApplet.scala
- [9]: http://lehrblogger.com/nyu/classes/fall08/icm/finalprojectproposal/TweetHandler.scala
- [10]: http://lehrblogger.com/nyu/classes/fall08/icm/finalprojectproposal/RetweetPair.scala
- [11]: http://lehrblogger.com/nyu/classes/fall08/icm/finalprojectproposal/Reweet.scala
- [12]: http://lehrblogger.com/nyu/classes/fall08/icm/finalprojectproposal/Tweet.scala
+ [8]: /projects/fall08/icm/finalprojectproposal/WWJApplet.scala
+ [9]: /projects/fall08/icm/finalprojectproposal/TweetHandler.scala
+ [10]: /projects/fall08/icm/finalprojectproposal/RetweetPair.scala
+ [11]: /projects/fall08/icm/finalprojectproposal/Reweet.scala
+ [12]: /projects/fall08/icm/finalprojectproposal/Tweet.scala

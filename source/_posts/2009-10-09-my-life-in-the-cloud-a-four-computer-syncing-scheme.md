@@ -9,7 +9,7 @@ categories:
   - lifehacks
 updates:
   - date: 2011-09-04
-    body: "There's a bit more detail about my setup for editing text files in [this new post](http://lehrblogger.com/2011/09/04/cloud-writing-with-dropbox-and-writeroom/)."
+    body: "There's a bit more detail about my setup for editing text files in [this new post](/2011/09/04/cloud-writing-with-dropbox-and-writeroom/)."
 ---
 One of the best things about living in New York City is being able to walk everywhere, and walking is much more fun when I am not carrying anything (other than, say, a [notebook][1] and maybe an umbrella). I had been lugging my aging MacBook Pro back and forth between my apartment and work/school for well over a year, and I was tired of the physical and psychological weight (i.e. if I am going out after work, do I want my costly computer with me at the bar, or should I leave it at work and suffer with just my iPhone for a night).
 
@@ -35,7 +35,7 @@ And one more thing -- I love my netbook. [Train rides][21] aside, it was incredi
 
 Let me know if you have any questions or want help setting this up for yourself!
 
- [1]: http://lehrblogger.com/2009/01/15/4-in-4-day-3-project-3-mleskine/
+ [1]: /2009/01/15/4-in-4-day-3-project-3-mleskine/
  [2]: http://www.dropbox.com/referrals/NTE3NTA2MTI5
  [3]: http://en.wikipedia.org/wiki/Hackintosh
  [4]: http://bit.ly/

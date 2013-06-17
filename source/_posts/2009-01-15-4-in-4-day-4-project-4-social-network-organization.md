@@ -19,7 +19,7 @@ It was during this realization that I went to post my finished blog entry for th
 Somewhat simultaneously I received *another* flurry of random Twitter followers, and, since I hadn't looked at my feed in days, decided that organizing them was more urgent, and made that my project. There's a blog post that will come soon about some UI design thoughts that were crystalized by this project, but I don't have time to finish it now.
 
 I went through the 107 people I was following on Twitter, and copied their user names and real names (if specified) into one of five txt files based on my relation to them (click for full size) -- 
-[<img src="http://lehrblogger.com/nyu/projects/4in4jan09/day4img1.png" width=500>][4]
+[<img src="/projects/4in4jan09/day4img1.png" width=500>][4]
 
 Those groups are Friends, ITP, Networking, Unknown, and Bots. I then used those lists to create groups using the functionality in [TweetDeck][5], and now my Tweets are sorted (see rotated image below, or click for a horizontal version). This should make it easier to keep up with the groups which are most important and look through the less important feeds when I have time. I'll keep both sets of lists up to date as I follow more people. It was a small project, and not as creative as I would have liked, but it needed to happen anyway and my day didn't quite go as expected.  
 [<img src="/projects/4in4jan09/day4img2.png">][6]

@@ -30,5 +30,5 @@ The Java documentation was relatively clear about what I needed to do using the 
  [1]: http://www.decontextualize.com/teaching/a2z/flight-of-the-concordance/
  [2]: http://java.sun.com/j2se/1.5.0/docs/api/java/util/Collections.html
  [3]: http://java.sun.com/docs/books/tutorial/collections/index.html
- [4]: http://lehrblogger.com/nyu/classes/spring09/a2z/assignment4/assignment4.zip
+ [4]: /projects/spring09/a2z/assignment4/assignment4.zip
  [5]: http://a2z.decontextualize.com/texts/lovecraft_dreams.txt

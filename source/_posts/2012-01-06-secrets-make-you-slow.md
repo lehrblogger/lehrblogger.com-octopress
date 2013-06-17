@@ -42,4 +42,4 @@ It's rare that any single comment could change a company's direction, but in the
  [1]: http://bnter.com/convo/49194
  [2]: http://bnter.com/convo/49197
  [3]: http://inessential.com/2011/12/08/on_the_tab_labels_in_the_new_twitter_app
- [4]: http://lehrblogger.com/2011/07/06/the-problem-with-circles-and-the-pleasure-of-carbon-copy/
+ [4]: /2011/07/06/the-problem-with-circles-and-the-pleasure-of-carbon-copy/
