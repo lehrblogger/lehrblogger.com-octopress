@@ -160,13 +160,22 @@ hr {
                 margin: 0 auto;
                 display: block;
             }
+            h6 {
+                font-family: $serif;
+                color: $link-color;
+                font-size: 16px;
+            }
             h4, h6 {  // for centering images and wrapping them on the same line in a div
                 text-align: center;
             }
             iframe,
             object,
-            h6 {
+            h4, h6 {
                 margin-bottom: 20px;
+            }
+            h5 {
+                font-size: 20px;
+                margin-bottom: 10px;
             }
             ul {
                 margin-left: 25px;
