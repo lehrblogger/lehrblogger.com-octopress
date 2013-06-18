@@ -35,10 +35,10 @@ S3 Redirection Rules
     </RoutingRule>
     <RoutingRule>
         <Condition>
-            <KeyPrefixEquals></KeyPrefixEquals>
+            <KeyPrefixEquals>category/itp/</KeyPrefixEquals>
         </Condition>
         <Redirect>
-            <ReplaceKeyPrefixWith></ReplaceKeyPrefixWith>
+            <ReplaceKeyPrefixWith>category/itp-</ReplaceKeyPrefixWith>
         </Redirect>
     </RoutingRule>
 </RoutingRules>
