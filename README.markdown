@@ -41,6 +41,14 @@ S3 Redirection Rules
             <ReplaceKeyPrefixWith>category/itp-</ReplaceKeyPrefixWith>
         </Redirect>
     </RoutingRule>
+    <RoutingRule>
+        <Condition>
+            <KeyPrefixEquals>2010/01/27/einstein’s-theory-of-general-relativity-a-personal-description</KeyPrefixEquals>
+        </Condition>
+        <Redirect>
+            <ReplaceKeyPrefixWith>2010/01/27/einsteins-theory-of-general-relativity-a-personal-description</ReplaceKeyPrefixWith>
+        </Redirect>
+    </RoutingRule>
 </RoutingRules>
 ```
 

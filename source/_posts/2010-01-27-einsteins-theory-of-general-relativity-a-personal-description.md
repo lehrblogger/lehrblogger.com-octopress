@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Einstein’s Theory of General Relativity - A Personal Description"
-permalink: /2010/01/27/einstein%E2%80%99s-theory-of-general-relativity-a-personal-description/
+permalink: /2010/01/27/einsteins-theory-of-general-relativity-a-personal-description/
 dsq_thread_id:
   - 61815004
 categories:
