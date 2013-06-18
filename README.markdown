@@ -43,3 +43,21 @@ S3 Redirection Rules
     </RoutingRule>
 </RoutingRules>
 ```
+
+Front Matter Order
+------------------
+Not that this matters, but it's nice to be consistent.
+
+ * layout
+ * featured
+ * title
+ * permalink
+ * alias
+ * end_date
+ * dsq_thread_id
+ * categories
+ * excerpt
+ * show_excerpt
+ * thanks
+ * thanks_notes
+ * updates
