@@ -1,18 +1,9 @@
 <div class="twelve columns alpha omega">
-    <div class="date two columns alpha{% unless page.selected %}{% if item.featured %} featured{% endif %}{% endunless %}">
-        {% if item.end_date %}
-            {{ item.date | date: "%b %Y"}} to
-            <br/>
-            {{ item.end_date | date: "%b %Y"}}
-        {% else %}
-            {{ item.date | date: "%b %Y"}}
-        {% endif %}
-    </div>
-    <div class="ten columns omega">
+    <div class="ten columns alpha">
         <a {% if item.external %}
-            href='{{ item.external }}' target='_blank' class='external'
+            href='{{ item.external }}' target='_blank' class='title external'
         {% else %}
-            href='{{ item.url }}'
+            href='{{ item.url }}' class='title'
         {% endif %}>{{ item.title }}{% if item.external %} <i class="icon-external-link"></i>{% endif %}</a>
         {% if item.excerpt %}
             <div class="excerpt">
@@ -20,6 +11,14 @@
             </div>
         {% else %}
             <div class="no-excerpt"></div>
+        {% endif %}
+    </div>
+    <div class="date two columns omega{% unless page.selected %}{% if item.featured %} featured{% endif %}{% endunless %}">
+        {% if item.end_date %}
+            {{ item.date | date: "%b %Y"}}<br/>
+            to {{ item.end_date | date: "%b %Y"}}
+        {% else %}
+            {{ item.date | date: "%b %Y"}}
         {% endif %}
     </div>
 </div>

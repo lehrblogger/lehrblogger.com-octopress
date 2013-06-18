@@ -14,11 +14,9 @@ sub {
     position: relative;
     font-size: .75em;
 }
-
 sup {
     bottom: 1ex;
 }
-
 sub {
     top: .5ex;
 }
@@ -27,165 +25,177 @@ a {
     @include link-colors($link-color, $hover: $link-color-hover, $focus: $link-color-hover, $visited: $link-color-visited, $active: $link-color-active);
     text-decoration: none;
 }
-
 hr {
     margin: 0 0 20px 0;
 }
 
 #sidebar,
 #main {
-    color: $text-color;
     margin-top: 20px;
     margin-bottom: 20px;
+    border-top: 3px solid $text-color;
+    color: $text-color;
     font-family: $sans;
+    
+    h3 {
+        font-weight: 700;
+        font-size: 29px;
+        padding-top: 15px;
+    }
 }
+
 #sidebar {
+    color: $text-color-light;
+    .author {
+        font-weight: 600;
+    }
+    .navigation li {
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
     .search_form input.search {
-        margin-left: -2px;
+        font-weight: 600;
+        padding: 3px;
+        margin: -4px 0 0 -3px;
+        font-family: $sans;
         background: $main-bg;
         border: none;
         color: $link-color-visited;
         font-size: 16px;
-        padding: 3px;
         width: 212px;
         &::-webkit-input-placeholder { /* WebKit browsers */
-            color: $text-color-light;
+            font-weight: 600;
+            color: $link-color-visited;
         }
         &:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-            color: $text-color-light;
+            font-weight: 600;
+            color: $link-color-visited;
         }
         &::-moz-placeholder { /* Mozilla Firefox 19+ */
-            color: $text-color-light;
+            font-weight: 600;
+            color: $link-color-visited;
         }
         &:-ms-input-placeholder { /* Internet Explorer 10+ */
-            color: $text-color-light;
+            font-weight: 600;
+            color: $link-color-visited;
         }
     }
 }
-h3 {
-    padding-top: 15px;
-    border-top: 3px solid $text-color;
-    font-weight: 700;
-}
-h4 {
-    font-weight: 700;
-    font-size: 20px;
-    margin-bottom: 20px;
-}
 
-#main .cover-photo {
-    border-top: 3px solid $text-color;
-    padding-top: 21px;
-    min-height: 127px;
-    background-image: url('/images/xkcd_party.jpg');
-    background-repeat: no-repeat;
-    background-position: 0 -5px;
-    background-size: 700px auto;
-    background-clip: content-box;
-    position: relative;
-    .credit {
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        padding: 6px 4px;
-        line-height: 0.7em;
-        font-size: 0.7em;
-        opacity: 0.7;
-        background-color: $text-color;
-        color: $main-bg;
-        a {
+#main {
+    .cover-photo {
+        padding-top: 21px;
+        min-height: 122px;
+        background-image: url('/images/xkcd_party.jpg');
+        background-repeat: no-repeat;
+        background-position: 0 -5px;
+        background-size: 700px auto;
+        background-clip: content-box;
+        position: relative;
+        .credit {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            padding: 6px 4px;
+            line-height: 0.7em;
+            font-size: 0.7em;
+            opacity: 0.7;
+            background-color: $text-color;
             color: $main-bg;
-        }
-    }
-}
-.posts.twelve.columns.alpha.omega:nth-child(2) {
-    h3 {
-        border: none;
-    }
-}
-.item-list {
-    .external .icon-external-link {
-        margin-left: 1px;
-        font-size: 90%;
-    }
-    .excerpt {
-        font-style: italic;
-    }
-    .no-excerpt {
-        min-height: 1em;
-        margin: 0 0 20px 0;
-    }
-    .date {
-        color: $text-color-light;
-    }
-    .date.featured {
-        color: $text-color;
-    }
-}
-
-#about {
-    .profile-photo {
-        padding-top: 6px;
-        float: right;
-        height: 127px;
-    }
-    #service-lists {
-        ul {
-            margin-top: -10px;
-            margin-left: 25px;
-        }
-        img {
-            height: 16px;
-            padding-right: 8px;
-            margin-bottom: -3px;
-        }
-    }
-}
-
-.entry {
-    .entry-content {
-        font-family: $serif;
-        iframe,
-        object,
-        p > img {
-            margin: 0 auto;
-            display: block;
-        }
-        h6 {  // h6 so we can wrap images we want on the same line in a div
-            text-align: center;
-        }
-        iframe,
-        object,
-        h6 {
-            margin-bottom: 20px;
-        }
-        ul {
-            margin-left: 25px;
-            list-style: disc;
-        }
-        .entry-excerpt {
-            color: $text-color-light;
-        }
-        .entry-meta {
-            margin: 0 0 20px 0;
-            .entry-update {
-                margin-top: 10px;
-                p {
-                    display: inline;
-                }
+            a {
+                color: $main-bg;
             }
         }
     }
-    footer {
-        font-family: $sans;
-        .three.columns.alpha {
-            text-align: left;
+
+    #about {
+        .profile-photo {
+            padding-top: 6px;
+            float: right;
+            height: 127px;
         }
-        .six.columns {
-            text-align: center;
+        #service-lists {
+            ul {
+                margin-top: -10px;
+                margin-left: 25px;
+            }
+            img {
+                height: 16px;
+                padding-right: 8px;
+                margin-bottom: -3px;
+            }
         }
-        .three.columns.omega {
+    }
+
+    .item-list {
+        .title {
+            font-weight: 600;
+        }
+        .external .icon-external-link {
+            margin-left: 1px;
+            font-size: 90%;
+        }
+        .excerpt {
+            font-style: italic;
+        }
+        .no-excerpt {
+            min-height: 1em;
+            margin: 0 0 20px 0;
+        }
+        .date {
             text-align: right;
+            color: $text-color-light;
+        }
+        .date.featured {
+            color: $text-color;
+        }
+    }
+
+    .entry {
+        .entry-content {
+            font-family: $serif;
+            iframe,
+            object,
+            p > img {
+                margin: 0 auto;
+                display: block;
+            }
+            h6 {  // h6 so we can wrap images we want on the same line in a div
+                text-align: center;
+            }
+            iframe,
+            object,
+            h6 {
+                margin-bottom: 20px;
+            }
+            ul {
+                margin-left: 25px;
+                list-style: disc;
+            }
+            .entry-excerpt {
+                color: $text-color-light;
+            }
+            .entry-meta {
+                margin: 0 0 20px 0;
+                .entry-update {
+                    margin-top: 10px;
+                    p {
+                        display: inline;
+                    }
+                }
+            }
+        }
+        footer {
+            font-family: $sans;
+            .three.columns.alpha {
+                text-align: left;
+            }
+            .six.columns {
+                text-align: center;
+            }
+            .three.columns.omega {
+                text-align: right;
+            }
         }
     }
 }

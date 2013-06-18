@@ -10,7 +10,7 @@ categories:
   - ITP
   - projects
   - web ideas
-excerpt: "Make and share heat maps of your [Foursquare](http://foursquare.com) check-ins!"
+excerpt: "Customize and share heat maps of your [Foursquare](http://foursquare.com) check-ins!"
 show_excerpt: true
 thanks:
   - name: Jorge Ortiz

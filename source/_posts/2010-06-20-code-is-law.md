@@ -1,6 +1,6 @@
 ---
 layout: post
-featured: true
+featured: false
 title: '"Code is Law"'
 permalink: /2010/06/20/code-is-law/
 dsq_thread_id:

@@ -10,37 +10,31 @@
                 <h3>
                     <a href="/">lehrblogger.com</a>
                 </h3>
-                <h4>
-                    by {{ site.author }}
-                </h4>
                 <p>
-                    I design and build social software in New York City.
+                    Hi! I'm <a class="author" href="/about/">{{ site.author }}</a>.
                 </p>
                 <p>
-                    I'm currently working on <a href="http://dashdash.com">Dashdash</a>, a messaging app inspired by real life.
+                    I design and build social<br/>software in New York City.
                 </p>
-                <h4>
-                    <a href="/posts/">All Posts</a>
-                </h4>
-                <h4>
-                    <a href="/projects/">All Projects</a>
-                </h4>
-                <h4>
-                    <a href="/about/">About/Contact</a>
-                </h4>
-                <p class="subscription">
-                    <a href="{{ site.subscribe_rss }}" rel="subscribe-rss" title="subscribe via RSS">Subscribe via RSS</a>
+                <p>
+                    I'm currently working on<br/><a href="http://dashdash.com">Dashdash</a>, a messaging<br/>app inspired by real life.
                 </p>
-                {% if site.simple_search %}
-                    <div class="search_form">
-                        <form action="{{ site.simple_search }}" method="get">
-                             <fieldset role="search">
-                                 <input type="hidden" name="q" value="site:{{ site.url | shorthand_url }}" />
-                                 <input class="search" type="text" name="q" results="0" placeholder="Type here to search..."/>
-                             </fieldset>
-                        </form>
-                    </div>        
-                {% endif %}
+                <ul class="navigation">
+                    <li><a href="/posts/">All Posts</a></li>
+                    <li><a href="/projects/">All Projects</a></li>
+                    <li><a href="/about/">About/Contact</a></li>
+                    <li><a href="{{ site.subscribe_rss }}" rel="subscribe-rss" title="subscribe via RSS">Subscribe via RSS</a></li>
+                    {% if site.simple_search %}
+                        <li class="search_form">
+                            <form action="{{ site.simple_search }}" method="get">
+                                 <fieldset role="search">
+                                     <input type="hidden" name="q" value="site:{{ site.url | shorthand_url }}" />
+                                     <input class="search" type="text" name="q" results="0" placeholder="Type here to search..."/>
+                                 </fieldset>
+                            </form>
+                        </li>
+                    {% endif %}
+                </ul>
             </div>
             <div id="main" class="twelve columns omega">
                 <div id="content">
