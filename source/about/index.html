@@ -36,7 +36,7 @@ services:
     url: "https://www.facebook.com/lehrblogger"
 ---
 <div id="about">
-    <h3><a href="{{ page.url }}">{{ page.title }}</a><img class="profile-photo" src="/images/profile.jpg"></h3>
+    <h3><a href="{{ page.url | remove: 'index.html' }}">{{ page.title }}</a><img class="profile-photo" src="/images/profile.jpg"></h3>
     <div id="service-lists">
         <p>
             I go by <strong>@lehrblogger</strong> most everywhere on the Internet.
