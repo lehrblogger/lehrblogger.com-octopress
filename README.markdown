@@ -1,7 +1,9 @@
-lehrblogger.com
+[lehrblogger.com](http://lehrblogger.com)
 ===============
 
-WordPress I love you but you're bringing me down.
+WordPress I love you, [but you're bringing me down.](http://www.youtube.com/watch?v=-eohHwsplvY)
+
+A static Jekyll site based off of the [Octopress framework](http://octopress.org/) and [Ryan Duessing's Minimalist theme.](https://github.com/ryandeussing/octopress-minimalist) and hosted on [Amazon S3](http://aws.amazon.com/s3/).
 
 S3 Redirection Rules
 --------------------
