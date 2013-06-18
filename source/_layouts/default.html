@@ -23,7 +23,9 @@
                     <li><a href="/posts/">All Posts</a></li>
                     <li><a href="/projects/">All Projects</a></li>
                     <li><a href="/about/">About/Contact</a></li>
-                    <li><a href="{{ site.feedburner_url }}" rel="subscribe-rss" title="Subscribe via RSS">Subscribe via RSS</a></li>
+                    <li class="subscription">
+                        <a href="{{ site.feedburner_url }}" rel="subscribe-rss" title="Subscribe via RSS">Subscribe via RSS</a>
+                    </li>
                     {% if site.simple_search %}
                         <li class="search_form">
                             <form action="{{ site.simple_search }}" method="get">

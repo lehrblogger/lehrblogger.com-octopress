@@ -160,7 +160,7 @@ hr {
                 margin: 0 auto;
                 display: block;
             }
-            h6 {  // h6 so we can wrap images we want on the same line in a div
+            h5, h6 {  // for centering images and wrapping them on the same line in a div
                 text-align: center;
             }
             iframe,
