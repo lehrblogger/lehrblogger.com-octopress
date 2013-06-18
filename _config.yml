@@ -17,6 +17,7 @@ date_format: "ordinal"
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
 subscribe_rss: /feed/
+feedburner_url: http://feeds.feedburner.com/Lehrblogger
 email: lehrburger@gmail.com
 
 # ----------------------- #
