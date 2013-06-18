@@ -60,24 +60,24 @@ hr {
         font-family: $sans;
         background: $main-bg;
         border: none;
-        color: $link-color-visited;
+        color: $link-color;
         font-size: 16px;
         width: 212px;
         &::-webkit-input-placeholder { /* WebKit browsers */
             font-weight: 600;
-            color: $link-color-visited;
+            color: $link-color;
         }
         &:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
             font-weight: 600;
-            color: $link-color-visited;
+            color: $link-color;
         }
         &::-moz-placeholder { /* Mozilla Firefox 19+ */
             font-weight: 600;
-            color: $link-color-visited;
+            color: $link-color;
         }
         &:-ms-input-placeholder { /* Internet Explorer 10+ */
             font-weight: 600;
-            color: $link-color-visited;
+            color: $link-color;
         }
     }
 }
@@ -89,7 +89,7 @@ hr {
         background-image: url('/images/xkcd_party.jpg');
         background-repeat: no-repeat;
         background-position: 0 -5px;
-        background-size: 700px auto;
+        background-size: 100% auto;
         background-clip: content-box;
         position: relative;
         .credit {
@@ -160,7 +160,7 @@ hr {
                 margin: 0 auto;
                 display: block;
             }
-            h5, h6 {  // for centering images and wrapping them on the same line in a div
+            h4, h6 {  // for centering images and wrapping them on the same line in a div
                 text-align: center;
             }
             iframe,
