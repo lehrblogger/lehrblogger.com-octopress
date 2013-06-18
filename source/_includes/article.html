@@ -21,7 +21,6 @@
         </p>
     {% endif %}
     <hr>
-    {% include disqus.html %}
     <div class="entry-meta">
         {% capture time %}<time datetime="{{ page.date | datetime | date_to_xmlschema }}" pubdate{% if page.updates %} data-updated="true"{% endif %}>{{ page.date | date: "%d %B %Y" }}</time>{% endcapture %}
         Published on {{ time }}

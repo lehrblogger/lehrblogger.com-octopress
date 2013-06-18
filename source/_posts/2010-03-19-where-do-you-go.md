@@ -67,7 +67,7 @@ As described above, I needed to map the array of 'darkness' values for each of t
 
 Please let me know if you are interested in explanations of other aspects of the tile generation or the code in general -- I think the above tricks are particularly cool, but there's lots of interesting stuff going on within the application that I'd love to talk about.
 
-{% iframe_embed youtube IKIZ8PgHDN0 %}
+{% iframe_embed youtube IKIZ8PgHDN0 521 421 %}
 
  [1]: http://wheredoyougo.net
  [2]: http://foursquare.com/

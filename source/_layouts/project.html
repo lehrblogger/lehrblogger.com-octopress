@@ -1,9 +1,11 @@
 ---
 layout: default
 single: true
+comments: true
 ---
 <article class="entry" role="article">
     {% include article.html %}
+    {% include disqus.html %}
     <footer>
         <span class="three columns alpha">
             {% if page.layout_previous.url %}
@@ -19,14 +21,8 @@ single: true
             {% if page.layout_next.url %}
                 <a href="{{ page.layout_next.url }}" title="{{ page.layout_next.title }}">Next Project &raquo;</a>
             {% else %}
-                (This is the last project.)
+                (This is the most recent project.)
             {% endif %}
         </span>
     </footer>
 </article>
-{% if site.disqus_short_name and page.comments == true %}
-    <section>
-        <h3 class="comments">Comments</h3>
-        <div id="disqus_thread" aria-live="polite">{% include post/disqus_thread.html %}</div>
-    </section>
-{% endif %}
