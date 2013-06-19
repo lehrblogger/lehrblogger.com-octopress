@@ -7,17 +7,17 @@ comments: true
     {% include article.html %}
     {% include disqus.html %}
     <footer>
-        <span class="three columns alpha">
+        <span class="four columns alpha">
             {% if page.layout_previous.url %}
                 <a href="{{ page.layout_previous.url }}" title="{{ page.layout_previous.title }}">&laquo; Previous Post</a>
             {% else %}
                 (This is the first post.)
             {% endif %}
         </span>
-        <span class="six columns">
+        <span class="four columns">
             <a href="/posts/" title="All Posts">All Posts</a>
         </span>
-        <span class="three columns omega">
+        <span class="four columns omega">
             {% if page.layout_next.url %}
                 <a href="{{ page.layout_next.url }}" title="{{ page.layout_next.title }}">Next Post &raquo;</a>
             {% else %}

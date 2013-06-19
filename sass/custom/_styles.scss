@@ -192,13 +192,13 @@ hr {
         }
         footer {
             font-family: $sans;
-            .three.columns.alpha {
-                text-align: left;
-            }
-            .six.columns {
+            .four.columns {
                 text-align: center;
             }
-            .three.columns.omega {
+            .four.columns.alpha {
+                text-align: left;
+            }
+            .four.columns.omega {
                 text-align: right;
             }
         }
