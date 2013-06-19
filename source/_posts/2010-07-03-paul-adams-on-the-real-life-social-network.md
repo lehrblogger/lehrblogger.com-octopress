@@ -1,6 +1,6 @@
 ---
 layout: post
-featured: true
+featured: false
 title: "Paul Adams on the Real Life Social Network"
 permalink: /2010/07/03/paul-adams-on-the-real-life-social-network/
 dsq_thread_id:
@@ -8,7 +8,7 @@ dsq_thread_id:
 categories:
   - commentary
   - ITP
-  - thesis
+  - ITP - thesis
   - Wanderlist
 excerpt: "Strong ties, weak ties, and latent ties."
 show_excerpt: true
