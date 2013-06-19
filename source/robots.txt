@@ -2,6 +2,10 @@
 layout: nil
 ---
 User-agent: *
-Disallow: 
+Disallow: /projects/fall08
+Allow:    /projects/fall08/election
+Disallow: /projects/fall09
+Disallow: /projects/spring09
+Disallow: /projects/spring10
 
 Sitemap: {{ site.url }}/sitemap.xml 
