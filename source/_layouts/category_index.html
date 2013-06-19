@@ -3,7 +3,7 @@ layout: default
 comments: false
 ---
 <div class="posts twelve columns alpha omega">
-    <h3><a href="/category/{{ page.category }}/">Category: {{ page.category }}</a></h3>
+    <h3><a href="/category/{{ page.category | remove: ' ' | downcase }}/">Category: {{ page.category }}</a></h3>
     <div class="item-list">
         {% for item in site.categories[page.category] %}
             {% if item.layout == 'post' %}
