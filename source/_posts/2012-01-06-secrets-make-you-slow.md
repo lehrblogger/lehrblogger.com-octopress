@@ -13,7 +13,7 @@ thanks:
   - name: Jorge
     link: "http://twitter.com/jorgeo"
   - name: Nina
-    link: "http://ninakix.posterous.com"
+    link: "http://youngandbrilliant.net/"
   - name: Bryan
     link: "http://blence.com/"
 ---

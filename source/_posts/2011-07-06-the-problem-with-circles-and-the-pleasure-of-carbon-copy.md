@@ -20,10 +20,10 @@ thanks:
   - name: Jorge Ortiz
     link: "http://twitter.com/jorgeo"
   - name: Ninakix
-    link: "http://ninakix.posterous.com"
+    link: "http://youngandbrilliant.net/"
 updates:
   - date: 2011-07-11
-    body: Added thanks to Nina for [some great comments on her posterous](http://ninakix.posterous.com/60309089).
+    body: Added thanks to Nina for [some great comments on her posterous](http://blog.kissedbyrain.com/post/google-broadcasting-and-privacy).
 ---
 A week ago Google launched its much-anticipated social network, [Google+][1]. I think they executed remarkably well, given the size of the company ([24,200 employees][2]), the stakes involved (see [the ever-hyperbolic TechCrunch][3]), and their history with social ([Buzz][4], [Wave][5]). It was important that they launch something good, and I think what they launched *is* good. New features include a cross-service toolbar, Hangouts, Huddles, and Sparks, but here I'm going to talk about Circles. If you're not on Google+ yet, the below video gives a good sense of the feature and its interface, but you should sign up and try it for yourself.
 
