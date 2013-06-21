@@ -5,7 +5,7 @@ title: "No Moving Parts"
 permalink: /2013/06/16/no-moving-parts/
 categories:
   - admin
-excerpt: "A blog redesign at last! And I've migrated from WordPress on DreamHost to Jekyll on S3."
+excerpt: "A blog redesign and migration from WordPress on DreamHost to Jekyll on S3."
 show_excerpt: true
 ---
 It's difficult to describe the serenity of having a website that consists only of static files.

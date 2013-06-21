@@ -7,8 +7,13 @@
 </header>
 <div class="entry-content">
     {% if page.show_excerpt %}
-        <div class="entry-excerpt">
-            {{ page.excerpt | markdownify }}
+        <div class="entry-subtitle twelve columns alpha omega">
+            <div class="ten columns alpha">
+                {{ page.excerpt | markdownify }}
+            </div>
+            <div class="two columns omega">
+                {{ content | count_words }} words
+            </div>
         </div>
     {% endif %}
     {{ content }}

@@ -177,8 +177,11 @@ hr {
                 margin-left: 25px;
                 list-style: disc;
             }
-            .entry-excerpt {
+            .entry-subtitle {
                 color: $text-color-light;
+                .two.columns.omega {
+                    text-align: right;
+                };
             }
             .entry-meta {
                 margin: 0 0 20px 0;
