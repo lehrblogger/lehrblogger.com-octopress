@@ -142,7 +142,7 @@ module Jekyll
     def fill_posts(site, urlset)
       last_modified_date = nil
       site.posts.each do |post|
-        if !excluded?(post.name)
+        if !excluded?(post.name) and post.data["layout"] != "draft"
           url = fill_url(site, post)
           urlset.add_element(url)
         end
