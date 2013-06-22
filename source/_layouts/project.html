@@ -4,25 +4,6 @@ single: true
 comments: true
 ---
 <article class="entry" role="article">
+    {% assign layout = 'project' %}
     {% include article.html %}
-    {% include disqus.html %}
-    <footer>
-        <span class="four columns alpha">
-            {% if page.layout_previous.url %}
-                <a href="{{ page.layout_previous.url }}" title="{{ page.layout_previous.title }}">&laquo; Previous Project</a>
-            {% else %}
-                (This is the first project.)
-            {% endif %}
-        </span>
-        <span class="four columns">
-            <a href="/projects/" title="All Posts">All Projects</a>
-        </span>
-        <span class="four columns omega">
-            {% if page.layout_next.url %}
-                <a href="{{ page.layout_next.url }}" title="{{ page.layout_next.title }}">Next Project &raquo;</a>
-            {% else %}
-                (This is the most recent project.)
-            {% endif %}
-        </span>
-    </footer>
 </article>

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: draft
 featured: true
 title: "The Last Great Social Network"
 permalink: /2013/06/25/the-last-great-social-network/
@@ -11,7 +11,7 @@ show_excerpt: true
 thanks:
   - name: Nina
     link: "http://youngandbrilliant.net/"
-thanks_note: "for reading a draft of this post!"
+thanks_note: "reading a draft of this post!"
 ---
 [!["'The Consummation of Empire' by Thomas Cole"](/images/2013/06/The_Course_of_Empire_Consummation_Thomas_Cole_1835_1836.jpg)](http://en.wikipedia.org/wiki/File:The_Course_of_Empire_Consummation_Thomas_Cole_1835_1836.jpeg)
 
