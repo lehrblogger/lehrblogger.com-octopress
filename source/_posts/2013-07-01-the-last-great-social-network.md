@@ -2,7 +2,7 @@
 layout: post
 featured: true
 title: "The Last Great Social Network"
-permalink: /2013/06/25/the-last-great-social-network/
+permalink: /2013/07/01/the-last-great-social-network/
 categories:
   - commentary
   - Dashdash
@@ -14,7 +14,7 @@ thanks:
   - name: "@ninakix"
     link: "http://youngandbrilliant.net/"
 ---
-[!["'The Course of Empire: The Consummation of Empire' by Thomas Cole"](/images/2013/06/The_Course_of_Empire_Consummation_Thomas_Cole_1835_1836.jpg)](http://en.wikipedia.org/wiki/File:The_Course_of_Empire_Consummation_Thomas_Cole_1835_1836.jpeg)
+[!["'The Course of Empire: The Consummation of Empire' by Thomas Cole"](/images/2013/07/The_Course_of_Empire_Consummation_Thomas_Cole_1835_1836.jpg)](http://en.wikipedia.org/wiki/File:The_Course_of_Empire_Consummation_Thomas_Cole_1835_1836.jpeg)
 
 Facebook hopes to be the last great social network. They want to own the network of connections between people upon which all future applications will be built. [Mark Zuckerberg has made this ambition clear][1]:
 
@@ -29,7 +29,7 @@ Facebook rose to dominance as an application running in a web browser on desktop
 
 As an application, nine-year-old Facebook has struggled to adapt to the shift from web browsers to mobile phones. It [acquired photo-sharing app Instagram][2] to strengthen its mobile presence, yet other competitive mobile apps have continued to grow exponentially: users of two-year-old Snapchat now send [200 million photos per day][3], and users of four-year-old WhatsApp send [10 billion messages per day][4][^2]. Can Facebook successfully transition its application to mobile, and either defeat or pay off[^3] these barbarians at its gates? Must they keep up with every new application-layer innovation? Or is there another strategy?
 
-[!["'The Course of Empire: Destruction' by Thomas Cole"](/images/2013/06/Cole_Thomas_The_Course_of_Empire_Destruction_1836.jpg)](http://en.wikipedia.org/wiki/File:Cole_Thomas_The_Course_of_Empire_Destruction_1836.jpg)
+[!["'The Course of Empire: Destruction' by Thomas Cole"](/images/2013/07/Cole_Thomas_The_Course_of_Empire_Destruction_1836.jpg)](http://en.wikipedia.org/wiki/File:Cole_Thomas_The_Course_of_Empire_Destruction_1836.jpg)
 
 Alternatively, Facebook can try to become the social layer that Zuckerberg described. If Facebook establishes itself as a new layer between the OS and application layers, then former competitors in the application layer would be reliant on Facebook for the social graph, and Facebook would be protected.
 
@@ -37,7 +37,7 @@ This strategy makes Facebook vulnerable in a variety of other ways, however. Fir
 
 Facebook, similarly, faces the cooperative efforts of Twitter, Tumblr, Google, and others who are wary of giving Facebook too much control. Facebook wants all applications to rely on them for their social graph, but it is difficult for Facebook to prevent those companies from leveraging that graph to create a competing social layer. As a result, Facebook encourages smaller applications to use their platform, but restricts access for larger companies. By restricting access, however, Facebook also forces those companies to seek alternative social layers or build their own, thus strengthening competitors. Facebook's social layer monopoly is further destabilized by the ease with which users can rely on multiple social graphs simultaneously, in contrast to how inconvenient it is for them to use multiple data networks, hardware devices, or operating systems.
 
-[!["'The Course of Empire: Desolation' by Thomas Cole"](/images/2013/06/Cole_Thomas_The_Course_of_Empire_Desolation_1836.jpg)](http://en.wikipedia.org/wiki/File:Cole_Thomas_The_Course_of_Empire_Desolation_1836.jpg)
+[!["'The Course of Empire: Desolation' by Thomas Cole"](/images/2013/07/Cole_Thomas_The_Course_of_Empire_Desolation_1836.jpg)](http://en.wikipedia.org/wiki/File:Cole_Thomas_The_Course_of_Empire_Desolation_1836.jpg)
 
 Even if Facebook is able to weather the challenges against its monopoly from competitors in the application layer, it faces even more disruptive and inevitable changes in the underlying data network, end-user hardware, and operating system layers upon which this social layer is built. Facebook still rallies behind the cry, "[this journey is 1% finished][5]," and this is true partially because the underlying communication technologies are constantly evolving. There is nothing unique about the ongoing shift in consumer attention from desktop to mobile, and this constant evolution ensures that neither Facebook nor any other single company will own this social layer indefinitely and be the *last* great social network. Examples of previous disruptive technologies include:
 
@@ -48,7 +48,7 @@ Even if Facebook is able to weather the challenges against its monopoly from com
 
 In each case the changes in underlying technology enabled new consumer behaviors and disrupted old monetization strategies, and it's difficult for established companies to anticipate these changes and execute accordingly. For example, the current mobile devices are certainly not the apex of communication technology. Regardless of the whether Google can foster [healthy social conventions][7] around [Glass][8], it's clear that we will have wearable communication devices, and that those devices will enable yet-to-be-imagined user experiences in both the social and application layers. There will be many future technologies after Glass at the network, hardware, and OS layers, and each technology will destabilize these higher layers in which Facebook has built its empire and create new opportunities in undeveloped territory.
 
-[!["'The Course of Empire: The Savage State' by Thomas Cole"](/images/2013/06/Cole_Thomas_The_Course_of_Empire_The_Savage_State_1836.jpg)](http://en.wikipedia.org/wiki/File:Cole_Thomas_The_Course_of_Empire_The_Savage_State_1836.jpg)
+[!["'The Course of Empire: The Savage State' by Thomas Cole"](/images/2013/07/Cole_Thomas_The_Course_of_Empire_The_Savage_State_1836.jpg)](http://en.wikipedia.org/wiki/File:Cole_Thomas_The_Course_of_Empire_The_Savage_State_1836.jpg)
 
 This recurring rebirth of the technological landscape is related to [Clay Christensen's *Innovator's Dilemma*][10]: established companies are vulnerable to smaller companies with disruptive and low-margin technologies that, over time, become profitable and overtake those of the established companies. Should Facebook spend resources developing a new social layer (perhaps enabled by passive data collection from wearable devices like Glass), and risk being too early or building the wrong thing? Or should they wait until the market is established and the interaction paradigms proven, and risk being too late? The barbarians are independent, so each can try a different approach, but a sprawling empire must choose its strategies more carefully.
 
@@ -58,7 +58,7 @@ These questions are not particular to Facebook and its products and strategies, 
 
 The only question is when. Each new great social network will look different from the previous great social network, because they will be built on a different stack of technologies. Each new great social network will be great for us, the users, because they will bring us ever closer to people who are far away.
 
-[!["'The Course of Empire: The Arcadian or Pastoral State' by Thomas Cole"](/images/2013/06/Cole_Thomas_The_Course_of_Empire_The_Arcadian_or_Pastoral_State_1836.jpg)](http://en.wikipedia.org/wiki/File:Cole_Thomas_The_Course_of_Empire_The_Arcadian_or_Pastoral_State_1836.jpg)
+[!["'The Course of Empire: The Arcadian or Pastoral State' by Thomas Cole"](/images/2013/07/Cole_Thomas_The_Course_of_Empire_The_Arcadian_or_Pastoral_State_1836.jpg)](http://en.wikipedia.org/wiki/File:Cole_Thomas_The_Course_of_Empire_The_Arcadian_or_Pastoral_State_1836.jpg)
 
 *The paintings depict neither Facebook nor Ancient Rome (the last great civilization?), but rather an imaginary city. Titled *[The Consummation of Empire](http://en.wikipedia.org/wiki/File:The_Course_of_Empire_Consummation_Thomas_Cole_1835_1836.jpeg)*, *[Destruction](http://en.wikipedia.org/wiki/File:Cole_Thomas_The_Course_of_Empire_Destruction_1836.jpg)*, *[Desolation](http://en.wikipedia.org/wiki/File:Cole_Thomas_The_Course_of_Empire_Desolation_1836.jpg)*, *[The Savage State](http://en.wikipedia.org/wiki/File:Cole_Thomas_The_Course_of_Empire_The_Savage_State_1836.jpg)*, and *[The Arcadian or Pastoral State](http://en.wikipedia.org/wiki/File:Cole_Thomas_The_Course_of_Empire_The_Arcadian_or_Pastoral_State_1836.jpg)*, respectively, they were painted by [Thomas Cole](http://en.wikipedia.org/wiki/Thomas_Cole) from 1833-36 as part of his five-part series *[The Course of Empire](http://en.wikipedia.org/wiki/The_Course_of_Empire)*.*
 
