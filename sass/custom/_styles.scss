@@ -12,6 +12,7 @@ sub {
 }
 sup {
     bottom: 1ex;
+    margin-left: 2px;
 }
 sub {
     top: .5ex;
@@ -191,6 +192,11 @@ hr {
                         display: inline;
                     }
                 }
+            }
+            .footnotes li a[rev="footnote"] {
+                margin-left: 3px;
+                top: 2px;
+                position: relative;
             }
         }
         footer {
