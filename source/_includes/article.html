@@ -50,6 +50,11 @@
         {% endif %}
     </p>
     <hr>
+    {% unless layout == 'draft' %}
+        <div class="entry-social">
+            Comments? You can <a href="https://news.ycombinator.com/submitlink?u={{ site.url | append:page.url | cgi_escape }}&t={{ page.title | cgi_escape }}">submit this link to Hacker News</a>, or use Disqus below.
+        </div>
+    {% endunless %}
 </div>
 {% include disqus.html %}
 <footer>
