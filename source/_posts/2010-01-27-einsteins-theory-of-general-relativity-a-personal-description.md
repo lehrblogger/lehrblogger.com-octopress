@@ -8,8 +8,8 @@ categories:
   - assignments
   - ITP
   - ITP - Time
-excerpt: "\"Faster, faster, until...\""
-show_excerpt: true
+blurb: "\"Faster, faster, until...\""
+show_blurb: true
 ---
 ***From the [syllabus][1]** -- Reading: Find and read descriptions of Einstein’s Theory of General Relativity and how it relates to time. Describe it in your own words on your blog and post a link to it on the wiki. We’ll go through your descriptions in class. How would you describe it to a 5 year old or your grandmother?*
 

@@ -10,8 +10,8 @@ categories:
   - Wanderlist
   - ITP
   - ITP - thesis
-excerpt: "Baby's first VC pitch."
-show_excerpt: true
+blurb: "Baby's first VC pitch."
+show_blurb: true
 ---
 I gave this five-minute presentation at ITP on Saturday as part of the Startup Talk/Pitch Fest organized by faculty member Nancy Hechinger. Ron Conway and his partners at SV Angel, Dennis Crowley of Foursquare, Tom Cohen, and other members of the ITP community were in the audience. I got some good feedback and people were interested in the idea.
 

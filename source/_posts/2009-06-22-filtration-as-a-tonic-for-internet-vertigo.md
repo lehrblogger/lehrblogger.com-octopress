@@ -8,8 +8,8 @@ dsq_thread_id:
 categories:
   - commentary
   - web ideas
-excerpt: "I want filtration algorithms, *not* recommendation algorithms."
-show_excerpt: true
+blurb: "I want filtration algorithms, *not* recommendation algorithms."
+show_blurb: true
 updates:
   - date: 2009-06-30
     body: "I've written more about this topic in [this subsequent post](/2009/06/30/the-stream-packet-duality-of-content/)."

@@ -10,8 +10,8 @@ categories:
   - Wanderlist
   - ITP
   - ITP - thesis
-excerpt: "What I was actually planning to build."
-show_excerpt: true
+blurb: "What I was actually planning to build."
+show_blurb: true
 updates:
   - date: 2011-10-09
     body: "I'm no longer working on the project, so I let the $87/year wanderli.st domain expire and removed that link to minimize confusion."

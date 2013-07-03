@@ -9,8 +9,8 @@ categories:
   - assignments
   - ITP
   - ITP - A2Z
-excerpt: "Counting links on Twitter."
-show_excerpt: true
+blurb: "Counting links on Twitter."
+show_blurb: true
 ---
 The third assignment was posted [here][1], and was to
 

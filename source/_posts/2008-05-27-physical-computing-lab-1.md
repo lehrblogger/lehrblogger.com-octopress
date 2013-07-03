@@ -15,8 +15,8 @@ categories:
   - assignments
   - ITP
   - ITP - PComp
-excerpt: "This is how buttons work."
-show_excerpt: true
+blurb: "This is how buttons work."
+show_blurb: true
 ---
 Lab from: <http://itp.nyu.edu/physcomp/Labs/Electronics>
 

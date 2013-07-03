@@ -10,8 +10,8 @@ categories:
   - projects
   - ITP
   - ITP - Design For UNICEF
-excerpt: "Later, we changed the name of the project to Textonic."
-show_excerpt: true
+blurb: "Later, we changed the name of the project to Textonic."
+show_blurb: true
 ---
 *cross-posted at [textonic.org][1]*  
 *previously: *[Mobile Tech for Social Change Barcamp][2], [Design for UNICEF -- RapidSMS and Mechanical Turk][3]

@@ -7,8 +7,8 @@ dsq_thread_id:
   - 37802152
 categories:
   - web ideas
-excerpt: "\"I wonder how it feels to be bored.\""
-show_excerpt: true
+blurb: "\"I wonder how it feels to be bored.\""
+show_blurb: true
 ---
 #### <http://webideas.uservoice.com>
 

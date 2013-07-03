@@ -9,8 +9,8 @@ categories:
   - assignments
   - ITP
   - ITP - AJAX
-excerpt: "Even more Javascript."
-show_excerpt: true
+blurb: "Even more Javascript."
+show_blurb: true
 ---
 I used the first few assignments for experimentation with the canvas tag to begin to think about the implementation of my [keyboard project][1]. For the first part, I used some Javascript and CSS to draw out rows of boxes for a basic keyboard layout. The second example draws and then resizes a simple rectangle within a canvas tag using scale() and translate(), but it should work for any content.
 

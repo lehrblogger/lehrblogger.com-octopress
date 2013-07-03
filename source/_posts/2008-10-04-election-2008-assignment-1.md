@@ -9,8 +9,8 @@ categories:
   - assignments
   - ITP
   - ITP - Election
-excerpt: "Title: *Text Media: A Comparative Analysis of Contextual Importance*"
-show_excerpt: true
+blurb: "Title: *Text Media: A Comparative Analysis of Contextual Importance*"
+show_blurb: true
 ---
 The assignment was to "write a short paper comparing three pieces of political media related to the 2008 Presidential election," all both produced and distributed outside of the traditional channels ([PDF][1]).
 

@@ -7,8 +7,8 @@ dsq_thread_id:
   - 529118658
 categories:
   - commentary
-excerpt: "Companies that are secretive about in-progress products are at a disadvantage."
-show_excerpt: true
+blurb: "Companies that are secretive about in-progress products are at a disadvantage."
+show_blurb: true
 thanks:
   - name: Jorge
     link: "http://twitter.com/jorgeo"

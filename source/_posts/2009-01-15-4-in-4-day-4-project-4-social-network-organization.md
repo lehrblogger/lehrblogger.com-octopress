@@ -11,8 +11,8 @@ categories:
   - projects
   - ITP
   - ITP - 4-in-4
-excerpt: "This is *still* a problem for me on Twitter."
-show_excerpt: true
+blurb: "This is *still* a problem for me on Twitter."
+show_blurb: true
 ---
 My final 4-in-4 project was originally going to be "Plan Trip to SXSW" -- including buying plane tickets and book a hotel -- but not quite enough people seemed like they were ready to commit yet (props to [Liesje][1] for being decisive).
 

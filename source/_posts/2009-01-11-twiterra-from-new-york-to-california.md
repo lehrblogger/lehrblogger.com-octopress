@@ -10,8 +10,8 @@ categories:
   - projects
   - ITP
   - ITP - ICM
-excerpt: "(I wish I had better documentation of this.)"
-show_excerpt: true
+blurb: "(I wish I had better documentation of this.)"
+show_blurb: true
 ---
 My presentation last week of TwiTerra at the [NY Tech Meetup][1] went very well. A PDF of the space in which the presentations are given is [here][2], and thanks to @[jprytyskacz][3] for linking it. I think people enjoyed my presentation, and I had good conversations with several people about Twitter and other technologies at the IAC and especially at the bar where everyone went to meet afterward.
 

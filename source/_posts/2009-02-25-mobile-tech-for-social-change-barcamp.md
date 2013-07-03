@@ -9,8 +9,8 @@ categories:
   - events
   - ITP
   - ITP - Design For UNICEF
-excerpt: "Unconferencing."
-show_excerpt: true
+blurb: "Unconferencing."
+show_blurb: true
 ---
 *cross-posted at [textonic.org][1]*
 

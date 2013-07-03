@@ -10,8 +10,8 @@ categories:
   - web ideas
   - ITP
   - ITP - A2Z
-excerpt: "Delicious API + Google Custom Search Engine + Google App Engine"
-show_excerpt: true
+blurb: "Delicious API + Google Custom Search Engine + Google App Engine"
+show_blurb: true
 ---
 For my midterm project for [Programming A to Z][1] I decided to start working on a Delicious / Google Custom Search Engine mashup that I've been wanting to make for a few months. It will be called Delvicious, and a complete description of the project can be found on its [project page][2]. This post will primarily be about the initial implementation details and the progress I've made so far, but will conclude with some future plans.
 

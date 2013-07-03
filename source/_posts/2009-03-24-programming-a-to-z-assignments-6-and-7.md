@@ -9,8 +9,8 @@ categories:
   - assignments
   - ITP
   - ITP - A2Z
-excerpt: "More text processing."
-show_excerpt: true
+blurb: "More text processing."
+show_blurb: true
 ---
 *Since it's getting to be that time in the semester when I feel that I should be focusing on final projects, I didn't spend too much time on the [context free grammar][1] and [Bayesian classificiation][2] assignments. My writeups for both are below.*
 

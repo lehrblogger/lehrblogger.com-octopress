@@ -11,8 +11,8 @@ categories:
   - Wanderlist
   - ITP
   - ITP - thesis
-excerpt: "An overextended metaphor?"
-show_excerpt: true
+blurb: "An overextended metaphor?"
+show_blurb: true
 ---
 The Internet, when I first started using it, felt like a social desert. People had email, instant messaging, chat rooms, and discussion forums, but these channels for communication felt separate from everything else and more like alternatives to existing real-world channels. Communication was isolated from destinations for the consumption of content, from tools for the creation of content, and from platforms for the publishing of content.
 

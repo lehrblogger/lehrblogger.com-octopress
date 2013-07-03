@@ -11,8 +11,8 @@ categories:
   - projects
   - ITP
   - ITP - 4-in-4
-excerpt: "I always carry a notebook."
-show_excerpt: true
+blurb: "I always carry a notebook."
+show_blurb: true
 updates:
   - date: 2011-12-18
     body: "There is a similar notebook made by [Suck UK](http://www.suck.uk.com/) for sale [here](http://aplusrstore.com/product.php?id=11&cid=106) and [here](http://www.momastore.org/museum/moma/ProductDisplay_Mini%20Notebook%20and%20Pencil_10451_10001_105552_-1_26674_26677_105565), as well as this one made by [Düller](http://www.idea-in.com/duller/) and [Dietrich Lubs](http://en.wikipedia.org/wiki/Braun_%28company%29#Design_department) for sale [here](http://aplusrstore.com/product.php?id=576&cid=64). I still like mine better though :)"

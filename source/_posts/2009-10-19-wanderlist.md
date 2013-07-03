@@ -11,8 +11,8 @@ categories:
   - web ideas
   - ITP
   - ITP - thesis
-excerpt: "Wander the Internet, bring your friends."
-show_excerpt: false
+blurb: "Wander the Internet, bring your friends."
+show_blurb: false
 updates:
   - date: 2011-10-09
     body: "I'm no longer working on the project, so I let the $87/year wanderli.st domain expire and removed that link to minimize confusion."

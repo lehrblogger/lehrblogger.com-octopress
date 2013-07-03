@@ -9,8 +9,8 @@ categories:
   - projects
   - ITP
   - ITP - A2Z
-excerpt: "Theoretically this thing should still work."
-show_excerpt: true
+blurb: "Theoretically this thing should still work."
+show_blurb: true
 ---
 *project page [here][1] with overview and previous posts*  
 #### <http://delv-icio-us.appspot.com/>

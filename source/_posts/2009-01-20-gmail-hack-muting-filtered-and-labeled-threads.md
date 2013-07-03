@@ -8,8 +8,8 @@ dsq_thread_id:
 categories:
   - lifehacks
   - ITP
-excerpt: "Managing high-volume email lists."
-show_excerpt: true
+blurb: "Managing high-volume email lists."
+show_blurb: true
 ---
 One of the coolest things about Gmail is [the ability to 'mute' a thread][1] -- the 'm' keyboard shortcut will archive a thread and prevent future replies from moving that thread back to your inbox. This is especially useful for managing high-traffic email lists for which one only needs to keep track of a subset of the posts. 
 

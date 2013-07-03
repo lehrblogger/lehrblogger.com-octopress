@@ -9,8 +9,8 @@ categories:
   - events
   - ITP
   - web ideas
-excerpt: "The NYT's first API conference, with a keynote by Tim O'Reilly."
-show_excerpt: true
+blurb: "The NYT's first API conference, with a keynote by Tim O'Reilly."
+show_blurb: true
 updates:
   - date: 2009-03-01
     body: "The Times has written a short [blog post](http://open.blogs.nytimes.com/2009/02/26/open-doors-open-minds/) about the event."

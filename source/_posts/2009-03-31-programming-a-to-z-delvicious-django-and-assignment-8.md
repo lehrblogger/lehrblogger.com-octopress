@@ -10,8 +10,8 @@ categories:
   - projects
   - ITP
   - ITP - A2Z
-excerpt: "\"The D is silent.\""
-show_excerpt: true
+blurb: "\"The D is silent.\""
+show_blurb: true
 ---
 *project page [here][1] with overview and previous posts*
 

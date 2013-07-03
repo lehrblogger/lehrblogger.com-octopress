@@ -9,8 +9,8 @@ categories:
   - projects
   - ITP
   - ITP - Design For UNICEF
-excerpt: "Some press for Textonic."
-show_excerpt: true
+blurb: "Some press for Textonic."
+show_blurb: true
 ---
 *cross-posted at [textonic.org][1]*
 

@@ -11,8 +11,8 @@ categories:
   - web ideas
   - ITP
   - ITP - Little Computers
-excerpt: "[Eventually](http://meetupblog.meetup.com/post/20064673309/meetup-for-iphone), *finally*, they made their own."
-show_excerpt: true
+blurb: "[Eventually](http://meetupblog.meetup.com/post/20064673309/meetup-for-iphone), *finally*, they made their own."
+show_blurb: true
 thanks:
   - name: Alex Kauffmann
     link: "http://chinaalbino.com/alex/"

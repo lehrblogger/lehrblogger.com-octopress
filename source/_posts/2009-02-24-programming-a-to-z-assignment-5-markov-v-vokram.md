@@ -9,8 +9,8 @@ categories:
   - assignments
   - ITP
   - ITP - A2Z
-excerpt: "Rudimentary stastical models of text."
-show_excerpt: true
+blurb: "Rudimentary stastical models of text."
+show_blurb: true
 ---
 The class preceding our fifth assignment was on Markov chains, which involve statistical models of text that can be used to predict what character (or word, or some other unit) would be likely to follow a preceeding series of n characters (or words or other units). (An interesting paper of such an algorithm from the assigned reading can be found [here][1].) Our [assignment][2], with a few suggestions, was simply to:
 

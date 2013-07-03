@@ -16,8 +16,8 @@ categories:
   - lifehacks
   - ITP
   - ITP - SocObj
-excerpt: "\"There will be time, there will be time.\""
-show_excerpt: true
+blurb: "\"There will be time, there will be time.\""
+show_blurb: true
 ---
 My final project for my first ITP class involved the automated manipulation of time to improve a user's behavior in coordinating with other people. People are often late, and in an effort to make themselves less late they set their watches and clocks fast. This causes people to think that they have less time than they actually do, and as a result they hurry more and are less late, which is theoretically good for everyone.
 

@@ -5,8 +5,8 @@ title: "Short Films"
 permalink: /short-films/
 alias: [/2004/10/01/short-films/]
 end_date: 2005-05-21
-excerpt: "Before I wanted to be an architect, I wanted to make movies..."
-show_excerpt: true
+blurb: "Before I wanted to be an architect, I wanted to make movies..."
+show_blurb: true
 updates:
   - date: 2009-03-31
     body: "I've finished moving the films from Google Video (which won't let me change the thumbnail still) to Vimeo (which is prettier and more easily configurable)."

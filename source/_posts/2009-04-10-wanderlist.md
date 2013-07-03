@@ -10,8 +10,8 @@ categories:
   - Wanderlist
   - ITP
   - ITP - thesis
-excerpt: "Wander the Internet, bring your friends."
-show_excerpt: false
+blurb: "Wander the Internet, bring your friends."
+show_blurb: false
 thanks:
   - name: "Jorge Ortiz"
     link: "https://twitter.com/jorgeo"

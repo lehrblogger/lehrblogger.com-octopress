@@ -7,11 +7,12 @@ dsq_thread_id:
   - 351705043
 categories:
   - commentary
+  - Dashdash
   - ITP
   - ITP - thesis
   - Wanderlist
-excerpt: "People don't want to sort their friends in real life or on Google+."
-show_excerpt: true
+blurb: "People don't want to sort their friends in real life or on Google+."
+show_blurb: true
 thanks:
   - name: Jorge Just
     link: "http://twitter.com/jorgej"

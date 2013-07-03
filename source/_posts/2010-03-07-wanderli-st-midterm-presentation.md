@@ -11,8 +11,8 @@ categories:
   - Wanderlist
   - ITP
   - ITP - thesis
-excerpt: "Just a deck."
-show_excerpt: false
+blurb: "Just a deck."
+show_blurb: false
 updates:
   - date: 2010-03-29
     body: "There's an improved version of this presentation in [this more recent post](/2010/03/29/wanderli-st-pitch-presentation) ."

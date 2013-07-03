@@ -9,8 +9,8 @@ categories:
   - projects
   - ITP
   - ITP - Little Computers
-excerpt: "Baby's first Objective-C."
-show_excerpt: true
+blurb: "Baby's first Objective-C."
+show_blurb: true
 ---
 *previously:* [project description][1]
 

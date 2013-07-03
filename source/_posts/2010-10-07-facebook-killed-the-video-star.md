@@ -8,8 +8,8 @@ dsq_thread_id:
 categories:
   - ITP
   - commentary
-excerpt: "What do Facebook, Wikipedia, television, and gin have in common?"
-show_excerpt: true
+blurb: "What do Facebook, Wikipedia, television, and gin have in common?"
+show_blurb: true
 updates:
   - date: 2011-05-04
     body: "[Alex Rainert](http://www.alexrainert.com/) [tweeted](https://twitter.com/#!/arainert/status/62602098084290560) about an [article in AdWeek](http://www.adweek.com/news/television/zynga-kills-soaps-130951) that also suggests that Facebook games such as [Farmville](http://en.wikipedia.org/wiki/Farmville) are eating into the attention surplus that had previously been devoted to soap operas, and it cites some interesting (although only correlative) numbers:

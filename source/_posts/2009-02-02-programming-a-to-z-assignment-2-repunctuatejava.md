@@ -9,8 +9,8 @@ categories:
   - assignments
   - ITP
   - ITP - A2Z
-excerpt: "\"Expanding on/explicitly exacerbating the problem of punctuation.\""
-show_excerpt: true
+blurb: "\"Expanding on/explicitly exacerbating the problem of punctuation.\""
+show_blurb: true
 ---
 The second assignment was posted [here][1], and was to
 

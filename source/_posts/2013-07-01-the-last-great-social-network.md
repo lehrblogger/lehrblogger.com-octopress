@@ -6,8 +6,8 @@ permalink: /2013/07/01/the-last-great-social-network/
 categories:
   - commentary
   - Dashdash
-excerpt: "The social layer that replaces Facebook will not look like Facebook."
-show_excerpt: true
+blurb: "The social layer that replaces Facebook will not look like Facebook."
+show_blurb: true
 thanks:
   - name: "@jorgeo"
     link: "http://twitter.com/jorgeo/"

@@ -8,8 +8,8 @@ dsq_thread_id:
 categories:  
   - ITP
   - ITP - ICM
-excerpt: "Baby's first ITP Show!"
-show_excerpt: true
+blurb: "Baby's first ITP Show!"
+show_blurb: true
 ---
 *project page [here][1] with previous posts and a [new video][2]*
 

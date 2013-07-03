@@ -7,8 +7,8 @@ dsq_thread_id:
   - 106841845
 categories:
   - commentary
-excerpt: "\"Computers are like a bicycle for our minds.\" - Steve Jobs"
-show_excerpt: true
+blurb: "\"Computers are like a bicycle for our minds.\" - Steve Jobs"
+show_blurb: true
 ---
 I've now read/heard several pieces arguing for and against the catastrophic affects of the Internet on our brains and our ability to think well:
 

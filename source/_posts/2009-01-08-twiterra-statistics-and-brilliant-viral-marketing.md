@@ -10,8 +10,8 @@ categories:
   - web ideas
   - ITP
   - ITP - ICM
-excerpt: "Twitter took its time monetizing, but there should never have been doubt."
-show_excerpt: true
+blurb: "Twitter took its time monetizing, but there should never have been doubt."
+show_blurb: true
 ---
 (The presentation at the NY Tech Meetup went very well, and I will post about that later.)
 

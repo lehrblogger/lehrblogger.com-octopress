@@ -7,8 +7,8 @@ categories:
   - assignments
   - ITP
   - ITP - Election
-excerpt: "Title: *Supporting the Supporters in the 2012 Election: Video Media*"
-show_excerpt: true
+blurb: "Title: *Supporting the Supporters in the 2012 Election: Video Media*"
+show_blurb: true
 ---
 The assignment was as follows:
 

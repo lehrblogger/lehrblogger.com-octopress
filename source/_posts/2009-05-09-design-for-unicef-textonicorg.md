@@ -9,8 +9,8 @@ categories:
   - projects
   - ITP
   - ITP - Design For UNICEF
-excerpt: "A permanent home for the project."
-show_excerpt: true
+blurb: "A permanent home for the project."
+show_blurb: true
 ---
 *cross-posted at [textonic.org][1]*  
 *previously: *[Design for UNICEF - Detextive*][2], [Mobile Tech for Social Change Barcamp][3], [Design for UNICEF - RapidSMS and Mechanical Turk][4]

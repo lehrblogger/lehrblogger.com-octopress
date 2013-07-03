@@ -7,8 +7,8 @@ categories:
   - assignments
   - ITP
   - ITP - ICM
-excerpt: "Jumping tweets :)"
-show_excerpt: true
+blurb: "Jumping tweets :)"
+show_blurb: true
 ---
 *project page with previous posts [here][1]*
 

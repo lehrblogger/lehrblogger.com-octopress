@@ -9,8 +9,8 @@ categories:
   - projects
   - ITP
   - ITP - ICM
-excerpt: Baby's first desktop app!
-show_excerpt: true
+blurb: Baby's first desktop app!
+show_blurb: true
 ---
 I am now using [Maven][1] instead of [Eclipse][2] to build my TwiTerra project (thanks again to [Jorge][3] for teaching me a bit about Maven), and I've also (finally!) started to use [Git][4] / [GitHub][5] for source version control. You can view the project here -- <http://github.com/lehrblogger/twiterra-retweetglobe/> -- and please feel free to fork the project and extend it! And contact me with questions or ideas for cool things to make!
 

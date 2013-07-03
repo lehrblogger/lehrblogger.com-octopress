@@ -8,8 +8,8 @@ dsq_thread_id:
 featured: false
 categories:
   - lifehacks
-excerpt: "Syncing is a hard problem."
-show_excerpt: true
+blurb: "Syncing is a hard problem."
+show_blurb: true
 ---
 
 I've been living my life in the cloud for nearly two years now, and loving it. I'm synchronizing state between my home computer, my work computer, and multiple iDevices using a setup I described in [this post][1], but I wanted to elaborate here on what I'm doing with my in-progress text files.

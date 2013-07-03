@@ -11,8 +11,8 @@ categories:
   - presentations
   - projects
   - ITP
-excerpt: "\"Self knowledge through numbers.\""
-show_excerpt: true
+blurb: "\"Self knowledge through numbers.\""
+show_blurb: true
 ---
 Several weeks ago I presented my project [Where Do You Go][1] at the [NY Quantified Self Meetup Group][2]'s seventh [Show & Tell][3] at ITP. Evan Creem recorded and edited together videos of the presentations, and mine is below:
 

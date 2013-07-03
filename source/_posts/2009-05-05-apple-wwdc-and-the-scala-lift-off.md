@@ -9,8 +9,8 @@ categories:
   - events
   - ITP
   - ITP - Little Computers
-excerpt: "Free ticket to WWDC :)"
-show_excerpt: true
+blurb: "Free ticket to WWDC :)"
+show_blurb: true
 ---
 ![WWDC Logo](/projects/wwdc_logo.jpg "WWDC Logo")
 

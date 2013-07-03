@@ -10,8 +10,8 @@ categories:
   - ITP
   - ITP - thesis
   - Wanderlist
-excerpt: "Strong ties, weak ties, and latent ties."
-show_excerpt: true
+blurb: "Strong ties, weak ties, and latent ties."
+show_blurb: true
 ---
 [Paul Adams][1], a member of the user experience team at Google and the user research lead for social, recently gave the below presentation at the [Voices That Matter: Web Design Conference][2]:
 

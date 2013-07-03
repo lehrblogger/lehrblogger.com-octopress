@@ -9,8 +9,8 @@ categories:
   - assignments
   - ITP
   - ITP - A2Z
-excerpt: "How did anyone program anything before Google?"
-show_excerpt: true
+blurb: "How did anyone program anything before Google?"
+show_blurb: true
 ---
 The class prior to the fourth assignment covered concordances, data structures for word counts, and other related topics. I completed one of the more challenging suggested alternative tasks for the [assignment][1]:
 

@@ -9,8 +9,8 @@ categories:
   - assignments
   - ITP
   - ITP - ICM
-excerpt: "Collecting metadata about retweets was not easy."
-show_excerpt: true
+blurb: "Collecting metadata about retweets was not easy."
+show_blurb: true
 ---
 *previously:* [project proposal][1], [midterm progress][2], [initial idea][3], [Twitter/Scala experiments][4] 
 

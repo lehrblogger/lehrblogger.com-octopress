@@ -10,8 +10,8 @@ categories:
   - projects
   - ITP
   - ITP - 4-in-4
-excerpt: "A physical wiki."
-show_excerpt: true
+blurb: "A physical wiki."
+show_blurb: true
 ---
 My first 4-in-4 project was a physical wiki, or 'phyki', on which ITP students could mark the locations of their apartments and find out who else in the program lived nearby.
 

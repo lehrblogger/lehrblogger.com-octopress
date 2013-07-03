@@ -7,8 +7,8 @@ dsq_thread_id:
   - 38673972
 categories:
   - lifehacks
-excerpt: "tl;dr: put your Application Support folderrs in Dropbox"
-show_excerpt: true
+blurb: "tl;dr: put your Application Support folderrs in Dropbox"
+show_blurb: true
 updates:
   - date: 2011-09-04
     body: "There's a bit more detail about my setup for editing text files in [this new post](/2011/09/04/cloud-writing-with-dropbox-and-writeroom/)."

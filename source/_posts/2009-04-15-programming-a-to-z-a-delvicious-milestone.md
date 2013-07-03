@@ -10,8 +10,8 @@ categories:
   - projects
   - ITP
   - ITP - A2Z
-excerpt: "Proof-of-concept for full-text search of my bookmarks."
-show_excerpt: true
+blurb: "Proof-of-concept for full-text search of my bookmarks."
+show_blurb: true
 ---
 *project page [here][1] with overview and previous posts*
 

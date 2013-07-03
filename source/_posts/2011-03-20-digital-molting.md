@@ -7,8 +7,8 @@ dsq_thread_id:
   - 258935320
 categories:
   - commentary
-excerpt: "Humans are like dragonflies, so design social web services accordingly."
-show_excerpt: true
+blurb: "Humans are like dragonflies, so design social web services accordingly."
+show_blurb: true
 thanks:
   - name: "@ninakix"
     link: "http://twitter.com/ninakix"

@@ -9,8 +9,8 @@ categories:
   - assignments
   - ITP
   - ITP - ICM
-excerpt: "More Mysql."
-show_excerpt: true
+blurb: "More Mysql."
+show_blurb: true
 ---
 *project page with previous posts [here][1]*
 

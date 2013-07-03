@@ -7,8 +7,8 @@ categories:
   - assignments
   - ITP
   - ITP - AJAX
-excerpt: "I still like the portfolio website idea in Part 3."
-show_excerpt: true
+blurb: "I still like the portfolio website idea in Part 3."
+show_blurb: true
 ---
 Part 1: <{{site.url}}/projects/fall08/ajax/hw3/part1>  
 Part 2: <{{site.url}}/projects/fall08/ajax/hw3/part2>  

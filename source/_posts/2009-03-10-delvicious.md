@@ -10,8 +10,8 @@ categories:
   - projects
   - ITP
   - ITP - A2Z
-excerpt: "Full-text search for your Delicious bookmarks."
-show_excerpt: false
+blurb: "Full-text search for your Delicious bookmarks."
+show_blurb: false
 thanks:
   - name: John Rutherford
     link: "http://observationalgastrophysics.blogspot.com/"

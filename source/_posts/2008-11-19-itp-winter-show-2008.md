@@ -6,8 +6,8 @@ permalink: /2008/11/19/itp-winter-show-2008/
 categories:
   - events
   - ITP
-excerpt: "I still <3 the ITP Shows."
-show_excerpt: true
+blurb: "I still <3 the ITP Shows."
+show_blurb: true
 ---
 Details have been announced for the Winter Show! I'm hoping my Twitter project will be selected for display, but we'll see.
 

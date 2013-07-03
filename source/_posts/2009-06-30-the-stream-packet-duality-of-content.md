@@ -8,8 +8,8 @@ dsq_thread_id:
 categories:
   - commentary
   - web ideas
-excerpt: "Incoming content at the speed of light."
-show_excerpt: true
+blurb: "Incoming content at the speed of light."
+show_blurb: true
 ---
 *This post develops the conceptual language surrounding the product ideas in my previous post, [Filtration as a Tonic for Internet Vertigo][1].*
 

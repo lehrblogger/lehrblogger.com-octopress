@@ -9,8 +9,8 @@ categories:
   - assignments
   - ITP
   - ITP - A2Z
-excerpt: "Analayzing the papers I wrote in college."
-show_excerpt: true
+blurb: "Analayzing the papers I wrote in college."
+show_blurb: true
 ---
 The last of the weekly assignments was relatively open ended -- 
 

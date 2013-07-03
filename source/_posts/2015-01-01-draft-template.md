@@ -5,7 +5,7 @@ title: "Draft Template"
 permalink: /2015/01/01/draft-template/
 categories:
   - commentary
-excerpt: "Draft template excerpt."
-show_excerpt: true
+blurb: "Draft template blurb."
+show_blurb: true
 ---
 Hello, world.

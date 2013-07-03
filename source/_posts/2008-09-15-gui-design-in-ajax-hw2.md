@@ -10,8 +10,8 @@ categories:
   - presentations
   - ITP
   - ITP - AJAX
-excerpt: "GitHub was less than six months old when I posted this."
-show_excerpt: true
+blurb: "GitHub was less than six months old when I posted this."
+show_blurb: true
 ---
 Part 1: <{{site.url}}/projectsfall08/ajax/hw2/part1>  
 Part 2: <{{site.url}}/projects/fall08/ajax/hw2/part2>  

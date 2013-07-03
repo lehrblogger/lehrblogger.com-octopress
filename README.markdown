@@ -16,8 +16,8 @@ Not that this matters, but it's nice to be consistent.
  * end_date
  * dsq_thread_id
  * categories
- * excerpt
- * show_excerpt
+ * blurb
+ * show_blurb
  * thanks
  * thanks_notes
  * updates

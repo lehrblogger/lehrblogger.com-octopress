@@ -7,10 +7,10 @@
     </h3>
 </header>
 <div class="entry-content">
-    {% if page.show_excerpt %}
+    {% if page.show_blurb %}
         <div class="entry-subtitle twelve columns alpha omega">
             <div class="ten columns alpha">
-                {{ page.excerpt | markdownify }}
+                {{ page.blurb | markdownify }}
             </div>
             <div class="two columns omega">
                 {{ content | count_words }} words

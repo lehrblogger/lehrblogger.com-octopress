@@ -9,8 +9,8 @@ categories:
   - projects
   - ITP
   - ITP - Design For UNICEF
-excerpt: "A system for processing freeform SMS input."
-show_excerpt: true
+blurb: "A system for processing freeform SMS input."
+show_blurb: true
 ---
 *cross-posted at [textonic.org][1]*
 

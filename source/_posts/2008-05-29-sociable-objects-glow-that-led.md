@@ -15,8 +15,8 @@ categories:
   - assignments
   - ITP
   - ITP - SocObj
-excerpt: "Radios are magic."
-show_excerpt: true
+blurb: "Radios are magic."
+show_blurb: true
 ---
 For this assignment, Amanda and I each built a circuit with an Arduino, an XBee radio, a potentiometer, and several LEDs. They were paired such that adjusting the potentiometer on one brightens or dims an LED on the other.
 

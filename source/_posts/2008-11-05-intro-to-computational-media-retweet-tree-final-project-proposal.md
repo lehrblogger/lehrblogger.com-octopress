@@ -9,8 +9,8 @@ categories:
   - assignments
   - ITP
   - ITP - ICM
-excerpt: "Perhaps more 'talking things through' than 'proposing'."
-show_excerpt: true
+blurb: "Perhaps more 'talking things through' than 'proposing'."
+show_blurb: true
 ---
 *previously:* [midterm progress][1], [initial idea][2], [Twitter/Scala experiments][3]
 

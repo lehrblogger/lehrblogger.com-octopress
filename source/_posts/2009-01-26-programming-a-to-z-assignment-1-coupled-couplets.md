@@ -9,8 +9,8 @@ categories:
   - assignments
   - ITP
   - ITP - A2Z
-excerpt: "'Procedural poetics.'"
-show_excerpt: true
+blurb: "'Procedural poetics.'"
+show_blurb: true
 ---
 The first assignment was posted [here][1], and was to
 

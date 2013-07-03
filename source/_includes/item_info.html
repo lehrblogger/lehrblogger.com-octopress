@@ -5,12 +5,12 @@
         {% else %}
             href='{{ item.url }}' class='title'
         {% endif %}>{{ item.title }}{% if item.external %} <i class="icon-external-link"></i>{% endif %}</a>
-        {% if item.excerpt %}
-            <div class="excerpt">
-                {{ item.excerpt | markdownify }}
+        {% if item.blurb %}
+            <div class="blurb">
+                {{ item.blurb | markdownify }}
             </div>
         {% else %}
-            <div class="no-excerpt"></div>
+            <div class="no-blurb"></div>
         {% endif %}
     </div>
     <div class="date two columns omega{% unless page.selected %}{% if item.featured %} featured{% endif %}{% endunless %}">
