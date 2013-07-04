@@ -18,6 +18,7 @@ Not that this matters, but it's nice to be consistent.
  * categories
  * blurb
  * show_blurb
+ * styles
  * thanks
  * thanks_notes
  * updates
