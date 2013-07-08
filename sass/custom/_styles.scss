@@ -11,7 +11,7 @@ sub {
     font-size: .75em;
 }
 sup {
-    bottom: 1ex;
+    bottom: 0.7ex;
     margin-left: 2px;
 }
 sub {
@@ -203,10 +203,16 @@ hr {
                     }
                 }
             }
-            .footnotes li a[rev="footnote"] {
-                margin-left: 3px;
-                top: 2px;
-                position: relative;
+            .footnotes {
+                ol li ul {
+                    font-size: 100%;
+                    margin-bottom: 20px;
+                }
+                ol li a[rev="footnote"] {
+                    margin-left: 3px;
+                    top: 2px;
+                    position: relative;
+                }
             }
         }
         footer {
