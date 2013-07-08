@@ -147,8 +147,12 @@ hr {
             color: $text-color;
         }
     }
-
+    
     .entry {
+        .entry-title img {
+            height: 54px;
+            padding-top: 6px;
+        }
         .entry-content {
             font-family: $serif;
             iframe,

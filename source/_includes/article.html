@@ -2,7 +2,11 @@
     <h3 class="entry-title">
         {% if layout == 'draft' %}UNPUBLISHED DRAFT:{% endif %}
         <a href="{{ page.url }}">
-            {{ page.title }}
+            {% if page.title_image %}
+                <img src="{{ page.title_image }}" alt="{{ page.title }}">
+            {% else %}
+                {{ page.title }}
+            {% endif %}
         </a>
     </h3>
 </header>

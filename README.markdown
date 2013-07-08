@@ -11,6 +11,7 @@ Not that this matters, but it's nice to be consistent.
  * layout
  * featured
  * title
+ * title_image
  * permalink
  * alias
  * end_date
