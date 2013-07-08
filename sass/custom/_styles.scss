@@ -33,33 +33,21 @@ hr {
     border-top: 3px solid $text-color;
     color: $text-color;
     font-family: $sans;
-    
     h3 {
         font-weight: 700;
         font-size: 29px;
         padding-top: 15px;
     }
-}
-
-#sidebar {
-    color: $text-color-light;
-    .author {
-        font-weight: 600;
-    }
-    .navigation li {
-        font-weight: 600;
-        margin-bottom: 20px;
-    }
-    .search_form input.search {
-        font-weight: 600;
+    .search_form input.search,
+    .entry-content input.subscribe {
         padding: 3px;
-        margin: -4px 0 0 -3px;
-        font-family: $sans;
+        margin: -4px -2px 0 -3px;
         background: $main-bg;
         border: none;
-        color: $link-color;
+        font-weight: 600;
         font-size: 16px;
-        width: 212px;
+        font-family: $serif;
+        color: $link-color;
         &::-webkit-input-placeholder { /* WebKit browsers */
             font-weight: 600;
             color: $link-color;
@@ -76,6 +64,21 @@ hr {
             font-weight: 600;
             color: $link-color;
         }
+    }
+}
+
+#sidebar {
+    color: $text-color-light;
+    .author {
+        font-weight: 600;
+    }
+    .navigation li {
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    .search_form input.search {
+        font-family: $sans;
+        width: 212px;
     }
 }
 
@@ -187,6 +190,9 @@ hr {
                 .two.columns.omega {
                     text-align: right;
                 };
+            }
+            form fieldset {
+                display: inline;
             }
             .entry-meta {
                 margin: 0 0 20px 0;
