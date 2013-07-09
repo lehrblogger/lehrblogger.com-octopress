@@ -1,10 +1,11 @@
 <header role="banner">
     <h3 class="entry-title">
-        {% if layout == 'draft' %}UNPUBLISHED DRAFT:{% endif %}
         <a href="{{ page.url }}">
             {% if page.title_image %}
                 <img src="{{ page.title_image }}" alt="{{ page.title }}">
+                {% if layout == 'draft' %}UNPUBLISHED DRAFT{% endif %}
             {% else %}
+                {% if layout == 'draft' %}UNPUBLISHED DRAFT:{% endif %}
                 {{ page.title }}
             {% endif %}
         </a>

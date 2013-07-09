@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: draft
 featured: true
 title: "Adding XMPP/Jabber to Gmail"
 permalink: /2016/04/01/adding-xmpp-jabber-to-gmail/

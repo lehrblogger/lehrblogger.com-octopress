@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: draft
 featured: true
 title: "Socializing through Glass"
 permalink: /2016/02/01/socializing-through-glass/
