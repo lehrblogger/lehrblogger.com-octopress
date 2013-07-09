@@ -42,7 +42,7 @@
             {% else %}
                 these categories:
             {% endif %}
-            {% for category in page.categories %}<a href="/category/{{category | remove: ' ' | downcase }}">{{ category }}</a>{% case forloop.rindex %}{% when 1 %}{% when 2 %} and {% else %}, {% endcase %}{% endfor %}.
+            {% for category in page.categories %}<a href="/category/{{ category | remove: ' ' | downcase }}">{{ category }}</a>{% case forloop.rindex %}{% when 1 %}{% when 2 %} and {% else %}, {% endcase %}{% endfor %}.
         {% else %}
             with no categories.
         {% endif %}
@@ -52,6 +52,11 @@
                     Update on {{ update.date | date: "%d %B %Y"  }}: {{ update.body | markdownify }}
                 </div>
             {% endfor %}
+        {% endif %}
+        {% if page.crossposts %}
+            <div class="entry-crossposts">
+                Cross-posted to {% for crosspost in page.crossposts %}<a href="{{ crosspost.link }}">{{ crosspost.site }}</a>{% case forloop.rindex %}{% when 1 %}{% when 2 %} and {% else %}, {% endcase %}{% endfor %}.
+            </div>
         {% endif %}
     </p>
     <hr>
