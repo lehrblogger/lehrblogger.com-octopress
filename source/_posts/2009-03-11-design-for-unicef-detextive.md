@@ -12,9 +12,11 @@ categories:
   - ITP - Design For UNICEF
 blurb: "Later, we changed the name of the project to Textonic."
 show_blurb: true
+crossposts:
+  - site: "Textonic.org"
+    link: "http://textonic.org/2009/03/11/design-for-unicef-detextive/"
 ---
-*cross-posted at [textonic.org][1]*  
-*previously: *[Mobile Tech for Social Change Barcamp][2], [Design for UNICEF -- RapidSMS and Mechanical Turk][3]
+*previously: *[Mobile Tech for Social Change Barcamp][1], [Design for UNICEF -- RapidSMS and Mechanical Turk][2]
 
 *We might not actually use this name, but I like it and am going to enjoy it, at least for now.
 
@@ -22,11 +24,10 @@ Our RapidSMS/Mechanical Turk project is moving forward. Last week we met with th
 
 {% iframe_embed slideshare 1134004 425x355 %}
 
-(I made both this presentation and the previous [Meetapp][4] presentation with [280 Slides][5], a web-based presentation editor made by a startup called [280 North][6]. Give it a try -- I find it great for sharing presentations, and I prefer it to working with Google Docs.)
+(I made both this presentation and the previous [Meetapp][3] presentation with [280 Slides][4], a web-based presentation editor made by a startup called [280 North][5]. Give it a try -- I find it great for sharing presentations, and I prefer it to working with Google Docs.)
 
- [1]: http://textonic.org/2009/03/11/design-for-unicef-detextive/
- [2]: /2009/02/25/mobile-tech-for-social-change-barcamp/
- [3]: /2009/02/20/design-for-unicef-rapidsms-and-mechanical-turk/
- [4]: /2009/03/05/little-computers-meetapp-a-meetupcom-iphone-app/
- [5]: http://280slides.com/
- [6]: http://280north.com/
+ [1]: /2009/02/25/mobile-tech-for-social-change-barcamp/
+ [2]: /2009/02/20/design-for-unicef-rapidsms-and-mechanical-turk/
+ [3]: /2009/03/05/little-computers-meetapp-a-meetupcom-iphone-app/
+ [4]: http://280slides.com/
+ [5]: http://280north.com/
