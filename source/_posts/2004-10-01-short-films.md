@@ -18,13 +18,13 @@ During the 2004-2005 academic year I participated in the [Stanford Film Society]
 *   [Out of In Between][4] 4m30s
 *   [Happy Birthday][5] 2m32s
 
-{% iframe_embed vimeo 3721708 560 421 %}
+{% iframe_embed vimeo 3721708 560x421 %}
 
-{% iframe_embed vimeo 3832278 560 421 %}
+{% iframe_embed vimeo 3832278 560x421 %}
 
-{% iframe_embed vimeo 3747128 560 421 %}
+{% iframe_embed vimeo 3747128 560x421 %}
 
-{% iframe_embed vimeo 3950917 560 421 %}
+{% iframe_embed vimeo 3950917 560x421 %}
 
  [1]: http://www.stanford.edu/group/sfs/
  [2]: http://vimeo.com/3721708

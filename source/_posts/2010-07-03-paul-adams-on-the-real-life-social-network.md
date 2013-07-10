@@ -15,7 +15,7 @@ show_blurb: true
 ---
 [Paul Adams][1], a member of the user experience team at Google and the user research lead for social, recently gave the below presentation at the [Voices That Matter: Web Design Conference][2]:
 
-{% iframe_embed slideshare 4656436 640 742 %}
+{% iframe_embed slideshare 4656436 640x742 %}
 
 It's worth reading through the entire thing, but there were a few groups of slides I found particularly clear/insightful/interesting (you can jump to a particular slide from the bottom toolbar) --
 

@@ -49,4 +49,4 @@ Part 5 -
 The potentiometer drew between 0V and 2.98V, depending on the setting.
 ###### <a href="http://lehrburger.com/PComp_Labs1-2/iPhone-50.jpg"><img src="http://lehrburger.com/PComp_Labs1-2/iPhone-50.jpg" alt="" id="BLOGGER_PHOTO_ID_5205122160176868562" /></a>  
 ###### <a href="http://lehrburger.com/PComp_Labs1-2/iPhone-52.jpg"><img src="http://lehrburger.com/PComp_Labs1-2/iPhone-52.jpg" alt="" id="BLOGGER_PHOTO_ID_5205122160176868562" /></a>  
-###### {% iframe_embed youtube JIpIx2Zy5ZY 520 421 %}
+###### {% iframe_embed youtube JIpIx2Zy5ZY 520x421 %}

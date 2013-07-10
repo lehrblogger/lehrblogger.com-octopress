@@ -17,9 +17,9 @@ show_blurb: true
 ---
 A couple weeks ago I presented Wanderli.st during Thesis Week at NYU's Interactive Telecommunications Program. The list of all of the presentations is [here][1], and ITP has a copy of the video hosted [here][2], but I've also embedded it below. Some of the slides are difficult to read in the video, so they are embedded as well. If you're in a hurry and think you can read faster than I was talking (hah!), the notes on which the talk was based are below each slide.
 
-{% iframe_embed vimeo 11970364 700 396 %}
+{% iframe_embed vimeo 11970364 700x396 %}
 
-{% iframe_embed slideshare 4254669 640 742 %}
+{% iframe_embed slideshare 4254669 640x742 %}
 
 I've been thinking a lot the best way to continue this work now that I am free from academia, and about how Wanderli.st fits with other proposals such as [Diaspora][3] (which has gotten [incredible support][4]). I'll continue to publish updates here, and let me know if you have any ideas you'd like to discuss!
 

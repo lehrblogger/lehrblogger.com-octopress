@@ -39,9 +39,9 @@ Following are the slides that I used for my in-class presentation, a demo video 
 
 <iframe src="http://280slides.com/Viewer/?user=4512&amp;name=ITP_SocObj_final" style="border: 1px solid black; padding: 0pt;" height="328" width="400"></iframe>
 
-{% iframe_embed vimeo 1262325 630 421%}
+{% iframe_embed vimeo 1262325 630x421%}
 
-{% iframe_embed vimeo 1262447 560 421%}
+{% iframe_embed vimeo 1262447 560x421%}
   
 ###### <a href="http://lehrburger.com/SocObj_FinalProject/SocObj_FinalProject-2.jpg"><img src="http://lehrburger.com/SocObj_FinalProject/SocObj_FinalProject-2.jpg" alt="" id="BLOGGER_PHOTO_ID_5205122160176868562" /></a>
 

@@ -24,7 +24,7 @@ The assignment was based heavily on the exercises in Chapter 6 of Tom Igoe's boo
 
 The Arduino code is online [here][2].
 
-{% iframe_embed youtube SvRf8R_FLFE 520 421 %}
+{% iframe_embed youtube SvRf8R_FLFE 520x421 %}
   
 ###### <a href="http://lehrburger.com/SocObj_GlowThatLED/SocObj_GlowThatLED-1.jpg"><img src="http://lehrburger.com/SocObj_GlowThatLED/SocObj_GlowThatLED-1.jpg" alt="" id="BLOGGER_PHOTO_ID_5205122160176868562" /></a>
 

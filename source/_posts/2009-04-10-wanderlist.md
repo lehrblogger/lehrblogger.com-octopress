@@ -21,7 +21,7 @@ thanks_note: "for the conceptual and technical advice."
 
 Wanderli.st was my thesis project at ITP. It was a social tool that allowed users to manage their relationships and identities across the services where they already share content. A video of my presentation is below, followed by a list of related posts.
 
-{% iframe_embed vimeo 11970364 700 396 %}
+{% iframe_embed vimeo 11970364 700x396 %}
 
 <div class="item-list">
 {% for item in site.categories["Wanderlist"] %}

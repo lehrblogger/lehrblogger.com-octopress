@@ -28,7 +28,7 @@ I am going to build an iPhone application for users of [Meetup.com][2] for my pr
 
 I considered many alternative apps to build -- [xkcd][3], [Diplomacy][4], a super simple app for exchanging contact info, a very complex app for music sharing, and others -- but settled on this one. It seems like something that could be truly useful to a lot of people, doable within the course of the semester, and challenging and interesting to make. The slide deck and sketches I made to present the idea to the class is below.
 
-{% iframe_embed slideshare 1104196 427 356 %}
+{% iframe_embed slideshare 1104196 427x356 %}
 
  [1]: http://www.littlecomputers.net/
  [2]: http://meetup.com/

@@ -20,7 +20,7 @@ show_blurb: true
 
 Our RapidSMS/Mechanical Turk project is moving forward. Last week we met with the software development team at UNICEF that built RapidSMS, re-focused our efforts on creating a tool to process incoming SMS messages with Mechanical Turk, and divided out the tasks before our next meeting. I thought about what specific features we would need to provide to administrators of the system in the field for them to be able to set up and configure the system to work with RapidSMS. I made a few slides to present the ideas to our group, and the deck is below.
 
-{% iframe_embed slideshare 1134004 425 355 %}
+{% iframe_embed slideshare 1134004 425x355 %}
 
 (I made both this presentation and the previous [Meetapp][4] presentation with [280 Slides][5], a web-based presentation editor made by a startup called [280 North][6]. Give it a try -- I find it great for sharing presentations, and I prefer it to working with Google Docs.)
 

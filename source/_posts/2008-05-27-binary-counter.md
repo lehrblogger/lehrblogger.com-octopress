@@ -20,7 +20,7 @@ show_blurb: true
 ---
 As a side project, I put together a circuit that counts the number of times a switch has been pressed in binary. It displays the count using a row of six LEDs, and was built/written using the Arduino [Button][1] and [Loop][2] examples as a starting point. The Arduino code is online [here][3].
 
-{% iframe_embed youtube cj5MpAyDkjc 520 421 %}
+{% iframe_embed youtube cj5MpAyDkjc 520x421 %}
 
 ###### <a href="http://lehrburger.com/PComp_Labs1-2/iPhone-65.jpg"><img src="http://lehrburger.com/PComp_Labs1-2/iPhone-65.jpg" alt="" id="BLOGGER_PHOTO_ID_5205122160176868562" /></a>  
 

@@ -17,7 +17,7 @@ I gave this five-minute presentation at ITP on Saturday as part of the Startup T
 
 A PDF of the one-page handout I passed around is [here][1]. I've included the notes that I followed roughly during the presentation below the fold, since Google makes it hard to find them otherwise. The presentation can be conveniently accessed at <http://bit.ly/wanderlist-20100327>.
 
-{% iframe_embed google dhh97gc8_639hnh6tdw 520 421 %}
+{% iframe_embed google dhh97gc8_639hnh6tdw 520x421 %}
   
 Slide Numbers:
 

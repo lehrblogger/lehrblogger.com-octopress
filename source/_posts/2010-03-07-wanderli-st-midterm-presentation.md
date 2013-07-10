@@ -17,4 +17,4 @@ updates:
   - date: 2010-03-29
     body: "There's an improved version of this presentation in [this more recent post](/2010/03/29/wanderli-st-pitch-presentation) ."
 ---
-{% iframe_embed google dhh97gc8_52ff737dt7 555 451 %}
+{% iframe_embed google dhh97gc8_52ff737dt7 555x451 %}
