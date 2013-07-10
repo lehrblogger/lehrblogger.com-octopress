@@ -10,6 +10,9 @@ blurb: "TODO Glass blurb."
 show_blurb: true
 ---
 
+"wearing is sharing"
+
+
 {% iframe_embed youtube 9c6W4CCU9M4 ?start=111 %}
 
 what a social network native to google glass might look like
