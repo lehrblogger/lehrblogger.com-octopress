@@ -107,7 +107,7 @@ hr {
             }
         }
     }
-
+    
     #about {
         .profile-photo {
             padding-top: 6px;
@@ -126,8 +126,9 @@ hr {
             }
         }
     }
-
+    
     .item-list {
+        font-family: $sans;
         .title {
             font-weight: 600;
         }
