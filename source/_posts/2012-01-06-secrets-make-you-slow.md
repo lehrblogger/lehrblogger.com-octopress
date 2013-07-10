@@ -1,6 +1,6 @@
 ---
 layout: post
-featured: true
+featured: false
 title: "Secrets Make You Slow"
 permalink: /2012/01/06/secrets-make-you-slow/
 dsq_thread_id:
