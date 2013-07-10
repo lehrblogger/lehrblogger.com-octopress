@@ -42,7 +42,7 @@
             {% else %}
                 these categories:
             {% endif %}
-            {% for category in page.categories %}<a href="/category/{{ category | remove: ' ' | downcase }}">{{ category }}</a>{% case forloop.rindex %}{% when 1 %}{% when 2 %} and {% else %}, {% endcase %}{% endfor %}.
+            {% for category in page.categories %}{{ category | category_link }}{% case forloop.rindex %}{% when 1 %}{% when 2 %} and {% else %}, {% endcase %}{% endfor %}.
         {% else %}
             with no categories.
         {% endif %}
