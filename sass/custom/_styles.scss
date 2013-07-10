@@ -137,6 +137,9 @@ hr {
         }
         .blurb {
             font-style: italic;
+            em {
+                font-style: normal;
+            }
         }
         .no-blurb {
             min-height: 1em;
