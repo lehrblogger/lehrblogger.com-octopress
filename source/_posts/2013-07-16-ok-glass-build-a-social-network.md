@@ -6,6 +6,7 @@ permalink: /2013/07/16/ok-glass-build-a-social-network/
 alias: /glass/
 categories:
   - Dashdash
+  - wearables
   - commentary
 blurb: "Why you will want me to wear Google Glass."
 show_blurb: true

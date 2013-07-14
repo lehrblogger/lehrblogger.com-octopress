@@ -16,6 +16,7 @@ categories:
   - lifehacks
   - ITP
   - ITP - SocObj
+  - wearables
 blurb: "\"There will be time, there will be time.\""
 show_blurb: true
 ---
