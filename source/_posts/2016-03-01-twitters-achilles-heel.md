@@ -43,17 +43,11 @@ me: because all of the SMS replacement apps are adding statuses
 me: maybe i need data from whatsapp/wechat/kik/etc that i dont really have a way to get
 me: in order to make that argument
 anon: interesting
-me: but idk, twitter should be embarassed by how shitty the experience is
-me: like, i should be able to subscribe to threads
+me: i should be able to subscribe to threads
 me: and see decent threaded views
 me: and etc
 anon: yeah, they haven't really made any improvements on the UI ever
-me: if twitter wanted to acquihire me for more than im worth too build a team in NYC to fix conversations, i'd consider it :)
-me: *to build
 anon: I mean, can I see some stats on who the most active tweeters are in my stream? and maybe mute them sometimes?
-anon: heh
 me: filtering is maybe a separate problem? but yeah
 anon: that company's gotten way too big, I think the UI is unlikely to ever meaningfully change prior to acquisition/IPO
-me: yeah, sigh
-me: oh, so i bet that is post #3
 
