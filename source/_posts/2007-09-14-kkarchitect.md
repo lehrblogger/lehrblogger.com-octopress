@@ -3,7 +3,7 @@ layout: professional
 featured: true
 title: "Kevin Kennon Architect"
 end_date: 2008-07-03
-blurb: "I worked on models and renderings for various commercial and residential projects."
+blurb: "I worked on models and renderings for various commercial and residential projects. Later, I rebuilt their Flash-based website."
 show_blurb: false
 external: "http://kkarchitect.com/"
 ---
