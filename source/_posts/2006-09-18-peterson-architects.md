@@ -3,7 +3,7 @@ layout: professional
 featured: false
 title: "Peterson Architects"
 end_date: 2006-12-07
-blurb: "Peterson Architects"
+blurb: "I built models and drafted plans for local residential projects."
 show_blurb: false
 external: "http://www.petersonarchitects.com/"
 ---
