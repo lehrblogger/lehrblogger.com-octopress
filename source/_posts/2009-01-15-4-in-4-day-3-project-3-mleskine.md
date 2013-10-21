@@ -16,10 +16,12 @@ show_blurb: true
 updates:
   - date: 2011-12-18
     body: "There is a similar notebook made by [Suck UK](http://www.suck.uk.com/) for sale [here](http://aplusrstore.com/product.php?id=11&cid=106) and [here](http://www.momastore.org/museum/moma/ProductDisplay_Mini%20Notebook%20and%20Pencil_10451_10001_105552_-1_26674_26677_105565), as well as this one made by [Düller](http://www.idea-in.com/duller/) and [Dietrich Lubs](http://en.wikipedia.org/wiki/Braun_%28company%29#Design_department) for sale [here](http://aplusrstore.com/product.php?id=576&cid=64). I still like mine better though :)"
+  - date: 2013-10-21
+    body: "[@jcn](https://twitter.com/jcn) sent me [another similar notebook on Fancy](http://fancy.com/things/458272974110202967) that also has a cutout for an iPhone."
 ---
 I was in NYC for a couple of weeks during the summer of 2006 after I finished the [Career Discovery Program][1] in architecture at Harvard's Graduate School of Design, and I went to see the exhibit of the work of architect [Zaha Hadid][2] at the Guggenheim. I enjoyed exploring the variety of her built and unbuilt design work, but it was her sketchbooks that made the most lasting impression (image by [Ivar Hagendoorn][3], same books different exhibit) --
 
-![](/projects/4in4jan09/day3img0.jpeg)
+[![](http://www.ivarhagendoorn.com/files/blog/zaha-hadid-exhibition-4.jpg)][3]
 
 If you look carefully, you'll notice that a rectangular piece has been cut out of each page so that a pen can be stored inside when the book is closed. I had started to use a [Moleskine][4] notebook during the program at Harvard, and when I finished my first one I cut my second one like Zaha's using a ruler and an X-Acto knife. That particular brand of notebooks is relatively popular and often recognized, but I think the reputation is deserved, as they are quite durable. I carry them everywhere, and with some black electric tape on the binding they will last more than six months.
 
