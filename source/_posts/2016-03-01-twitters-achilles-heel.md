@@ -1,7 +1,7 @@
 ---
 layout: draft
 featured: true
-title: "Twitter's Achilles 'Heel"
+title: "Twitter's Achilles Heel"
 permalink: /2016/03/01/twitters-achilles-heel/
 categories:
   - commentary
@@ -9,6 +9,19 @@ categories:
 blurb: "TODO Twitter blurb."
 show_blurb: true
 ---
+
+POST TO PANDO/TC
+
+https://dev.twitter.com/blog/changes-coming-to-twitter-api
+
+there's nothing wrong with nesting
+
+sanctity of timeline is gone with promoted tweets,  we can remove @ names from replies
+
+notifications are a shitty way to show unread messages
+
+
+
 status updates are becoming commodified
 
 conversations on twitter pinned to the top like promoted tweets
