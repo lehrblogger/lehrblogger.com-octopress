@@ -24,3 +24,26 @@ Not that this matters, but it's nice to be consistent.
  * crossposts
  * updates
  * styles
+
+
+Vagrant Setup
+------------------
+It's better to use this for blog development than my local machine.
+```
+sudo apt-get update
+sudo apt-get install build-essential
+sudo apt-get install ruby1.9.1-dev
+sudo gem install jekyll
+sudo apt-get install rake
+sudo gem install bundler
+curl -L https://get.rvm.io | bash -s stable
+source /home/vagrant/.rvm/scripts/rvm
+rvm install 1.9.3
+rvm use 1.9.3
+rvm rubygems latest
+bundle install
+gem update rdiscount
+cd /vagrant
+rake generate
+```
+
