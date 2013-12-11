@@ -11,6 +11,10 @@ show_blurb: true
 ---
 
 POST TO PANDO/TC
+https://blog.twitter.com/2013/photos-in-direct-messages-and-swipe-between-timelines
+https://twitter.com/parislemon/status/410559292593274880
+https://twitter.com/parislemon/status/410559697121325056
+https://twitter.com/parislemon/status/410559920388317185
 
 https://dev.twitter.com/blog/changes-coming-to-twitter-api
 
