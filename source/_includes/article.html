@@ -27,7 +27,7 @@
         <hr>
         <p>
             Thanks to {% for thank in page.thanks %}
-            <a href="{{ thank.link }}">{{ thank.name }}</a>{% case forloop.rindex %}{% when 1 %}{% when 2 %} and{% else %},{% endcase %}
+            {% if thank.link %}<a href="{{ thank.link }}">{% endif %}{{ thank.name }}{% if thank.link %}</a>{% endif %}{% case forloop.rindex %}{% when 1 %}{% when 2 %} and{% else %},{% endcase %}
             {% endfor %} for {% if page.thanks_note %}{{ page.thanks_note }}{% else %}their help with this post!{% endif %}
         </p>
     {% endif %}
