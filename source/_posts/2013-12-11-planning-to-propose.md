@@ -14,14 +14,19 @@ thanks:
   - name: "my friends Jorge, Nina, Karina, and Anh"
 thanks_note: "their support, input on engagement rings, feedback on proposal plans, and tolerance of my agonizing over details."
 styles: |
+  #main .entry .entry-content iframe,
   #main .entry .entry-content p>img {
     display: inline-block;
   }
-  #main .entry .entry-content p>img + img {
+  #main .entry .entry-content iframe + iframe,
+  #main .entry .entry-content p>iframe + img {
     margin-left: 16px;
   }
+  #main .entry .entry-content p>iframe + img {
+    position: relative;
+    top: -20px;
+  }
 ---
-
 Elizabeth and I first talked about marriage almost two years ago, while [admiring the Manhattan skyline][1] at a wedding afterparty. As our relationship got more serious, our conversations slowly transitioned from discussions of what we each wanted to discussions of what we both wanted. Eventually we were making plans to visit wedding venues, thinking about possible dates, and sharing Google Docs with guest lists... but we were not yet engaged.
 
 I wanted to propose, and Elizabeth wanted me to propose. Even though the question itself was expected, I still wanted to surprise her with the where and the when. This was also something I was only going to get to do once, so I wanted the moment to be personally meaningful, intimate, and romantic. We had plans for the third anniversary of our first date in mid-December, but that was the obvious time to pop the question. What could I do instead? I'll tell the story from her perspective, and annotate with footnotes about what was going on behind the scenes.
@@ -36,20 +41,22 @@ Elizabeth, her mother Angela, her brother Andrew, and I were going to Port Towns
 
 We travelled back to Elizabeth's home outside of Tacoma on Sunday, and on Monday Elizabeth and I had the day to ourselves. She showed me some things I hadn't seen before in Tacoma (the [Five Mile Drive][2] is beautiful!), and had [a nice lunch][3]. We talked a bit about engagement rings, and I said that I had done some research and showed her my Pinterest board. She also was happy with the idea of picking something out together[^6], and after lunch we drove up to Seattle. One of my favorite buildings is there, [REX][3]/[OMA][4]'s [Seattle Central Library][5] (it even has [a TED talk][6]). We had explored the building together on my first trip to visit Elizabeth in Washington two years before, so I told Elizabeth that I'd like to visit it again on our way to dinner.
 
-After a little difficulty navigating through Seattle and finding parking, we enjoyed wandering through a building [flooded with light from the setting Sun][7]. When we went back outside into the cold I looked at my phone and said I wanted to make a quick phone call to a friend I had been trying to connect with, and asked if I could go back inside the library where it was warm. Elizabeth found a computer to use while I made the call[^7], and I was done a few minutes later, at which point we continued on down[^8] to [the ferris wheel][8] and one of our favorite bars. We went from there to dinner, and then Elizabeth drove me to the airport for my redeye back to New York, where we said goodbye.
+{% iframe_embed instagram hg9V7sg24T 340x438 %}
+{% iframe_embed instagram hcMLaIA2wp 340x438 %}
+
+After a little difficulty navigating through Seattle and finding parking, we enjoyed wandering through a building flooded with light from the setting Sun. When we went back outside into the cold I looked at my phone and said I wanted to make a quick phone call to a friend I had been trying to connect with, and asked if I could go back inside the library where it was warm. Elizabeth found a computer to use while I made the call[^7], and I was done a few minutes later, at which point we continued on down[^8] to the ferris wheel and one of our favorite bars. We went from there to dinner, and then Elizabeth drove me to the airport for my redeye back to New York, where we said goodbye.
 
 A couple hours later, I called Elizabeth in a panic – I didn't have [my notebook][9][^9]! I told her that I last saw it at the library, when I took it out to jot something down while I had been on the phone, and that I would call them in the morning to see if they had it. I asked her if she and her mom were heading up to Seattle anyway and it was in fact at the library, then could she could pick it up for me? Elizabeth said her mom hadn't been that enthusiastic about going up to the city, and I said I'd get back to her after the library opened at 10am the next morning and had confirmed it was even there[^10].
 
 The next morning I texted her to say that the library did have the notebook[^11], but that it wasn't at the regular Lost & Found, but rather at the Special Collections desk in the Seattle Room on the tenth floor[^12]. Elizabeth said that she and her mother were in fact coming to the city, and they would stop by to pick up the notebook.
 
-Elizabeth and Angela arrived at the library an hour or two later, and Angela waited in the car while Elizabeth ran upstairs[^13]. The elevator to get to the tenth floor took a couple minutes, but because she had been there the day before she knew right where to go. She retrieved the notebook from the Seattle Room, and opened it to look inside on her way back to the elevator. For a moment she looked puzzled by the ring, and when she looked up, I had just appeared [from around the corner][10]. We embraced, and I got down on one knee. I asked her to marry me, and she said yes!
+Elizabeth and Angela arrived at the library an hour or two later, and Angela waited in the car while Elizabeth ran upstairs[^13]. The elevator to get to the tenth floor took a couple minutes, but because she had been there the day before she knew right where to go. She retrieved the notebook from the Seattle Room, and opened it to look inside on her way back to the elevator. For a moment she looked puzzled by the ring, and when she looked up, I had just appeared from around the corner. We embraced, and I got down on one knee. I asked her to marry me, and she said yes!
 
-![](/images/2013/12/proposal2.jpg)
+<p>{% iframe_embed instagram KcEgK 340x438 %}<img src="/images/2013/12/proposal2.jpg" /></p>
+
+Fortunately there was no one else around at that particular moment, so it was perfectly romantic and private. A couple minutes later another librarian offered to take some photos of us with my phone[^14], and then we went outside and met Angela in the car. We went from there to a delicious lunch at [the rotating restaurant in the Seattle Space Needle][11], making phone calls to family along the way.
+
 ![](/images/2013/12/proposal3.jpg)
-
-Fortunately there was no one else around at that particular moment, so it was perfectly romantic and private. A couple minutes later another librarian offered to take some photos of us with my phone[^14], and then we went outside, where I snapped another photo of the building and we met Angela in the car. We went from there to a delicious lunch at [the rotating restaurant in the Seattle Space Needle][11], making phone calls to family along the way.
-
-![](/images/2013/12/proposal4.jpg)
 
 After that we did some shopping in Seattle, went to my hotel near the airport to pick up my bag, and then drove back to Elizabeth's house outside of Tacoma. Angela dropped Elizabeth and I off for [a quiet celebratory dinner in Tacoma][12], and we also got to say hello to her grandparents.
 
@@ -89,9 +96,7 @@ Any number of things could have foiled the plan and left us with a less perfect 
  [4]: http://www.oma.eu/projects/2004/seattle-central-library
  [5]: https://foursquare.com/v/seattle-public-library/42a78680f964a52011251fe3
  [6]: http://www.ted.com/talks/joshua_prince_ramus_on_seattle_s_library.html
- [7]: http://instagram.com/p/hg9V7sg24T/
- [8]: http://instagram.com/p/hcMLaIA2wp/
+
  [9]: http://thisiswhyicarryanotebook.tumblr.com/
- [10]: http://instagram.com/p/KcEgK/
  [11]: https://foursquare.com/v/skycity-restaurant/49f90597f964a520506d1fe3
  [12]: https://foursquare.com/v/ci-shenanigans/4a738992f964a520bcdc1fe3
