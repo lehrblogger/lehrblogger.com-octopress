@@ -70,27 +70,21 @@ Elizabeth, her mother Angela, her brother Andrew, and I were going to Port Towns
 > This is when I first told Angela about my secret alternate travel plans, and just in the nick of time, since I'd want to cancel the hotel reservation near the airport if the whole plan was getting scrapped. Angela was happy to help get Elizabeth to a particular time and place on Tuesday, since she was taking the day off from work anyway. We agreed to both brainstorm a bit and figure out the details later. I had originally been reluctant to tell Angela or Andrew about the details of the plan, since I knww that *I* was acting weirdly, and I felt like the more people that knew, the more likely it was that Elizabeth would grow suspicious. But in retrospect, I needn't have worried.
 > 
 > Over the next couple of days Angela and I had a few secret conversations about where a good place would be to propose. We talked about the ice skating rink in Tacoma, the [Chihuly Bridge of Glass][4], the ferris wheel in Seattle, and the Space Needle, but I kept coming back to the Seattle Central Library. There was something about my favorite place in her favorite place -- the building within her home city/state -- that just felt *right*.
-> 
-> I had already known that Angela was planning to take the day off on Tuesday. Earlier that week I had offered to give Elizabeth a massage that day at the spa at the [Alexis Hotel][5] before her gauntlet of interviews later that week. The story I gave was that my mom had a gift card from when my family had stayed there on vacation the summer before, which was why it had to be that particular hotel spa rather than somewhere closer to her home in Tacoma. I had planned to call Elizabeth immediately after the massage and ask her to pick something up at the library a few blocks away – perhaps a photocopy that could only be obtained from Special Collections, or a(n imaginary) limited edition Moleskine notebook imprinted with the building facade (as these [Evernote Moleskines][6] are imprinted)?
-> 
-> Unfortunately I had to scrap that whole plan because Elizabeth told me her mom was planning to take the day off of work to spend with her, and I wasn't sure I could get Elizabeth alone for the proposal itself. I was a bit awkward in dodging her counter-suggestion that we go for massages together the day before while I was still there (which would have ruined the surprise!), but I don't think she suspected much. At least I learned her mother wsa taking Tuesday off, and could create new plans accordingly.
 
-We travelled back to Elizabeth's home outside of Tacoma on Sunday, and on Monday Elizabeth and I spent the day together. She showed me some things I hadn't seen before in Tacoma (the [Five Mile Drive][7] is beautiful!), and we had [a nice lunch][8]. We talked a bit about engagement rings, and I said that I had done some research and showed her my Pinterest board. She also was happy with the idea of picking something out together, and after lunch we drove up to Seattle.
+We travelled back to Elizabeth's home outside of Tacoma on Sunday, and on Monday Elizabeth and I spent the day together. She showed me some things I hadn't seen before in Tacoma (the [Five Mile Drive][5] is beautiful!), and we had [a nice lunch][6]. We talked a bit about engagement rings, and I said that I had done some research and showed her my Pinterest board. She also was happy with the idea of picking something out together, and after lunch we drove up to Seattle.
 
 > It was a little weird to be having this conversation while I had the ring in my pocket! Elizabeth said later that she knew that when I proposed she wasn't going to see it coming, so was no longer taking such conversations as actual indications of my lack of preparedness.
 
-One of my favorite buildings is the city, [REX][9]/[OMA][10]'s [Seattle Central Library][11] (it even has [a TED talk][12]). We had explored the building together on my first trip to visit Elizabeth in Washington two years before, so I told Elizabeth that I'd like to visit it again on our way to dinner.
+One of my favorite buildings is the city, [REX][7]/[OMA][8]'s [Seattle Central Library][9] (it even has [a TED talk][10]). We had explored the building together on my first trip to visit Elizabeth in Washington two years before, so I told Elizabeth that I'd like to visit it again on our way to dinner.
 
 {% iframe_embed instagram hg9V7sg24T 340x438 %}
 {% iframe_embed instagram hcMLaIA2wp 340x438 %}
 
-After a little difficulty navigating through Seattle and finding parking, we enjoyed wandering through a building flooded with light from the setting Sun. When we went back outside into the cold I said I wanted to make a quick phone call to a friend I had been trying to connect with, and asked if I could go back inside the library where it was warm. Elizabeth found a computer to use while I made the call, and I was done a few minutes later, at which point we continued on down to the ferris wheel and [one of our favorite bars][13]. We went from there to [dinner][14], and then Elizabeth drove me to the airport for my redeye back to New York, where we said goodbye.
+After a little difficulty navigating through Seattle and finding parking, we enjoyed wandering through a building flooded with light from the setting Sun. When we went back outside into the cold I said I wanted to make a quick phone call to a friend I had been trying to connect with, and asked if I could go back inside the library where it was warm. Elizabeth found a computer to use while I made the call, and I was done a few minutes later, at which point we continued on down to the ferris wheel and [one of our favorite bars][11]. We went from there to [dinner][12], and then Elizabeth drove me to the airport for my redeye back to New York, where we said goodbye.
 
 > I actually called Angela from the library, and we talked about more details for Tuesday. The reason I needed to go back inside to make the call was so that I would have a few moments out of Elizabeth's line of sight, but I was not at all smooth about doing it, and nearly ruined the whole plan. Fortunately I don't think Elizabeth noticed nor suspected anything.
-> 
-> On our way to the ferris wheel we passed the aforementioned Alexis Hotel. I don't think Elizabeth noticed we were passing it, but I was nervous that she would ask about the previously offerred massage there and become suspicious.
 
-A couple hours later, I called Elizabeth in a panic – I didn't have [my notebook][15]! I told her that I last saw it at the library, when I took it out to jot something down while I had been on the phone, and that I would call them in the morning to see if they had it.
+A couple hours later, I called Elizabeth in a panic – I didn't have [my notebook][13]! I told her that I last saw it at the library, when I took it out to jot something down while I had been on the phone, and that I would call them in the morning to see if they had it.
 
 > After Elizabeth drove away from the airport, I pretended to check in for my flight and walk toward security, and then called her mother again to finalize more of the details for the next day. After that I left the airport and walked (in a light drizzle... maybe I should have waited for the shuttle?) to the aforementioned nearby hotel. I got my room key, dropped off my stuff in my room, and called her from the hotel lobby, hoping that the background noise would sound similar to that in an ariport. I actually cut the timing pretty close, and nearly waited to call until after my flight was supposed to take off, but it was fine. Of course I still had my notebook safely in my luggage – I had considered *actually* leaving it at the library, but it seemed too risky given how uncertain everything was.
 
@@ -114,11 +108,11 @@ She retrieved the notebook from the Seattle Room, and opened it to look inside f
 
 <p>{% iframe_embed instagram KcEgK 340x438 %}<img src="/images/2013/12/proposal2.jpg" /></p>
 
-Fortunately there was no one else around at that particular moment, so it was perfectly romantic and private. A couple minutes later another librarian offered to take some photos of us with my phone, and then we went outside and met Angela in the car. The three of us went from there to a delicious lunch at [the rotating restaurant in the Seattle Space Needle][16], making phone calls to family along the way.
+Fortunately there was no one else around at that particular moment, so it was perfectly romantic and private. A couple minutes later another librarian offered to take some photos of us with my phone, and then we went outside and met Angela in the car. The three of us went from there to a delicious lunch at [the rotating restaurant in the Seattle Space Needle][14], making phone calls to family along the way.
 
 ![](/images/2013/12/proposal3.jpg)
 
-After that we did some shopping in Seattle, went to my hotel near the airport to pick up my bag, and then drove back to Elizabeth's house outside of Tacoma. Angela dropped Elizabeth and I off for [a quiet celebratory dinner in Tacoma][17], and we also got to say hello to her grandparents.
+After that we did some shopping in Seattle, went to my hotel near the airport to pick up my bag, and then drove back to Elizabeth's house outside of Tacoma. Angela dropped Elizabeth and I off for [a quiet celebratory dinner in Tacoma][15], and we also got to say hello to her grandparents.
 
 Any number of things could have foiled such a delicate plan and left us with a less perfect proposal story. We were lucky the whole thing went smoothly, but that's negligible in comparison to how lucky we were to find each other in the first place!
 
@@ -129,16 +123,14 @@ Any number of things could have foiled such a delicate plan and left us with a l
  [2]: https://foursquare.com/v/copperleaf-restaurant-at-cedarbrook-lodge/4c06bbd43cbed13a0bd40bc0
  [3]: https://foursquare.com/v/cedarbrook-lodge/51717721e4b01944818d4a79
  [4]: http://instagram.com/p/KoqpD/
- [5]: https://foursquare.com/v/the-alexis-hotel/4a74a0b0f964a520eade1fe3
- [6]: http://evernote.com/partner/moleskine/
- [7]: https://foursquare.com/v/five-mile-drive/4bbe5c2598f49521d51bd163
- [8]: https://foursquare.com/v/art-house-cafe-tacoma-wa/5161b7a6498ea7a808790df8
- [9]: http://www.rex-ny.com/work/seattle-library/
- [10]: http://www.oma.eu/projects/2004/seattle-central-library
- [11]: https://foursquare.com/v/seattle-public-library/42a78680f964a52011251fe3
- [12]: http://www.ted.com/talks/joshua_prince_ramus_on_seattle_s_library.html
- [13]: https://foursquare.com/v/zig-zag-cafe/40b13b00f964a5203df71ee3
- [14]: https://foursquare.com/v/the-walrus-and-the-carpenter/4c60a06213791b8d151f50af
- [15]: http://thisiswhyicarryanotebook.tumblr.com/
- [16]: https://foursquare.com/v/skycity-restaurant/49f90597f964a520506d1fe3
- [17]: https://foursquare.com/v/ci-shenanigans/4a738992f964a520bcdc1fe3
+ [5]: https://foursquare.com/v/five-mile-drive/4bbe5c2598f49521d51bd163
+ [6]: https://foursquare.com/v/art-house-cafe-tacoma-wa/5161b7a6498ea7a808790df8
+ [7]: http://www.rex-ny.com/work/seattle-library/
+ [8]: http://www.oma.eu/projects/2004/seattle-central-library
+ [9]: https://foursquare.com/v/seattle-public-library/42a78680f964a52011251fe3
+ [10]: http://www.ted.com/talks/joshua_prince_ramus_on_seattle_s_library.html
+ [12]: https://foursquare.com/v/zig-zag-cafe/40b13b00f964a5203df71ee3
+ [13]: https://foursquare.com/v/the-walrus-and-the-carpenter/4c60a06213791b8d151f50af
+ [14]: http://thisiswhyicarryanotebook.tumblr.com/
+ [14]: https://foursquare.com/v/skycity-restaurant/49f90597f964a520506d1fe3
+ [15]: https://foursquare.com/v/ci-shenanigans/4a738992f964a520bcdc1fe3
