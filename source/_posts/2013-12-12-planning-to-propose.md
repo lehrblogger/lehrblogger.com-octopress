@@ -2,7 +2,7 @@
 layout: hidden
 featured: false
 title: "Planning to Propose"
-permalink: /2013/12/11/planning-to-propose/
+permalink: /2013/12/12/planning-to-propose/
 categories:
   - personal
   - lifehacks
