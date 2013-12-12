@@ -43,6 +43,11 @@ rvm use 1.9.3
 rvm rubygems latest
 bundle install
 gem update rdiscount
+wget http://sourceforge.net/projects/s3tools/files/latest/download?source=files -O s3cmd.tar.gz
+tar xzvf s3cmd.tar.gz
+cd s3cmd*
+sudo python setup.py install
+./s3cmd --configure  # Note that this will require manual input of AWS keys
 cd /vagrant
 rake generate
 ```
