@@ -68,25 +68,31 @@
 </div>
 {% include disqus.html %}
 <footer>
-    <span class="four columns alpha">
-        {% if page.layout_previous.url %}
-            <a href="{{ page.layout_previous.url }}" title="{{ page.layout_previous.title }}">&laquo; Previous {{ layout | titlecase }}</a>
-        {% else %}
-            This is the first {{ layout }}.
-        {% endif %}
-    </span>
-    <span class="four columns">
-        {% if layout == 'draft' %}
-            &nbsp;
-        {% else %}
-            <a href="/posts/" title="All {{ layout | titlecase }}s">All {{ layout | titlecase }}s</a>
-        {% endif %}
-    </span>
-    <span class="four columns omega">
-        {% if page.layout_next.url %}
-            <a href="{{ page.layout_next.url }}" title="{{ page.layout_next.title }}">Next {{ layout | titlecase }} &raquo;</a>
-        {% else %}
-            This is the most recent {{ layout }}.
-        {% endif %}
-    </span>
+    {% if layout == 'hidden' %}
+        <span class="twelve columns">
+            This is a hidden post, but it is not secret. It is not listed anywhere else on this site, but feel free to share it.
+        </span>
+    {% else %}
+        <span class="four columns alpha">
+            {% if page.layout_previous.url %}
+                <a href="{{ page.layout_previous.url }}" title="{{ page.layout_previous.title }}">&laquo; Previous {{ layout | titlecase }}</a>
+            {% else %}
+                This is the first {{ layout }}.
+            {% endif %}
+        </span>
+        <span class="four columns">
+            {% if layout == 'draft' %}
+                &nbsp;
+            {% else %}
+                <a href="/posts/" title="All {{ layout | titlecase }}s">All {{ layout | titlecase }}s</a>
+            {% endif %}
+        </span>
+        <span class="four columns omega">
+            {% if page.layout_next.url %}
+                <a href="{{ page.layout_next.url }}" title="{{ page.layout_next.title }}">Next {{ layout | titlecase }} &raquo;</a>
+            {% else %}
+                This is the most recent {{ layout }}.
+            {% endif %}
+        </span>
+    {% endif %}
 </footer>
