@@ -34,17 +34,19 @@
     <hr>
     <div class="entry-meta">
         {% capture time %}<time datetime="{{ page.date | datetime | date_to_xmlschema }}" pubdate{% if page.updates %} data-updated="true"{% endif %}>{{ page.date | date: "%d %B %Y" }}</time>{% endcapture %}
-        Published on {{ time }}
-        {% capture num_categories %}{{ page.categories | size }}{% endcapture %}
-        {% if num_categories != '0' %} with
-            {% if num_categories == '1' %}
-                this category:
+        Published on {{ time }}{% if layout == 'hidden' %}.{% else %}
+            {% capture num_categories %}{{ page.categories | size }}{% endcapture %}
+            with
+            {% if num_categories != '0' %}
+                {% if num_categories == '1' %}
+                    this category:
+                {% else %}
+                    these categories:
+                {% endif %}
+                {% for category in page.categories %}{{ category | category_link }}{% case forloop.rindex %}{% when 1 %}{% when 2 %} and {% else %}, {% endcase %}{% endfor %}.
             {% else %}
-                these categories:
+                no categories.
             {% endif %}
-            {% for category in page.categories %}{{ category | category_link }}{% case forloop.rindex %}{% when 1 %}{% when 2 %} and {% else %}, {% endcase %}{% endfor %}.
-        {% else %}
-            with no categories.
         {% endif %}
         {% if page.updates %}
             {% for update in page.updates %}
@@ -60,7 +62,7 @@
         {% endif %}
     </p>
     <hr>
-    {% unless layout == 'draft' %}
+    {% unless layout == 'draft' or layout == 'hidden' %}
         <div class="entry-social">
             Comments? You can <a href="http://news.ycombinator.com/submitlink?u={{ site.url | append:page.url | cgi_escape }}&t={{ page.title | cgi_escape }}">submit this link to Hacker News</a>, or use Disqus below.
         </div>

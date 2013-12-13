@@ -4,9 +4,6 @@ featured: false
 title: "Planning to Propose"
 permalink: /2013/12/13/planning-to-propose/
 alias: /proposal/
-categories:
-  - personal
-  - lifehacks
 blurb: "A story for family, friends, and our future selves."
 show_blurb: true
 thanks:
