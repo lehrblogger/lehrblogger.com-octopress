@@ -10,7 +10,7 @@ thanks:
   - name: "my parents Jim and Karen"
   - name: "my sister Amy"
   - name: "Elizabeth's mother Angela and brother Andrew,"
-  - name: "my friends Jorge, Nina, Karina, and Anh"
+  - name: "my friends Jorge, Nina, Karina, Sukhjeet, and Anh"
 thanks_note: "their support, input on engagement rings, feedback on proposal plans, and tolerance of my agonizing over details."
 styles: |
   #main .entry .entry-content iframe,
