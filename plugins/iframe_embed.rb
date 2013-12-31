@@ -1,6 +1,6 @@
 # from https://gist.github.com/joelverhagen/1805814
 class IframeEmbed < Liquid::Tag
-  Syntax = /^\s*(vimeo|youtube|google|slideshare|instagram)\s+([^\s]+)(\s+(\d+)x(\d+))?(\s+\?([^\s]+))?\s*$/
+  Syntax = /^\s*(vimeo|youtube|google|slideshare|instagram|generic)\s+([^\s]+)(\s+(\d+)x(\d+))?(\s+\?([^\s]+))?\s*$/
   
   def initialize(tagName, markup, tokens)
     super
@@ -38,6 +38,8 @@ class IframeEmbed < Liquid::Tag
       "<iframe src=\"http://www.slideshare.net/slideshow/embed_code/#{@id}\"                                #{dimensions} #{styles} frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" style=\"border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px\"></iframe>"
     elsif @type == "instagram"
       "<iframe src=\"//instagram.com/p/#{@id}/embed/\"                                                      #{dimensions} #{styles} frameborder=\"0\"                                      scrolling=\"no\"                                               allowtransparency=\"true\"></iframe>"
+    elsif @type == "generic"
+      "<iframe src=\"#{@id}\"                                                                               #{dimensions} #{styles} frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\"                                                                         ></iframe>"
     end
   end
   
