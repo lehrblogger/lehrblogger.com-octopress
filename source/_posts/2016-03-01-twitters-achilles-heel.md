@@ -20,7 +20,9 @@ On the surface, Twitter is doing wonderfully well. They have over 230 million ac
 [3]: http://money.cnn.com/2013/11/07/technology/social/twitter-ipo-stock/
 [4]: http://techcrunch.com/2013/12/04/twitter-retargeted-ads/
 
-Yet Twitter faces a growing threat from [a horde of upstart messaging apps][24]. [Snapchat][5], [WhatsApp][6], [Kik][7], [WeChat][8], [Line][9], and [Kakao][10] each have at least 100 million users, and pose an existential threat to Twitter in the same way that Facebook was an existential threat to MySpace. This is a classic example of [disruptive innovation][11], as described by Clayton Christensen in his book [The Innovator's Dilemma][12]. If you're unfamiliar, [watch the first ten minutes of this talk][13].
+Yet Twitter faces a growing threat from [a horde of upstart messaging apps][24]. [Snapchat][5], [WhatsApp][6], [Kik][7], [WeChat][8], [Line][9], and [Kakao][10] each have at least 100 million users, and pose an existential threat to Twitter in the same way that Facebook was an existential threat to MySpace. This is a classic example of [disruptive innovation][11], as described by Clayton Christensen in his book [The Innovator's Dilemma][12]. If you're unfamiliar, watch the first ten minutes of this talk, but skip the two-minute intro music!
+
+{% iframe_embed generic http://gartner.mediasite.com/mediasite/play/9cfe6bba5c7941e09bee95eb63f769421d?t=1m43s 532x400 %}
 
 [24]: http://lehrblogger.com/2013/07/01/the-last-great-social-network/
 [5]: http://www.snapchat.com
@@ -31,7 +33,6 @@ Yet Twitter faces a growing threat from [a horde of upstart messaging apps][24].
 [10]: http://www.kakao.com/talk/en
 [11]: http://en.wikipedia.org/wiki/Disruptive_innovation
 [12]: http://www.amazon.com/The-Innovators-Dilemma-Revolutionary-Business/dp/0062060244/
-[13]: http://gartner.mediasite.com/mediasite/play/9cfe6bba5c7941e09bee95eb63f769421d?t=1320659595
 
 Twitter has had a barebones messaging feature since it launched in 2006, but for years Direct Messages have been hidden in their apps and website. Twitter ignored messaging because it was a commodity feature that was not central to their core broadcasting product, and because it had been historically difficult to monetize. As Christensen might predict, Twitter seemed happy to let those other companies relieve them of the least profitable part of their product, so that they could better focus on what was important to the business.
 
@@ -45,7 +46,7 @@ Meanwhile, the aforementioned messaging apps grew like innovative weeds. Snapcha
 [22]: http://cards.kik.com
 [23]: http://www.wechat.com/en/features.html#moments
 
-Twitter, to its credit, has recently tried to move its messaging product back downmarket. They [resurrected DMs][14] with support for photos and a more prominent placement, but they're [still bizarrely tied to Twitter's follow graph][15] -- my friends might still want me to be able to talk to them even if they don't want to be bothered by all of my public tweets -- despite [experiments with fewer restrictions][16]. These efforts are misdirected, however: Twitter users think of DMs as a last-resort communication method, used only when the matter is urgent (traditionally, DMs would trigger in-app, email, and SMS notifications) or when you don't have the person's email address. And even with the recent changes, Twitter is still thinking of DMs as email, merging the email envelope icon with the messaging chat bubble icon in their new iOS tab bar:
+Twitter, to its credit, has recently tried to move its messaging product back downmarket. They [resurrected DMs][14] with support for photos and a more prominent placement, but they're [still bizarrely tied to Twitter's follow graph][15], despite [experiments with fewer restrictions][16][^1]. These efforts are misdirected, however: Twitter users think of DMs as a last-resort communication method, used only when the matter is urgent (traditionally, DMs would trigger in-app, email, and SMS notifications) or when you don't have the person's email address. And even with the recent changes, Twitter is still thinking of DMs as email, merging the email envelope icon with the messaging chat bubble icon in their new iOS tab bar:
 
 [14]: https://blog.twitter.com/2013/photos-in-direct-messages-and-swipe-between-timelines
 [15]: http://thenextweb.com/twitter/2013/11/19/twitter-backtracks-removes-option-let-users-receive-direct-messages-follower/
@@ -53,33 +54,46 @@ Twitter, to its credit, has recently tried to move its messaging product back do
 
 ![](/images/2014/01/twitter_tab_bar.png)
 
-The upstart messaging apps are successful, however, precisely because they are *not* email. DMs must be 'composed', since it takes extra effort to break up a thought into 140-character snippets, while the messaging apps try to replicate the casual, instantaneous nature of face-to-face interaction. Typing notifications, for example, create a sense of mutual presence and attention, while stickers convey emotion when body language cannot. While Twitter could continue to iterate on DMs until it reached feature parity with the other messaging apps, that could overcomplicate the current product. Sometimes people go to Twitter to find out ["what's happening"][24], but sometimes people go to Twitter to talk to other people, and these distinct use cases would be better served by distinct apps. Rather than struggle to teach an old feature new tricks, Twitter should create a new product to compete with the other messaging apps. Fortunately for Twitter, there are several aspects of it's current products it can leverage to create a differentiated experience.
+The upstart messaging apps are successful, however, precisely because they are *not* email. DMs must be 'composed', since it takes extra effort to break up a thought into 140-character snippets, while the messaging apps try to replicate the casual, instantaneous nature of face-to-face interaction. Typing notifications, for example, create a sense of mutual presence and attention, while stickers convey emotion when body language cannot.
+
+While Twitter could continue to iterate on DMs until it reached feature parity with the other messaging apps, that could overcomplicate the current product. Sometimes people go to Twitter to find out ["what's happening"][24], but sometimes people go to Twitter to talk to other people, and these distinct use cases would be better served by distinct apps. Rather than struggle to teach an old feature new tricks, Twitter should create a new product to compete with the other messaging apps.
+
+Fortunately for Twitter, there are several aspects of it's current products it can leverage to create a differentiated experience. What should Twitter's messaging app look like, and how should it work? For the purposes of discussion, let's call it Twig, and start with some wireframes showing some basic features:
 
 [24]: https://blog.twitter.com/2009/whats-happening
 
+TODO: add wireframe with standard contact list
+TODO: add wireframe with standard conversation view for a group
+
 ##### Leverage the Existing Social Graph
 
-established username, unique social graph, 
+Most messaging apps rely on users' address books to bootstrap their networks[^2], but Twitter's social graph is uniquely based on each individual's interests. Because the graph is asymmetric, users can follow whomever they find interesting, regardless of whether the interest is reciprocated, and as a result the [network becomes *aspirational*][25]. Twitter allows you to stumble across someone new, learn about their interests gradually, and interact casually through @-replies. It's natural for users to want to strengthen these relationships further through lightweight, synchronous, private conversations, so Twitter should provide that social space as well.
 
-identity platform
+This use case fits neatly into Twig's Contacts tab, which can include people the user follows on Twitter in addition to people from her address book. That list can even be auto-sorted by the amount and recency of the user's Twitter interactions with those contacts -- she's more likely to message the contacts whose tweets she favorites regularly or the contacts with whom she exchanges more @-replies.
 
-other apps only have address book, twitter has interest graph.
-interesting feature of dashdash[link to post], footnote to quadrant post
+Users would not want to receive Twig messages from *anyone*, however, so some sort of permissioning is necessary. Messaging is about conversation, so there's no point in a user being able to contact someone who can't respond. Rather than overburden their existing interest-based folow graph, Twitter should create a separate social graph of the people that can exchange messages on Twig. Users could add other users as contacts, perhaps accompanied by an optional public @-reply explaining the request. If the receipient approves the request, the two users could then exchange messages. While Twig's graph could be bootstrapped off the of the existing follow graph, it would diverge over time. It's also important that each user's list of approved/blocked contacts is private, unlike public follows.
 
-twitter's currently-unique advantage is that it a network for interacting with people you don't already know, unlike google and Facebook and etcetc
+TODO: wireframe of contact list sorted by Twitter interactions
+TODO: wireframe of request screen with optional @-reply explanation
 
-facebook and address book are the same, twitter graph is aspirational, people you want to know
+[25]: http://blog.kissedbyrain.com/post/making-meaning-with-web-products-and-thoughts-on-facebook-messaging
 
+##### Seed Conversations with Tweets from the Participants
 
-##### Seed Conversations with @-Replies
+Because Twig integrates with Twitter, it can automatically display tweets from a conversations participants in the conversation itself. This adds context to the conversation, and makes it easy for users to discuss specific tweets or to jump back and forth between the public and private conversation spaces.
 
-Christensen, compete against non-consumption, conversations people dont have a place to have
+At a glance, it might seem like Twig competes with Twitter's existing @-replies, but this should not be a concern. While @-replies are great for many things, there are several restrictions that make them difficult to use for conversation. First, the character limit makes it difficult to compose messages, slowing down an otherwise free-flowing conversation. Second, the character limit puts a cap on the number of participants, since the more people there are the harder it is to say anything. Third, users have different notification settings for different types of @-replies, making it difficult to know if/when the other participants will respond. Finally, the reverse-chronological feed with new messages at the top makes it difficult to have long conversations, which traditionally occur in chronological feeds with new messages at the bottom[^4]. Because of these restrictions, it's more likely that Twig, as Christensen would say, would "compete with non-consumption" -- Twig enables conversations that wouldn't otherwise happen at all, either on Twitter or even elsewhere (due to Twitter's unique social graph, as described above).
 
-subscribe to conversations
+Twig conversations should be private by default, mostly for the sake of providing a comparable social space to the messaging apps with which it would be competing. There's a temptation to make conversations either public, like in @-reply threads where non-participant friends can see the entire conversation history and jump in at will. Public histories, however, force participants to censor themselves because they don't know who might be listening; if users want that type of conversational space, than the existing @-replies are good enough.
 
-Threading - there's nothing wrong with nesting?
+On Dashdash, users can see what conversations their friends are having, but not what they're saying (as they can with @-replies) until they join that conversation. While Dashdash is used most on desktops and laptops, Twig would primarily be a mobile application, where availability for a conversation is more context- and topic-dependent. Twig might benefit from discoverable conversations that are similar to those on Dashdash, but it should be something that can be enabled and disabled for each conversation by the participants.
+
+TODO: wireframe of conversation with pulled in Tweets, both public and @-reply
+TODO: wireframe of conversation view with toggle-to-public, maybe it can't be reversed?
 
 ##### Degrade Gracefully to DMs
+
+As with any new product, user adoption of Twig will be gradual, so it's important for it to degrade gracefully when a Twig user wants to communicate with another Twitter user who is not yet using Twig. 
 
 backwards compatibility with DMs
 
@@ -101,6 +115,14 @@ Why does Twitter have to be the one to do this, and not a third party? https://d
 <blockquote class="twitter-tweet" lang="en"><p>The other weird thing, of course, is that DMs have long been the stepchild locked in the basement that the parent wished would go away...</p>&mdash; MG Siegler (@parislemon) <a href="https://twitter.com/parislemon/statuses/410559697121325056">December 11, 2013</a></blockquote>
 <blockquote class="twitter-tweet" lang="en"><p>Can you revive such a product to become a core feature after years upon years of not only neglect, but contempt?</p>&mdash; MG Siegler (@parislemon) <a href="https://twitter.com/parislemon/statuses/410559920388317185">December 11, 2013</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+[^1]: This limitation in and of itself dooms DMs as a competitor to other messaging apps. Twitter can either be a place where you follow the people you're interested in, or a place where you follow the people you want to talk with, but it can't be both. Until it resolves this issue, the subtle social friction and persistent fear of embarassment will drive users to other messaging products.
+
+[^2]: Users allow the app to have access to the names, emails, and phone numbers stored in their address books, and then the service can match those identifiers across users to quickly and automatically build a reasonably-accurate graph of socail connections. This results in social connections that are often similar to Facebook's, but without the years of painstakingly sent and accepted Friend requests.
+
+[^3]: Dashdash, the messaging app I've been working on, inadvertently provided exactly this sort of social space. Several of my private beta users had only previously known each other through Twitter, but were able to converse freely on Dashdash without needing to exchange additional contact information.
+
+[^4]: Twitter has recently worked to bring continuity to conversations by adding 'blue lines' between @-replies in the home feed and by showing all threaded @-replies on tweet detail pages. While these changes makt it easier for users to catch up on a conversation that's already happened, they don't make it easier to participate in a conversation as it's happening.
 
 
 
