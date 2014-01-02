@@ -1,12 +1,12 @@
 ---
 layout: draft
 featured: true
-title: "Twitter's Achilles Heel, Twitter's Messaging Dilemma"
-permalink: /2016/03/01/twitters-achilles-heel/
+title: "A Messaging App to Save Twitter"
+permalink: /2014/01/06/a-messaging-app-to-save-twitter/
 categories:
   - commentary
   - Dashdash
-blurb: "Why Twitter needs to focus on messaging, and what it should build."
+blurb: "A strategic analysis of Twitter's market and a vision for a product it should build."
 show_blurb: true
 styles: |
   #main .entry .entry-content iframe.twitter-tweet {
@@ -117,7 +117,7 @@ Because Twig integrates with Twitter, it can automatically display tweets from a
 
 At a glance, it might seem like Twig competes with Twitter's existing @-replies, but this should not be a concern. While @-replies are great for many things, there are several restrictions that make them difficult to use for conversation. First, the character limit makes it difficult to compose messages, slowing down an otherwise free-flowing conversation. Second, the character limit puts a cap on the number of participants, since the more people there are the harder it is to say anything. Third, users have different notification settings for different types of @-replies, making it difficult to know if/when the other participants will respond. Finally, the reverse-chronological feed with new messages at the top makes it difficult to have long conversations, which traditionally occur in chronological feeds with new messages at the bottom[^5]. Because of these restrictions, it's more likely that Twig would, as Christensen would say, "compete with non-consumption" -- Twig enables conversations that wouldn't otherwise happen at all, either on Twitter or even elsewhere (due to Twitter's unique social graph, as described above).
 
-##### Prefer Private to Public
+##### Prefer Private top Public
 
 {% img iphone right /images/2014/01/iphone_frame.png TODO: wireframe of conversation view toggled-to-public, @-reply in compose %}
 
@@ -135,7 +135,7 @@ While Twig can partially adopt this strategy with the aforementioned tweetable l
 
 ##### Summary
 
-Snapchat, WhatsApp, Kik, WeChat, Line, and Kakao are growing quickly despite their focus on the generally-unappealing messaging market. As they grow, they have begun to move upmarket into the status broadcasting features core to Twitter, and it's important to Twitter's long-term success that they defend and develop their products accordingly. By leveraging the existint social graph, seeding conversations with tweets, focusing on private interactions, and using Twitter as a platform for growth, Twitter could create the compelling and viable messaging product they need.
+Snapchat, WhatsApp, Kik, WeChat, Line, and Kakao are growing quickly despite their focus on the generally-unappealing messaging market. As they grow, they have begun to move upmarket into the status broadcasting features core to Twitter, and it's important to Twitter's long-term success that they defend and develop their products accordingly. By leveraging the existing social graph, seeding conversations with tweets, focusing on private interactions, and using Twitter as a platform for growth, Twitter could create the compelling and viable messaging product they need.
 
 [^1]: This limitation in and of itself dooms DMs as a competitor to other messaging apps. Twitter can either be a place where you follow the people you're interested in, or a place where you follow the people you want to talk with, but it can't be both. Until it resolves this issue, the subtle social friction and persistent fear of embarassment will drive users to other messaging products.
 
