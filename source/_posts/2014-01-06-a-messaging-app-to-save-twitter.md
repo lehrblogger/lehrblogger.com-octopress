@@ -42,57 +42,28 @@ todo:
 
 On the surface, Twitter is doing wonderfully well. They have over 230 million active users, and [growth is healthy][1]. In less than two months their stock has risen steadily to [nearly triple][2] [the IPO price][3], and there are [new advertising opportunies][4] they are just beginning to expore. Both consumers and brands view the product as a global town square where people find news, ideas, and lightweight conversation.
 
-[1]: http://www.sec.gov/Archives/edgar/data/1418091/000119312513424260/d564001ds1a.htm
-[2]: https://www.google.com/finance?chdnp=1&chdd=1&chds=1&chdv=1&chvs=maximized&chdeh=0&chfdeh=0&chdet=1388089920000&chddm=12873&chls=IntervalBasedLine&q=NYSE:TWTR&ntsp=0&ei=T_nEUtCyHubl0QHSXw
-[3]: http://money.cnn.com/2013/11/07/technology/social/twitter-ipo-stock/
-[4]: http://techcrunch.com/2013/12/04/twitter-retargeted-ads/
-
-Yet Twitter faces a growing threat from [a horde of upstart messaging apps][24]. [Snapchat][5], [WhatsApp][6], [Kik][7], [WeChat][8], [Line][9], and [Kakao][10] each have at least 100 million users, and pose an existential threat to Twitter. This is a classic example of [disruptive innovation][11], as described by Clayton Christensen in his book [The Innovator's Dilemma][12]. If you're unfamiliar, watch the first ten minutes of this talk, but skip the two-minute intro music!
+Yet Twitter faces a growing threat from [a horde of upstart messaging apps][5]. [Snapchat][6], [WhatsApp][7], [Kik][8], [WeChat][9], [Line][10], and [Kakao][11] each have at least 100 million users, and pose an existential threat to Twitter. This is a classic example of [disruptive innovation][12], as described by Clayton Christensen in his book [The Innovator's Dilemma][13]. If you're unfamiliar, watch the first ten minutes of this talk, but skip the two-minute intro music!
 
 {% iframe_embed generic http://gartner.mediasite.com/mediasite/play/9cfe6bba5c7941e09bee95eb63f769421d?t=1m43s 532x400 %}
 
-[24]: http://lehrblogger.com/2013/07/01/the-last-great-social-network/
-[5]: http://www.snapchat.com
-[6]: http://www.whatsapp.com
-[7]: http://kik.com
-[8]: http://www.wechat.com/en/
-[9]: http://line.me/en/
-[10]: http://www.kakao.com/talk/en
-[11]: http://en.wikipedia.org/wiki/Disruptive_innovation
-[12]: http://www.amazon.com/The-Innovators-Dilemma-Revolutionary-Business/dp/0062060244/
-
 Twitter has had a barebones messaging feature since it launched in 2006, but for years Direct Messages have been hidden in their apps and website. Twitter ignored messaging because it was a commodity feature that was not central to their core broadcasting product, and because it had been historically difficult to monetize. As Christensen might predict, Twitter seemed happy to let those other companies relieve them of the least profitable part of their product, so that they could better focus on what was important to the business.
 
-Meanwhile, the aforementioned messaging apps grew like innovative weeds. Snapchat pioneered [ephemeral social media][17], Line showed that sales of virtual [stickers could generate substantial revenue][18] (and everyone else followed suit), and WhatsApp has shown that people would actually pay money for social apps ([$0.99/year][19] adds up over [400 million users][20]). More problematically for Twitter, these apps are branching out into other aspects of social networking: Snapchat recently launched [a broadcast feature called Stories][21], Kik is pushing [a platform that enables third-parties to develop social apps][22], and WeChat offers [a Twitter-like Moments feature][23]. These apps have all been trying to move upmarket into Twitter's profitable social/information broadcasting territory.
-
-[17]: http://blog.snapchat.com/post/55902851023/temporary-social-media
-[18]: http://techcrunch.com/2013/05/09/line-reports-q1-2013-earnings-of-58-9m-half-from-game-in-app-purchases-30-from-stickers-80-from-japan/
-[19]: https://itunes.apple.com/us/app/whatsapp-messenger/id310633997
-[20]: http://blog.whatsapp.com/index.php/2013/12/400-million-stories/
-[21]: http://blog.snapchat.com/post/62975810329/surprise
-[22]: http://cards.kik.com
-[23]: http://www.wechat.com/en/features.html#moments
+Meanwhile, the aforementioned messaging apps grew like innovative weeds. Snapchat pioneered [ephemeral social media][14], Line showed that sales of virtual [stickers could generate substantial revenue][15] (and everyone else followed suit), and WhatsApp has shown that people would actually pay money for social apps ([$0.99/year][16] adds up over [400 million users][17]). More problematically for Twitter, these apps are branching out into other aspects of social networking: Snapchat recently launched [a broadcast feature called Stories][18], Kik is pushing [a platform that enables third-parties to develop social apps][19], and WeChat offers [a Twitter-like Moments feature][20]. These apps have all been trying to move upmarket into Twitter's profitable social/information broadcasting territory.
 
 <blockquote class="twitter-tweet" lang="en"><p>One weird thing about DMs-as-chat is that a lot of the ones I get are now like <a href="https://twitter.com/MagicRecs">@MagicRecs</a>. In other words, not chat at all.</p>&mdash; MG Siegler (@parislemon) <a href="https://twitter.com/parislemon/statuses/410559292593274880">December 10, 2013</a></blockquote>
 <blockquote class="twitter-tweet" lang="en"><p>The other weird thing, of course, is that DMs have long been the stepchild locked in the basement that the parent wished would go away...</p>&mdash; MG Siegler (@parislemon) <a href="https://twitter.com/parislemon/statuses/410559697121325056">December 11, 2013</a></blockquote>
 <blockquote class="twitter-tweet" lang="en"><p>Can you revive such a product to become a core feature after years upon years of not only neglect, but contempt?</p>&mdash; MG Siegler (@parislemon) <a href="https://twitter.com/parislemon/statuses/410559920388317185">December 11, 2013</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Twitter, to its credit, has recently tried to move its messaging product back downmarket. They [resurrected DMs][14] with support for photos and a more prominent placement, but they're [still bizarrely tied to Twitter's follow graph][15], despite [experiments with fewer restrictions][16][^1]. These efforts are misdirected, however: Twitter users think of DMs as a last-resort communication method, used only when the matter is urgent (traditionally, DMs would trigger in-app, email, and SMS notifications) or when you don't have the person's email address. And even with the recent changes, Twitter is still thinking of DMs as email, merging the email envelope icon with the messaging chat bubble icon in their new iOS tab bar:
+Twitter, to its credit, has recently tried to move its messaging product back downmarket. They [resurrected DMs][21] with support for photos and a more prominent placement, but they're [still bizarrely tied to Twitter's follow graph][22], despite [experiments with fewer restrictions][23][^1]. These efforts are misdirected, however: Twitter users think of DMs as a last-resort communication method, used only when the matter is urgent (traditionally, DMs would trigger in-app, email, and SMS notifications) or when you don't have the person's email address. And even with the recent changes, Twitter is still thinking of DMs as email, merging the email envelope icon with the messaging chat bubble icon in their new iOS tab bar:
 
 {% img ios_tab_bar /images/2014/01/twitter_tab_bar.png %}
-
-[14]: https://blog.twitter.com/2013/photos-in-direct-messages-and-swipe-between-timelines
-[15]: http://thenextweb.com/twitter/2013/11/19/twitter-backtracks-removes-option-let-users-receive-direct-messages-follower/
-[16]: http://techcrunch.com/2013/10/15/twitter-direct-messages-all-followers/
 
 The upstart messaging apps are successful, however, precisely because they are *not* email. DMs must be 'composed', since it takes extra effort to break up a thought into 140-character snippets, while the messaging apps try to replicate the casual, instantaneous nature of face-to-face interaction. Typing notifications, for example, create a sense of mutual presence and attention, while stickers convey emotion when body language cannot.
 
 While Twitter could continue to iterate on DMs until it reached feature parity with the other messaging apps, that could overcomplicate the current product. Sometimes people go to Twitter to find out ["what's happening"][24], but sometimes people go to Twitter to talk to other people, and these distinct use cases would be better served by distinct apps. Rather than struggle to teach an old feature new tricks, Twitter should create a new product to compete with the other messaging apps[^2].
 
 Fortunately for Twitter, there are several aspects of it's current products it can leverage to create a differentiated experience. What should Twitter's messaging app look like, and how should it work? For the purposes of discussion, let's call this new app "Twig."
-
-[24]: https://blog.twitter.com/2009/whats-happening
 
 {% img iphone left  /images/2014/01/iphone_frame.png TODO: add wireframe with standard contact list %}
 {% img iphone right /images/2014/01/iphone_frame.png TODO: add wireframe with standard conversation view for a group %}
@@ -106,8 +77,6 @@ Most messaging apps rely on users' address books to bootstrap their networks[^3]
 This use case fits neatly into Twig's Contacts tab, which can include people the user follows on Twitter in addition to people from her address book. That list can even be auto-sorted by the amount and recency of the user's Twitter interactions with those contacts -- she's more likely to message the contacts whose tweets she favorites regularly or the contacts with whom she exchanges more @-replies.
 
 Users would not want to receive Twig messages from *anyone*, however, so some sort of permissioning is necessary. Messaging is about conversation, so there's no point in a user being able to contact someone who can't respond. Rather than overburden their existing interest-based folow graph, Twitter should create a separate social graph of the people that can exchange messages on Twig. Users could add other users as contacts, perhaps accompanied by an optional public @-reply explaining the request. If the receipient approves the request, the two users could then exchange messages. While Twig's graph could be bootstrapped off the of the existing follow graph, it would diverge over time. It's also important that each user's list of approved/blocked contacts is private, unlike public follows.
-
-[25]: http://blog.kissedbyrain.com/post/making-meaning-with-web-products-and-thoughts-on-facebook-messaging
 
 ##### Seed Conversations with Tweets
 
@@ -150,4 +119,29 @@ Snapchat, WhatsApp, Kik, WeChat, Line, and Kakao are growing quickly despite the
 [^6]: It would also be interesting to make it easy for users to cross-post messages from Twig back to Twitter. Perhaps if a user long-pressed on one of their sent Twig messages, then a modal dialgoue would appear showing that message as one or more tweets, combined with the usernames of the participants and a link to the conversation. It also might be interesting to let Twig users tweet directly from the message compose text box as they were sending messages to the conversation, but that would probably create too much noise on Twitter.
 
 
+[1]: http://www.sec.gov/Archives/edgar/data/1418091/000119312513424260/d564001ds1a.htm
+[2]: https://www.google.com/finance?chdnp=1&chdd=1&chds=1&chdv=1&chvs=maximized&chdeh=0&chfdeh=0&chdet=1388089920000&chddm=12873&chls=IntervalBasedLine&q=NYSE:TWTR&ntsp=0&ei=T_nEUtCyHubl0QHSXw
+[3]: http://money.cnn.com/2013/11/07/technology/social/twitter-ipo-stock/
+[4]: http://techcrunch.com/2013/12/04/twitter-retargeted-ads/
+[5]: http://lehrblogger.com/2013/07/01/the-last-great-social-network/
+[6]: http://www.snapchat.com
+[7]: http://www.whatsapp.com
+[8]: http://kik.com
+[9]: http://www.wechat.com/en/
+[10]: http://line.me/en/
+[11]: http://www.kakao.com/talk/en
+[12]: http://en.wikipedia.org/wiki/Disruptive_innovation
+[13]: http://www.amazon.com/The-Innovators-Dilemma-Revolutionary-Business/dp/0062060244/
+[14]: http://blog.snapchat.com/post/55902851023/temporary-social-media
+[15]: http://techcrunch.com/2013/05/09/line-reports-q1-2013-earnings-of-58-9m-half-from-game-in-app-purchases-30-from-stickers-80-from-japan/
+[16]: https://itunes.apple.com/us/app/whatsapp-messenger/id310633997
+[17]: http://blog.whatsapp.com/index.php/2013/12/400-million-stories/
+[18]: http://blog.snapchat.com/post/62975810329/surprise
+[19]: http://cards.kik.com
+[20]: http://www.wechat.com/en/features.html#moments
+[21]: https://blog.twitter.com/2013/photos-in-direct-messages-and-swipe-between-timelines
+[22]: http://thenextweb.com/twitter/2013/11/19/twitter-backtracks-removes-option-let-users-receive-direct-messages-follower/
+[23]: http://techcrunch.com/2013/10/15/twitter-direct-messages-all-followers/
+[24]: https://blog.twitter.com/2009/whats-happening
+[25]: http://blog.kissedbyrain.com/post/making-meaning-with-web-products-and-thoughts-on-facebook-messaging
 
