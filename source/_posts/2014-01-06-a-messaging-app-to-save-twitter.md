@@ -20,7 +20,11 @@ styles: |
     max-width: 340px;
   }
   #main .entry .entry-content p>img.iphone {
-    max-width: 330px;
+    max-width: 277px;
+    background-image: url('/images/2014/01/iphone_frame.png');
+    background-repeat: no-repeat;
+    background-size: 330px auto;
+    padding: 100px 24px 109px 29px;
   }
   #main .entry .entry-content p>img.left {
     float: left;
@@ -65,14 +69,14 @@ While Twitter could continue to iterate on DMs until it reached feature parity w
 
 Fortunately for Twitter, there are several aspects of it's current products it can leverage to create a differentiated experience. What should Twitter's messaging app look like, and how should it work? For the purposes of discussion, let's call this new app "Twig."
 
-{% img iphone left  /images/2014/01/iphone_frame.png TODO: add wireframe with standard contact list %}
-{% img iphone right /images/2014/01/iphone_frame.png TODO: add wireframe with standard conversation view for a group %}
+{% img iphone left  /images/2014/01/twig_contacts_standard.png TODO: add wireframe with standard contact list %}
+{% img iphone right /images/2014/01/twig_conversation_standard.png TODO: add wireframe with standard conversation view for a group %}
 
 ##### Leverage the Existing Social Graph
 
 Most messaging apps rely on users' address books to bootstrap their networks[^3], but Twitter's social graph is uniquely based on each individual's interests. Because the graph is asymmetric, users can follow whomever they find interesting, regardless of whether the interest is reciprocated. As a result [the network becomes *aspirational*][25] – users follow the people they wish they knew. Twitter allows you to stumble across someone new, learn about their interests gradually, and interact casually through @-replies. It's natural for users to want to strengthen these relationships further through lightweight, synchronous, private conversations, so Twitter should provide that social space as well[^4].
 
-{% img iphone right  /images/2014/01/iphone_frame.png TODO: wireframe of contact list sorted by Twitter interactions %}
+{% img iphone right /images/2014/01/twig_contacts_twitter.png TODO: wireframe of contact list sorted by Twitter interactions %}
 
 This use case fits neatly into Twig's Contacts tab, which can include people that the user follows on Twitter in addition to the standard selection of contacts from the device address book. That list can even be auto-sorted by the amount and recency of the user's Twitter interactions with those contacts -- she's more likely to message the contacts whose tweets she favorites regularly or the contacts with whom she exchanges more @-replies.
 
@@ -80,7 +84,7 @@ Users would not want to receive Twig messages from *anyone*, however, so some so
 
 ##### Seed Conversations with Tweets
 
-{% img iphone right /images/2014/01/iphone_frame.png TODO: wireframe of conversation with pulled in Tweets, both public and @-reply %}
+{% img iphone right /images/2014/01/twig_conversation_twitter.png TODO: wireframe of conversation with pulled in Tweets, both public and @-reply %}
 
 Because Twig integrates with Twitter, it can automatically display tweets from a conversation's participants in the conversation itself. This adds context to the conversation, and makes it easy for users to discuss specific tweets or to jump back and forth between the public and private conversation spaces.
 
@@ -88,7 +92,7 @@ At a glance, it might seem like Twig competes with Twitter's existing @-replies,
 
 ##### Prefer Private to Public
 
-{% img iphone right /images/2014/01/iphone_frame.png TODO: wireframe of conversation view toggled-to-public, @-reply in compose %}
+{% img iphone right /images/2014/01/twig_conversation_discoverable.png TODO: wireframe of conversation view toggled-to-public, @-reply in compose %}
 
 Twig conversations should be private by default so that the provide a social space comparable to the messaging apps with which it would be competing. There's a temptation to make conversations either public, like in @-reply threads where non-participant friends can see the entire conversation history and jump in at-will. Public histories, however, force participants to censor themselves because they don't know who might be listening; if users want that type of conversational space, than the existing @-replies are good enough.
 
@@ -112,7 +116,7 @@ Snapchat, WhatsApp, Kik, WeChat, Line, and Kakao are growing quickly despite the
 
 [^3]: Users allow these services to have access to the names, emails, and phone numbers stored in their address books, and then the service can match those identifiers across users to quickly and automatically build a reasonably-accurate social graph. This results in connections that are often similar to Facebook's, but without the years of painstakingly sent and accepted Friend requests.
 
-[^4]: Dashdash, the messaging app I've been working on, provided exactly this sort of social space. Several of my private beta users had only previously known each other through Twitter, but were able to converse freely on Dashdash without needing to exchange additional contact information. While this was not one of the primary features I had in mind when designing the product, it's one of the aspects that my users have enjoyed the most.
+[^4]: Dashdash, the messaging app I've been working on, provided exactly this sort of social space. Several of my private beta users had only previously known each other through Twitter, but were able to converse freely on Dashdash without needing to exchange additional contact information. While this was not one of the primary features I had in mind when designing the product, it's one of the things that my users have enjoyed the most.
 
 [^5]: Twitter has recently worked to bring continuity to conversations by adding 'blue lines' between @-replies in the home feed and by showing all threaded @-replies on tweet detail pages. While these changes make it easier for users to catch up on a conversation that's already happened, they don't make it easier to participate in a conversation as it's happening.
 
