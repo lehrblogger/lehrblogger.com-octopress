@@ -70,7 +70,7 @@ While Twitter could continue to iterate on DMs until it reached feature parity w
 Fortunately for Twitter, there are several aspects of it's current products it can leverage to create a differentiated experience. What should Twitter's messaging app look like, and how should it work? For the purposes of discussion, let's call this new app **Twig**.
 
 {% img iphone left  /images/2014/01/twig_contacts_standard.png TODO: add wireframe with standard contact list %}
-{% img iphone right /images/2014/01/twig_conversation_standard.png TODO: add wireframe with standard conversation view for a group %}
+{% img iphone right /images/2014/01/twig_messages_standard.png TODO: add wireframe with standard conversation view for a group %}
 
 ##### Leverage the Existing Social Graph
 
@@ -84,7 +84,7 @@ Users would not want to receive Twig messages from *anyone*, however, so some so
 
 ##### Seed Conversations with Tweets
 
-{% img iphone right /images/2014/01/twig_conversation_twitter.png TODO: wireframe of conversation with pulled in Tweets, both public and @-reply %}
+{% img iphone right /images/2014/01/twig_messages_twitter.png TODO: wireframe of conversation with pulled in Tweets, both public and @-reply %}
 
 Because Twig integrates with Twitter, it can automatically display tweets from a conversation's participants in the conversation itself. This adds context to the conversation, and makes it easy for users to discuss specific tweets or to jump back and forth between the public and private conversation spaces.
 
@@ -92,7 +92,7 @@ At a glance, it might seem like Twig competes with Twitter's existing @-replies.
 
 ##### Prefer Private to Public
 
-{% img iphone right /images/2014/01/twig_conversation_discoverable.png TODO: wireframe of conversation view toggled-to-public, @-reply in compose %}
+{% img iphone right /images/2014/01/twig_messages_discoverable.png TODO: wireframe of conversation view toggled-to-public, @-reply in compose %}
 
 Twig conversations should be private by default so that the provide a social space comparable to the messaging apps with which it would be competing. There's a temptation to make conversations either public, like in @-reply threads where non-participant friends can see the entire conversation history and jump in at-will. Public histories, however, force participants to censor themselves because they don't know who might be listening; if users want that type of conversational space, than the existing @-replies are good enough.
 
