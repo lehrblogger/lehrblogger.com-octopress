@@ -18744,12 +18744,14 @@ resolutions as last year?}</string>
 										<dict>
 											<key>Color</key>
 											<dict>
+												<key>a</key>
+												<string>0.25</string>
 												<key>b</key>
-												<string>0.900092</string>
+												<string>0.925449</string>
 												<key>g</key>
-												<string>0.900092</string>
+												<string>0.75958</string>
 												<key>r</key>
-												<string>0.900092</string>
+												<string>0.429223</string>
 											</dict>
 										</dict>
 										<key>shadow</key>
@@ -18808,7 +18810,7 @@ resolutions as last year?}</string>
 			<array>
 				<dict>
 					<key>Lock</key>
-					<string>YES</string>
+					<string>NO</string>
 					<key>Name</key>
 					<string>Master layer</string>
 					<key>Print</key>
@@ -18849,7 +18851,7 @@ resolutions as last year?}</string>
 		</dict>
 	</array>
 	<key>ModificationDate</key>
-	<string>2014-01-05 06:05:49 +0000</string>
+	<string>2014-01-05 20:41:37 +0000</string>
 	<key>Modifier</key>
 	<string>Steven Lehrburger</string>
 	<key>NotesVisible</key>
