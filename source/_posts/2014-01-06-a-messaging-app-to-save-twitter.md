@@ -67,7 +67,7 @@ The upstart messaging apps are successful, however, precisely because they are *
 
 While Twitter could continue to iterate on DMs until it reached feature parity with the other messaging apps, that could overcomplicate their [already-confusing product][24]. Sometimes people go to Twitter to find out ["what's happening"][25], but sometimes people go to Twitter to talk to other people, and these distinct use cases would be better served by distinct apps. **Rather than struggle to teach an old feature new tricks, Twitter should create a new product to compete with the other messaging apps[^2].**
 
-Fortunately for Twitter, there are several aspects offerscurrent products that it can leverage to create a differentiated user experience. What should Twitter's messaging app look like, and how should it work? For the purposes of discussion, let's call this new app **Twig**.
+Fortunately for Twitter, there are several aspects of its current products that it can leverage to create a differentiated user experience. What should Twitter's messaging app look like, and how should it work? For the purposes of discussion, let's call this new app **Twig**.
 
 {% img iphone left  /images/2014/01/twig_contacts_standard.png TODO: add wireframe with standard contact list %}
 {% img iphone right /images/2014/01/twig_messages_standard.png TODO: add wireframe with standard conversation view for a group %}
