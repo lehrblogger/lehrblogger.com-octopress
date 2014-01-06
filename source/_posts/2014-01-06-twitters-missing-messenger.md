@@ -1,12 +1,12 @@
 ---
 layout: draft
 featured: true
-title: "A Messaging App to Save Twitter"
-permalink: /2014/01/06/a-messaging-app-to-save-twitter/
+title: "Twitter's Missing Messenger"
+permalink: /2014/01/06/twitters-missing-messenger/
 categories:
   - commentary
   - Dashdash
-blurb: "A strategic analysis of Twitter’s market and a vision for a product it should build."
+blurb: "A strategic analysis of the market and a vision for what Twitter should build."
 show_blurb: true
 thanks:
   - name: Nina
