@@ -1,0 +1,52 @@
+---
+layout: default
+title: "Upload Files"
+norobots: true
+tutorial: http://aws.amazon.com/articles/1434
+python: |
+  # remember to unindent
+  import base64
+  import hmac, hashlib
+  policy_document = """{'expiration': '2100-01-01T00:00:00Z',
+    'conditions': [ 
+      {'bucket': 'uploads.lehrblogger.com'}, 
+      ['starts-with', '$key', ''],
+      {'acl': 'private'},
+      {'success_action_redirect': 'http://lehrblogger.com/upload'}
+    ]
+  }"""
+  AWS_SECRET_ACCESS_KEY = ''
+  policy = base64.b64encode(policy_document)
+  signature = base64.b64encode(hmac.new(AWS_SECRET_ACCESS_KEY, policy, hashlib.sha1).digest())
+  policy
+  signature
+---
+<header role="banner">
+    <h3 class="entry-title">
+        <a href="{{ page.url }}">
+            Upload a File
+        </a>
+    </h3>
+</header>
+<div class="entry-content">
+    <p>
+        If you've arrived at this page, it probably means you have a file to send me that's too big for email.
+    </p>
+    <p>
+        <form action="http://uploads.lehrblogger.com.s3.amazonaws.com/" method="post" enctype="multipart/form-data">
+            <input type="hidden" name="key" value="${filename}">
+            <input type="hidden" name="AWSAccessKeyId" value="AKIAJ3KZ3JQU57NUM57A"> 
+            <input type="hidden" name="acl" value="private"> 
+            <input type="hidden" name="success_action_redirect" value="http://lehrblogger.com/upload">
+            <input type="hidden" name="policy" value="eydleHBpcmF0aW9uJzogJzIxMDAtMDEtMDFUMDA6MDA6MDBaJywKICAnY29uZGl0aW9ucyc6IFsgCiAgICB7J2J1Y2tldCc6ICd1cGxvYWRzLmxlaHJibG9nZ2VyLmNvbSd9LCAKICAgIFsnc3RhcnRzLXdpdGgnLCAnJGtleScsICcnXSwKICAgIHsnYWNsJzogJ3ByaXZhdGUnfSwKICAgIHsnc3VjY2Vzc19hY3Rpb25fcmVkaXJlY3QnOiAnaHR0cDovL2xlaHJibG9nZ2VyLmNvbS91cGxvYWQnfQogIF0KfQ==">
+            <input type="hidden" name="signature" value="aGr2a08P2l61Lg5jbJaH0VRg198=">
+            
+            <input name="file" type="file"> 
+            <br> 
+            <input type="submit" value="Upload!"> 
+        </form>
+    </p>
+    <p>
+        The uploaded files go directly to a bucket on <a href="http://aws.amazon.com/s3/">Amazon S3</a>, and the form should be able to accept files of up to 5GB. If you get an error message, I've probably disabled the form, so  <a href="mailto:lehrburger@gmail.com">email me</a> and I'll re-enable it.
+    </p>
+</div>
