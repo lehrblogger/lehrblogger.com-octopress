@@ -56,7 +56,10 @@ EC2 Setup
 ---------
 For blog development from an iPad/iPhone, I'll need a server somewhere to generate, preview, and deploy the blog. This should also let me edit posts in Dropbox using some other editor on my mobile device. The below instructions work for an Ubuntu 12.04 LTS micro instance.
 ```
+echo "export EDITOR='vim'" >> ~/.bashrc
 sudo apt-get install git
+git config --global user.name "lehrblogger"
+git config --global user.email lehrburger@gmail.com
 cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
 ~/.dropbox-dist/dropboxd
 curl -o dropbox2.py https://www.dropbox.com/download?dl=packages/dropbox.py 
