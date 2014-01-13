@@ -1,6 +1,6 @@
 ---
 layout: post
-featured: true
+featured: false
 title: "NEVER SLEEP"
 permalink: /2009/06/01/never-sleep/
 dsq_thread_id:

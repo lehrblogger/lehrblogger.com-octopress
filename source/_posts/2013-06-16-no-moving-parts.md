@@ -1,6 +1,6 @@
 ---
 layout: post
-featured: true
+featured: false
 title: "No Moving Parts"
 permalink: /2013/06/16/no-moving-parts/
 categories:

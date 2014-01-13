@@ -1,8 +1,8 @@
 ---
-layout: draft
+layout: post
 featured: true
 title: "Twitter's Missing Messenger"
-permalink: /2014/01/06/twitters-missing-messenger/
+permalink: /2014/01/13/twitters-missing-messenger/
 categories:
   - commentary
   - Dashdash
