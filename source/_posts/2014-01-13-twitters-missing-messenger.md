@@ -95,8 +95,8 @@ As the other messaging apps move upmarket, they will compete directly with Twitt
 
 More drastic changes are needed to revive DMs "after years upon years of not only neglect, but contempt": Twitter should transition DMs into a *separate* application focused on conversation[^1]. (There are also many improvements that Twitter could make to @-replies, but those are outside the scope of this post.) People go to Twitter for two main reasons: to find out ["what's happening"][26], and to talk to other people. The timeline in the current app satisfies the first need, and the conversations in this new app would satisfy the second need, similarly to how Facebook has separated its Messenger iPhone app away from its flagship app. How should DMs work, and what should this new app look like?
 
-{% img iphone left  /images/2014/01/twig_contacts_standard.png %}
-{% img iphone right /images/2014/01/twig_messages_standard.png %}
+{% img iphone left  /images/2014/01/dm_app_contacts_standard.png %}
+{% img iphone right /images/2014/01/dm_app_messages_standard.png %}
 
 The above wireframes show what Twitter's DM app might look like if it were modeled after its successful messaging competitors. On the left, the Contacts tab shows the people with whom the logged-in user can exchange messages, and on the right, the conversation view in the Messages tab shows a standard group messaging interface. The only difference of note is that this new DM app shows the user how many messages she has exchanged with each friend; Twitter has been successful in lightly gamifying its products through the prominent placement of tweet, follow, and follower counts on profile pages, and these message counts are similarly intended to encourage interaction between users.
 
@@ -106,7 +106,7 @@ Twitter can, and will need to, do better than this standard interface in order t
 
 Twitter's social follow graph is both unique and valuable, but, for reasons described above, it should not rely on it for messaging permissions in this new DM app. To solve these problems, rather than overburden its existing interest-based follow graph, Twitter should create a separate *message graph*. Users would not want to receive DMs from anyone, so some sort of permissioning is necessary. At the same time, there's little point in sending messages to someone who does not have permission to respond. Thus the new message graph should be symmetric: users would add other users as contacts, and if the recipient approves the request, then the two could then exchange messages.  It's also important that each user's list of approved contacts would be private, unlike public follows, because users shouldn't feel pressured into receiving messages they don't want.
 
-{% img iphone right /images/2014/01/twig_contacts_twitter.png %}
+{% img iphone right /images/2014/01/dm_app_contacts_twitter.png %}
 While traditionally a new social graph required substantial manual effort from users, this would no longer be the case. First, Twitter's message graph could be bootstrapped from user's address books[^2], similarly to how other messaging apps create their users' contacts lists. Second, Twitter's new message graph could use the initial follow graph as a starting point, so users would automatically be able to exchange messages with everyone they follow who follows them back, and would automatically have a pending 'friend' request to everyone they follow who does not follow them back. After this one-time import, however, the message and follow graphs would diverge.
 
 Because users would have the same account on both Twitter and this DM app, the follow graph still gives users of the DM app unique social opportunities. Because the current follow graph is asymmetric, users can follow whomever they find interesting, regardless of whether that interest is reciprocated. As a result [Twitter's network has become *aspirational*][27]: users follow the people they wish they knew. Twitter allows users to stumble across someone new, learn about their interests, and interact casually through @-replies. It's natural for users to then want to strengthen these relationships further through lightweight, synchronous, private conversations. This new DM app would provide a social space for these aspirational interactions[^3], which is something that the other messaging apps are not able to offer.
@@ -115,14 +115,14 @@ Finally, as in the background of this wireframe, the DM app could leverage Twitt
 
 ##### Seed Conversations with Tweets
 
-{% img iphone right /images/2014/01/twig_messages_twitter.png %}
+{% img iphone right /images/2014/01/dm_app_messages_twitter.png %}
 Because the new DM app would integrate directly with Twitter, it could automatically display tweets from a conversation's participants in the thread itself. This is a simple feature, but one that other messaging apps could not offer, and it would give users additional context in a variety of conversations. For large groups that outgrew the constraints of @-replies, these embedded tweets would make it easy for users to see what had already been said. For pairs or small groups, these embedded tweets would enrich the conversation by giving a sense of what other participants were thinking about. Embedded tweets wouldn't trigger notifications like normal messages, and they could be hidden either individually or for an entire conversation, but they would make it easier to jump between Twitter's conversation spaces and would facilitate discussion of specific tweets.
 
 At a glance, it might seem like the DM app would not only compete with the other messaging apps, but would also cannibalize Twitter's existing @-replies: if @-replies appear in the DM app, why bother with both? However, because of the aforementioned obstacles to conversation presented by @-replies, the DM app, as Christensen would say, "competes with non-consumption." In other words, the DM app would enable conversations that otherwise wouldn't happen on Twitter at all, and the public nature of @-replies and private nature of DMs sufficiently differentiate the products.
 
 ##### Serendipity through Discoverability
 
-{% img iphone right /images/2014/01/twig_messages_discoverable.png %}
+{% img iphone right /images/2014/01/dm_app_messages_discoverable.png %}
 Conversations in the new DM app should remain private so as to provide a social space comparable to the other messaging apps. Users don't always know which of their friends would be interested in a particular conversation, however, and sometimes they want a social space that allows for more serendipity than conversations that are typically both private *and* secret.
 
 Discoverable DM conversations [similar to those on Dashdash][28] would meet this need, since the contacts of the participants could find and join a conversation if it looked interesting. Discoverability would be enabled on a per-conversation basis, and new participants wouldn't be able to see messages sent before they had joined.
