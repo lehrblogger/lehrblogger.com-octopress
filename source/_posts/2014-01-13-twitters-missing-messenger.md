@@ -51,11 +51,11 @@ Communication is a core human need, and people use a variety of online services 
 
 Yet people have communication needs that Twitter does not yet satisfy, and these missing features present both strategic risks and opportunities to Twitter. Specifically, shortcomings in Twitter's products for interpersonal, private, and extended conversation are forcing users to go elsewhere.
 
-And go elsewhere they have! A horde of upstart messaging apps, including [WhatsApp][7], [Kik][8], [WeChat][9], [Line][10], and [KakaoTalk][11], each have at least 100 million users. While their features differ slightly, in general users can exchange text, photo, audio, video, and sticker messages privately both with other individuals and with groups through an SMS- or chat-like interface. While Twitter's existing @-reply and DM features have recently improved to offer a more comparable experience, it still has major shortcomings that prevent it from competing effectively.  
+And go elsewhere they have! A horde of upstart messaging apps, including [WhatsApp][3], [Kik][4], [WeChat][5], [Line][6], and [KakaoTalk][7], each have at least 100 million users. While their features differ slightly, in general users can exchange text, photo, audio, video, and sticker messages privately both with other individuals and with groups through an SMS- or chat-like interface. While Twitter's existing @-reply and DM features have recently improved to offer a more comparable experience, it still has major shortcomings that prevent it from competing effectively.  
 
 ##### Shortcomings of @-Replies
 
-Twitter's existing @-replies (also known as @-mentions) are great for short, public conversations involving just a small handful of participants. It has recently added continuity to conversations by [drawing vertical blue lines between @-replies][12] in the home feed and by showing all threaded @-replies on tweet detail pages. While these changes make it easier for users to observe a conversation as it happens, the best conversations overwhelm the medium, and as a result participants move those conversations to some other service. Obstacles presented by Twitter's current @-replies include:
+Twitter's existing @-replies (also known as @-mentions) are great for short, public conversations involving just a small handful of participants. It has recently added continuity to conversations by [drawing vertical blue lines between @-replies][8] in the home feed and by showing all threaded @-replies on tweet detail pages. While these changes make it easier for users to observe a conversation as it happens, the best conversations overwhelm the medium, and as a result participants move those conversations to some other service. Obstacles presented by Twitter's current @-replies include:
 
 * The 140-character limit makes it difficult to compose messages, slowing down an otherwise free-flowing exchange.
 * Conversations rarely grow to have more than a few participants, and rarely last long if they do, because so many of the 140 characters are used up by the participants' @usernames.
@@ -66,7 +66,7 @@ Twitter's existing @-replies (also known as @-mentions) are great for short, pub
 
 ##### Shortcomings of Direct Messages
 
-Twitter also offers DMs as an alternative to @-replies, which allow pairs of users to exchange private, 140-character messages. For years DMs were hidden in the official website and apps, but Twitter, to its credit, has recently tried to [resurrect its private messaging product][13] by moving it to a prominent place in the UI and adding support for photos.
+Twitter also offers DMs as an alternative to @-replies, which allow pairs of users to exchange private, 140-character messages. For years DMs were hidden in the official website and apps, but Twitter, to its credit, has recently tried to [resurrect its private messaging product][9] by moving it to a prominent place in the UI and adding support for photos.
 
 <blockquote class="twitter-tweet" lang="en"><p>One weird thing about DMs-as-chat is that a lot of the ones I get are now like <a href="https://twitter.com/MagicRecs">@MagicRecs</a>. In other words, not chat at all.</p>&mdash; MG Siegler (@parislemon) <a href="https://twitter.com/parislemon/statuses/410559292593274880">December 10, 2013</a></blockquote>
 <blockquote class="twitter-tweet" lang="en"><p>The other weird thing, of course, is that DMs have long been the stepchild locked in the basement that the parent wished would go away...</p>&mdash; MG Siegler (@parislemon) <a href="https://twitter.com/parislemon/statuses/410559697121325056">December 11, 2013</a></blockquote>
@@ -79,21 +79,21 @@ Yet, as TechCrunch columnist MG Siegler notes, there are lingering user percepti
 
 The upstart messaging apps are successful, however, precisely because they are *not* email. Like email, DMs must be 'composed' because it takes extra effort to break up a thought into 140-character snippets, while the messaging apps try to replicate the casual, instantaneous nature of face-to-face interaction. Their typing notifications, for example, create a sense of mutual presence and attention, while stickers convey emotion when body language cannot.
 
-More importantly, DMs are still dependent on Twitter's existing follow graph: a user must follow another user in order to receive DMs from him. Twitter can either be a place where you follow the people you're interested in, or a place where you follow the people you want to talk with, but it can't be both. Messaging is about conversation, so there's no point in a user being able to contact someone who can't respond. Twitter has [experimented with giving users the option to relax this restriction][14], but it [reverted the change][15] several weeks later, suggesting that another solution is needed. Until Twitter resolves this issue, the subtle social friction and persistent fear of embarrassment will drive users to other messaging products.
+More importantly, DMs are still dependent on Twitter's existing follow graph: a user must follow another user in order to receive DMs from him. Twitter can either be a place where you follow the people you're interested in, or a place where you follow the people you want to talk with, but it can't be both. Messaging is about conversation, so there's no point in a user being able to contact someone who can't respond. Twitter has [experimented with giving users the option to relax this restriction][10], but it [reverted the change][11] several weeks later, suggesting that another solution is needed. Until Twitter resolves this issue, the subtle social friction and persistent fear of embarrassment will drive users to other messaging products.
 
 ##### The Innovator's Dilemma
 
-While these problems with Twitter's conversation products are solvable, they are not simple, and Twitter has focused on other user needs. This is understandable, especially because messaging has historically been difficult to monetize, because messaging is a commodity that is not central to Twitter's core broadcasting product, and because richer messaging features could overcomplicate [Twitter's already-confusing product][16]. The upstart messaging apps, however, pose a significant threat of [disruptive innovation][17], as described by Clayton Christensen in his book [The Innovator's Dilemma][18]. If you're unfamiliar, watch the first ten minutes of this talk, but skip the two minutes of intro music!
+While these problems with Twitter's conversation products are solvable, they are not simple, and Twitter has focused on other user needs. This is understandable, especially because messaging has historically been difficult to monetize, because messaging is a commodity that is not central to Twitter's core broadcasting product, and because richer messaging features could overcomplicate [Twitter's already-confusing product][12]. The upstart messaging apps, however, pose a significant threat of [disruptive innovation][13], as described by Clayton Christensen in his book [The Innovator's Dilemma][14]. If you're unfamiliar, watch the first ten minutes of this talk, but skip the two minutes of intro music!
 
 {% iframe_embed generic gartner.mediasite.com/mediasite/play/9cfe6bba5c7941e09bee95eb63f769421d 532x400 %}
 
-As Christensen might predict, Twitter has seemed happy to let the other messaging companies relieve it of the least-profitable part of its product, so that it could better focus on what was important to the business. Meanwhile, Snapchat pioneered [ephemeral social media][19], Line [generated substantial revenue][20] with virtual stickers (and others promptly copied them), and WhatsApp has shown that people would actually pay money for social apps ([$0.99/year][21] adds up over [400 million users][22]). More problematically for Twitter, these apps are expanding upmarket into other aspects of social networking: Snapchat recently launched [a broadcast feature called Stories][23], Kik is pushing [a platform that enables third-parties to develop social apps][24], and WeChat offers [a Twitter-like Moments feature][25].
+As Christensen might predict, Twitter has seemed happy to let the other messaging companies relieve it of the least-profitable part of its product, so that it could better focus on what was important to the business. Meanwhile, Snapchat pioneered [ephemeral social media][15], Line [generated substantial revenue][16] with virtual stickers (and others promptly copied them), and WhatsApp has shown that people would actually pay money for social apps ([$0.99/year][17] adds up over [400 million users][18]). More problematically for Twitter, these apps are expanding upmarket into other aspects of social networking: Snapchat recently launched [a broadcast feature called Stories][19], Kik is pushing [a platform that enables third-parties to develop social apps][20], and WeChat offers [a Twitter-like Moments feature][21].
 
 As the other messaging apps move upmarket, they will compete directly with Twitter's profitable social and information broadcasting products; they, too, will try to become the global town square. In order to defend its position, Twitter must move its own messaging products back downmarket. While Twitter could continue to incrementally iterate on DMs until it reached superficial feature parity with the competitors, this would not fix the underlying shortcomings described above. 
 
 ##### A Vision for a Dedicated Messenger
 
-More drastic changes are needed to revive DMs "after years upon years of not only neglect, but contempt": Twitter should transition DMs into a *separate* application focused on conversation[^1]. (There are also many improvements that Twitter could make to @-replies, but those are outside the scope of this post.) People go to Twitter for two main reasons: to find out ["what's happening"][26], and to talk to other people. The timeline in the current app satisfies the first need, and the conversations in this new app would satisfy the second need, similarly to how Facebook has separated its Messenger iPhone app away from its flagship app. How should DMs work, and what should this new app look like?
+More drastic changes are needed to revive DMs "after years upon years of not only neglect, but contempt": Twitter should transition DMs into a *separate* application focused on conversation[^1]. (There are also many improvements that Twitter could make to @-replies, but those are outside the scope of this post.) People go to Twitter for two main reasons: to find out ["what's happening"][22], and to talk to other people. The timeline in the current app satisfies the first need, and the conversations in this new app would satisfy the second need, similarly to how Facebook has separated its Messenger iPhone app away from its flagship app. How should DMs work, and what should this new app look like?
 
 {% img iphone left  /images/2014/01/dm_app_contacts_standard.png %}
 {% img iphone right /images/2014/01/dm_app_messages_standard.png %}
@@ -109,7 +109,7 @@ Twitter's social follow graph is both unique and valuable, but, for reasons desc
 {% img iphone right /images/2014/01/dm_app_contacts_twitter.png %}
 While traditionally a new social graph required substantial manual effort from users, this would no longer be the case. First, Twitter's message graph could be bootstrapped from user's address books[^2], similarly to how other messaging apps create their users' contacts lists. Second, Twitter's new message graph could use the initial follow graph as a starting point, so users would automatically be able to exchange messages with everyone they follow who follows them back, and would automatically have a pending 'friend' request to everyone they follow who does not follow them back. After this one-time import, however, the message and follow graphs would diverge.
 
-Because users would have the same account on both Twitter and this DM app, the follow graph still gives users of the DM app unique social opportunities. Because the current follow graph is asymmetric, users can follow whomever they find interesting, regardless of whether that interest is reciprocated. As a result [Twitter's network has become *aspirational*][27]: users follow the people they wish they knew. Twitter allows users to stumble across someone new, learn about their interests, and interact casually through @-replies. It's natural for users to then want to strengthen these relationships further through lightweight, synchronous, private conversations. This new DM app would provide a social space for these aspirational interactions[^3], which is something that the other messaging apps are not able to offer.
+Because users would have the same account on both Twitter and this DM app, the follow graph still gives users of the DM app unique social opportunities. Because the current follow graph is asymmetric, users can follow whomever they find interesting, regardless of whether that interest is reciprocated. As a result [Twitter's network has become *aspirational*][23]: users follow the people they wish they knew. Twitter allows users to stumble across someone new, learn about their interests, and interact casually through @-replies. It's natural for users to then want to strengthen these relationships further through lightweight, synchronous, private conversations. This new DM app would provide a social space for these aspirational interactions[^3], which is something that the other messaging apps are not able to offer.
 
 Finally, as in the background of this wireframe, the DM app could leverage Twitter to add additional social richness to the Contacts tab by showing statistics about interactions that happen on Twitter itself. This list could even be auto-sorted by the amount and recency of this user's DMs, @-replies, and tweet favorites with each contact, since a user is more likely to want to talk with friends with whom she interacts regularly on Twitter.
 
@@ -125,7 +125,7 @@ At a glance, it might seem like the DM app would not only compete with the other
 {% img iphone right /images/2014/01/dm_app_messages_discoverable.png %}
 Conversations in the new DM app should remain private so as to provide a social space comparable to the other messaging apps. Users don't always know which of their friends would be interested in a particular conversation, however, and sometimes they want a social space that allows for more serendipity than conversations that are typically both private *and* secret.
 
-Discoverable DM conversations [similar to those on Dashdash][28] would meet this need, since the contacts of the participants could find and join a conversation if it looked interesting. Discoverability would be enabled on a per-conversation basis, and new participants wouldn't be able to see messages sent before they had joined.
+Discoverable DM conversations [similar to those on Dashdash][24] would meet this need, since the contacts of the participants could find and join a conversation if it looked interesting. Discoverability would be enabled on a per-conversation basis, and new participants wouldn't be able to see messages sent before they had joined.
 
 If a DM conversation had been specified as discoverable, perhaps using an interface like the one to the right, then participants might want to explicitly encourage their friends to join the conversation. From discoverable rooms, participants would be able to tweet a link to the DM conversation, and followers who clicked it would seamlessly see the conversation in a new browser window or an in-timeline Twitter card.
 
@@ -147,26 +147,26 @@ WhatsApp, Kik, WeChat, Line, and KakaoTalk are growing quickly despite their foc
 
 [1]: https://blog.twitter.com/2013/celebrating-2013-global-town-square
 [2]: http://www.sec.gov/Archives/edgar/data/1418091/000119312513424260/d564001ds1a.htm
-[7]: http://www.whatsapp.com
-[8]: http://kik.com
-[9]: http://www.wechat.com/en/
-[10]: http://line.me/en/
-[11]: http://www.kakao.com/talk/en
-[12]: https://blog.twitter.com/2013/keep-up-with-conversations-on-twitter
-[13]: https://blog.twitter.com/2013/photos-in-direct-messages-and-swipe-between-timelines
-[14]: http://techcrunch.com/2013/10/15/twitter-direct-messages-all-followers/
-[15]: http://thenextweb.com/twitter/2013/11/19/twitter-backtracks-removes-option-let-users-receive-direct-messages-follower/
-[16]: http://techcrunch.com/2013/12/06/dick-costolo-admits-twitter-may-be-confusing-to-some/
-[17]: http://en.wikipedia.org/wiki/Disruptive_innovation
-[18]: http://www.amazon.com/The-Innovators-Dilemma-Revolutionary-Business/dp/0062060244/
-[19]: http://blog.snapchat.com/post/55902851023/temporary-social-media
-[20]: http://techcrunch.com/2013/05/09/line-reports-q1-2013-earnings-of-58-9m-half-from-game-in-app-purchases-30-from-stickers-80-from-japan/
-[21]: https://itunes.apple.com/us/app/whatsapp-messenger/id310633997
-[22]: http://blog.whatsapp.com/index.php/2013/12/400-million-stories/
-[23]: http://blog.snapchat.com/post/62975810329/surprise
-[24]: http://cards.kik.com
-[25]: http://www.wechat.com/en/features.html#moments
-[26]: https://blog.twitter.com/2009/whats-happening
-[27]: http://blog.kissedbyrain.com/post/making-meaning-with-web-products-and-thoughts-on-facebook-messaging
-[28]: http://lehrblogger.com/2013/07/09/dashdash/
+[3]: http://www.whatsapp.com
+[4]: http://kik.com
+[5]: http://www.wechat.com/en/
+[6]: http://line.me/en/
+[7]: http://www.kakao.com/talk/en
+[8]: https://blog.twitter.com/2013/keep-up-with-conversations-on-twitter
+[9]: https://blog.twitter.com/2013/photos-in-direct-messages-and-swipe-between-timelines
+[10]: http://techcrunch.com/2013/10/15/twitter-direct-messages-all-followers/
+[11]: http://thenextweb.com/twitter/2013/11/19/twitter-backtracks-removes-option-let-users-receive-direct-messages-follower/
+[12]: http://techcrunch.com/2013/12/06/dick-costolo-admits-twitter-may-be-confusing-to-some/
+[13]: http://en.wikipedia.org/wiki/Disruptive_innovation
+[14]: http://www.amazon.com/The-Innovators-Dilemma-Revolutionary-Business/dp/0062060244/
+[15]: http://blog.snapchat.com/post/55902851023/temporary-social-media
+[16]: http://techcrunch.com/2013/05/09/line-reports-q1-2013-earnings-of-58-9m-half-from-game-in-app-purchases-30-from-stickers-80-from-japan/
+[17]: https://itunes.apple.com/us/app/whatsapp-messenger/id310633997
+[18]: http://blog.whatsapp.com/index.php/2013/12/400-million-stories/
+[19]: http://blog.snapchat.com/post/62975810329/surprise
+[20]: http://cards.kik.com
+[21]: http://www.wechat.com/en/features.html#moments
+[22]: https://blog.twitter.com/2009/whats-happening
+[23]: http://blog.kissedbyrain.com/post/making-meaning-with-web-products-and-thoughts-on-facebook-messaging
+[24]: http://lehrblogger.com/2013/07/09/dashdash/
 
