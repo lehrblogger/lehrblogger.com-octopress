@@ -20,7 +20,7 @@ class IframeEmbed < Liquid::Tag
         @params = '&' + $7
       end
     else
-      raise "Improper argument format in the \"iframe_embed\" tag!"
+      raise "Improper argument format in the \"iframe_embed\" tag: #{@markup}"
     end
   end
   
@@ -39,7 +39,7 @@ class IframeEmbed < Liquid::Tag
     elsif @type == "instagram"
       "<iframe src=\"//instagram.com/p/#{@id}/embed/\"                                                      #{dimensions} #{styles} frameborder=\"0\"                                      scrolling=\"no\"                                               allowtransparency=\"true\"></iframe>"
     elsif @type == "generic"
-      "<iframe src=\"#{@id}\"                                                                               #{dimensions} #{styles} frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\"                                                                         ></iframe>"
+      "<iframe src=\"http://#{@id}\"                                                                        #{dimensions} #{styles} frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\"                                                                         ></iframe>"
     end
   end
   
