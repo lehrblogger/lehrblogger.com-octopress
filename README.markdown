@@ -71,5 +71,12 @@ python ~/dropbox.py exclude add    ~/Dropbox/projects/blogs/*
 python ~/dropbox.py exclude remove ~/Dropbox/projects/blogs/lehrblogger.com
 python ~/dropbox.py exclude remove ~/Dropbox/projects/blogs/lehrblogger.com/*
 python ~/dropbox.py exclude add    ~/Dropbox/projects/blogs/lehrblogger.com/public
+sudo -s
+nginx=stable
+add-apt-repository ppa:nginx/$nginx
+apt-get update 
+apt-get install
+cp ./nginx-jekyll.conf /etc/nginx/sites-enabled/default
+nginx -s reload
 ```
-Then follow the Vagrant instructions above.
+Then control-d, and follow the Vagrant instructions above.
