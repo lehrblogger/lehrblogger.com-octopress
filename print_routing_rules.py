@@ -27,7 +27,9 @@ rules = [
     ['category/ITP/Time'             , 'category/itp-time'],
     ['category/ITP/thesis'           , 'category/itp-thesis'],
     ['category/ITP/'                 , 'category/itp/'],  # this one needs an explicit slash, otherwise it matches the correct categories
-    ['2010/01/27/einstein%e2%80%99s-theory-of-general-relativity-a-personal-description', '2010/01/27/einsteins-theory-of-general-relativity-a-personal-description']
+    ['2010/01/27/einstein%e2%80%99s-theory-of-general-relativity-a-personal-description', '2010/01/27/einsteins-theory-of-general-relativity-a-personal-description'],
+    ['Lehrburger_Resume_web.pdf'     , 'lehrburger_resume.pdf'],
+    ['Lehrburger_Portfolio_web.pdf'  , 'lehrburger_portfolio.pdf']
 ]
 
 if __name__ == '__main__':

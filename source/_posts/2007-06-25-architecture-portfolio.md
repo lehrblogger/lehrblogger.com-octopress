@@ -12,5 +12,5 @@ This is the portfolio of work I assembled to apply to post-undergraduate interns
 
 {% iframe_embed slideshare 852549 700x578 %}
 
- [1]: /Lehrburger_Portfolio_web.pdf
+ [1]: /lehrburger_portfolio.pdf
  [2]: http://www.slideshare.net/lehrblogger/architecture-portfolio-presentation
