@@ -254,7 +254,7 @@ end
 desc "Deploy website via s3cmd with CloudFront cache invalidation"
 task :s3 do
   puts "## Deploying website via s3cmd"
-  ok_failed system("s3cmd sync --acl-public --reduced-redundancy --cf-invalidate-default-index --cf-invalidate public/* s3://#{s3_bucket}/")
+  ok_failed system("s3cmd sync --acl-public --delete-removed --reduced-redundancy --cf-invalidate-default-index --cf-invalidate public/* s3://#{s3_bucket}/")
 end
 
 desc "Deploy website via rsync"
