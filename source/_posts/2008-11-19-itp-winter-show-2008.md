@@ -45,7 +45,7 @@ Details have been announced for the Winter Show! I'm hoping my Twitter project w
 > No need to RSVP
 > 
 > For questions: 212-998-1880  
-> email: itp.inquiries@nyu.edu
+> email&#58; itp.inquiries&#64;nyu.edu
 > 
 > http://itp.nyu.edu/show
 > 
