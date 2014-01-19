@@ -6,6 +6,9 @@ permalink: /2013/12/13/planning-to-propose/
 alias: /proposal/
 blurb: "A story for family, friends, and our future selves."
 show_blurb: true
+updates:
+  - date: 2014-01-19
+    body: "I added an after-the-fact photo of the ring in the notebook, and the security video from the Seattle Public Library. Thank you to the friendly and helpful people who found the footage and sent it to us!"
 thanks:
   - name: "my parents Jim and Karen"
   - name: "my sister Amy"
@@ -96,13 +99,19 @@ I had considered hiring a photographer to surreptitiously document everything, b
 
 Angela called me after Elizabeth got out of the car, but I didn't answer because I knew it meant Elizabeth was on her way up. I went back to the same librarian, who still didn't want to accept the notebook but said that I could leave it on the desk. When Elizabeth stepped out of the elevators on the tenth floor, the Seattle Room would be on her right, so I ducked around a corner to the left towards the atrium outlook (pictured below left). While the elevators themselves have solid walls, the elevator bank has glass walls, so I could see when the elevators were going to arrive. Soon enough, one did, and I waited a few seconds before peeking around the corner. There was Elizabeth, walking the other way towards the Seattle Room, so I ducked back around the corner and waited a few more seconds...
 
-> Arriving at the 10th floor, I exited the elevator alone and saw the receptionist sitting to my right. There was the notebook! This had been so easy, I thought, and how nice of her to have it sitting out for me ready to go? I introduced myself and asked if I could pick-up the notebook. She seemed oddly curt and displeased, and she definitely didn't let on that she knew what was about to happen. As I headed back to the elevator I quickly opened the notebook to look for the receipt that Steven had asked me to confirm was inside, and next to the pen there was a beautiful sapphire ring. I slowed and vaguely began to understand what was happening. Literally the moment I looked up, Steven appeared from around the corner by the elevators, dressed in his suit. He looked wonderful, and I couldn't stop kissing him. He then got down on one knee and asked me to marry him. I said yes, of course!
+{% iframe_embed youtube vrACsO2HaN4 700x525 %}
 
-<p>{% iframe_embed instagram KcEgK 340x438 %}<img src="/images/2013/12/proposal2.jpg" /></p>
+> Arriving at the 10th floor, I exited the elevator alone and saw the receptionist sitting to my right. There was the notebook! This had been so easy, I thought, and how nice of her to have it sitting out for me ready to go? I introduced myself and asked if I could pick-up the notebook. She seemed oddly curt and displeased, and she definitely didn't let on that she knew what was about to happen. As I headed back to the elevator I quickly opened the notebook to look for the receipt that Steven had asked me to confirm was inside, and next to the pen there was a beautiful sapphire ring.
+
+![](/images/2013/12/proposal2.jpg)
+
+> I slowed and vaguely began to understand what was happening. Literally the moment I looked up, Steven appeared from around the corner by the elevators, dressed in his suit. He looked wonderful, and I couldn't stop kissing him. He then got down on one knee and asked me to marry him. I said yes, of course!
+
+<p>{% iframe_embed instagram KcEgK 340x438 %}<img src="/images/2013/12/proposal3.jpg" /></p>
 
 > There was no one else around at that particular moment, so it was perfectly romantic. A couple minutes later another librarian offered to take some photos of us with Steven's phone, and then we went outside and met my mom, who had been waiting in the car. The three of us went from there to a delicious lunch at [the rotating restaurant in the Seattle Space Needle][16], making phone calls to family along the way.
 
-![](/images/2013/12/proposal3.jpg)
+![](/images/2013/12/proposal4.jpg)
 
 > After that we did some shopping in Seattle, went to Steven's hotel near the airport to pick up his bag, and then drove back to my house outside of Tacoma. My mom dropped us off for [a quiet celebratory dinner][17], and we also got to say hello to my grandparents.
 
