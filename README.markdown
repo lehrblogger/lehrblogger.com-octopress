@@ -25,6 +25,13 @@ Not that this matters, but it's nice to be consistent.
  * updates
  * styles
 
+Useful Commands
+---------------
+```
+cd ~/Dropbox/projects/blogs/lehrblogger.com/
+git status | grep -v "deleted:    source/projects/" | grep -v "deleted:    source/images/" | grep -v "deleted:    source/_posts/"
+```
+
 
 Vagrant Setup
 -------------
@@ -71,6 +78,7 @@ python ~/dropbox.py exclude add    ~/Dropbox/projects/blogs/*
 python ~/dropbox.py exclude remove ~/Dropbox/projects/blogs/lehrblogger.com
 python ~/dropbox.py exclude remove ~/Dropbox/projects/blogs/lehrblogger.com/*
 python ~/dropbox.py exclude add    ~/Dropbox/projects/blogs/lehrblogger.com/public
+python ~/dropbox.py autostart y
 sudo -s
 nginx=stable
 add-apt-repository ppa:nginx/$nginx
