@@ -189,12 +189,6 @@ hr {
                 margin-left: 25px;
                 list-style: disc;
             }
-            .entry-subtitle {
-                color: $text-color-light;
-                .two.columns.omega {
-                    text-align: right;
-                };
-            }
             form fieldset {
                 display: inline;
             }
@@ -218,6 +212,15 @@ hr {
                     top: 2px;
                     position: relative;
                 }
+            }
+        }
+        header {
+            .entry-subtitle {
+                font-family: $serif;
+                color: $text-color-light;
+                .two.columns.omega {
+                    text-align: right;
+                };
             }
         }
         footer {
