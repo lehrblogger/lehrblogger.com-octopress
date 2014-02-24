@@ -10,11 +10,10 @@ blurb: "Making better choices faster using Tinder-like mobile interfaces."
 show_blurb: true
 styles: |
   #main .entry .entry-content p>img.iphone.right {
-    float: none;
     max-width: 165px;
     background-image: url('/images/2014/02/iphone_frame.png');
     background-repeat: no-repeat;
-    background-size: 198px auto;
+    background-size: 197px auto;
     padding: 62px 17px 59px 17px;
     margin-top: -3px;
   }
@@ -36,6 +35,14 @@ styles: |
   #main .entry .entry-content p>img.browser.thirds {
     max-width: 220px;
   }
+  #main .entry .entry-content p>img.browser.thirds.right {
+    float: right;
+  }
+  #main .entry .entry-content p>img.wireframe {
+    float: right;
+    width: 340px;
+    margin-bottom: 20px;
+  }
   #main .entry .entry-content p>img.left {
     float: left;
     margin-right: 20px;
@@ -43,10 +50,8 @@ styles: |
   #main .entry .entry-content p>img.center {
     display: inline-block;
   }
-  #main .entry .entry-content p>img.right {
-    float: right;
-  }
-  #main .entry .entry-content p>img.iphone.pair.right {
+  #main .entry .entry-content p>img.iphone.pair.right,
+  #main .entry .entry-content p>img.wireframe.right {
     margin-left: 20px;
   }
 ---
@@ -101,6 +106,10 @@ Furthermore, neither interface helps the user narrow down their possibilities to
 ##### Decks for Decision Making
 
 Rather than the list, grid, or map interfaces that are currently commonly used, services could leverage card-based interfaces to help users make choices. To understand how this would work, it’s helpful to break the interface down into specific features used in sequence:
+
+
+{% img wireframe right /images/2014/02/card_wireframe_mobile_1.png %}
+{% img wireframe right /images/2014/02/card_wireframe_mobile_2.png %}
 
 0.  Upon launching the app or navigating to the search feature, the user would be presented with a prominent text field and a list of recent searches. Each of these searches would keep track of its own state so that the user doesn’t have to, and the user could later return to this screen to switch between searches or to start over. This is different from Tinder, which groups all activity under a single search.
 0.  After entering a query, the user would be presented with a virtual stack of cards, with the top card taking up most of the screen. Each would display the essential information about a particular search result, whether it’s a movie (image, title, year, length, rating, synopsis) or a restaurant (name, location on map, hours, price, rating, tips.
