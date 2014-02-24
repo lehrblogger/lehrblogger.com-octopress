@@ -49,7 +49,6 @@ styles: |
   #main .entry .entry-content p>img.iphone.pair.right {
     margin-left: 20px;
   }
-TODO: replace photos in foursquare screenshots of my friends with generic facebok photos?
 ---
 
 >What movie should I watch?
@@ -90,10 +89,10 @@ Just as in a store a customer would have to physically remove the movie from the
 As another example, consider a user who wants to try a new restaurant for dinner. Users can take advantage of services such as Foursquare and Yelp to help them make these choices. While there is some variation the interfaces, results are usually provided in both list and map formats. In the browser, there’s enough space to show them side-by-side (note that the Yelp map can be expanded), but on mobile users toggle between the different views (on Foursquare, scrolling the list minimizes the map, and tapping the map minimizes the list; Yelp offers a List/Map button in the upper right).
 
 {% img browser left /images/2014/02/foursquare_desktop.png %}
-{% img iphone right /images/2014/02/foursquare_mobile_1.png %}
+{% img iphone right /images/2014/02/foursquare_mobile.png %}
 
 {% img browser left /images/2014/02/yelp_desktop.png %}
-{% img iphone right /images/2014/02/yelp_mobile_1.png %}
+{% img iphone right /images/2014/02/yelp_mobile.png %}
 
 These interfaces are designed to show good options of a certain type in a certain area, but they make it difficult for the user to make informed choices, especially on mobile. While the browser makes it easy to see the basic information about each venue along with where it’s located, the separate list and map views in the mobile interfaces force the user to either tap through to the venue detail page or cross-reference between the two screens in order to see where anything is.
 
