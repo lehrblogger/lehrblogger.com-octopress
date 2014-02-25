@@ -1,6 +1,6 @@
 ---
 layout: post
-featured: true
+featured: false
 title: "The Last Great Social Network"
 permalink: /2013/07/01/the-last-great-social-network/
 categories:

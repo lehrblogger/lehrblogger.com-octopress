@@ -1,6 +1,6 @@
 ---
 layout: project
-featured: true
+featured: false
 title: "Wanderli.st"
 permalink: /wanderlist/
 alias: /2009/04/10/wanderlist/

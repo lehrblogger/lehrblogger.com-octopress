@@ -1,8 +1,8 @@
 ---
-layout: draft
+layout: post
 featured: true
 title: "Pick a Card, Any Card"
-permalink: /2014/02/24/pick-a-card-any-card/
+permalink: /2014/02/25/pick-a-card-any-card/
 categories:
   - commentary
   - web ideas
