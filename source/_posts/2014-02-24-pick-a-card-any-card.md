@@ -14,50 +14,55 @@ thanks:
   - name: Bryan
     link: "http://blence.com/"
 styles: |
-  #main .entry .entry-content p>img.iphone.right {
-    max-width: 165px;
+  #main .entry .entry-content p>img.iphone {
     background-image: url('/images/2014/02/iphone_frame.png');
     background-repeat: no-repeat;
-    background-size: 197px auto;
-    padding: 62px 17px 59px 17px;
+  }
+  #main .entry .entry-content p>img.iphone.browseriphone {
+    max-width: 185px;
+    background-size: 220px auto;
+    padding: 69px 16px 62px 19px;
     margin-top: -3px;
   }
-  #main .entry .entry-content p>img.iphone.pair {
-      max-width: 277px;
-      background-image: url('/images/2014/01/iphone_frame.png');
-      background-repeat: no-repeat;
-      background-size: 330px auto;
-      padding: 100px 24px 100px 29px;
-    }
+  #main .entry .entry-content p>img.iphone.iphoneiphone {
+    max-width: 285px;
+    background-size: 340px auto;
+    padding: 105px 25px 101px 30px;
+  }
   #main .entry .entry-content p>img.browser {
-    /* Use browser windows that are 1030x876 */
-    max-width: 481px;
+    /* Use browser windows that are 1030x1023 to scale down to 460x457 */
     -webkit-box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
     -moz-box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
     box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
     background-color: rgba(0, 0, 0, 0.15);
   }
-  #main .entry .entry-content p>img.browser.thirds {
+  #main .entry .entry-content p>img.browser.browserbrowserbrowser {
     max-width: 220px;
-  }
-  #main .entry .entry-content p>img.browser.thirds.right {
-    float: right;
   }
   #main .entry .entry-content p>img.wireframe {
     float: right;
     width: 340px;
-    margin-bottom: 20px;
+    margin: 0 0 20px 20px;
   }
-  #main .entry .entry-content p>img.left {
-    float: left;
-    margin-right: 20px;
-  }
+  #main .entry .entry-content p>img.alpha,
   #main .entry .entry-content p>img.center {
-    display: inline-block;
+    margin-right: 10px;
   }
-  #main .entry .entry-content p>img.iphone.pair.right,
-  #main .entry .entry-content p>img.wireframe.right {
-    margin-left: 20px;
+  #main .entry .entry-content p>img.omega,
+  #main .entry .entry-content p>img.center {
+    margin-left: 10px;
+  }
+  #main .entry .entry-content p.clearfix:before,
+  #main .entry .entry-content p.clearfix:after {
+      content:"";
+      display:table;
+  }
+  #main .entry .entry-content p.clearfix:after {
+      clear:both;
+  }
+  /* For IE 6/7 (trigger hasLayout) */
+  #main .entry .entry-content p.clearfix {
+      zoom:1;
   }
 ---
 >What movie should I watch?
@@ -68,8 +73,10 @@ styles: |
 
 To help users answer that last question, the mobile app [Tinder][1] provides a unique [cased-based interface][2][^1]. Upon opening the app a user sees a deck of cards, and each card shows basic information about one potential match – photo, first name, age, and number of mutual friends. These cards are already filtered by location, and the user can tap into a card to find out more. The user can also swipe the card left if she's not interested in a date, or swipe right if she is interested. If two users share mutual interest, they are both notified and can exchange messages through the app. The app is designed to help the user make choices as quickly and easily as possible, and then gets out of the way. (These are the iPhone screenshots that Tinder provided for [the App store][3].)
 
-{% img iphone pair left  /images/2014/02/tinder_mobile_1.png %}
-{% img iphone pair       /images/2014/02/tinder_mobile_2.png %}
+<p class="clearfix">
+{% img iphone iphoneiphone six columns alpha /images/2014/02/tinder_mobile_1.png %}
+{% img iphone iphoneiphone six columns omega /images/2014/02/tinder_mobile_2.png %}
+</p>
 
 Technology is not only making it easier for users to find dates, but it is also providing users with instant access to nearly every movie ever made and telling users about restaurants they might previously have walked by without noticing. Users face an increasing abundance of choices in a widening variety of contexts, and a similar card-based interface could be adapted to help users answer the questions about what to watch or where to eat[^2].
 
@@ -77,19 +84,25 @@ Technology is not only making it easier for users to find dates, but it is also 
 
 These choices – what to watch, where to eat, and who to go on a date with – all share common characteristics: there are many options, preferences are very personal, and they are important to short-term happiness. On most services, results that consist of text, images, and locations are displayed in lists, grids, and maps, respectively.
 
-{% img browser left   thirds /images/2014/02/google_list.png %}
-{% img browser center thirds /images/2014/02/google_grid.png %}
-{% img browser right  thirds /images/2014/02/google_map.png %}
+<p class="clearfix">
+{% img browser four columns alpha  /images/2014/02/google_list.png %}
+{% img browser four columns center /images/2014/02/google_grid.png %}
+{% img browser four columns omega  /images/2014/02/google_map.png %}
+</p>
 
 When people are trying to choose what they want to do, however, these interfaces make the process more difficult than it needs to be. They provide minimal information about ten or more results at a time, and the user has to decide which warrant a closer look, or if they want to clear all of the results and move to the next page. Computer-savvy users searching from a web browser can open promising results in different tabs, but users searching from mobile apps aren't so lucky, and instead have to remember their favorites for the duration of the search. The experience only worsens if the user wants to tweak the original query, since these interfaces do not keep any 'state' and with each revision the user is essentially starting over.
 
 Consider, for example, a user searching for a movie to watch. iTunes offers only grids and lists based on what's popular, regardless of the user's mood or interests. While Netflix offers some personalization, it's still *structured* like a brick-and-mortar Blockbuster store, and both the desktop browser and mobile app interface organize movies in horizontal shelf-like genres.
 
-{% img browser left /images/2014/02/itunes_desktop.png %}
-{% img iphone right /images/2014/02/itunes_mobile.png %}
+<p class="clearfix">
+{% img browser browseriphone eight columns alpha /images/2014/02/itunes_desktop.png %}
+{% img iphone  browseriphone four  columns omega /images/2014/02/itunes_mobile.png %}
+</p>
 
-{% img browser left /images/2014/02/netflix_desktop.png %}
-{% img iphone right /images/2014/02/netflix_mobile.png %}
+<p class="clearfix">
+{% img browser browseriphone eight columns alpha /images/2014/02/netflix_desktop.png %}
+{% img iphone  browseriphone four  columns omega /images/2014/02/netflix_mobile.png %}
+</p>
 
 Just as in a store a customer would have to physically remove the movie from the shelf, turn it over, and read the back to get more information, iTunes and Netflix require users to work to get more info. Furthermore, none of these interfaces provide a good way for users to keep track of 'finalist' candidates while they look at more options. In the store, the user can physically carry around a handful of movies, but will either need to put them back later or ask an employee to do it for her.
 
@@ -97,11 +110,15 @@ Netflix does let each user keep a List of movies to watch, but this feature has 
 
 As another example, consider a user who wants to try a new restaurant for dinner. Users can take advantage of services such as Foursquare and Yelp to help them make these choices. While there is some variation the interfaces, results are usually provided in both list and map formats. In the browser, there's enough space to show them side-by-side (note that the Yelp map can be expanded), but on mobile users toggle between the different views (on Foursquare, scrolling the list minimizes the map, and tapping the map minimizes the list; Yelp offers a List/Map button in the upper right).
 
-{% img browser left /images/2014/02/foursquare_desktop.png %}
-{% img iphone right /images/2014/02/foursquare_mobile.png %}
+<p class="clearfix">
+{% img browser browseriphone eight columns alpha /images/2014/02/foursquare_desktop.png %}
+{% img iphone  browseriphone four  columns omega /images/2014/02/foursquare_mobile.png %}
+</p>
 
-{% img browser left /images/2014/02/yelp_desktop.png %}
-{% img iphone right /images/2014/02/yelp_mobile.png %}
+<p class="clearfix">
+{% img browser browseriphone eight columns alpha /images/2014/02/yelp_desktop.png %}
+{% img iphone  browseriphone four  columns omega /images/2014/02/yelp_mobile.png %}
+</p>
 
 These interfaces are designed to show good options of a certain type in a certain area, but they make it difficult for the user to make informed choices, especially on mobile. While the browser makes it easy to see the basic information about each venue along with where it's located, the separate list and map views in the mobile interfaces force the user to either tap through to the venue detail page or cross-reference between the two screens in order to see where anything is.
 
