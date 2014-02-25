@@ -8,6 +8,11 @@ categories:
   - web ideas
 blurb: "Making better choices faster using Tinder-like mobile interfaces."
 show_blurb: true
+thanks:
+  - name: Nina
+    link: "http://youngandbrilliant.net/"
+  - name: Bryan
+    link: "http://blence.com/"
 styles: |
   #main .entry .entry-content p>img.iphone.right {
     max-width: 165px;
