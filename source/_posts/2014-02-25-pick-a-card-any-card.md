@@ -20,12 +20,14 @@ styles: |
   }
   #main .entry .entry-content p>img.iphone.desktopiphone {
     max-width: 185px;
+    min-height: 328px;
     background-size: 220px auto;
     padding: 69px 16px 62px 19px;
     margin-top: -3px;
   }
   #main .entry .entry-content p>img.iphone.iphoneiphone {
     max-width: 285px;
+    min-height: 504px;
     background-size: 340px auto;
     padding: 105px 25px 101px 30px;
   }
@@ -36,9 +38,18 @@ styles: |
     box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
     background-color: rgba(0, 0, 0, 0.15);
   }
+  #main .entry .entry-content p>img.desktop {
+    width: 220px;
+    height: 187px;
+  }
+  #main .entry .entry-content p>img.desktop.desktopiphone {
+    width: 460px;
+    height: 457px;
+  }
   #main .entry .entry-content p>img.wireframe {
     float: right;
     width: 340px;
+    height: 564px;
     margin: 0 0 20px 20px;
   }
   #main .entry .entry-content p>img.alpha,
@@ -61,8 +72,11 @@ styles: |
   #main .entry .entry-content p.clearfix {
       zoom:1;
   }
+  #main .entry .entry-content .preload {
+      display: none;
+  }
 ---
->What movie should I watch?
+>{% img preload /images/2014/02/iphone_frame.png %}What movie should I watch?
 
 >Where should I eat dinner?
 
