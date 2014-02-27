@@ -38,13 +38,27 @@ styles: |
     box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
     background-color: rgba(0, 0, 0, 0.15);
   }
-  #main .entry .entry-content p>img.desktop {
-    width: 220px;
-    height: 187px;
+  #main .entry .entry-content p>img.desktop.desktopdesktopdesktop {
+    max-width: 220px;
   }
-  #main .entry .entry-content p>img.desktop.desktopiphone {
-    width: 460px;
-    height: 457px;
+  @media only screen and (min-width: 480px) {
+    #main .entry .entry-content p>img.desktop {
+      height: 187px;
+    }
+    #main .entry .entry-content p>img.desktop.desktopiphone {
+      height: 457px;
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    #main .entry .entry-content p>img.desktop,
+    #main .entry .entry-content p>img.iphone {
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+    }
+    #main .entry .entry-content p>img.alpha,
+    #main .entry .entry-content p>img.center {
+      margin-bottom: 20px;
+    }
   }
   #main .entry .entry-content p>img.wireframe {
     float: right;
@@ -96,9 +110,9 @@ Technology is not only making it easier for users to find dates, but it is also 
 These questions -- what to watch, where to eat, and who to go on a date with -- all share common characteristics: there are many options, preferences are very personal, and they are important to short-term happiness. On most services, answers to these questions consist of text, images, and locations, and they are displayed in lists, grids, and maps, respectively:
 
 <p class="clearfix">
-{% img desktop four columns alpha  /images/2014/02/google_list.png %}
-{% img desktop four columns center /images/2014/02/google_grid.png %}
-{% img desktop four columns omega  /images/2014/02/google_map.png %}
+{% img desktop desktopdesktopdesktop four columns alpha  /images/2014/02/google_list.png %}
+{% img desktop desktopdesktopdesktop four columns center /images/2014/02/google_grid.png %}
+{% img desktop desktopdesktopdesktop four columns omega  /images/2014/02/google_map.png %}
 </p>
 
 When people are trying to choose what they want to do, however, these interfaces make the process more difficult than it needs to be. They provide minimal information about ten or more results at a time, and the user has to decide which warrant a closer look, or if they want to clear them all and move to the next page. Users searching from a desktop browser can open promising results in different tabs, but users searching from mobile apps have to remember their favorites for the duration of the search. The experience only worsens if the user wants to tweak the original query, since these interfaces do not keep any 'state' and with each revision the user is essentially starting from scratch.
